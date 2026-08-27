@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>nook ticker</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+<style>
+  :root{
+    --bg: #0b0b1e;
+    --border: #ff5ecb;
+    --text: #eab6f2;
+    --accent: #ffd166;
+  }
+  html, body{ margin:0; padding:0; background:transparent; }
+  .frame{
+    box-sizing:border-box;
+    margin:4px;
+    border:1px solid var(--border);
+    border-radius:8px;
+    background:var(--bg);
+    box-shadow: 0 0 12px rgba(255,94,203,0.35), inset 0 0 10px rgba(255,94,203,0.12);
+    overflow:hidden;
+    padding:8px 0;
+    white-space:nowrap;
+    position:relative;
+  }
+  .track{
+    display:inline-block;
+    font-family:'VT323', monospace;
+    font-size:22px;
+    letter-spacing:0.02em;
+    color:var(--text);
+    padding-left:100%;
+    animation: scroll var(--speed, 20s) linear infinite;
+  }
+  .track b{ color:var(--accent); font-weight:normal; }
+  @keyframes scroll{ from{ transform:translateX(0);} to{ transform:translateX(-100%);} }
+  @media (prefers-reduced-motion: reduce){
+    .track{ animation:none; padding-left:12px; }
+  }
+</style>
+</head>
+<body>
+  <div class="frame"><div class="track" id="track"></div></div>
+<script>
+  const q = new URLSearchParams(location.search);
+  const msgs = (q.get('msg') || "welcome back, night owl|log tonight's mood for +10 xp|all prototypes bought, no refunds ⋆")
+                .split('|').map(s => s.trim()).filter(Boolean);
+  const sep = q.get('sep') || '  ⋆  ';
+  const track = document.getElementById('track');
+  const line = msgs.join(sep) + sep;
+  track.textContent = line + line;
+  if (q.get('speed'))  track.style.setProperty('--speed', parseFloat(q.get('speed')) + 's');
+  if (q.get('color'))  document.documentElement.style.setProperty('--text', q.get('color'));
+  if (q.get('border')) document.documentElement.style.setProperty('--border', q.get('border'));
+  if (q.get('bg'))     document.documentElement.style.setProperty('--bg', q.get('bg'));
+</script>
+</body>
+</html>
