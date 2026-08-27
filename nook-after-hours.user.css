@@ -1,0 +1,156 @@
+/* ==UserStyle==
+@name         the nook — after hours (Notion web)
+@namespace    em.nook
+@version      2.1.0
+@description  Neon night skin for Notion in the browser. Toggle from the Stylus icon.
+@author       em
+==/UserStyle== */
+
+@-moz-document domain("notion.so"), domain("notion.site") {
+
+  /* ── the palette — change these and everything follows ─────────────── */
+  :root {
+    --nook-bg:        #0b0b1e;   /* page ground */
+    --nook-bg-2:      #141130;   /* panels, cards */
+    --nook-panel:     #1b1740;   /* sidebar, hover fills */
+    --nook-border:    #4a3f8c;   /* quiet borders */
+    --nook-pink:      #ff5ecb;   /* the neon */
+    --nook-pink-soft: #eab6f2;
+    --nook-lav:       #b3a8e8;
+    --nook-gold:      #ffd166;
+    --nook-cyan:      #8fe8d0;   /* mint — moons, small glints */
+    --nook-electric:  #5c74ff;   /* streetlight-beam blue — links */
+    --nook-text:      #e9e4f7;
+    --nook-text-dim:  #8a80b5;
+  }
+
+  /* pixel display font for headings (loaded from Google Fonts) */
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+  /* ── ground: app frame, sidebar, topbar ────────────────────────────── */
+  .notion-app-inner,
+  .notion-frame,
+  .notion-frame .notion-scroller,
+  main {
+    background: var(--nook-bg) !important;
+  }
+  .notion-sidebar-container,
+  .notion-sidebar,
+  .notion-sidebar > div {
+    background: var(--nook-bg-2) !important;
+  }
+  .notion-topbar,
+  .notion-topbar > div {
+    background: var(--nook-bg) !important;
+    border-bottom: 1px solid var(--nook-border) !important;
+  }
+
+  /* ── text ──────────────────────────────────────────────────────────── */
+  .notion-page-content,
+  .notion-app-inner {
+    color: var(--nook-text) !important;
+  }
+
+  /* page title + headings in the pixel face, with a soft neon glow */
+  .notion-page-block h1,
+  [placeholder="Untitled"],
+  .notion-header-block div,
+  .notion-sub_header-block div,
+  .notion-sub_sub_header-block div {
+    font-family: 'VT323', monospace !important;
+    letter-spacing: 0.03em;
+  }
+  .notion-header-block div {
+    color: var(--nook-pink) !important;
+    text-shadow: 0 0 8px rgba(255, 94, 203, 0.55);
+  }
+  .notion-sub_header-block div    { color: var(--nook-lav)  !important; }
+  .notion-sub_sub_header-block div{ color: var(--nook-cyan) !important; }
+
+  /* ── blocks ────────────────────────────────────────────────────────── */
+  .notion-callout-block > div > div {
+    background: var(--nook-bg-2) !important;
+    border: 1px solid var(--nook-pink) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 0 12px rgba(255, 94, 203, 0.22);
+  }
+  .notion-quote-block blockquote,
+  .notion-quote-block > div {
+    border-left: 3px solid var(--nook-lav) !important;
+    color: var(--nook-pink-soft) !important;
+  }
+  .notion-divider-block div[role="separator"] {
+    border-color: var(--nook-border) !important;
+  }
+  .notion-page-content code {
+    background: var(--nook-panel) !important;
+    color: var(--nook-gold) !important;
+    border: 1px solid var(--nook-border);
+    border-radius: 4px;
+  }
+  .notion-to_do-block [style*="background: rgb(35, 131, 226)"] {
+    background: var(--nook-pink) !important;
+    box-shadow: 0 0 6px rgba(255, 94, 203, 0.6);
+  }
+
+  /* ── databases ─────────────────────────────────────────────────────── */
+  .notion-gallery-view .notion-collection-item > div,
+  .notion-board-view .notion-collection-item > div {
+    background: var(--nook-bg-2) !important;
+    border: 1px solid var(--nook-border) !important;
+    border-radius: 10px !important;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .notion-gallery-view .notion-collection-item > div:hover,
+  .notion-board-view .notion-collection-item > div:hover {
+    border-color: var(--nook-pink) !important;
+    box-shadow: 0 0 14px rgba(255, 94, 203, 0.35);
+  }
+  .notion-table-view,
+  .notion-table-view [data-block-id] {
+    background: transparent !important;
+  }
+  .notion-collection_view-block [role="button"]:hover {
+    background: var(--nook-panel) !important;
+  }
+
+  /* ── links & buttons ───────────────────────────────────────────────── */
+  .notion-page-content a,
+  .notion-link-token {
+    color: var(--nook-electric) !important;
+    text-decoration-color: var(--nook-electric) !important;
+  }
+  .notion-button-block [role="button"] {
+    background: var(--nook-panel) !important;
+    border: 1px solid var(--nook-pink) !important;
+    color: var(--nook-pink-soft) !important;
+    box-shadow: 0 0 10px rgba(255, 94, 203, 0.25);
+    border-radius: 8px !important;
+  }
+
+  /* ── scrollbar ─────────────────────────────────────────────────────── */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: var(--nook-bg); }
+  ::-webkit-scrollbar-thumb {
+    background: var(--nook-border);
+    border-radius: 5px;
+    border: 2px solid var(--nook-bg);
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--nook-pink); }
+
+  /* ── mobile browser tweaks (phone-width Notion web) ────────────────── */
+  @media (max-width: 640px) {
+    .notion-header-block div { text-shadow: 0 0 5px rgba(255, 94, 203, 0.5); }
+    .notion-callout-block > div > div { box-shadow: 0 0 8px rgba(255, 94, 203, 0.18); }
+    .notion-gallery-view .notion-collection-item > div:hover { box-shadow: 0 0 8px rgba(255, 94, 203, 0.25); }
+    .notion-button-block [role="button"] { padding: 10px 18px !important; }
+    .notion-frame .notion-scroller { padding-bottom: 60px; }
+  }
+  .notion-mobile-web-banner,
+  [class*="mobile-app-banner"] {
+    opacity: 0.25;
+  }
+
+  /* ── selection ─────────────────────────────────────────────────────── */
+  ::selection { background: rgba(255, 94, 203, 0.35); }
+}
