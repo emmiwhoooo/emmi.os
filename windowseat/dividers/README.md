@@ -1,53 +1,42 @@
-# the window seat — divider pack
+# window seat — divider assets
 
-Ten original section dividers for the window seat dashboard. Drawn for this
-system, so they are safe to host publicly — unlike the character packs in
-Em's Notion resources, which are fan art and stay Notion-side.
+Served from GitHub Pages at:
+`https://emmiwhoooo.github.io/emmi.os/windowseat/dividers/<set>/<name>.webp`
 
-| file | what it is | good for |
-| --- | --- | --- |
-| `clouds` | cumulus with a low sun | upcoming, sky, transit |
-| `daisies` | a row of daisies | light, general |
-| `meadow` | grass and wildflowers | general, warm |
-| `puddles` | rain landing in puddles, rippling | rain sections, rest |
-| `railway` | a train crossing hills | next up, commute |
-| `rain-wire` | two birds on a wire in the rain | quiet, shelter |
-| `signals` | crossing signals, alternating | status, today |
-| `sprouts` | seedlings in a row | growth, streaks, habits |
-| `umbrellas` | a row of open umbrellas | rain, weather |
-| `vine` | leaf and blossom vine | closing a page |
+| set | count | source | background | how to composite |
+| --- | --- | --- | --- | --- |
+| `original/` | 10 | drawn for this system | transparent | normal; animated SVG |
+| `line/` | 20 | Notion divider pack | **white** | `mix-blend-mode: multiply` |
+| `floral/` | 5 | Notion floristry pack | transparent | normal |
+| `ghibli/` | 33 | Notion Studio Ghibli pack | transparent | normal |
 
-## formats
+## the one rule that matters
 
-- `svg/` — source, 1200×60. **Use these where you can.** Crisp at any size,
-  ~4KB each, and animated: leaves sway, rain falls, signals blink, the train
-  rolls. CSS animation inside an SVG runs even when it is loaded as a plain
-  `<img>`, so Notion image blocks animate too.
-- `png/` — 1200×60 flat renders, transparent background.
-- `png2x/` — 2400×120, for retina.
+`line/` ships on **white**, everything else is transparent. Composite the line
+set with `mix-blend-mode: multiply` — the white disappears against the light
+ground with no quality loss. Do **not** key the white out: the pale strips
+(clouds especially) drop to about 11% opacity and vanish.
 
-## palette
+Conversely, do **not** multiply the transparent sets — it erases white artwork,
+which would take out the kodama and the white totoros.
 
-Every colour is a window seat token, so they sit inside the system rather than
-next to it:
-
-```
-pine   #1F5834    stem  #5C8A63    leaf  #A8CFB0
-cobalt #0E5C86    sky   #BEDDEF    mist  #DCEAF2
-rose   #9C3A5E    petal #F6C4D2
-gold   #D9A62C    wheat #F2DFA4    amber #7A5510
-cream  #FDFEFE
+```css
+.dv  { mix-blend-mode: multiply; }  /* line/ only */
+.dvt { /* normal */ }               /* original/, floral/, ghibli/ */
 ```
 
-## recolouring
+## original set
 
-The SVGs are plain text with literal hex values. To reskin the whole pack for
-another dashboard, find-and-replace the tokens above. To recolour one file,
-open it and edit — there is no build step.
+Only `original/` is drawn for this system. It is animated (leaves sway, rain
+falls and ripples, signals blink, the train rolls), ships as editable SVG
+alongside PNG, and every colour is a window seat palette token. CSS animation
+inside an SVG runs even when loaded as a plain `<img>`, so it animates in
+Notion image blocks too.
 
-## motion
+The other three sets are third-party decorative packs from Em's Notion
+resources, kept here for personal use on this dashboard.
 
-Everything honours `prefers-reduced-motion`, which slows animation to 18s
-rather than stopping it. That is deliberate: a system-wide "reduce motion"
-setting froze the save point ticker dead, and a divider that stops moving is
-just a picture.
+## sizes
+
+Line strips 1600px wide; floral, ghibli and original 1800px. All WebP except
+the original SVGs. Whole folder is under 2MB.
