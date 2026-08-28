@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>nook ticker</title>
+<title>save point ticker</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
 <style>
   :root{
@@ -12,9 +12,19 @@
     --text: #eab6f2;
     --accent: #ffd166;
   }
-  html, body{ margin:0; padding:0; background:transparent; }
+  /* the whole iframe is painted, not just the bar — otherwise any embed
+     taller than the bar shows a white gutter underneath it */
+  html, body{
+    margin:0; padding:0;
+    height:100%;
+    background: var(--bg);
+    display:flex;
+    align-items:center;
+    justify-content:stretch;
+  }
   .frame{
     box-sizing:border-box;
+    width:100%;
     margin:4px;
     border:1px solid var(--border);
     border-radius:8px;
@@ -36,19 +46,30 @@
   }
   .track b{ color:var(--accent); font-weight:normal; }
   @keyframes scroll{ from{ transform:translateX(0);} to{ transform:translateX(-100%);} }
+  /* A ticker that doesn't move isn't a ticker — so reduced-motion slows the
+     scroll rather than stopping it. (Windows "animation effects: off" sets
+     this system-wide, which silently froze the earlier version.) */
   @media (prefers-reduced-motion: reduce){
-    .track{ animation:none; padding-left:12px; }
+    .track{ animation-duration: calc(var(--speed, 20s) * 2); }
   }
 </style>
 </head>
 <body>
   <div class="frame"><div class="track" id="track"></div></div>
 <script>
+  // ── configure via URL params, no code editing needed ─────────────────
+  //   ?msg=first message|second message|third        (| separates items)
+  //   &speed=20        seconds per loop (bigger = slower)
+  //   &sep=%20⋆%20     separator between messages (default " ⋆ ")
+  //   &color=%23eab6f2 &border=%23ff5ecb &bg=%230b0b1e   (hex, url-encoded #)
+  // NOTE: url-encode the whole msg value before pasting into a Notion /embed —
+  // literal spaces and | pipes make Notion truncate or reject the URL.
   const q = new URLSearchParams(location.search);
-  const msgs = (q.get('msg') || "welcome back, night owl|log tonight's mood for +10 xp|all prototypes bought, no refunds ⋆")
+  const msgs = (q.get('msg') || "welcome back, night owl|log tonight's mood for +10 xp|progress saved ⋆")
                 .split('|').map(s => s.trim()).filter(Boolean);
   const sep = q.get('sep') || '  ⋆  ';
   const track = document.getElementById('track');
+  // duplicate content so the loop has no visible gap on wide screens
   const line = msgs.join(sep) + sep;
   track.textContent = line + line;
   if (q.get('speed'))  track.style.setProperty('--speed', parseFloat(q.get('speed')) + 's');
