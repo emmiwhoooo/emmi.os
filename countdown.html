@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>save point countdown</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+<style>
+  :root{
+    --bg: #0b0b1e;
+    --border: #4a3f8c;
+    --text: #eab6f2;
+    --accent: #ffd166;   /* gold — this is data warming up, not a tube */
+    --dim: #8a80b5;
+    --alarm: #ff5ecb;
+  }
+  html, body{
+    margin:0; padding:0; height:100%; overflow:hidden;
+    background:var(--bg);
+    display:flex; align-items:center;
+  }
+  .frame{
+    box-sizing:border-box;
+    flex:1 1 auto; min-width:0; margin:4px;
+    border:1px solid var(--border);
+    border-radius:8px;
+    background:var(--bg);
+    padding:10px 14px;
+    text-align:center;
+    font-family:'VT323', monospace;
+  }
+  .label{ color:var(--dim); font-size:15px; letter-spacing:0.14em; }
+  .num{
+    color:var(--accent);
+    font-size:46px; line-height:1.05; letter-spacing:0.03em;
+  }
+  .unit{ color:var(--text); font-size:18px; letter-spacing:0.06em; }
+  /* the bar is the part you read at a glance — how much of the run is gone */
+  .bar{
+    margin-top:8px; height:6px; border-radius:3px;
+    background:#1b1740; overflow:hidden;
+  }
+  .fill{
+    height:100%; width:0%;
+    background:linear-gradient(90deg,#ff5ecb,#ffd166);
+    box-shadow:0 0 8px rgba(255,94,203,.45);
+    transition:width .6s ease;
+  }
+  /* inside the last week it stops being a countdown and starts being a warning */
+  .soon .num{ color:var(--alarm); text-shadow:0 0 10px rgba(255,94,203,.5); }
+  @media (prefers-reduced-motion: reduce){ .fill{ transition:none; } }
+</style>
+</head>
+<body>
+  <div class="frame" id="frame">
+    <div class="label" id="label">until</div>
+    <div class="num" id="num">—</div>
+    <div class="unit" id="unit"></div>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+  </div>
+<script>
+  // ?to=2026-12-02        target date (YYYY-MM-DD, required)
+  // &label=finals         caption above the number
+  // &from=2026-08-25      start of the run, for the progress bar
+  //                       (defaults to the first time you loaded it)
+  // &bar=0                hide the progress bar
+  // &color= &border= &bg= &accent=   hex, url-encode # as %23
+  // Remember to url-encode the whole query before pasting into /embed.
+  const q = new URLSearchParams(location.search);
+  const root = document.documentElement.style;
+  if (q.get('color'))  root.setProperty('--text', q.get('color'));
+  if (q.get('border')) root.setProperty('--border', q.get('border'));
+  if (q.get('bg'))     root.setProperty('--bg', q.get('bg'));
+  if (q.get('accent')) root.setProperty('--accent', q.get('accent'));
+
+  const target = q.get('to') ? new Date(q.get('to') + 'T23:59:59') : null;
+  const start  = q.get('from') ? new Date(q.get('from') + 'T00:00:00') : null;
+  document.getElementById('label').textContent = q.get('label') || 'until';
+  if (q.get('bar') === '0') document.querySelector('.bar').style.display = 'none';
+
+  function render(){
+    const num = document.getElementById('num');
+    const unit = document.getElementById('unit');
+    if (!target || isNaN(target)) {
+      num.textContent = '—';
+      unit.textContent = 'set ?to=YYYY-MM-DD';
+      return;
+    }
+    const now = new Date();
+    const ms = target - now;
+    const days = Math.ceil(ms / 86400000);
+
+    if (ms <= 0) {
+      num.textContent = '✦';
+      unit.textContent = 'today';
+    } else if (days > 1) {
+      num.textContent = days;
+      unit.textContent = days === 1 ? 'day' : 'days';
+    } else {
+      // last day: hours are the useful unit
+      const hrs = Math.ceil(ms / 3600000);
+      num.textContent = hrs;
+      unit.textContent = hrs === 1 ? 'hour' : 'hours';
+    }
+    document.getElementById('frame').classList.toggle('soon', days <= 7);
+
+    if (start && !isNaN(start)) {
+      const total = target - start;
+      const done  = now - start;
+      const pct = Math.max(0, Math.min(100, (done / total) * 100));
+      document.getElementById('fill').style.width = pct + '%';
+    } else {
+      document.querySelector('.bar').style.display = 'none';
+    }
+  }
+  render();
+  setInterval(render, 60000);
+</script>
+</body>
+</html>

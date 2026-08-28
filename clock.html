@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>save point clock</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+<style>
+  :root{
+    --bg: #0b0b1e;
+    --border: #4a3f8c;
+    --text: #eab6f2;
+    --accent: #ff5ecb;
+    --dim: #8a80b5;
+  }
+  /* full-bleed dark + no scrollbars: the embed is almost always taller
+     than the content, and a transparent body shows a white gutter. */
+  html, body{
+    margin:0; padding:0; height:100%; overflow:hidden;
+    background:var(--bg);
+    display:flex; align-items:center;
+  }
+  .frame{
+    box-sizing:border-box;
+    flex:1 1 auto; min-width:0; margin:4px;
+    border:1px solid var(--border);
+    border-radius:8px;
+    background:var(--bg);
+    padding:10px 14px;
+    text-align:center;
+    font-family:'VT323', monospace;
+  }
+  .label{
+    color:var(--dim);
+    font-size:15px;
+    letter-spacing:0.14em;
+    text-transform:lowercase;
+  }
+  .time{
+    color:var(--accent);
+    font-size:44px;
+    line-height:1.05;
+    letter-spacing:0.03em;
+    /* the one glowing element — neon is a currency */
+    text-shadow:0 0 8px rgba(255,94,203,.55), 0 0 22px rgba(255,94,203,.28);
+  }
+  .date{ color:var(--text); font-size:17px; letter-spacing:0.05em; }
+  /* the colon blinks like a real clock; reduced-motion holds it lit
+     rather than removing the cue entirely */
+  .sep{ animation:blink 2s step-end infinite; }
+  @keyframes blink{ 0%,49%{opacity:1} 50%,99%{opacity:.25} 100%{opacity:1} }
+  @media (prefers-reduced-motion: reduce){ .sep{ animation:none; } }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="label" id="label"></div>
+    <div class="time" id="time">--<span class="sep">:</span>--</div>
+    <div class="date" id="date"></div>
+  </div>
+<script>
+  // ?label=night shift   small caption above the time (blank to hide)
+  // &tz=America/Los_Angeles   IANA timezone (default: viewer's own)
+  // &h24=1               24-hour clock (default 12-hour)
+  // &date=0              hide the date line
+  // &color= &border= &bg= &accent=   hex, url-encode # as %23
+  // Remember to url-encode the whole query before pasting into /embed.
+  const q = new URLSearchParams(location.search);
+  const tz = q.get('tz') || undefined;
+  const h24 = q.get('h24') === '1';
+  const showDate = q.get('date') !== '0';
+  const label = q.get('label');
+
+  const root = document.documentElement.style;
+  if (q.get('color'))  root.setProperty('--text', q.get('color'));
+  if (q.get('border')) root.setProperty('--border', q.get('border'));
+  if (q.get('bg'))     root.setProperty('--bg', q.get('bg'));
+  if (q.get('accent')) root.setProperty('--accent', q.get('accent'));
+
+  document.getElementById('label').textContent = label === null ? '' : label;
+  if (!showDate) document.getElementById('date').style.display = 'none';
+
+  function tick(){
+    const now = new Date();
+    let hh, mm;
+    try {
+      const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: !h24
+      }).formatToParts(now);
+      hh = parts.find(p => p.type === 'hour').value;
+      mm = parts.find(p => p.type === 'minute').value;
+      var ampm = (parts.find(p => p.type === 'dayPeriod') || {}).value || '';
+    } catch (e) {
+      // a bad tz string shouldn't blank the widget — fall back to local
+      hh = String(now.getHours()).padStart(2, '0');
+      mm = String(now.getMinutes()).padStart(2, '0');
+      ampm = '';
+    }
+    document.getElementById('time').innerHTML =
+      hh + '<span class="sep">:</span>' + mm +
+      (ampm ? ' <span style="font-size:22px">' + ampm.toLowerCase() + '</span>' : '');
+
+    if (showDate) {
+      document.getElementById('date').textContent =
+        new Intl.DateTimeFormat('en-US', {
+          timeZone: tz, weekday: 'long', month: 'short', day: 'numeric'
+        }).format(now).toLowerCase();
+    }
+  }
+  tick();
+  setInterval(tick, 1000);
+</script>
+</body>
+</html>
