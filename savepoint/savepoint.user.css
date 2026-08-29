@@ -1,12 +1,29 @@
 /* ==UserStyle==
 @name        save point (Notion web)
 @namespace   em.savepoint
-@version      2.1.2
-@description  Neon night skin for Notion in the browser: deep navy ground, neon-pink glow accents, pixel display font for headings. Install the Stylus browser extension, then paste this whole file into a new style. Toggle it off any time from the Stylus icon.
+@version      3.1.0
+@description  Neon night skin for the save point, night shift and pocket pages only: deep navy ground, neon-pink glow accents, pixel display font for headings. Install the Stylus browser extension, then paste this whole file into a new style. Toggle it off any time from the Stylus icon.
 @author       em
+@homepageURL  https://github.com/emmiwhoooo/emmi.os
+@updateURL    https://raw.githubusercontent.com/emmiwhoooo/emmi.os/main/savepoint/savepoint.user.css
 ==/UserStyle== */
 
-@-moz-document domain("notion.so"), domain("notion.site"), domain("notion.com") {
+/* An ALLOWLIST, not a domain rule. The night skin belongs to the three
+   after-hours pages and nothing else — every other Notion page, including
+   the window seat, is left alone.
+
+   Matching on the page id also covers anything opened FROM these pages as a
+   peek: Notion keeps the parent id in the URL and appends ?p=<row-id>, so a
+   database row previewed from night shift stays skinned. A child page opened
+   full-screen gets its own id and will not match — add it below if you want
+   it covered.
+
+     save point   3c906349-6baf-8186-9c19-f750a1f94e7e
+     night shift  3c906349-6baf-8126-a0c3-d9e9bac4d716
+     pocket       3c906349-6baf-81dc-babb-ffd3648a7620
+
+   Ids appear both dashed and undashed in the wild, so every dash is optional. */
+@-moz-document regexp("^https?://([\\w-]+\\.)*notion\\.(so|site|com)/.*(3c906349-?6baf-?8186-?9c19-?f750a1f94e7e|3c906349-?6baf-?8126-?a0c3-?d9e9bac4d716|3c906349-?6baf-?81dc-?babb-?ffd3648a7620).*$") {
 
   /* ── the palette — change these and everything follows ─────────────── */
   :root {
