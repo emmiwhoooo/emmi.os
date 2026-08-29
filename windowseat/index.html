@@ -237,6 +237,102 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
 
 .seam p{font-size:.68rem;color:var(--dim);margin:0;text-align:center;padding:12px 0 0;
   font-family:var(--bd-face);font-weight:700;text-transform:uppercase;letter-spacing:.14em}
+
+/* ================= density + vertical structure =================
+   The page was a stack of full-width horizontal bands, which is exactly why it
+   ran 3100px: every element got its own row whether it needed one or not. Two
+   changes, not one — shrink the type AND stop stacking.
+
+   Desktop is now two columns with a continuous wood rule down the seam: a
+   narrow sticky rail carrying the glanceable state (HUD, the five, the two)
+   and a wider column carrying the working lists. Rows pair a short left item
+   with a tall right one, so the left rail is read at a glance and the right
+   column is read properly. Below 900px it falls back to the single stack.
+
+   Type comes down a step throughout because the workspace runs at 75% zoom. */
+body{font-size:15px}
+.title h1{font-size:clamp(1.7rem,4.6vw,2.25rem)}
+.title .line{font-size:.88rem}
+.title .date{font-size:.66rem}
+.big{font-size:clamp(1.05rem,2.4vw,1.24rem)}
+.meta{font-size:.78rem}
+.card .hd{font-size:.82rem;padding:5px 10px}
+.card .bd{padding:10px}
+.row{padding:6px 0;font-size:.82rem}
+.stat{padding:8px 9px}
+.stat .num{font-size:1.5rem}
+.stat .l{font-size:.62rem}
+.stat small{font-size:.62rem}
+.quest{padding:6px 9px}
+.quest h4{font-size:.85rem}
+.quest p{font-size:.6rem}
+.chipcard h3{font-size:.92rem}
+.chipcard p{font-size:.72rem}
+.pad{padding:clamp(8px,1.6vw,12px) clamp(10px,2.4vw,16px)}
+.dvwrap{padding:2px clamp(6px,2vw,14px)}
+
+@media(min-width:900px){
+  body:not(.hero-only) .wrap{max-width:1180px;padding-bottom:24px}
+  /* masthead: window beside the title rather than above it */
+  body:not(.hero-only) .winwrap{float:left;width:296px;padding:14px 16px 6px 12px}
+  body:not(.hero-only) .window{max-width:none}
+  body:not(.hero-only) .title{text-align:left;padding:26px 14px 10px 0;overflow:hidden}
+  body:not(.hero-only) .title .line{margin-left:0;max-width:54ch}
+  body:not(.hero-only) .rig{clear:both;padding:6px clamp(10px,2.4vw,16px) 2px}
+  body:not(.hero-only) .dvwrap.below{display:none}
+  body:not(.hero-only) .seam{display:none}
+
+  /* Two real columns. Each flows on its own height — the earlier grid paired
+     rows, so a short list on one side left dead space opposite a tall one. */
+  body:not(.hero-only) .cols{display:flex;align-items:flex-start;gap:0}
+  body:not(.hero-only) .side{flex:0 0 288px;align-self:stretch;
+    border-right:5px solid transparent;
+    border-image:linear-gradient(90deg,var(--wood-l) 0 40%,var(--wood) 40% 60%,var(--wood-d) 60% 100%) 1;}
+  body:not(.hero-only) .main{flex:1 1 auto;min-width:0}
+  body:not(.hero-only) .side > section{padding:10px 14px 4px 12px}
+  body:not(.hero-only) .main > section{padding:10px 14px 4px 30px;position:relative}
+  /* the state rail stays put while the lists scroll past it */
+  body:not(.hero-only) .side .hud{position:sticky;top:8px;grid-template-columns:repeat(2,1fr)}
+  body:not(.hero-only) .five{grid-template-columns:1fr;gap:6px}
+  body:not(.hero-only) .grid.two{grid-template-columns:1fr}
+
+  /* vertical section labels — platform signage, and they cost no height */
+  body:not(.hero-only) .main > section::before{
+    position:absolute;left:8px;top:14px;
+    writing-mode:vertical-rl;text-orientation:mixed;
+    font-family:var(--bd-face);font-weight:700;font-size:.56rem;
+    text-transform:uppercase;letter-spacing:.22em;color:var(--dust);
+  }
+  body:not(.hero-only) .s-body::before{content:"next departure"}
+  body:not(.hero-only) .s-today::before{content:"this week"}
+  body:not(.hero-only) .s-shelf::before{content:"the shelf"}
+
+  /* the gallery was a wrapping grid six tiles tall; one scrolling row instead */
+  body:not(.hero-only) .shelf{display:flex;gap:9px;overflow-x:auto;padding-bottom:6px;
+    scroll-snap-type:x proximity}
+  body:not(.hero-only) .shelf .art{flex:0 0 168px;scroll-snap-align:start;transform:none}
+}
+
+/* The measured offenders, in order of how much height they were costing:
+   the divider band rendered at its own aspect ratio (222px of decoration),
+   the five course cards stacked to 617px, and the side image in "the two"
+   pushed that row to 370. Crop rather than remove — the art still reads as a
+   band, it just stops being a section of its own. */
+.dvt{max-height:44px;object-fit:cover;object-position:center 45%}
+@media(min-width:900px){
+  body:not(.hero-only) .chipcard .cap{padding:3px 8px;font-size:.58rem}
+  body:not(.hero-only) .chipcard .in{padding:5px 8px 6px;
+    display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:8px}
+  body:not(.hero-only) .chipcard h3{grid-column:1;font-size:.88rem;line-height:1.15}
+  body:not(.hero-only) .chipcard p{grid-column:1;font-size:.66rem}
+  body:not(.hero-only) .chipcard .st{grid-column:2;grid-row:1/3;margin-top:0;
+    flex-direction:column;gap:3px;text-align:right;font-size:.55rem}
+  body:not(.hero-only) .s-two img{max-height:104px;object-fit:cover}
+  body:not(.hero-only) .rig{padding:8px 0 2px}
+  body:not(.hero-only) .card .bd{padding:9px 10px}
+  body:not(.hero-only) .quests{gap:6px}
+}
+
 body.hero-only .below{display:none}
 
 /* ================= hero layout =================
@@ -357,7 +453,10 @@ body.hero-only .wrap{padding-bottom:18px}
     </div></div>
   </div></div>
 
-  <section class="pad s-hud" style="padding-top:18px">
+    <div class="dvwrap"><img class="dvt" src="assets/dividers/ghibli/g_grass.webp" alt=""></div>
+  <div class="cols">
+    <aside class="side">
+<section class="pad s-hud" style="padding-top:18px">
     <div class="hud">
       <div class="pnl tslate stat">
         <p class="l lab">Level</p>
@@ -379,10 +478,35 @@ body.hero-only .wrap{padding-bottom:18px}
       </div>
     </div>
   </section>
-
-  <div class="dvwrap"><img class="dvt" src="assets/dividers/ghibli/g_grass.webp" alt=""></div>
-
-  <section class="pad s-quests" style="padding-top:6px">
+<section class="pad below s-five" style="padding-top:6px">
+    <div class="five">
+      <div class="pnl chipcard"><p class="cap">Mon + Wed</p><div class="in"><h3>Property</h3><p>DiGennaro</p>
+        <div class="st"><i class="chip" style="background:#E9CE8A"></i><span style="color:var(--butter-ink)">reading due</span></div></div></div>
+      <div class="pnl chipcard"><p class="cap">Tue + Thu</p><div class="in"><h3>Evidence</h3><p>Smoger</p>
+        <div class="st"><i class="chip" style="background:#E9CE8A"></i><span style="color:var(--butter-ink)">reading due</span></div></div></div>
+      <div class="pnl chipcard"><p class="cap">Thu</p><div class="in"><h3>LRW</h3><p>Waite-Jones</p>
+        <div class="st"><i class="chip" style="background:#C58BA0"></i><span style="color:var(--rose-ink)">overdue</span></div></div></div>
+      <div class="pnl chipcard"><p class="cap">Wed</p><div class="in"><h3>Negotiations</h3><p>Winters</p>
+        <div class="st"><i class="chip" style="background:#5A7B8C"></i><span style="color:var(--slate-ink)">upcoming</span></div></div></div>
+      <div class="pnl chipcard"><p class="cap">Fri</p><div class="in"><h3>Youth Justice</h3><p>Laba · Ridolfi</p>
+        <div class="st"><i class="chip" style="background:#55755B"></i><span style="color:var(--moss-ink)">clear</span></div></div></div>
+    </div>
+  </section>
+<section class="pad below s-two">
+    <div class="grid two">
+      <div class="pnl card">
+        <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-sprout"/></svg> THE TWO</p>
+        <div class="bd"><ul class="rows">
+          <li class="row"><i class="chip" style="background:#E9CE8A"></i>open the shades<span class="tag" style="color:var(--butter-ink)">am</span></li>
+          <li class="row"><i class="chip" style="background:#8E958B"></i><span style="color:var(--dim)">log tonight's mood</span><span class="tag" style="color:var(--dim)">pm</span></li>
+        </ul><p class="meta" style="font-size:.76rem">next pair unlocks at a 7-day streak — one more night.</p></div>
+      </div>
+      <div class="pnl" style="padding:7px"><img src="assets/ws-side-eaves.webp" alt="Rain past green eaves" style="border:2px solid var(--edge2)"></div>
+    </div>
+  </section>
+    </aside>
+    <main class="main">
+<section class="pad s-body" style="padding-top:6px">
     <div class="grid two">
       <div class="pnl card below">
         <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-train"/></svg> NEXT UP</p>
@@ -409,10 +533,7 @@ body.hero-only .wrap{padding-bottom:18px}
       </div>
     </div>
   </section>
-
-  <div class="dvwrap below"><img class="dvt" src="assets/dividers/ghibli/g_rain.webp" alt=""></div>
-
-  <section class="pad below" style="padding-top:6px">
+<section class="pad below s-today" style="padding-top:6px">
     <div class="pnl card">
       <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-signal"/></svg> <span id="d-open-hd">TODAY · 5 OPEN</span></p>
       <div class="bd"><ul class="rows" id="d-rows">
@@ -424,27 +545,7 @@ body.hero-only .wrap{padding-bottom:18px}
       </ul></div>
     </div>
   </section>
-
-  <div class="dvwrap below"><img class="dvt" src="assets/dividers/ghibli/g_kodama.webp" alt=""></div>
-
-  <section class="pad below" style="padding-top:6px">
-    <div class="five">
-      <div class="pnl chipcard"><p class="cap">Mon + Wed</p><div class="in"><h3>Property</h3><p>DiGennaro</p>
-        <div class="st"><i class="chip" style="background:#E9CE8A"></i><span style="color:var(--butter-ink)">reading due</span></div></div></div>
-      <div class="pnl chipcard"><p class="cap">Tue + Thu</p><div class="in"><h3>Evidence</h3><p>Smoger</p>
-        <div class="st"><i class="chip" style="background:#E9CE8A"></i><span style="color:var(--butter-ink)">reading due</span></div></div></div>
-      <div class="pnl chipcard"><p class="cap">Thu</p><div class="in"><h3>LRW</h3><p>Waite-Jones</p>
-        <div class="st"><i class="chip" style="background:#C58BA0"></i><span style="color:var(--rose-ink)">overdue</span></div></div></div>
-      <div class="pnl chipcard"><p class="cap">Wed</p><div class="in"><h3>Negotiations</h3><p>Winters</p>
-        <div class="st"><i class="chip" style="background:#5A7B8C"></i><span style="color:var(--slate-ink)">upcoming</span></div></div></div>
-      <div class="pnl chipcard"><p class="cap">Fri</p><div class="in"><h3>Youth Justice</h3><p>Laba · Ridolfi</p>
-        <div class="st"><i class="chip" style="background:#55755B"></i><span style="color:var(--moss-ink)">clear</span></div></div></div>
-    </div>
-  </section>
-
-  <div class="dvwrap below"><img class="dvt" src="assets/ws-divider-wires.webp" alt=""></div>
-
-  <section class="pad below" style="padding-top:6px">
+<section class="pad below s-shelf" style="padding-top:6px">
     <div class="pnl card">
       <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-star"/></svg> THE SHELF</p>
       <div class="bd">
@@ -472,6 +573,22 @@ body.hero-only .wrap{padding-bottom:18px}
       </div>
     </div>
   </section>
+    </main>
+  </div>
+
+  
+
+  <div class="dvwrap below"><img class="dvt" src="assets/dividers/ghibli/g_rain.webp" alt=""></div>
+
+  
+
+  <div class="dvwrap below"><img class="dvt" src="assets/dividers/ghibli/g_kodama.webp" alt=""></div>
+
+  
+
+  <div class="dvwrap below"><img class="dvt" src="assets/ws-divider-wires.webp" alt=""></div>
+
+  
 
   <section class="pad s-nav" style="padding-top:6px">
     <nav class="nav pnl" style="padding:6px">
@@ -484,18 +601,7 @@ body.hero-only .wrap{padding-bottom:18px}
 
   <div class="seam"><p id="d-stamp">below this line lives in notion</p></div>
 
-  <section class="pad below">
-    <div class="grid two">
-      <div class="pnl card">
-        <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-sprout"/></svg> THE TWO</p>
-        <div class="bd"><ul class="rows">
-          <li class="row"><i class="chip" style="background:#E9CE8A"></i>open the shades<span class="tag" style="color:var(--butter-ink)">am</span></li>
-          <li class="row"><i class="chip" style="background:#8E958B"></i><span style="color:var(--dim)">log tonight's mood</span><span class="tag" style="color:var(--dim)">pm</span></li>
-        </ul><p class="meta" style="font-size:.76rem">next pair unlocks at a 7-day streak — one more night.</p></div>
-      </div>
-      <div class="pnl" style="padding:7px"><img src="assets/ws-side-eaves.webp" alt="Rain past green eaves" style="border:2px solid var(--edge2)"></div>
-    </div>
-  </section>
+  
 
   <div class="dvwrap below"><img class="dvt" src="assets/dividers/ghibli/g_sleep.webp" alt=""></div>
 </div>
