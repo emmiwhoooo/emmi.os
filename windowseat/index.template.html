@@ -165,7 +165,7 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
 .bar i{flex:1;height:9px;background:rgba(42,50,48,.12);border:1px solid rgba(42,50,48,.16)}
 .bar i.on{background:var(--moss);border-color:var(--moss-ink)}
 .bar i.tip{background:var(--butter);border-color:#B99334}
-.stat .rwd{display:flex;align-items:center;gap:4px;flex-wrap:wrap;color:var(--slate-ink);
+.stat .rwd{display:flex;align-items:center;gap:4px;flex-wrap:wrap;min-height:16px;
   font-family:var(--bd-face);font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:.63rem}
 
 /* ================= the shelf (gallery) ================= */
@@ -234,6 +234,13 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
   font-family:var(--px-face);font-weight:400;font-size:.92rem;letter-spacing:.05em}
 .nav a:hover{background:var(--sunk)}
 .nav a:focus-visible{outline:3px solid var(--slate);outline-offset:2px}
+/* the fifth berth is built but unserved — the daytime school view lands here */
+.nav .soon{display:flex;align-items:center;gap:8px;padding:9px 11px;color:var(--dim);cursor:default;
+  font-family:var(--px-face);font-weight:400;font-size:.92rem;letter-spacing:.05em;
+  border:2px dashed var(--edge);opacity:.85}
+.nav .soon i{margin-left:auto;font-style:normal;font-family:var(--bd-face);font-weight:700;
+  font-size:.58rem;text-transform:uppercase;letter-spacing:.14em}
+.nav .soon .sp{opacity:.55}
 
 .seam p{font-size:.68rem;color:var(--dim);margin:0;text-align:center;padding:12px 0 0;
   font-family:var(--bd-face);font-weight:700;text-transform:uppercase;letter-spacing:.14em}
@@ -272,27 +279,39 @@ body{font-size:15px}
 .dvwrap{padding:2px clamp(6px,2vw,14px)}
 
 @media(min-width:900px){
-  body:not(.hero-only) .wrap{max-width:1180px;padding-bottom:24px}
+  body:not(.hero-only) .wrap{max-width:min(1560px,97vw);padding-bottom:24px}
   /* masthead: window beside the title rather than above it */
-  body:not(.hero-only) .winwrap{float:left;width:296px;padding:14px 16px 6px 12px}
+  /* the window used to float and the title flowed around it, which left a
+     250px-tall float beside a 110px title — a hole in the masthead, and it
+     pushed the divider band into the leftover gutter. A flex row instead:
+     the window sizes itself, the title takes everything left and centres
+     against it. */
+  body:not(.hero-only) .mast{display:flex;align-items:stretch;gap:clamp(14px,2.6vw,34px)}
+  body:not(.hero-only) .winwrap{flex:0 0 clamp(296px,24%,380px);padding:14px 0 6px 12px}
   body:not(.hero-only) .window{max-width:none}
-  body:not(.hero-only) .title{text-align:left;padding:26px 14px 10px 0;overflow:hidden}
-  body:not(.hero-only) .title .line{margin-left:0;max-width:54ch}
-  body:not(.hero-only) .rig{clear:both;padding:6px clamp(10px,2.4vw,16px) 2px}
+  /* the masthead now carries the HUD as well, so the width beside the window
+     does work instead of sitting empty, and the state row lands on the same
+     baseline as the sill. */
+  body:not(.hero-only) .mastr{flex:1 1 auto;min-width:0;
+    display:flex;flex-direction:column;justify-content:space-between}
+  body:not(.hero-only) .mastr .s-hud{padding:10px 14px 6px 0}
+  body:not(.hero-only) .hud{grid-template-columns:repeat(4,1fr)}
+  body:not(.hero-only) .title{min-width:0;text-align:left;padding:10px 14px 6px 0}
+  body:not(.hero-only) .title .line{margin-left:0;max-width:74ch}
+  body:not(.hero-only) .dvwrap{clear:both}
+  body:not(.hero-only) .rig{clear:both;padding:0 clamp(10px,2.4vw,16px) 6px}
   body:not(.hero-only) .dvwrap.below{display:none}
   body:not(.hero-only) .seam{display:none}
 
   /* Two real columns. Each flows on its own height — the earlier grid paired
      rows, so a short list on one side left dead space opposite a tall one. */
   body:not(.hero-only) .cols{display:flex;align-items:flex-start;gap:0}
-  body:not(.hero-only) .side{flex:0 0 288px;align-self:stretch;
+  body:not(.hero-only) .side{flex:0 0 clamp(288px,23%,360px);align-self:stretch;
     border-right:5px solid transparent;
     border-image:linear-gradient(90deg,var(--wood-l) 0 40%,var(--wood) 40% 60%,var(--wood-d) 60% 100%) 1;}
   body:not(.hero-only) .main{flex:1 1 auto;min-width:0}
   body:not(.hero-only) .side > section{padding:10px 14px 4px 12px}
   body:not(.hero-only) .main > section{padding:10px 14px 4px 30px;position:relative}
-  /* the state rail stays put while the lists scroll past it */
-  body:not(.hero-only) .side .hud{position:sticky;top:8px;grid-template-columns:repeat(2,1fr)}
   body:not(.hero-only) .five{grid-template-columns:1fr;gap:6px}
   body:not(.hero-only) .grid.two{grid-template-columns:1fr}
 
@@ -328,7 +347,7 @@ body{font-size:15px}
   body:not(.hero-only) .chipcard .st{grid-column:2;grid-row:1/3;margin-top:0;
     flex-direction:column;gap:3px;text-align:right;font-size:.55rem}
   body:not(.hero-only) .s-two img{max-height:104px;object-fit:cover}
-  body:not(.hero-only) .rig{padding:8px 0 2px}
+  body:not(.hero-only) .rig{padding:0 0 6px}
   body:not(.hero-only) .card .bd{padding:9px 10px}
   body:not(.hero-only) .quests{gap:6px}
 }
@@ -344,19 +363,31 @@ body.hero-only .below{display:none}
    spends the width instead of the height. Also sized down a step because the
    workspace is viewed at 75% zoom. */
 body.hero-only .wrap{
-  max-width:1500px; padding:10px 16px 14px;
-  display:grid; align-items:start; column-gap:20px; row-gap:6px;
-  grid-template-columns:minmax(300px,34%) 1fr;
-  grid-template-areas:"win head" "win hud" "win quests" "rail rail" "nav nav";
+  max-width:none; padding:10px 24px 16px;
+  display:grid; align-items:start; column-gap:22px; row-gap:6px;
+  grid-template-columns:minmax(290px,30%) 1fr;
+  grid-template-rows:auto auto 1fr auto auto;
+  grid-template-areas:"win head" "win hud" "win body" "nav nav" "rail rail";
 }
+body.hero-only .mast,
+body.hero-only .mastr{display:contents}
 body.hero-only .winwrap{grid-area:win;padding:6px 0 0}
 body.hero-only .window{max-width:none}
 body.hero-only .title{grid-area:head;text-align:left;padding:2px 0 0}
 body.hero-only .title .line{margin-left:0;max-width:46ch}
-body.hero-only .s-hud{grid-area:hud;padding:10px 0 0}
-body.hero-only .s-quests{grid-area:quests;padding:8px 0 0}
-body.hero-only .rig{grid-area:rail;padding:10px 0 0}
-body.hero-only .s-nav{grid-area:nav;padding:8px 0 0}
+/* The HUD and the quests now live inside .cols, so the grid places that one
+   wrapper and .cols distributes them itself. It stretches to the window's
+   height and spaces its two children apart, which is what fixes the mismatched
+   gap under the window versus under the quests — both columns end on the same
+   line instead of one falling 60px short. */
+body.hero-only .s-hud{grid-area:hud;padding:8px 0 0}
+body.hero-only .cols{grid-area:body;align-self:stretch;
+  display:flex;flex-direction:column;justify-content:flex-end;gap:10px}
+body.hero-only .cols > .side,
+body.hero-only .cols > .main{width:100%}
+body.hero-only .cols section{padding:0}
+body.hero-only .rig{grid-area:rail;padding:2px 0 0}
+body.hero-only .s-nav{grid-area:nav;padding:6px 0 0}
 body.hero-only .dvwrap,
 body.hero-only .seam{display:none}
 body.hero-only .hud{grid-template-columns:repeat(4,1fr)}
@@ -364,8 +395,9 @@ body.hero-only .title h1{font-size:clamp(1.6rem,3vw,2.2rem)}
 body.hero-only .stat .num{font-size:1.6rem}
 body.hero-only .quest .slot{width:38px;height:38px}
 @media(max-width:860px){
-  body.hero-only .wrap{grid-template-columns:1fr;
-    grid-template-areas:"win" "head" "hud" "quests" "rail" "nav"}
+  body.hero-only .wrap{grid-template-columns:1fr;grid-template-rows:auto;
+    grid-template-areas:"win" "head" "hud" "body" "nav" "rail"}
+  body.hero-only .cols{justify-content:flex-start}
 }
 
 body.hero-only .grid.two{grid-template-columns:1fr}
@@ -377,6 +409,7 @@ body.hero-only .wrap{padding-bottom:18px}
 
 <div class="wrap">
 
+  <header class="mast">
   <div class="winwrap"><div class="window">
     <div class="tack"><svg class="sp" width="16" height="16"><use href="#px-train"/></svg><span>the 9:40, window side</span></div>
     <div class="ring1"><div class="ring2"><div class="ring3">
@@ -399,67 +432,46 @@ body.hero-only .wrap{padding-bottom:18px}
     </div></div></div></div>
   </div></div>
 
+  <div class="mastr">
   <div class="title">
     <p class="date lab" id="d-term">Fri · Aug 28 · Week 2 of 14</p>
     <h1>the window seat</h1>
     <p class="line">Rain on the glass all morning, clearing by four. Nothing is due until Monday — today is a catching-up day, not a keeping-up one.</p>
   </div>
-
-  <div class="rig"><div class="inner">
-    <div class="gantry">
-      <span class="cap l"></span><span class="cap r"></span>
-      <span class="bird"><svg class="sp" width="32" height="32"><use href="#px-bird"/></svg></span>
-    </div>
-    <div class="straps"><i></i><i></i></div>
-    <div class="brd1"><div class="brd2">
-      <div class="signboard">
-        <span class="rivet a"></span><span class="rivet b"></span><span class="rivet c"></span><span class="rivet d"></span>
-        <div class="signhead">
-          <svg class="sp" width="16" height="16"><use href="#px-clock"/></svg>
-          <b>DEPARTURES</b>
-          <span class="lamp"></span><span class="t">on time</span>
-          <span class="t hide-s" id="foot" style="margin-left:auto">platform 2 · room 210</span>
-          <svg class="sp" width="16" height="16"><use href="#px-arrow"/></svg>
+  <section class="pad s-hud">
+      <div class="hud">
+        <div class="pnl tslate stat">
+          <p class="l lab">Level</p>
+          <div class="mid"><p class="num" style="color:var(--slate-ink)" id="d-level">18</p><svg class="sp" width="48" height="48"><use href="#px-sun"/></svg></div>
+          <small class="rwd" style="color:var(--slate-ink)">at 19 <svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>75 · rainy-day skin</small>
         </div>
-        <div class="flaps" id="flaps"></div>
-        <div class="rail" id="plat">
-          <span class="ties"></span>
-          <span class="post"></span><span class="apr"></span>
-          <svg class="sp drop" style="left:16%;animation-delay:0s" width="8" height="8"><use href="#px-droplet"/></svg>
-          <svg class="sp drop" style="left:47%;animation-delay:.7s" width="8" height="8"><use href="#px-droplet"/></svg>
-          <svg class="sp drop" style="left:73%;animation-delay:1.3s" width="8" height="8"><use href="#px-droplet"/></svg>
-          <span class="car" id="car"><svg class="sp" width="64" height="32" viewBox="0 0 32 16"><use href="#px-tram"/></svg></span>
+        <div class="pnl tmoss stat">
+          <p class="l lab">XP</p>
+          <div class="mid"><p class="num" style="color:var(--moss-ink)" id="d-xp">1,540</p><svg class="sp" width="48" height="48"><use href="#px-book"/></svg></div>
+          <div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="tip"></i><i></i><i></i><i></i></div>
+          <small class="rwd" style="color:var(--moss-ink)">460 to <svg class="sp" width="16" height="16"><use href="#px-sun"/></svg>19</small>
+        </div>
+        <div class="pnl tbutter stat">
+          <p class="l lab">Gold</p>
+          <div class="mid"><p class="num" style="color:var(--butter-ink)" id="d-gold">210</p><svg class="sp" width="48" height="48"><use href="#px-coin"/></svg></div>
+          <small class="rwd" style="color:var(--butter-ink)"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>15 to claim</small>
+        </div>
+        <div class="pnl trose stat">
+          <p class="l lab">Streak</p>
+          <div class="mid"><p class="num" style="color:var(--rose-ink)" id="d-streak">6</p><svg class="sp" width="48" height="48"><use href="#px-sprout"/></svg></div>
+          <small class="rwd" style="color:var(--rose-ink)">1 night to <svg class="sp" width="16" height="16"><use href="#px-sprout"/></svg>7</small>
         </div>
       </div>
-    </div></div>
+    </section>
+  </div>
+  </header>
+
   </div></div>
 
     <div class="dvwrap"><img class="dvt" src="{{g_grass}}" alt=""></div>
   <div class="cols">
     <aside class="side">
-<section class="pad s-hud" style="padding-top:18px">
-    <div class="hud">
-      <div class="pnl tslate stat">
-        <p class="l lab">Level</p>
-        <div class="mid"><p class="num" style="color:var(--slate-ink)" id="d-level">18</p><svg class="sp" width="48" height="48"><use href="#px-sun"/></svg></div>
-        <small class="rwd">at 19 <svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>75 · rainy-day skin</small>
-      </div>
-      <div class="pnl tmoss stat">
-        <p class="l lab">XP</p>
-        <div class="mid"><p class="num" style="color:var(--moss-ink)" id="d-xp">1,540</p><svg class="sp" width="48" height="48"><use href="#px-book"/></svg></div>
-        <div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="tip"></i><i></i><i></i><i></i></div>
-      </div>
-      <div class="pnl tbutter stat">
-        <p class="l lab">Gold</p>
-        <div class="mid"><p class="num" style="color:var(--butter-ink)" id="d-gold">210</p><svg class="sp" width="48" height="48"><use href="#px-coin"/></svg></div><small>+15 to claim</small>
-      </div>
-      <div class="pnl trose stat">
-        <p class="l lab">Streak</p>
-        <div class="mid"><p class="num" style="color:var(--rose-ink)" id="d-streak">6</p><svg class="sp" width="48" height="48"><use href="#px-sprout"/></svg></div><small>1 night to unlock</small>
-      </div>
-    </div>
-  </section>
-<section class="pad below s-five" style="padding-top:6px">
+<section class="pad below s-five">
     <div class="five">
       <div class="pnl chipcard"><p class="cap">Mon + Wed</p><div class="in"><h3>Property</h3><p>DiGennaro</p>
         <div class="st"><i class="chip" style="background:#E9CE8A"></i><span style="color:var(--butter-ink)">reading due</span></div></div></div>
@@ -487,7 +499,7 @@ body.hero-only .wrap{padding-bottom:18px}
   </section>
     </aside>
     <main class="main">
-<section class="pad s-body" style="padding-top:6px">
+<section class="pad s-body">
     <div class="grid two">
       <div class="pnl card below">
         <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-train"/></svg> NEXT UP</p>
@@ -514,7 +526,7 @@ body.hero-only .wrap{padding-bottom:18px}
       </div>
     </div>
   </section>
-<section class="pad below s-today" style="padding-top:6px">
+<section class="pad below s-today">
     <div class="pnl card">
       <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-signal"/></svg> <span id="d-open-hd">TODAY · 5 OPEN</span></p>
       <div class="bd"><ul class="rows" id="d-rows">
@@ -526,7 +538,7 @@ body.hero-only .wrap{padding-bottom:18px}
       </ul></div>
     </div>
   </section>
-<section class="pad below s-shelf" style="padding-top:6px">
+<section class="pad below s-shelf">
     <div class="pnl card">
       <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-star"/></svg> THE SHELF</p>
       <div class="bd">
@@ -571,14 +583,43 @@ body.hero-only .wrap{padding-bottom:18px}
 
   
 
-  <section class="pad s-nav" style="padding-top:6px">
+  <section class="pad s-nav">
     <nav class="nav pnl" style="padding:6px">
       <a href="https://app.notion.com/p/3c9063496baf8126a0c3d9e9bac4d716" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-train"/></svg>night shift</a>
       <a href="https://app.notion.com/p/3c0063496baf81b7a5a7c9ccfd54f8be" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-sun"/></svg>today</a>
       <a href="https://app.notion.com/p/3c6063496baf81b4be0ccc29411c4164" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-book"/></svg>this week</a>
       <a href="https://app.notion.com/p/3c9063496baf81869c19f750a1f94e7e" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-star"/></svg>save point</a>
+      <span class="soon" aria-disabled="true"><svg class="sp" width="16" height="16"><use href="#px-clock"/></svg>day shift<i>soon</i></span>
     </nav>
   </section>
+
+  <div class="rig"><div class="inner">
+    <div class="gantry">
+      <span class="cap l"></span><span class="cap r"></span>
+      <span class="bird"><svg class="sp" width="32" height="32"><use href="#px-bird"/></svg></span>
+    </div>
+    <div class="straps"><i></i><i></i></div>
+    <div class="brd1"><div class="brd2">
+      <div class="signboard">
+        <span class="rivet a"></span><span class="rivet b"></span><span class="rivet c"></span><span class="rivet d"></span>
+        <div class="signhead">
+          <svg class="sp" width="16" height="16"><use href="#px-clock"/></svg>
+          <b>DEPARTURES</b>
+          <span class="lamp"></span><span class="t">on time</span>
+          <span class="t hide-s" id="foot" style="margin-left:auto">platform 2 · room 210</span>
+          <svg class="sp" width="16" height="16"><use href="#px-arrow"/></svg>
+        </div>
+        <div class="flaps" id="flaps"></div>
+        <div class="rail" id="plat">
+          <span class="ties"></span>
+          <span class="post"></span><span class="apr"></span>
+          <svg class="sp drop" style="left:16%;animation-delay:0s" width="8" height="8"><use href="#px-droplet"/></svg>
+          <svg class="sp drop" style="left:47%;animation-delay:.7s" width="8" height="8"><use href="#px-droplet"/></svg>
+          <svg class="sp drop" style="left:73%;animation-delay:1.3s" width="8" height="8"><use href="#px-droplet"/></svg>
+          <span class="car" id="car"><svg class="sp" width="64" height="32" viewBox="0 0 32 16"><use href="#px-tram"/></svg></span>
+        </div>
+      </div>
+    </div></div>
 
   <div class="seam"><p id="d-stamp">below this line lives in notion</p></div>
 
@@ -747,7 +788,13 @@ body.hero-only .wrap{padding-bottom:18px}
         set('d-q-read-sub', days > 1 ? ('no class until ' + when.replace("'s","") + ' · lore')
                                      : ((d.next.prepped ? 'done · ' : 'daily · ') + 'lore'));
         var row = $('d-q-read-row');
-        if (row) row.style.opacity = (days > 1 || d.next.prepped) ? '.62' : '';
+        if (row) {
+          var idle = (days > 1 || d.next.prepped);
+          row.style.opacity = idle ? '.62' : '';
+          /* a quest you cannot act on today should not sit between two you can —
+             greyed rows sink to the bottom of the list. */
+          if (idle && row.parentNode) row.parentNode.appendChild(row);
+        }
       }
 
       /* freshness, and any database the Action could not read */
