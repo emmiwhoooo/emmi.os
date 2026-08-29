@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The Window Seat</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,500;0,600;1,400&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=DotGothic16&display=swap">
 <style>
@@ -236,6 +238,40 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
 .seam p{font-size:.68rem;color:var(--dim);margin:0;text-align:center;padding:12px 0 0;
   font-family:var(--bd-face);font-weight:700;text-transform:uppercase;letter-spacing:.14em}
 body.hero-only .below{display:none}
+
+/* ================= hero layout =================
+   Embedded in Notion the page had one column, so a 540px window stacked on
+   the title, rail, HUD and quests came to 1436px — taller than the embed can
+   be dragged, and it scrolled inside itself while leaving big empty gutters
+   either side. In an embed the constraint is inverted from a normal page:
+   width is free, height is the scarce thing. So hero mode goes two-column and
+   spends the width instead of the height. Also sized down a step because the
+   workspace is viewed at 75% zoom. */
+body.hero-only .wrap{
+  max-width:1500px; padding:10px 16px 14px;
+  display:grid; align-items:start; column-gap:20px; row-gap:6px;
+  grid-template-columns:minmax(300px,34%) 1fr;
+  grid-template-areas:"win head" "win hud" "win quests" "rail rail" "nav nav";
+}
+body.hero-only .winwrap{grid-area:win;padding:6px 0 0}
+body.hero-only .window{max-width:none}
+body.hero-only .title{grid-area:head;text-align:left;padding:2px 0 0}
+body.hero-only .title .line{margin-left:0;max-width:46ch}
+body.hero-only .s-hud{grid-area:hud;padding:10px 0 0}
+body.hero-only .s-quests{grid-area:quests;padding:8px 0 0}
+body.hero-only .rig{grid-area:rail;padding:10px 0 0}
+body.hero-only .s-nav{grid-area:nav;padding:8px 0 0}
+body.hero-only .dvwrap,
+body.hero-only .seam{display:none}
+body.hero-only .hud{grid-template-columns:repeat(4,1fr)}
+body.hero-only .title h1{font-size:clamp(1.6rem,3vw,2.2rem)}
+body.hero-only .stat .num{font-size:1.6rem}
+body.hero-only .quest .slot{width:38px;height:38px}
+@media(max-width:860px){
+  body.hero-only .wrap{grid-template-columns:1fr;
+    grid-template-areas:"win" "head" "hud" "quests" "rail" "nav"}
+}
+
 body.hero-only .grid.two{grid-template-columns:1fr}
 body.hero-only .wrap{padding-bottom:18px}
 @media(prefers-reduced-motion:reduce){.flap.turn span{animation-duration:1.2s}.rain svg{animation-duration:22s}}
@@ -321,7 +357,7 @@ body.hero-only .wrap{padding-bottom:18px}
     </div></div>
   </div></div>
 
-  <section class="pad" style="padding-top:18px">
+  <section class="pad s-hud" style="padding-top:18px">
     <div class="hud">
       <div class="pnl tslate stat">
         <p class="l lab">Level</p>
@@ -346,7 +382,7 @@ body.hero-only .wrap{padding-bottom:18px}
 
   <div class="dvwrap"><img class="dvt" src="assets/dividers/ghibli/g_grass.webp" alt=""></div>
 
-  <section class="pad" style="padding-top:6px">
+  <section class="pad s-quests" style="padding-top:6px">
     <div class="grid two">
       <div class="pnl card below">
         <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-train"/></svg> NEXT UP</p>
@@ -364,8 +400,8 @@ body.hero-only .wrap{padding-bottom:18px}
         <div class="pnl quest"><span class="slot"><svg class="sp" width="32" height="32"><use href="#px-gavel"/></svg></span>
           <div><h4>brief a case</h4><p>daily · litigation</p></div>
           <span class="rw"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>5</span></div>
-        <div class="pnl quest"><span class="slot"><svg class="sp" width="32" height="32"><use href="#px-book"/></svg></span>
-          <div><h4>prep tomorrow's reading</h4><p>daily · lore</p></div>
+        <div class="pnl quest" id="d-q-read-row"><span class="slot"><svg class="sp" width="32" height="32"><use href="#px-book"/></svg></span>
+          <div><h4 id="d-q-read">prep tomorrow's reading</h4><p id="d-q-read-sub">daily · lore</p></div>
           <span class="rw"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>5</span></div>
         <div class="pnl quest"><span class="slot"><svg class="sp" width="32" height="32"><use href="#px-quill"/></svg></span>
           <div><h4>brain dump before bed</h4><p>daily · drafting</p></div>
@@ -437,7 +473,7 @@ body.hero-only .wrap{padding-bottom:18px}
     </div>
   </section>
 
-  <section class="pad" style="padding-top:6px">
+  <section class="pad s-nav" style="padding-top:6px">
     <nav class="nav pnl" style="padding:6px">
       <a href="https://app.notion.com/p/3c9063496baf8126a0c3d9e9bac4d716" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-train"/></svg>night shift</a>
       <a href="https://app.notion.com/p/3c0063496baf81b7a5a7c9ccfd54f8be" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-sun"/></svg>today</a>
@@ -552,6 +588,7 @@ body.hero-only .wrap{padding-bottom:18px}
   var set = function(id, txt){ var e = $(id); if (e && txt != null && txt !== '') e.textContent = txt; };
 
   var DOW  = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var DAY  = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   var MON  = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   function parseDay(s){ if(!s) return null; var p = s.slice(0,10).split('-'); return new Date(+p[0], +p[1]-1, +p[2]); }
   function pretty(s){ var d = parseDay(s); return d ? DOW[d.getDay()] + ' · ' + MON[d.getMonth()] + ' ' + d.getDate() : ''; }
@@ -609,6 +646,21 @@ body.hero-only .wrap{padding-bottom:18px}
         if (t.daysToFinals != null) msgs.push({t: 'FINALS IN ' + t.daysToFinals + ' DAYS',
                                                f: 'week ' + t.week + ' of ' + t.of});
         if (msgs.length) window.__wsBoard(msgs);
+      }
+
+
+      /* The reading quest was hard-coded to "tomorrow". On a Friday there is no
+         class tomorrow, so it was telling her to prep for nothing. Name the day
+         the next session actually falls on, and say so when it is not tomorrow. */
+      if (d.next && d.next.date) {
+        var nd = parseDay(d.next.date), td = new Date(); td.setHours(0,0,0,0);
+        var days = Math.round((nd - td) / 86400000);
+        var when = days <= 0 ? "today's" : days === 1 ? "tomorrow's" : DAY[nd.getDay()] + "'s";
+        set('d-q-read', 'prep ' + when + ' reading');
+        set('d-q-read-sub', days > 1 ? ('no class until ' + when.replace("'s","") + ' · lore')
+                                     : ((d.next.prepped ? 'done · ' : 'daily · ') + 'lore'));
+        var row = $('d-q-read-row');
+        if (row) row.style.opacity = (days > 1 || d.next.prepped) ? '.62' : '';
       }
 
       /* freshness, and any database the Action could not read */
