@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         the window seat
 @namespace    em.windowseat
-@version      1.1.2
+@version      1.2.0
 @description  daylight skin for the window seat notion page only. scoped by page id,
               so save point and night shift keep their own dark skins untouched.
 @author       em
@@ -342,4 +342,30 @@ body.notion-dark-theme {
 @media (prefers-reduced-motion: reduce) {
   .notion-page-content * { animation: none !important; transition: none !important; }
 }
+
+/* ---------------------------------------------------------------
+   GROUND HARDENING (v1.2.0, Aug 29)
+   Same fix the save point skin needed: Notion's `.notion-cursor-listener`
+   wrapper is wider than the viewport and carries the theme background, so
+   without painting it the daylight ground stops at the content column and
+   Notion's own colour shows in the gutters. `body` was only being caught
+   here via the `.notion-dark-theme` rule, which does nothing if the
+   workspace is switched to light.
+   --------------------------------------------------------------- */
+html, body,
+.notion-cursor-listener,
+.notion-app-inner,
+.notion-body,
+.notion-overlay-container {
+  background: var(--ws-ground) !important;
+}
+.notion-calendar-view,
+.notion-calendar-view-day,
+.notion-board-view,
+.notion-board-group {
+  background: var(--ws-panel) !important;
+  color: var(--ws-ink) !important;
+}
+.notion-calendar-view-day-name,
+.notion-calendar-view-header { color: var(--ws-dim) !important; }
 }
