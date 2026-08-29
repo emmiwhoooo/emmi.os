@@ -92,7 +92,7 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
    HUD, so it stays shallow and stays moving: the tie strip scrolls constantly,
    the tram runs it end to end, the lamp blinks, the flaps flip on each pass.
    construction rules are the window's — hard colour stops, square fasteners. */
-.rig{padding:22px clamp(12px,3.4vw,24px) 4px;display:flex;justify-content:center}
+.rig{padding:22px clamp(10px,2.4vw,16px) 4px;display:flex;justify-content:center}
 .rig .inner{width:100%;position:relative}
 /* girder */
 .gantry{position:relative;height:9px;
@@ -142,7 +142,7 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
 @keyframes slide{from{background-position:0 0}to{background-position:-11px 0}}
 .rail::before{content:"";position:absolute;left:0;right:0;bottom:11px;height:3px;background:#6E7A70;z-index:1}
 .rail .car{position:absolute;bottom:12px;left:-72px;z-index:2;animation:roll var(--cycle,9s) linear infinite}
-@keyframes roll{0%{transform:translateX(0)}100%{transform:translateX(1200px)}}
+@keyframes roll{0%{transform:translateX(0)}100%{transform:translateX(var(--run,1200px))}}
 .rail .post{position:absolute;bottom:12px;right:44px;width:4px;height:14px;background:#6E7A70;z-index:1}
 .rail .apr{position:absolute;right:40px;bottom:23px;width:8px;height:8px;background:#8A948B;z-index:3;
   box-shadow:inset -2px -2px 0 #5D6A5E;transition:background .15s steps(2)}
@@ -229,19 +229,30 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
 .dvwrap{padding:4px clamp(6px,2vw,14px)}
 .dvt{display:block;width:100%;height:auto}
 
-.nav{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
-.nav a{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);padding:9px 11px;
+/* Five equal berths with hairlines between them. The old auto-fit/1fr grid
+   stretched each cell to ~290px and left the label hugging its left edge, so
+   the bar read as mostly empty rather than as a divided sign. */
+.nav{display:grid;gap:0;grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.nav > *{border-left:2px solid var(--sunk)}
+.nav > *:first-child{border-left:0}
+.nav a{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;color:var(--ink);padding:9px 11px;
   font-family:var(--px-face);font-weight:400;font-size:.92rem;letter-spacing:.05em}
 .nav a:hover{background:var(--sunk)}
 .nav a:focus-visible{outline:3px solid var(--slate);outline-offset:2px}
 /* the fifth berth is built but unserved — the daytime school view lands here */
-.nav .soon{display:flex;align-items:center;gap:8px;padding:9px 11px;color:var(--dim);cursor:default;
+.nav .soon{display:flex;align-items:center;justify-content:center;gap:8px;padding:9px 11px;color:var(--dim);cursor:default;
   font-family:var(--px-face);font-weight:400;font-size:.92rem;letter-spacing:.05em;
-  border:2px dashed var(--edge);opacity:.85}
-.nav .soon i{margin-left:auto;font-style:normal;font-family:var(--bd-face);font-weight:700;
+  opacity:.7}
+.nav .soon i{margin-left:6px;font-style:normal;font-family:var(--bd-face);font-weight:700;
   font-size:.58rem;text-transform:uppercase;letter-spacing:.14em}
 .nav .soon .sp{opacity:.55}
 
+/* the caption line had a whole page of empty width beside it; the stamp that
+   was buried in the (desktop-hidden) seam now lives at its other end. */
+.dateline{display:flex;align-items:baseline;gap:12px;
+  border-bottom:2px solid var(--sunk);padding-bottom:5px;margin-bottom:7px}
+.dateline .date{margin:0}
+.dateline .stamp{margin-left:auto;color:var(--dim);text-align:right;white-space:nowrap}
 .seam p{font-size:.68rem;color:var(--dim);margin:0;text-align:center;padding:12px 0 0;
   font-family:var(--bd-face);font-weight:700;text-transform:uppercase;letter-spacing:.14em}
 
@@ -347,7 +358,7 @@ body{font-size:15px}
   body:not(.hero-only) .chipcard .st{grid-column:2;grid-row:1/3;margin-top:0;
     flex-direction:column;gap:3px;text-align:right;font-size:.55rem}
   body:not(.hero-only) .s-two img{max-height:104px;object-fit:cover}
-  body:not(.hero-only) .rig{padding:0 0 6px}
+  body:not(.hero-only) .rig{padding:0 clamp(10px,2.4vw,16px) 6px}
   body:not(.hero-only) .card .bd{padding:9px 10px}
   body:not(.hero-only) .quests{gap:6px}
 }
@@ -387,6 +398,7 @@ body.hero-only .cols > .side,
 body.hero-only .cols > .main{width:100%}
 body.hero-only .cols section{padding:0}
 body.hero-only .rig{grid-area:rail;padding:2px 0 0}
+body.hero-only .s-nav .nav{margin:0}
 body.hero-only .s-nav{grid-area:nav;padding:6px 0 0}
 body.hero-only .dvwrap,
 body.hero-only .seam{display:none}
@@ -453,7 +465,10 @@ body.hero-only .wrap{padding-bottom:18px}
 
   <div class="mastr">
   <div class="title">
-    <p class="date lab" id="d-term">Fri · Aug 28 · Week 2 of 14</p>
+    <div class="dateline">
+      <p class="date lab" id="d-term">Fri · Aug 28 · Week 2 of 14</p>
+      <p class="date lab stamp" id="d-stamp">live</p>
+    </div>
     <h1>the window seat</h1>
     <p class="line">Rain on the glass all morning, clearing by four. Nothing is due until Monday — today is a catching-up day, not a keeping-up one.</p>
   </div>
@@ -637,7 +652,7 @@ body.hero-only .wrap{padding-bottom:18px}
       </div>
     </div></div>
   </div></div>
-  <div class="seam"><p id="d-stamp">below this line lives in notion</p></div>
+  <div class="seam"><p>below this line lives in notion</p></div>
 
   
 
@@ -657,12 +672,50 @@ body.hero-only .wrap{padding-bottom:18px}
     {t:"FINALS IN 96 DAYS",           f:"week 2 of 14"},
     {t:"OPEN THE SHADES  +5G",        f:"daily · unclaimed"}
   ];
-  var N=28, wrap=document.getElementById('flaps'), cells=[];
-  for(var i=0;i<N;i++){var d=document.createElement('div');d.className='flap';
-    var s=document.createElement('span');s.textContent=' ';d.appendChild(s);wrap.appendChild(d);cells.push(d);}
+  /* The board was a fixed 28 cells — a 530px strip marooned in the middle of a
+     1500px sign, and any message past 28 characters was simply truncated. The
+     cell count is derived from the board's own width instead, so the flaps fill
+     the sign and the copy stops getting cut for want of room it already has. */
+  var wrap=document.getElementById('flaps'), cells=[], N=0;
+  function cellPitch(){
+    var probe=document.createElement('div'); probe.className='flap';
+    wrap.appendChild(probe);
+    var w=probe.getBoundingClientRect().width;
+    var gap=parseFloat(getComputedStyle(wrap).columnGap)||2;
+    wrap.removeChild(probe);
+    return (w||17)+gap;
+  }
+  function fit(){
+    var pad=parseFloat(getComputedStyle(wrap).paddingLeft)||0;
+    var avail=(wrap.clientWidth||600)-pad*2;
+    return Math.max(18, Math.min(96, Math.floor((avail+2)/cellPitch())));
+  }
+  function build(){
+    var n=fit();
+    if(n===N) return false;
+    N=n; wrap.textContent=''; cells=[];
+    for(var i=0;i<N;i++){
+      var d=document.createElement('div'); d.className='flap';
+      var sp=document.createElement('span'); sp.textContent=' ';
+      d.appendChild(sp); wrap.appendChild(d); cells.push(d);
+    }
+    return true;
+  }
+  build();
   var CH="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 +:·";
-  function pad(t){t=t.toUpperCase();if(t.length>N)t=t.slice(0,N);
-    var l=Math.floor((N-t.length)/2);return " ".repeat(l)+t+" ".repeat(N-t.length-l);}
+  /* A real departures board sets the service flush left and the time flush
+     right; centring a short string on a wide board is what made the width read
+     as waste. MSG already separates the two halves with a double space. */
+  function pad(t){
+    t=(t||"").toUpperCase();
+    var L=t, R="", sp=t.indexOf("  ");
+    if(sp>0){ L=t.slice(0,sp).trim(); R=t.slice(sp).trim(); }
+    if(L.length+R.length+3>N){ L=t.replace(/\s+/g," ").trim(); R=""; }
+    if(L.length>N) L=L.slice(0,N);
+    if(L.length+R.length>N) R=R.slice(0,Math.max(0,N-L.length));
+    var lead=(N-L.length-R.length>=2)?1:0;
+    return " ".repeat(lead)+L+" ".repeat(N-lead-L.length-R.length)+R;
+  }
   var idx=0;
   function show(text){
     var t=pad(text);
@@ -681,6 +734,14 @@ body.hero-only .wrap{padding-bottom:18px}
   var plat=document.getElementById('plat'), car=document.getElementById('car'),
       foot=document.getElementById('foot'),
       slow=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+  /* the tram ran a hard-coded 1200px, which stopped short of a wide sign */
+  function measure(){
+    plat.style.setProperty('--run', (plat.clientWidth + 90) + 'px');
+    if(build()) show(MSG[idx].t);
+  }
+  var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(measure, 180); });
+  measure();
 
   function advance(){
     idx=(idx+1)%MSG.length;
