@@ -30,6 +30,7 @@ DB = {
     "assignments":"0c795daa-579d-460e-845e-4d53afcc1290",   # Assignments v6
     "cases":      "cfca3b5f-1ce2-48b2-a879-966edfe610c9",   # Case Bank v6
     "courses":    "c1977d28-e2e1-4125-8ddb-2a38a9d23b41",   # courses
+    "resources":  "a52c8648-160e-43a1-9d88-302664a48bd4",   # Resources v6
 }
 
 TERM_START, TERM_END, TERM_WEEKS = date(2026, 8, 17), date(2026, 12, 2), 14
@@ -176,8 +177,26 @@ def main():
     graded = [a for a in open_work if a["type"] == "graded"]
     overdue = [a for a in open_work if a["overdue"]]
 
-    # ---- the shelf — how much is in the case bank ----
-    cases = query("cases", page_size=1) if "cases" in DB else []
+    # ---- the shelf — recent cases, rule/holding lives on the page itself ----
+    shelf = []
+    for row in query("cases", page_size=8,
+                     sorts=[{"timestamp": "created_time", "direction": "descending"}]):
+        p = row["properties"]
+        shelf.append({"title": title_of(p), "course": course_of(p), "url": row.get("url")})
+
+    # ---- the reserve — handouts, slides, statutes, case texts ----
+    # Resources hangs off both Course and Session, and carries either an uploaded
+    # file or an external Link. Prefer the Link; fall back to the Notion page.
+    reserve = []
+    for row in query("resources", page_size=12,
+                     sorts=[{"timestamp": "created_time", "direction": "descending"}]):
+        p = row["properties"]
+        reserve.append({
+            "title":  title_of(p),
+            "course": course_of(p),
+            "kind":   select_of(p, "Kind"),
+            "link":   (p.get("Link") or {}).get("url") or row.get("url"),
+        })
 
     d = date.today()
     week = max(1, min(TERM_WEEKS, ((d - TERM_START).days // 7) + 1))
@@ -191,11 +210,14 @@ def main():
         "next":        sessions[0] if sessions else None,
         "upcoming":    sessions[:6],
         "walkHome":    walk_home[:10],
+        "shelf":       shelf,
+        "reserve":     reserve,
         "weather":     open_work[:10],
         "longHaul":    graded[:6],
         "counts":      {"open": len(open_work), "overdue": len(overdue),
                         "graded": len(graded), "unmerged": len(walk_home),
-                        "courses": len(course_name)},
+                        "courses": len(course_name), "cases": len(shelf),
+                        "reserve": len(reserve)},
         "courses":     sorted(course_name.values()),
         "errors":      errors,
     }
@@ -206,8 +228,10 @@ def main():
         json.dump(out, f, indent=1, ensure_ascii=False)
         f.write("\n")
 
-    print("wrote %s — %d open, %d overdue, %d unmerged, %d courses"
-          % (path, len(open_work), len(overdue), len(walk_home), len(course_name)))
+    print("wrote %s — %d open, %d overdue, %d unmerged, %d courses, "
+          "%d cases, %d resources"
+          % (path, len(open_work), len(overdue), len(walk_home),
+             len(course_name), len(shelf), len(reserve)))
     if errors:
         print("errors (page will show these):", file=sys.stderr)
         for e in errors:
