@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        save point (Notion web)
 @namespace   em.savepoint
-@version      3.2.0
+@version      3.2.1
 @description  Neon night skin for the save point, night shift and pocket pages only: deep navy ground, neon-pink glow accents, pixel display font for headings. Install the Stylus browser extension, then paste this whole file into a new style. Toggle it off any time from the Stylus icon.
 @author       em
 @homepageURL  https://github.com/emmiwhoooo/emmi.os
@@ -199,12 +199,16 @@
      — the right gutter, the area under short pages, the overscroll —
      stayed WHITE. That is the "broken css" symptom.
      Paint the wrapper, body and html from the same token.
+
+     DO NOT add .notion-overlay-container to this list. It is position:fixed,
+     z-index:999 and 2400x1239 — an overlay layer that sits ON TOP of the whole
+     app and is normally transparent. Painting it opaque hides the entire page.
+     Verified Aug 29: adding it rendered night shift completely blank.
      --------------------------------------------------------------- */
   html, body,
   .notion-cursor-listener,
   .notion-app-inner,
-  .notion-body,
-  .notion-overlay-container {
+  .notion-body {
     background: var(--nook-bg) !important;
   }
   /* calendar and board surfaces sit on transparent and inherit whatever is
