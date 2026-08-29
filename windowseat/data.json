@@ -1,0 +1,792 @@
+{
+ "generated": "2026-08-29T10:32:13+00:00",
+ "today": "2026-08-29",
+ "term": {
+  "week": 2,
+  "of": 14,
+  "start": "2026-08-17",
+  "end": "2026-12-02",
+  "daysToFinals": 95
+ },
+ "next": {
+  "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
+  "course": "Evidence",
+  "date": "2026-08-31",
+  "session": 5,
+  "reading": "CB 47-70 (skip Hanson p.65). F.R.E. 801(a)(c), 802.",
+  "prepped": false,
+  "status": "not merged",
+  "url": "https://app.notion.com/p/Evidence-5-Intro-to-Hearsay-Defining-Hearsay-3c6063496baf81e2a7fae4f2ba1c857f"
+ },
+ "upcoming": [
+  {
+   "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
+   "course": "Evidence",
+   "date": "2026-08-31",
+   "session": 5,
+   "reading": "CB 47-70 (skip Hanson p.65). F.R.E. 801(a)(c), 802.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-5-Intro-to-Hearsay-Defining-Hearsay-3c6063496baf81e2a7fae4f2ba1c857f"
+  },
+  {
+   "title": "LRW 5 — Analyzing Necessary",
+   "course": "LRW",
+   "date": "2026-09-01",
+   "session": 5,
+   "reading": "Review Burton Record (Burton & King declarations); bring Baughman paragraph.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
+  },
+  {
+   "title": "Evidence 6 — Implied Assertions; Confrontation Clause",
+   "course": "Evidence",
+   "date": "2026-09-01",
+   "session": 6,
+   "reading": "CB 70-74 (skip Dullard); 77-96.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-6-Implied-Assertions-Confrontation-Clause-3c6063496baf81d8b5b1e60d0e13e1f5"
+  },
+  {
+   "title": "Property 7 — SKILLS WORKSHOP 1 (adverse possession) — PRACTICE EXERCISE 1 DUE",
+   "course": "Property",
+   "date": "2026-09-02",
+   "session": 7,
+   "reading": "Skills Workshop 1 (adverse possession). PRACTICE EXERCISE 1 DUE (graded on completion, 3 pts).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-7-SKILLS-WORKSHOP-1-adverse-possession-PRACTICE-EXERCISE-1-DUE-3c6063496baf8182aa05e82d7a1d3e18"
+  },
+  {
+   "title": "Youth Justice 3 — Adolescence, Racism and Trauma [GROUP PROJECTS DISCUSSED]",
+   "course": "Youth Justice",
+   "date": "2026-09-03",
+   "session": 3,
+   "reading": "Roper v. Simmons (Parts I, II, III-B; skim III-A, IV); Graham v. Florida (majority + Thomas dissent Part III-C); TROI Ch.1 pp.3-24; BDTH Ch.8 pp.151-163 (optional 163-180). Watch: Cauffman TED talk. NOTE: Group Projects discussed this class. Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-3-Adolescence-Racism-and-Trauma-GROUP-PROJECTS-DISCUSSED-3c6063496baf810a82f5d1587ee1c840"
+  },
+  {
+   "title": "Property 8 — Present estates — life estates, pur autre vie, fee tail",
+   "course": "Property",
+   "date": "2026-09-03",
+   "session": 8,
+   "reading": "Slowly read 769-70 (§3.2) and 761-62 (\"The Fee Tail\").",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-8-Present-estates-life-estates-pur-autre-vie-fee-tail-3c6063496baf81bf9641c34ae4c532d1"
+  }
+ ],
+ "walkHome": [
+  {
+   "title": "Property 1 — What does it mean to own something? Trespass",
+   "course": "Property",
+   "date": "2026-08-19",
+   "url": "https://app.notion.com/p/Property-1-What-does-it-mean-to-own-something-Trespass-3c6063496baf8169a9fec5b4894d7bfd"
+  },
+  {
+   "title": "Property 2 — Acquisition by conquest and subordination",
+   "course": "Property",
+   "date": "2026-08-20",
+   "url": "https://app.notion.com/p/Property-2-Acquisition-by-conquest-and-subordination-3c6063496baf8125a977c770163b1e94"
+  },
+  {
+   "title": "Negotiations 1 — Fundamentals; Preparation; Planning Memos (SWON) — Role-play: Adams-Riverfront",
+   "course": "Negotiations",
+   "date": "2026-08-21",
+   "url": "https://app.notion.com/p/Negotiations-1-Fundamentals-Preparation-Planning-Memos-SWON-Role-play-Adams-Riverfront-3c6063496baf81bd80e0de17a0433119"
+  },
+  {
+   "title": "Evidence 4 — Civil Cases; Subsequent Remedial Measures; Insurance",
+   "course": "Evidence",
+   "date": "2026-08-25",
+   "url": "https://app.notion.com/p/Evidence-4-Civil-Cases-Subsequent-Remedial-Measures-Insurance-3c6063496baf8147b71ec54f3e2adc9b"
+  },
+  {
+   "title": "Negotiations 2 — Integrative Bargaining; Options/Leverage; BATNA — Role-play: Serene Isle–Signal Fragrance",
+   "course": "Negotiations",
+   "date": "2026-08-27",
+   "url": "https://app.notion.com/p/Negotiations-2-Integrative-Bargaining-Options-Leverage-BATNA-Role-play-Serene-Isle-Signal-Fra-3c6063496baf81b9b207f5cb0c68b70b"
+  },
+  {
+   "title": "Property 5 — Adverse possession continued",
+   "course": "Property",
+   "date": "2026-08-27",
+   "url": "https://app.notion.com/p/Property-5-Adverse-possession-continued-3c6063496baf810b88edeada389db50a"
+  },
+  {
+   "title": "LRW 4 — Reading cases; intro to CREAC; Rule drafting",
+   "course": "LRW",
+   "date": "2026-08-28",
+   "url": "https://app.notion.com/p/LRW-4-Reading-cases-intro-to-CREAC-Rule-drafting-3c6063496baf81988c33d524279d11ad"
+  },
+  {
+   "title": "Property 6 — Introduction to estates; fee simple absolute; defeasible fees",
+   "course": "Property",
+   "date": "2026-08-28",
+   "url": "https://app.notion.com/p/Property-6-Introduction-to-estates-fee-simple-absolute-defeasible-fees-3c6063496baf8102bff5f1e6da78af0a"
+  },
+  {
+   "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
+   "course": "Evidence",
+   "date": "2026-08-31",
+   "url": "https://app.notion.com/p/Evidence-5-Intro-to-Hearsay-Defining-Hearsay-3c6063496baf81e2a7fae4f2ba1c857f"
+  },
+  {
+   "title": "LRW 5 — Analyzing Necessary",
+   "course": "LRW",
+   "date": "2026-09-01",
+   "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
+  }
+ ],
+ "shelf": [
+  {
+   "title": "⟨ ⟨ — new case — ⟩ ⟩",
+   "course": "",
+   "url": "https://app.notion.com/p/new-case-3c6063496baf803b99b3f58747b5da59"
+  },
+  {
+   "title": "⟨ duplicate me — new case ⟩",
+   "course": "",
+   "url": "https://app.notion.com/p/duplicate-me-new-case-3c6063496baf8181ac1bc55749d3fd29"
+  },
+  {
+   "title": "Vasquez v. Glassboro Service Assoc.",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Vasquez-v-Glassboro-Service-Assoc-3c6063496baf81059deeecca397b727b"
+  },
+  {
+   "title": "Ernst v. Conditt",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Ernst-v-Conditt-3c6063496baf81079734e7f5dc68afcb"
+  },
+  {
+   "title": "Granite Properties v. Manns",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Granite-Properties-v-Manns-3c6063496baf810eb7c8f511b364fedd"
+  },
+  {
+   "title": "South Burlington County NAACP v. Township of Mount Laurel",
+   "course": "Property",
+   "url": "https://app.notion.com/p/South-Burlington-County-NAACP-v-Township-of-Mount-Laurel-3c6063496baf811aa0a3c1c2e642576f"
+  },
+  {
+   "title": "Penn Central Transportation Co. v. New York City",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Penn-Central-Transportation-Co-v-New-York-City-3c6063496baf811b85b6c68475681c19"
+  },
+  {
+   "title": "Ark Land v. Harper",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Ark-Land-v-Harper-3c6063496baf811ba885d52a04b174de"
+  },
+  {
+   "title": "Finn v. Williams",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Finn-v-Williams-3c6063496baf8125a21ceac9b214e201"
+  },
+  {
+   "title": "El Di, Inc. v. Town of Bethany Beach",
+   "course": "Property",
+   "url": "https://app.notion.com/p/El-Di-Inc-v-Town-of-Bethany-Beach-3c6063496baf812897e0d9e7d19d07c2"
+  },
+  {
+   "title": "Evans v. Pollock",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Evans-v-Pollock-3c6063496baf813482c5e347b6462aa5"
+  },
+  {
+   "title": "Johnson v. M'Intosh",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Johnson-v-M-Intosh-3c6063496baf813b800fe983d696f427"
+  },
+  {
+   "title": "State v. Shack",
+   "course": "Property",
+   "url": "https://app.notion.com/p/State-v-Shack-3c6063496baf813ca328fc2bce061f00"
+  },
+  {
+   "title": "Kelo v. City of New London",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Kelo-v-City-of-New-London-3c6063496baf813f85e0dd7553f8bae1"
+  },
+  {
+   "title": "Northwest Real Estate Co. v. Serio",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Northwest-Real-Estate-Co-v-Serio-3c6063496baf813f9dfcfca5e90a4b40"
+  },
+  {
+   "title": "Sommer v. Kridel",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Sommer-v-Kridel-3c6063496baf81498cb5fbcddb4efe9e"
+  },
+  {
+   "title": "Lobato v. Taylor",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Lobato-v-Taylor-3c6063496baf8150b25bdd5964734a95"
+  },
+  {
+   "title": "Tenhet v. Boswell",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Tenhet-v-Boswell-3c6063496baf815998d3d4c8890aee53"
+  },
+  {
+   "title": "Scott v. Sandford",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Scott-v-Sandford-3c6063496baf8159b5f7ce962a4cf745"
+  },
+  {
+   "title": "Village of Euclid v. Ambler Realty",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Village-of-Euclid-v-Ambler-Realty-3c6063496baf815c9f8ce9dd8b75ce32"
+  },
+  {
+   "title": "Minjak v. Randolph",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Minjak-v-Randolph-3c6063496baf8160aaa3ff60f2df6181"
+  },
+  {
+   "title": "Nome 2000 v. Fagerstrom",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Nome-2000-v-Fagerstrom-3c6063496baf8176bcb0c9a322a85970"
+  },
+  {
+   "title": "State v. Mann",
+   "course": "Property",
+   "url": "https://app.notion.com/p/State-v-Mann-3c6063496baf818187b7e625b443149d"
+  },
+  {
+   "title": "Frech v. Piontkowski",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Frech-v-Piontkowski-3c6063496baf8183bf63fb07cc491374"
+  },
+  {
+   "title": "Deep Water Brewing v. Fairway Resources",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Deep-Water-Brewing-v-Fairway-Resources-3c6063496baf818781f4d272a43ac978"
+  },
+  {
+   "title": "Commonwealth v. Magadini",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Commonwealth-v-Magadini-3c6063496baf818a9219c3e810f53bc8"
+  },
+  {
+   "title": "Hawai'i Housing Auth. v. Midkiff",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Hawai-i-Housing-Auth-v-Midkiff-3c6063496baf819b96fbe8b09aea7aef"
+  },
+  {
+   "title": "Nectow v. City of Cambridge",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Nectow-v-City-of-Cambridge-3c6063496baf81a9a5ecfbc573ddba70"
+  },
+  {
+   "title": "Town of Belleville v. Parillo's",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Town-of-Belleville-v-Parillo-s-3c6063496baf81ababd3c636b2b5b597"
+  },
+  {
+   "title": "Cox v. Glenbrook",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Cox-v-Glenbrook-3c6063496baf81af9ab7c28c46b8e8f8"
+  },
+  {
+   "title": "Brown v. Gobble",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Brown-v-Gobble-3c6063496baf81c2bc82fbe61f75559f"
+  },
+  {
+   "title": "Tee-Hit-Ton Indians v. United States",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Tee-Hit-Ton-Indians-v-United-States-3c6063496baf81c6ba33d857a526311e"
+  },
+  {
+   "title": "Carr v. Deking",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Carr-v-Deking-3c6063496baf81c7866ee14f3d0880cf"
+  },
+  {
+   "title": "Green v. Lupo",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Green-v-Lupo-3c6063496baf81d6a12adf472a520c65"
+  },
+  {
+   "title": "Shelley v. Kraemer",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Shelley-v-Kraemer-3c6063496baf81e4b2aae68cace991c9"
+  },
+  {
+   "title": "Neponsit Property Owners' Ass'n v. Emigrant Industrial Savings Bank",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Neponsit-Property-Owners-Ass-n-v-Emigrant-Industrial-Savings-Bank-3c6063496baf81f8ab05df0d48e02cd2"
+  },
+  {
+   "title": "Javins v. First National Realty Corp.",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Javins-v-First-National-Realty-Corp-3c6063496baf81fca030e364e7e5f53b"
+  },
+  {
+   "title": "In re Gault",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/In-re-Gault-3c6063496baf814997acce63c6b67261"
+  },
+  {
+   "title": "In re Alonzo J.",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/In-re-Alonzo-J-3c6063496baf818d95e3f7c55e13305b"
+  },
+  {
+   "title": "In re O.F.",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/In-re-O-F-3c6063496baf81988447d4e3a40e7091"
+  },
+  {
+   "title": "Roper v. Simmons",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/Roper-v-Simmons-3c6063496baf819eafa3e2dca421a7cf"
+  },
+  {
+   "title": "J.D.B. v. North Carolina",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/J-D-B-v-North-Carolina-3c6063496baf81bab1d5d434169d1613"
+  },
+  {
+   "title": "Graham v. Florida",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/Graham-v-Florida-3c6063496baf81c191e2eaafb14e6242"
+  },
+  {
+   "title": "Eilers v. Coy",
+   "course": "LRW",
+   "url": "https://app.notion.com/p/Eilers-v-Coy-3c6063496baf81dc88e9c549d1b4d69b"
+  },
+  {
+   "title": "In re Teofilio A.",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/In-re-Teofilio-A-3c6063496baf81e4a214e07226c5b524"
+  },
+  {
+   "title": "Daubert v. Merrell Dow Pharmaceuticals",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Daubert-v-Merrell-Dow-Pharmaceuticals-3c6063496baf810081f3dd630dcb56a6"
+  },
+  {
+   "title": "Tome v. U.S.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Tome-v-U-S-3c6063496baf8101ba10cae602bb6a6c"
+  },
+  {
+   "title": "Trump v. U.S.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Trump-v-U-S-3c6063496baf8104ab56f036b4c6a87b"
+  },
+  {
+   "title": "Pena-Rodriguez v. Colorado",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Pena-Rodriguez-v-Colorado-3c6063496baf8104b0b3f4f827bc78f1"
+  },
+  {
+   "title": "United States v. Dominguez",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Dominguez-3c6063496baf8111871aff0b412e1ad3"
+  },
+  {
+   "title": "Hemphill v. New York",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Hemphill-v-New-York-3c6063496baf81229da1e4a322b0eb3d"
+  },
+  {
+   "title": "Bourjaily v. U.S.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Bourjaily-v-U-S-3c6063496baf81299ba8f1c871a8b315"
+  },
+  {
+   "title": "U.S. v. Jicarilla",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/U-S-v-Jicarilla-3c6063496baf8129a866cb1d45c8037c"
+  },
+  {
+   "title": "Mutual Life v. Hillmon",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Mutual-Life-v-Hillmon-3c6063496baf8133b986e6b0b51224ca"
+  },
+  {
+   "title": "Knapp v. State",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Knapp-v-State-3c6063496baf813c86f3c3b0f5684230"
+  },
+  {
+   "title": "U.S. v. Mehanna",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/U-S-v-Mehanna-3c6063496baf813cad07cdeaa7cf56d8"
+  },
+  {
+   "title": "Bullcoming v. New Mexico",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Bullcoming-v-New-Mexico-3c6063496baf814391fbc456a377ad2d"
+  },
+  {
+   "title": "Samia v. U.S.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Samia-v-U-S-3c6063496baf81548d95ff194d69db9b"
+  },
+  {
+   "title": "Palmer v. Hoffman",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Palmer-v-Hoffman-3c6063496baf81628ffec460003c031e"
+  },
+  {
+   "title": "U.S. v. Salerno",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/U-S-v-Salerno-3c6063496baf81638f7ff6bb353e92d3"
+  },
+  {
+   "title": "Crawford v. Washington",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Crawford-v-Washington-3c6063496baf8164b719f2223186ff38"
+  },
+  {
+   "title": "Palin v. New York Times",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Palin-v-New-York-Times-3c6063496baf816e859ddec7031f921c"
+  },
+  {
+   "title": "Trammel v. U.S.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Trammel-v-U-S-3c6063496baf816eaec2fe3db67d9842"
+  },
+  {
+   "title": "Kumho Tire v. Carmichael",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Kumho-Tire-v-Carmichael-3c6063496baf817b8593f41d512b703b"
+  },
+  {
+   "title": "Ohio v. Clark",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Ohio-v-Clark-3c6063496baf817d888fd8b724200e97"
+  },
+  {
+   "title": "Melendez-Diaz v. Massachusetts",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Melendez-Diaz-v-Massachusetts-3c6063496baf8181a690d9fdf9e9a562"
+  },
+  {
+   "title": "GE v. Joiner",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/GE-v-Joiner-3c6063496baf818e9168d71bcd15be0a"
+  },
+  {
+   "title": "Bruton v. U.S.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Bruton-v-U-S-3c6063496baf81929a63e5833137597e"
+  },
+  {
+   "title": "Huddleston v. U.S.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Huddleston-v-U-S-3c6063496baf81949985e8ea13fb672e"
+  },
+  {
+   "title": "State v. Larson",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/State-v-Larson-3c6063496baf8196a37deb8f135e17d8"
+  },
+  {
+   "title": "Diaz v. U.S.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Diaz-v-U-S-3c6063496baf819baa5af95ca4e447ac"
+  },
+  {
+   "title": "Smith v. Arizona",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Smith-v-Arizona-3c6063496baf81a0be3ced21a90367c1"
+  },
+  {
+   "title": "Queen v. Hepburn",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Queen-v-Hepburn-3c6063496baf81a7b8c5f38ec33c3e9c"
+  },
+  {
+   "title": "Old Chief v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Old-Chief-v-United-States-3c6063496baf81ae8d4cd6d92248879a"
+  },
+  {
+   "title": "Chambers v. Mississippi",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Chambers-v-Mississippi-3c6063496baf81b08503cf93ae8e4c51"
+  },
+  {
+   "title": "Giles v. California",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Giles-v-California-3c6063496baf81be899ece13579c8431"
+  },
+  {
+   "title": "Jaffee v. Redmond",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Jaffee-v-Redmond-3c6063496baf81c8954af0d966d392e1"
+  },
+  {
+   "title": "U.S. v. Abel",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/U-S-v-Abel-3c6063496baf81ca9423c83c81e19deb"
+  },
+  {
+   "title": "Crawford v. City of Bakersfield",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Crawford-v-City-of-Bakersfield-3c6063496baf81d99b9beffe1da124e5"
+  },
+  {
+   "title": "Beech Aircraft v. Rainey",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Beech-Aircraft-v-Rainey-3c6063496baf81de8269f368f2441410"
+  }
+ ],
+ "reserve": [
+  {
+   "title": "📝 Prep sheet — Relevance, balancing, 403 vs 352 (Evidence 1)",
+   "course": "Evidence",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Prep-sheet-Relevance-balancing-403-vs-352-Evidence-1-3ca063496baf8191a8f5cc03ef3c5134"
+  },
+  {
+   "title": "📝 Prep sheet — Brown v. Gobble; adverse possession (Property 4)",
+   "course": "Property",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Prep-sheet-Brown-v-Gobble-adverse-possession-Property-4-3c9063496baf81d5b14bcdc73a5e089f"
+  },
+  {
+   "title": "Prep sheet — History and Structural Roots of Inequity (Youth Justice 2)",
+   "course": "Youth Justice",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Prep-sheet-History-and-Structural-Roots-of-Inequity-Youth-Justice-2-3c8063496baf81bc925be00a3aed1be1"
+  },
+  {
+   "title": "Reading & Prep - Youth Justice 2",
+   "course": "Youth Justice",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Reading-Prep-Youth-Justice-2-3c7063496baf802f83d1dd3e29cd3fef"
+  },
+  {
+   "title": "📝 Prep sheet — Sources/Force, Lacey v. State Farm, Burton v. NHSSA (LRW 3)",
+   "course": "",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Prep-sheet-Sources-Force-Lacey-v-State-Farm-Burton-v-NHSSA-LRW-3-3c7063496baf8101ac43c5561749fed5"
+  },
+  {
+   "title": "📝 Prep sheet — United States v. Mezzanatto (Evidence 3)",
+   "course": "",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Prep-sheet-United-States-v-Mezzanatto-Evidence-3-3c7063496baf81b8a43ff1bca042d232"
+  },
+  {
+   "title": "Youth Justice Syllabus — Laba & Ridolfi, Fall 2026",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Youth-Justice-Syllabus-Laba-Ridolfi-Fall-2026-3c6063496baf8162b9a0e9c330b5f2c7"
+  },
+  {
+   "title": "Case text — Scott v. Sandford",
+   "course": "Property",
+   "kind": "case text",
+   "link": "https://app.notion.com/p/Case-text-Scott-v-Sandford-3c6063496baf818b87b8d80af88bfc48"
+  },
+  {
+   "title": "Negotiations Syllabus (Winters) — Fall 2026",
+   "course": "Negotiations",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Negotiations-Syllabus-Winters-Fall-2026-3c6063496baf81929578c357068a4684"
+  },
+  {
+   "title": "Property Syllabus — DiGennaro, Fall 2026",
+   "course": "Property",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Property-Syllabus-DiGennaro-Fall-2026-3c6063496baf819b8592ebe043dc4a86"
+  },
+  {
+   "title": "LRW Syllabus — Waite-Jones, Fall 2026",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/LRW-Syllabus-Waite-Jones-Fall-2026-3c6063496baf81ada558e6b32ec20fc9"
+  },
+  {
+   "title": "Case text — State v. Mann",
+   "course": "Property",
+   "kind": "case text",
+   "link": "https://app.notion.com/p/Case-text-State-v-Mann-3c6063496baf81ba8ffaf65d6bc8a1bd"
+  },
+  {
+   "title": "Evidence Syllabus — Smoger, Fall 2026",
+   "course": "Evidence",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Evidence-Syllabus-Smoger-Fall-2026-3c6063496baf81f1b957c640c7a15b91"
+  }
+ ],
+ "weather": [
+  {
+   "title": "Baughman Explanation Paragraph",
+   "course": "LRW",
+   "due": "2026-08-31",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Baughman-Explanation-Paragraph-3c6063496baf8149b867cdb05f77e633"
+  },
+  {
+   "title": "Practice Exercise 1",
+   "course": "Property",
+   "due": "2026-09-02",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-1-3c6063496baf81c7bc0dd4d71743e2b5"
+  },
+  {
+   "title": "Umbrella Rule",
+   "course": "LRW",
+   "due": "2026-09-07",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Umbrella-Rule-3c6063496baf8121a166c00b6fd3f83e"
+  },
+  {
+   "title": "Rank group-project preferences",
+   "course": "Youth Justice",
+   "due": "2026-09-09",
+   "type": "admin",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Rank-group-project-preferences-3c6063496baf8167acb3de0c3d3108d3"
+  },
+  {
+   "title": "Reflection 1 (Classes 1-4)",
+   "course": "Youth Justice",
+   "due": "2026-09-15",
+   "type": "graded",
+   "weight": "10 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reflection-1-Classes-1-4-3c6063496baf81a589ccd936f6272cca"
+  },
+  {
+   "title": "Rose Lane email negotiation (out-of-class)",
+   "course": "Negotiations",
+   "due": "2026-09-24",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Rose-Lane-email-negotiation-out-of-class-3c6063496baf8150a5eec2803d646cd6"
+  },
+  {
+   "title": "Citation Problem Set #1",
+   "course": "LRW",
+   "due": "2026-09-25",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-1-3c6063496baf8187b73ccaa522f950db"
+  },
+  {
+   "title": "Revised Umbrella Rule + Reasonable CREAC",
+   "course": "LRW",
+   "due": "2026-09-28",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Revised-Umbrella-Rule-Reasonable-CREAC-3c6063496baf8151b23ff07c6dda420e"
+  },
+  {
+   "title": "Practice Exercise 2",
+   "course": "Property",
+   "due": "2026-09-30",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-2-3c6063496baf81bf8135c27b72ee20ee"
+  },
+  {
+   "title": "Core Grammar Post-Test",
+   "course": "LRW",
+   "due": "2026-10-05",
+   "type": "admin",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Core-Grammar-Post-Test-3c6063496baf81dc9b00f522579f831d"
+  }
+ ],
+ "longHaul": [
+  {
+   "title": "Baughman Explanation Paragraph",
+   "course": "LRW",
+   "due": "2026-08-31",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Baughman-Explanation-Paragraph-3c6063496baf8149b867cdb05f77e633"
+  },
+  {
+   "title": "Practice Exercise 1",
+   "course": "Property",
+   "due": "2026-09-02",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-1-3c6063496baf81c7bc0dd4d71743e2b5"
+  },
+  {
+   "title": "Umbrella Rule",
+   "course": "LRW",
+   "due": "2026-09-07",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Umbrella-Rule-3c6063496baf8121a166c00b6fd3f83e"
+  },
+  {
+   "title": "Reflection 1 (Classes 1-4)",
+   "course": "Youth Justice",
+   "due": "2026-09-15",
+   "type": "graded",
+   "weight": "10 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reflection-1-Classes-1-4-3c6063496baf81a589ccd936f6272cca"
+  },
+  {
+   "title": "Rose Lane email negotiation (out-of-class)",
+   "course": "Negotiations",
+   "due": "2026-09-24",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Rose-Lane-email-negotiation-out-of-class-3c6063496baf8150a5eec2803d646cd6"
+  },
+  {
+   "title": "Citation Problem Set #1",
+   "course": "LRW",
+   "due": "2026-09-25",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-1-3c6063496baf8187b73ccaa522f950db"
+  }
+ ],
+ "counts": {
+  "open": 36,
+  "overdue": 0,
+  "graded": 29,
+  "unmerged": 113,
+  "courses": 5,
+  "cases": 80,
+  "reserve": 13
+ },
+ "courses": [
+  "Evidence",
+  "LRW",
+  "Negotiations",
+  "Property",
+  "Youth Justice"
+ ],
+ "errors": []
+}
