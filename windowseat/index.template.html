@@ -324,9 +324,9 @@ body{font-size:15px}
   }
   body:not(.hero-only) .s-body::before{content:"next departure"}
   body:not(.hero-only) .s-today::before{content:"this week"}
-  body:not(.hero-only) .s-shelf::before{content:"the shelf"}
 
   /* the gallery was a wrapping grid six tiles tall; one scrolling row instead */
+  body:not(.hero-only) .s-shelf{padding:6px clamp(10px,2.4vw,16px)}
   body:not(.hero-only) .shelf{display:flex;gap:9px;overflow-x:auto;padding-bottom:6px;
     scroll-snap-type:x proximity}
   body:not(.hero-only) .shelf .art{flex:0 0 168px;scroll-snap-align:start;transform:none}
@@ -536,6 +536,9 @@ body.hero-only .wrap{padding-bottom:18px}
       </ul></div>
     </div>
   </section>
+    </main>
+  </div>
+
 <section class="pad below s-shelf">
     <div class="pnl card">
       <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-star"/></svg> THE SHELF</p>
@@ -564,10 +567,6 @@ body.hero-only .wrap{padding-bottom:18px}
       </div>
     </div>
   </section>
-    </main>
-  </div>
-
-  
 
   <div class="dvwrap below"><img class="dvt" src="{{g_rain}}" alt=""></div>
 
