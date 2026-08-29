@@ -285,7 +285,7 @@ body.hero-only .below{display:none}
   </div></div>
 
   <div class="title">
-    <p class="date lab">Fri · Aug 28 · Week 2 of 14</p>
+    <p class="date lab" id="d-term">Fri · Aug 28 · Week 2 of 14</p>
     <h1>the window seat</h1>
     <p class="line">Rain on the glass all morning, clearing by four. Nothing is due until Monday — today is a catching-up day, not a keeping-up one.</p>
   </div>
@@ -323,21 +323,21 @@ body.hero-only .below{display:none}
     <div class="hud">
       <div class="pnl tslate stat">
         <p class="l lab">Level</p>
-        <div class="mid"><p class="num" style="color:var(--slate-ink)">18</p><svg class="sp" width="48" height="48"><use href="#px-sun"/></svg></div>
+        <div class="mid"><p class="num" style="color:var(--slate-ink)" id="d-level">18</p><svg class="sp" width="48" height="48"><use href="#px-sun"/></svg></div>
         <small class="rwd">at 19 <svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>75 · rainy-day skin</small>
       </div>
       <div class="pnl tmoss stat">
         <p class="l lab">XP</p>
-        <div class="mid"><p class="num" style="color:var(--moss-ink)">1,540</p><svg class="sp" width="48" height="48"><use href="#px-book"/></svg></div>
+        <div class="mid"><p class="num" style="color:var(--moss-ink)" id="d-xp">1,540</p><svg class="sp" width="48" height="48"><use href="#px-book"/></svg></div>
         <div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="tip"></i><i></i><i></i><i></i></div>
       </div>
       <div class="pnl tbutter stat">
         <p class="l lab">Gold</p>
-        <div class="mid"><p class="num" style="color:var(--butter-ink)">210</p><svg class="sp" width="48" height="48"><use href="#px-coin"/></svg></div><small>+15 to claim</small>
+        <div class="mid"><p class="num" style="color:var(--butter-ink)" id="d-gold">210</p><svg class="sp" width="48" height="48"><use href="#px-coin"/></svg></div><small>+15 to claim</small>
       </div>
       <div class="pnl trose stat">
         <p class="l lab">Streak</p>
-        <div class="mid"><p class="num" style="color:var(--rose-ink)">6</p><svg class="sp" width="48" height="48"><use href="#px-sprout"/></svg></div><small>1 night to unlock</small>
+        <div class="mid"><p class="num" style="color:var(--rose-ink)" id="d-streak">6</p><svg class="sp" width="48" height="48"><use href="#px-sprout"/></svg></div><small>1 night to unlock</small>
       </div>
     </div>
   </section>
@@ -349,9 +349,9 @@ body.hero-only .below{display:none}
       <div class="pnl card">
         <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-train"/></svg> NEXT UP</p>
         <div class="bd">
-          <p class="big">Property — class 6</p>
-          <p class="meta">Monday · 9:40 AM · Room 210 · DiGennaro</p>
-          <div class="dest"><b>next departure</b><em>MON 09:40</em></div>
+          <p class="big" id="d-next-title">Property — class 6</p>
+          <p class="meta" id="d-next-meta">Monday · 9:40 AM · Room 210 · DiGennaro</p>
+          <div class="dest"><b>next departure</b><em id="d-next-dest">MON 09:40</em></div>
           <div class="bar" style="margin-top:11px">
             <i class="on"></i><i class="tip"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
           </div>
@@ -376,8 +376,8 @@ body.hero-only .below{display:none}
 
   <section class="pad" style="padding-top:6px">
     <div class="pnl card">
-      <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-signal"/></svg> TODAY · 5 OPEN</p>
-      <div class="bd"><ul class="rows">
+      <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-signal"/></svg> <span id="d-open-hd">TODAY · 5 OPEN</span></p>
+      <div class="bd"><ul class="rows" id="d-rows">
         <li class="row"><i class="chip" style="background:#55755B"></i><s>brief State v. Shack</s><span class="tag" style="color:var(--moss-ink)">+25 xp</span></li>
         <li class="row"><i class="chip" style="background:#E9CE8A"></i>Evidence reading pp. 88–104<span class="tag" style="color:var(--butter-ink)">due mon</span></li>
         <li class="row"><i class="chip" style="background:#C58BA0"></i>LRW — Baughman explanation paragraph<span class="tag" style="color:var(--rose-ink)">overdue</span></li>
@@ -444,7 +444,7 @@ body.hero-only .below{display:none}
     </nav>
   </section>
 
-  <div class="seam"><p>below this line lives in notion</p></div>
+  <div class="seam"><p id="d-stamp">below this line lives in notion</p></div>
 
   <section class="pad below">
     <div class="grid two">
@@ -521,6 +521,98 @@ body.hero-only .below{display:none}
     car.addEventListener('animationiteration',pass);   // re-syncs after any pause
     pass();
   }
+  /* the hydration script hands the board real departures once data.json lands.
+     Exposed rather than merged so the board still runs standalone with its
+     placeholder copy when there is no data file. */
+  window.__wsBoard = function(list){
+    if (!list || !list.length) return;
+    MSG = list; idx = 0;
+    show(MSG[0].t);
+    if (foot) foot.textContent = MSG[0].f || '';
+  };
   if(new URLSearchParams(location.search).get('view')==='hero') document.body.classList.add('hero-only');
+})();
+</script>
+
+<script>
+/* ---------------------------------------------------------------------------
+   Hydration. Fetches data.json (written by the refresh Action) and replaces the
+   placeholder copy in place.
+
+   Failure is silent ON PURPOSE: if the fetch 404s, errors, or the file has not
+   been generated yet, the page keeps the static values it shipped with. A
+   dashboard that renders yesterday's shape beats one that renders nothing —
+   and this file is opened from Notion, from Pages, and from disk, where the
+   fetch legitimately will not resolve.
+   --------------------------------------------------------------------------- */
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  var set = function(id, txt){ var e = $(id); if (e && txt != null && txt !== '') e.textContent = txt; };
+
+  var DOW  = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var MON  = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  function parseDay(s){ if(!s) return null; var p = s.slice(0,10).split('-'); return new Date(+p[0], +p[1]-1, +p[2]); }
+  function pretty(s){ var d = parseDay(s); return d ? DOW[d.getDay()] + ' · ' + MON[d.getMonth()] + ' ' + d.getDate() : ''; }
+  function flap(s){ var d = parseDay(s); return d ? (DOW[d.getDay()] + ' ' + MON[d.getMonth()] + ' ' + d.getDate()).toUpperCase() : ''; }
+
+  fetch('data.json', {cache: 'no-store'})
+    .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .then(function(d){
+      var t = d.term || {}, c = d.counts || {};
+
+      /* masthead */
+      var now = new Date();
+      set('d-term', DOW[now.getDay()] + ' · ' + MON[now.getMonth()] + ' ' + now.getDate() +
+                    ' · Week ' + (t.week || '?') + ' of ' + (t.of || '?'));
+
+      /* next up */
+      if (d.next) {
+        set('d-next-title', d.next.title || d.next.course);
+        set('d-next-meta', [pretty(d.next.date), d.next.course, d.next.reading].filter(Boolean).join(' · '));
+        set('d-next-dest', flap(d.next.date));
+      }
+
+      /* today's rows — weather ahead, nearest first */
+      var rows = $('d-rows');
+      if (rows && d.weather && d.weather.length) {
+        var tint = function(a){ return a.overdue ? ['#C58BA0','var(--rose-ink)','overdue']
+                     : a.type === 'graded' ? ['#E9CE8A','var(--butter-ink)','due ' + (pretty(a.due)||'soon')]
+                     : ['#55755B','var(--moss-ink)', pretty(a.due) || 'no date']; };
+        rows.innerHTML = d.weather.slice(0,6).map(function(a){
+          var s = tint(a);
+          return '<li class="row"><i class="chip" style="background:' + s[0] + '"></i>' +
+                 (a.title||'').replace(/[<>&]/g, '') +
+                 '<span class="tag" style="color:' + s[1] + '">' + s[2] + '</span></li>';
+        }).join('');
+      }
+      set('d-open-hd', 'TODAY · ' + (c.open != null ? c.open : '') + ' OPEN');
+
+      /* HUD — real counts where the game state does not exist yet */
+      set('d-xp', c.open != null ? String(c.open) : null);
+      set('d-gold', c.unmerged != null ? String(c.unmerged) : null);
+      set('d-streak', c.overdue != null ? String(c.overdue) : null);
+
+      /* the board reads what is actually next */
+      if (window.__wsBoard && d.weather) {
+        var msgs = [];
+        if (d.next) msgs.push({t: ((d.next.course||'') + ' ' + flap(d.next.date)).trim(),
+                               f: d.next.reading || d.next.title || ''});
+        d.weather.slice(0,4).forEach(function(a){
+          msgs.push({t: (a.title||'').toUpperCase() + (a.overdue ? '  OVERDUE' : '  DUE ' + flap(a.due)),
+                     f: [a.course, a.weight].filter(Boolean).join(' · ')});
+        });
+        if (t.daysToFinals != null) msgs.push({t: 'FINALS IN ' + t.daysToFinals + ' DAYS',
+                                               f: 'week ' + t.week + ' of ' + t.of});
+        if (msgs.length) window.__wsBoard(msgs);
+      }
+
+      /* freshness, and any database the Action could not read */
+      var when = d.generated ? new Date(d.generated) : null;
+      var stamp = when ? ('live · updated ' + when.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}))
+                       : 'live';
+      if (d.errors && d.errors.length) stamp += ' · ' + d.errors.length + ' source unavailable';
+      set('d-stamp', stamp);
+    })
+    .catch(function(){ /* keep the shipped values */ });
 })();
 </script>
