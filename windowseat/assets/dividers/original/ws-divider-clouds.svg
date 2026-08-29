@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="1200" height="60" role="img" aria-label="clouds and a low sun">
+<title>clouds and a low sun</title>
+<style>
+
+@keyframes sway{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+@keyframes fall{0%{transform:translateY(-5px);opacity:0}20%{opacity:1}100%{transform:translateY(9px);opacity:0}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.6px)}}
+@keyframes blink{0%,66%,100%{opacity:1}72%,82%{opacity:.25}}
+@keyframes roll{0%{transform:translateX(-14px)}100%{transform:translateX(1214px)}}
+.sway{animation:sway 4.4s ease-in-out infinite}
+.bob{animation:bob 3.6s ease-in-out infinite}
+.blink{animation:blink 3.4s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation-duration:16s!important}}
+
+</style>
+<path d="M0 46 H1200" stroke="#BEDDEF" stroke-width="1.6"/>
+<g class="bob" style="transform-origin:120px 30px;animation-delay:0.3s"><path transform="translate(120 30) scale(0.85)" d="M0 12c-6.4 0-11.4-4.2-11.4-9.2 0-4.8 3.9-8.6 9-8.6C-1.2-11 3.4-14.6 9-14.6c5.8 0 10.6 3.8 11.6 9.2 4.8.5 8.4 4.2 8.4 8.7 0 4.9-4.2 8.7-9.7 8.7z" fill="#DCEAF2" stroke="#0E5C86" stroke-width="1.53"/></g>
+<g class="bob" style="transform-origin:430px 26px;animation-delay:0.9s"><path transform="translate(430 26) scale(1.05)" d="M0 12c-6.4 0-11.4-4.2-11.4-9.2 0-4.8 3.9-8.6 9-8.6C-1.2-11 3.4-14.6 9-14.6c5.8 0 10.6 3.8 11.6 9.2 4.8.5 8.4 4.2 8.4 8.7 0 4.9-4.2 8.7-9.7 8.7z" fill="#FDFEFE" stroke="#0E5C86" stroke-width="1.24"/></g>
+<g class="bob" style="transform-origin:800px 31px;animation-delay:0.6s"><path transform="translate(800 31) scale(0.8)" d="M0 12c-6.4 0-11.4-4.2-11.4-9.2 0-4.8 3.9-8.6 9-8.6C-1.2-11 3.4-14.6 9-14.6c5.8 0 10.6 3.8 11.6 9.2 4.8.5 8.4 4.2 8.4 8.7 0 4.9-4.2 8.7-9.7 8.7z" fill="#DCEAF2" stroke="#0E5C86" stroke-width="1.62"/></g>
+<g class="bob" style="transform-origin:1060px 27px;animation-delay:0.9s"><path transform="translate(1060 27) scale(0.95)" d="M0 12c-6.4 0-11.4-4.2-11.4-9.2 0-4.8 3.9-8.6 9-8.6C-1.2-11 3.4-14.6 9-14.6c5.8 0 10.6 3.8 11.6 9.2 4.8.5 8.4 4.2 8.4 8.7 0 4.9-4.2 8.7-9.7 8.7z" fill="#FDFEFE" stroke="#0E5C86" stroke-width="1.37"/></g>
+<g class="blink"><circle cx="620" cy="24" r="9" fill="#F2DFA4" stroke="#D9A62C" stroke-width="1.4"/><line x1="634.5" y1="24.0" x2="638.5" y2="24.0" stroke="#D9A62C" stroke-width="1.6" stroke-linecap="round"/><line x1="630.3" y1="34.3" x2="633.1" y2="37.1" stroke="#D9A62C" stroke-width="1.6" stroke-linecap="round"/><line x1="620.0" y1="38.5" x2="620.0" y2="42.5" stroke="#D9A62C" stroke-width="1.6" stroke-linecap="round"/><line x1="609.7" y1="34.3" x2="606.9" y2="37.1" stroke="#D9A62C" stroke-width="1.6" stroke-linecap="round"/><line x1="605.5" y1="24.0" x2="601.5" y2="24.0" stroke="#D9A62C" stroke-width="1.6" stroke-linecap="round"/><line x1="609.7" y1="13.7" x2="606.9" y2="10.9" stroke="#D9A62C" stroke-width="1.6" stroke-linecap="round"/><line x1="620.0" y1="9.5" x2="620.0" y2="5.5" stroke="#D9A62C" stroke-width="1.6" stroke-linecap="round"/><line x1="630.3" y1="13.7" x2="633.1" y2="10.9" stroke="#D9A62C" stroke-width="1.6" stroke-linecap="round"/></g>
+</svg>

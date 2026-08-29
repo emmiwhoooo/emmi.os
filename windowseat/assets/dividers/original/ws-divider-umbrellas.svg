@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="1200" height="60" role="img" aria-label="a row of umbrellas">
+<title>a row of umbrellas</title>
+<style>
+
+@keyframes sway{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+@keyframes fall{0%{transform:translateY(-5px);opacity:0}20%{opacity:1}100%{transform:translateY(9px);opacity:0}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.6px)}}
+@keyframes blink{0%,66%,100%{opacity:1}72%,82%{opacity:.25}}
+@keyframes roll{0%{transform:translateX(-14px)}100%{transform:translateX(1214px)}}
+.sway{animation:sway 4.4s ease-in-out infinite}
+.bob{animation:bob 3.6s ease-in-out infinite}
+.blink{animation:blink 3.4s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation-duration:16s!important}}
+
+</style>
+<path d="M0 52 H1200" stroke="#5C8A63" stroke-width="1.6"/>
+<g class="bob" style="transform-origin:27px 52px;animation-delay:0.0s"><path d="M10 33a17 17 0 0 1 34 0z" fill="#F6C4D2" stroke="#9C3A5E" stroke-width="1.4"/><path d="M10 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#9C3A5E" stroke-width="1.2"/><path d="M27 33v15q0 4-4.4 4" fill="none" stroke="#9C3A5E" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:160px 52px;animation-delay:0.3s"><path d="M143 33a17 17 0 0 1 34 0z" fill="#F2DFA4" stroke="#7A5510" stroke-width="1.4"/><path d="M143 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#7A5510" stroke-width="1.2"/><path d="M160 33v15q0 4-4.4 4" fill="none" stroke="#7A5510" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:307px 52px;animation-delay:0.7s"><path d="M290 33a17 17 0 0 1 34 0z" fill="#DCEAF2" stroke="#0E5C86" stroke-width="1.4"/><path d="M290 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#0E5C86" stroke-width="1.2"/><path d="M307 33v15q0 4-4.4 4" fill="none" stroke="#0E5C86" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:408px 52px;animation-delay:1.0s"><path d="M391 33a17 17 0 0 1 34 0z" fill="#A8CFB0" stroke="#1F5834" stroke-width="1.4"/><path d="M391 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#1F5834" stroke-width="1.2"/><path d="M408 33v15q0 4-4.4 4" fill="none" stroke="#1F5834" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:537px 52px;animation-delay:1.3s"><path d="M520 33a17 17 0 0 1 34 0z" fill="#F6C4D2" stroke="#9C3A5E" stroke-width="1.4"/><path d="M520 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#9C3A5E" stroke-width="1.2"/><path d="M537 33v15q0 4-4.4 4" fill="none" stroke="#9C3A5E" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:668px 52px;animation-delay:1.7s"><path d="M651 33a17 17 0 0 1 34 0z" fill="#F2DFA4" stroke="#7A5510" stroke-width="1.4"/><path d="M651 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#7A5510" stroke-width="1.2"/><path d="M668 33v15q0 4-4.4 4" fill="none" stroke="#7A5510" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:772px 52px;animation-delay:2.0s"><path d="M755 33a17 17 0 0 1 34 0z" fill="#DCEAF2" stroke="#0E5C86" stroke-width="1.4"/><path d="M755 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#0E5C86" stroke-width="1.2"/><path d="M772 33v15q0 4-4.4 4" fill="none" stroke="#0E5C86" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:917px 52px;animation-delay:2.3s"><path d="M900 33a17 17 0 0 1 34 0z" fill="#A8CFB0" stroke="#1F5834" stroke-width="1.4"/><path d="M900 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#1F5834" stroke-width="1.2"/><path d="M917 33v15q0 4-4.4 4" fill="none" stroke="#1F5834" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:1051px 52px;animation-delay:2.6s"><path d="M1034 33a17 17 0 0 1 34 0z" fill="#F6C4D2" stroke="#9C3A5E" stroke-width="1.4"/><path d="M1034 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#9C3A5E" stroke-width="1.2"/><path d="M1051 33v15q0 4-4.4 4" fill="none" stroke="#9C3A5E" stroke-width="1.5" stroke-linecap="round"/></g>
+<g class="bob" style="transform-origin:1186px 52px;animation-delay:3.0s"><path d="M1169 33a17 17 0 0 1 34 0z" fill="#F2DFA4" stroke="#7A5510" stroke-width="1.4"/><path d="M1169 33q4.2 5 8.5 0 4.2 5 8.5 0 4.2 5 8.5 0" fill="none" stroke="#7A5510" stroke-width="1.2"/><path d="M1186 33v15q0 4-4.4 4" fill="none" stroke="#7A5510" stroke-width="1.5" stroke-linecap="round"/></g>
+</svg>
