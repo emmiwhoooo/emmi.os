@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        save point (Notion web)
 @namespace   em.savepoint
-@version      3.1.0
+@version      3.2.0
 @description  Neon night skin for the save point, night shift and pocket pages only: deep navy ground, neon-pink glow accents, pixel display font for headings. Install the Stylus browser extension, then paste this whole file into a new style. Toggle it off any time from the Stylus icon.
 @author       em
 @homepageURL  https://github.com/emmiwhoooo/emmi.os
@@ -189,6 +189,35 @@
 
   /* ── selection ─────────────────────────────────────────────────────── */
   ::selection { background: rgba(255, 94, 203, 0.35); }
+
+  /* ---------------------------------------------------------------
+     GROUND HARDENING (v3.2.0, Aug 29)
+     Notion wraps the app in `.notion-cursor-listener`, a element wider
+     than the viewport (measured 2400px) painted with the theme's own
+     background. The skin painted `.notion-frame` but not that wrapper or
+     `body`, so navy stopped at the content column and everything past it
+     — the right gutter, the area under short pages, the overscroll —
+     stayed WHITE. That is the "broken css" symptom.
+     Paint the wrapper, body and html from the same token.
+     --------------------------------------------------------------- */
+  html, body,
+  .notion-cursor-listener,
+  .notion-app-inner,
+  .notion-body,
+  .notion-overlay-container {
+    background: var(--nook-bg) !important;
+  }
+  /* calendar and board surfaces sit on transparent and inherit whatever is
+     behind them; give them the panel tone rather than letting white show. */
+  .notion-calendar-view,
+  .notion-calendar-view-day,
+  .notion-board-view,
+  .notion-board-group {
+    background: var(--nook-bg-2) !important;
+    color: var(--nook-text) !important;
+  }
+  .notion-calendar-view-day-name,
+  .notion-calendar-view-header { color: var(--nook-text-dim) !important; }
 }
 
 /*
