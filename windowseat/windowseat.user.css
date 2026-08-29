@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         the window seat
 @namespace    em.windowseat
-@version      1.2.0
+@version      1.2.1
 @description  daylight skin for the window seat notion page only. scoped by page id,
               so save point and night shift keep their own dark skins untouched.
 @author       em
@@ -351,12 +351,16 @@ body.notion-dark-theme {
    Notion's own colour shows in the gutters. `body` was only being caught
    here via the `.notion-dark-theme` rule, which does nothing if the
    workspace is switched to light.
+
+   DO NOT add .notion-overlay-container to this list. It is position:fixed,
+   z-index:999 and 2400x1239 — an overlay layer that sits ON TOP of the whole
+   app and is normally transparent. Painting it opaque hides the entire page.
+   Verified Aug 29: adding it rendered night shift completely blank.
    --------------------------------------------------------------- */
 html, body,
 .notion-cursor-listener,
 .notion-app-inner,
-.notion-body,
-.notion-overlay-container {
+.notion-body {
   background: var(--ws-ground) !important;
 }
 .notion-calendar-view,
