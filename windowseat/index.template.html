@@ -568,7 +568,10 @@ body.hero-only .wrap{padding-bottom:18px}
                  '<span class="tag" style="color:' + s[1] + '">' + s[2] + '</span></li>';
         }).join('');
       }
-      set('d-open-hd', 'TODAY · ' + (c.open != null ? c.open : '') + ' OPEN');
+      /* "TODAY · 36 OPEN" was counting everything unchecked all semester, which
+         is true but not about today. dueSoon is the next 7 days. */
+      if (c.dueSoon != null) set('d-open-hd', 'THIS WEEK · ' + c.dueSoon + ' DUE');
+      else if (c.open != null) set('d-open-hd', c.open + ' OPEN');
 
       /* HUD — real counts where the game state does not exist yet */
       set('d-xp', c.open != null ? String(c.open) : null);
