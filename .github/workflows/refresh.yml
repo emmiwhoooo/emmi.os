@@ -1,0 +1,56 @@
+name: refresh window seat data
+
+# Pulls Notion into windowseat/data.json. Runs on GitHub's machines, which can
+# reach api.notion.com — the Claude sandbox cannot, and a laptop is not always on.
+
+on:
+  schedule:
+    # every 15 minutes. GitHub's minimum is 5, but scheduled runs are
+    # best-effort and get delayed under load, so a tighter cron buys less
+    # than it looks like it does.
+    - cron: '*/15 * * * *'
+  workflow_dispatch:          # the manual "Run workflow" button
+  push:
+    paths:
+      - 'scripts/pull_notion.py'
+      - '.github/workflows/refresh.yml'
+
+permissions:
+  contents: write             # only what committing data.json needs
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: true    # a queued run is always staler than a new one
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Pull from Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python3 scripts/pull_notion.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "window seat bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # `generated` changes every run, so diffing the whole file would commit
+          # every 15 minutes forever. Compare everything except that one line.
+          if git diff --quiet -- windowseat/data.json; then
+            echo "no change"; exit 0
+          fi
+          if [ -z "$(git diff -- windowseat/data.json | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' | grep -v '"generated"')" ]; then
+            echo "timestamp only — not committing"
+            git checkout -- windowseat/data.json
+            exit 0
+          fi
+          git add windowseat/data.json
+          git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
