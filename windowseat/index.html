@@ -128,10 +128,16 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
 /* flap row */
 .flaps{display:flex;gap:2px;justify-content:center;flex-wrap:nowrap;overflow:hidden;
   padding:4px;background:#3D4744;box-shadow:inset 0 0 0 2px #2A3230}
-.flap{flex:0 0 auto;width:17px;height:25px;background:var(--t-butter);position:relative;overflow:hidden;
+.flap{flex:0 0 auto;width:18px;height:25px;background:var(--t-butter);position:relative;overflow:hidden;
   display:grid;place-items:center;box-shadow:inset 0 0 0 2px #C6B486, inset 0 2px 0 rgba(255,255,255,.6)}
 .flap::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;background:rgba(42,50,48,.3)}
-.flap span{font-family:var(--px-face);font-weight:400;font-size:1rem;line-height:1;color:var(--ink);display:block}
+/* DotGothic16 ships one weight — asking for 600 makes the browser fake it by
+   smearing the bitmap, which is the exact mush we replaced Pixelify to escape.
+   Weight comes from a hard one-pixel horizontal double instead (no blur radius,
+   so the edges stay square), a darker ink, and sitting the glyph on its native
+   16px body rather than 15. */
+.flap span{font-family:var(--px-face);font-weight:400;font-size:16px;line-height:1;
+  color:#1C2320;text-shadow:1px 0 0 currentColor;display:block}
 .flap.turn span{animation:flip .22s ease-in}
 @keyframes flip{0%{transform:scaleY(1)}45%,55%{transform:scaleY(.06)}100%{transform:scaleY(1)}}
 /* the rail — the whole art strip, 26px tall. ties scroll forever, tram runs it. */
@@ -149,7 +155,7 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
 .rail.arriving .apr{background:var(--butter);box-shadow:inset -2px -2px 0 #B99334}
 .rail .drop{position:absolute;top:-4px;opacity:.5;animation:fall 1.9s linear infinite}
 @keyframes fall{0%{transform:translateY(0);opacity:0}18%{opacity:.55}100%{transform:translateY(30px);opacity:0}}
-@media(max-width:620px){.flap{width:14px;height:22px}.flap span{font-size:.86rem}.straps{padding:0 30px}
+@media(max-width:620px){.flap{width:15px;height:22px}.flap span{font-size:13px}.straps{padding:0 30px}
   .signhead .t.hide-s{display:none}}
 @media(prefers-reduced-motion:reduce){.rail .car,.rail .ties,.rail .drop,.gantry .bird{animation:none}
   .rail .car{left:64px}}
