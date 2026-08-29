@@ -823,12 +823,25 @@ body.hero-only .wrap{padding-bottom:18px}
       }
 
       /* today's rows — weather ahead, nearest first */
+      /* The Notion "weather ahead" view filters to `Due is within the next 2
+         weeks, OR due on or before today`. data.json carries every unchecked
+         assignment, so the page was listing rows a month out that her Notion
+         view had already filtered away — the same list showing different
+         things in two places. Same horizon here. */
+      var horizon = new Date(); horizon.setHours(0,0,0,0);
+      horizon.setDate(horizon.getDate() + 14);
+      var wx = (d.weather || []).filter(function(a){
+        if (a.overdue) return true;
+        var dd = parseDay(a.due);
+        return !dd || dd <= horizon;
+      });
+
       var rows = $('d-rows');
-      if (rows && d.weather && d.weather.length) {
+      if (rows && wx.length) {
         var tint = function(a){ return a.overdue ? ['#C58BA0','var(--rose-ink)','overdue']
                      : a.type === 'graded' ? ['#E9CE8A','var(--butter-ink)','due ' + (pretty(a.due)||'soon')]
                      : ['#55755B','var(--moss-ink)', pretty(a.due) || 'no date']; };
-        rows.innerHTML = d.weather.slice(0,6).map(function(a){
+        rows.innerHTML = wx.slice(0,6).map(function(a){
           var s = tint(a);
           return '<li class="row"><i class="chip" style="background:' + s[0] + '"></i>' +
                  (a.title||'').replace(/[<>&]/g, '') +
@@ -846,11 +859,11 @@ body.hero-only .wrap{padding-bottom:18px}
       set('d-streak', c.overdue != null ? String(c.overdue) : null);
 
       /* the board reads what is actually next */
-      if (window.__wsBoard && d.weather) {
+      if (window.__wsBoard) {
         var msgs = [];
         if (d.next) msgs.push({t: ((d.next.course||'') + ' ' + flap(d.next.date)).trim(),
                                f: d.next.reading || d.next.title || ''});
-        d.weather.slice(0,4).forEach(function(a){
+        wx.slice(0,4).forEach(function(a){
           msgs.push({t: (a.title||'').toUpperCase() + (a.overdue ? '  OVERDUE' : '  DUE ' + flap(a.due)),
                      f: [a.course, a.weight].filter(Boolean).join(' · ')});
         });
