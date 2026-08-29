@@ -861,7 +861,9 @@ body.hero-only .wrap{padding-bottom:18px}
       /* the board reads what is actually next */
       if (window.__wsBoard) {
         var msgs = [];
-        if (d.next) msgs.push({t: ((d.next.course||'') + ' ' + flap(d.next.date)).trim(),
+        /* two spaces, not one — that is the split the board reads as
+           "service on the left, time on the right". */
+        if (d.next) msgs.push({t: ((d.next.course||'') + '  ' + flap(d.next.date)).trim(),
                                f: d.next.reading || d.next.title || ''});
         wx.slice(0,4).forEach(function(a){
           msgs.push({t: (a.title||'').toUpperCase() + (a.overdue ? '  OVERDUE' : '  DUE ' + flap(a.due)),
