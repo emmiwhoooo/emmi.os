@@ -19,7 +19,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 TOKEN = os.environ.get("NOTION_TOKEN", "").strip()
 API = "https://api.notion.com/v1"
@@ -111,6 +111,12 @@ def day_only(s):
     return (s or "")[:10]
 
 
+def is_placeholder(title):
+    """Template/placeholder rows use ⟨ ⟩ brackets or an em-dashed 'new x' label."""
+    t = (title or "").strip()
+    return (not t) or t.startswith("⟨") or "— new " in t or t.lower().startswith("new ")
+
+
 def main():
     if not TOKEN:
         print("NOTION_TOKEN is not set", file=sys.stderr)
@@ -147,7 +153,10 @@ def main():
     # ---- the walk home — sessions still waiting on a merge ----
     walk_home = []
     for row in query("classes",
-                     filter={"property": "Status", "select": {"equals": "not merged"}},
+                     filter={"and": [
+                         {"property": "Status", "select": {"equals": "not merged"}},
+                         {"property": "Date", "date": {"before": today}},
+                     ]},
                      sorts=[{"property": "Date", "direction": "ascending"}]):
         p = row["properties"]
         walk_home.append({
@@ -176,13 +185,18 @@ def main():
 
     graded = [a for a in open_work if a["type"] == "graded"]
     overdue = [a for a in open_work if a["overdue"]]
+    horizon = (date.today() + timedelta(days=7)).isoformat()
+    due_soon = [a for a in open_work if a["due"] and a["due"] <= horizon]
 
     # ---- the shelf — recent cases, rule/holding lives on the page itself ----
     shelf = []
     for row in query("cases", page_size=8,
                      sorts=[{"timestamp": "created_time", "direction": "descending"}]):
         p = row["properties"]
-        shelf.append({"title": title_of(p), "course": course_of(p), "url": row.get("url")})
+        name = title_of(p)
+        if is_placeholder(name):
+            continue
+        shelf.append({"title": name, "course": course_of(p), "url": row.get("url")})
 
     # ---- the reserve — handouts, slides, statutes, case texts ----
     # Resources hangs off both Course and Session, and carries either an uploaded
@@ -215,6 +229,7 @@ def main():
         "weather":     open_work[:10],
         "longHaul":    graded[:6],
         "counts":      {"open": len(open_work), "overdue": len(overdue),
+                        "dueSoon": len(due_soon),
                         "graded": len(graded), "unmerged": len(walk_home),
                         "courses": len(course_name), "cases": len(shelf),
                         "reserve": len(reserve)},
