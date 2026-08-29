@@ -41,16 +41,21 @@ jobs:
         run: |
           git config user.name  "window seat bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # `generated` changes every run, so diffing the whole file would commit
-          # every 15 minutes forever. Compare everything except that one line.
-          if git diff --quiet -- windowseat/data.json; then
+          # Stage FIRST. `git diff` alone does not see an untracked file, so on the
+          # very first run this reported "no change" and never committed data.json —
+          # the job went green while producing nothing.
+          git add windowseat/data.json
+          if git diff --cached --quiet -- windowseat/data.json; then
             echo "no change"; exit 0
           fi
-          if [ -z "$(git diff -- windowseat/data.json | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' | grep -v '"generated"')" ]; then
+          # `generated` changes every run, so committing on any diff would mean a
+          # commit every 15 minutes forever. Ignore a diff that is only that line.
+          if [ -z "$(git diff --cached -- windowseat/data.json \
+                     | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' \
+                     | grep -v '"generated"')" ]; then
             echo "timestamp only — not committing"
-            git checkout -- windowseat/data.json
+            git reset -- windowseat/data.json
             exit 0
           fi
-          git add windowseat/data.json
           git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
