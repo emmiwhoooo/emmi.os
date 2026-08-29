@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T10:32:13+00:00",
+ "generated": "2026-08-29T10:35:20+00:00",
  "today": "2026-08-29",
  "term": {
   "week": 2,
@@ -128,31 +128,9 @@
    "course": "Property",
    "date": "2026-08-28",
    "url": "https://app.notion.com/p/Property-6-Introduction-to-estates-fee-simple-absolute-defeasible-fees-3c6063496baf8102bff5f1e6da78af0a"
-  },
-  {
-   "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
-   "course": "Evidence",
-   "date": "2026-08-31",
-   "url": "https://app.notion.com/p/Evidence-5-Intro-to-Hearsay-Defining-Hearsay-3c6063496baf81e2a7fae4f2ba1c857f"
-  },
-  {
-   "title": "LRW 5 — Analyzing Necessary",
-   "course": "LRW",
-   "date": "2026-09-01",
-   "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
   }
  ],
  "shelf": [
-  {
-   "title": "⟨ ⟨ — new case — ⟩ ⟩",
-   "course": "",
-   "url": "https://app.notion.com/p/new-case-3c6063496baf803b99b3f58747b5da59"
-  },
-  {
-   "title": "⟨ duplicate me — new case ⟩",
-   "course": "",
-   "url": "https://app.notion.com/p/duplicate-me-new-case-3c6063496baf8181ac1bc55749d3fd29"
-  },
   {
    "title": "Vasquez v. Glassboro Service Assoc.",
    "course": "Property",
@@ -775,10 +753,11 @@
  "counts": {
   "open": 36,
   "overdue": 0,
+  "dueSoon": 2,
   "graded": 29,
-  "unmerged": 113,
+  "unmerged": 8,
   "courses": 5,
-  "cases": 80,
+  "cases": 78,
   "reserve": 13
  },
  "courses": [
