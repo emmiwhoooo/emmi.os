@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-30T00:54:03+00:00",
- "today": "2026-08-30",
+ "generated": "2026-08-31T02:15:14+00:00",
+ "today": "2026-08-31",
  "term": {
-  "week": 2,
+  "week": 3,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 94
+  "daysToFinals": 93
  },
  "next": {
   "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
@@ -753,7 +753,7 @@
  "counts": {
   "open": 36,
   "overdue": 0,
-  "dueSoon": 2,
+  "dueSoon": 3,
   "graded": 29,
   "unmerged": 8,
   "courses": 5,
