@@ -117,6 +117,61 @@ def is_placeholder(title):
     return (not t) or t.startswith("⟨") or "— new " in t or t.lower().startswith("new ")
 
 
+# ---- the sky ----------------------------------------------------------------
+# The caption's first clause is weather, so it has to be actual weather. Open-
+# Meteo needs no key and no account; Oakland's coordinates are hard-coded because
+# a dashboard for one person at one window does not need a location service.
+#
+# This is the only non-Notion call in the script and it is strictly optional. Any
+# failure records an error and leaves "sky" null, and the page then writes the
+# caption from the workload alone rather than inventing weather — which is the
+# whole point of moving that line off hand-written copy.
+
+WX = ("https://api.open-meteo.com/v1/forecast"
+      "?latitude=37.8044&longitude=-122.2712"
+      "&timezone=America%2FLos_Angeles&temperature_unit=fahrenheit"
+      "&current=weather_code,temperature_2m"
+      "&hourly=precipitation_probability"
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,"
+      "precipitation_probability_max&forecast_days=1")
+
+
+def sky():
+    try:
+        with urllib.request.urlopen(WX, timeout=20) as r:
+            w = json.load(r)
+    except Exception as e:                                    # noqa: BLE001
+        errors.append("weather: %s" % e)
+        return None
+
+    def first(block, key):
+        v = (w.get(block) or {}).get(key)
+        return v[0] if isinstance(v, list) and v else None
+
+    cur = w.get("current") or {}
+    hourly = w.get("hourly") or {}
+    times = hourly.get("time") or []
+    probs = hourly.get("precipitation_probability") or []
+
+    # The last hour today the rain is still likely. This is what lets the page
+    # say "clearing by four" rather than just "raining"; None means today never
+    # gets wet enough to be worth a clause.
+    wet_until = None
+    for t, p in zip(times, probs):
+        if p is not None and p >= 40:
+            wet_until = t
+
+    return {
+        "code":     cur.get("weather_code", first("daily", "weather_code")),
+        "dayCode":  first("daily", "weather_code"),
+        "temp":     cur.get("temperature_2m"),
+        "high":     first("daily", "temperature_2m_max"),
+        "low":      first("daily", "temperature_2m_min"),
+        "rainMax":  first("daily", "precipitation_probability_max"),
+        "wetUntil": wet_until,
+    }
+
+
 def main():
     if not TOKEN:
         print("NOTION_TOKEN is not set", file=sys.stderr)
@@ -221,6 +276,7 @@ def main():
         "term":        {"week": week, "of": TERM_WEEKS,
                         "start": TERM_START.isoformat(), "end": TERM_END.isoformat(),
                         "daysToFinals": (TERM_END - d).days},
+        "sky":         sky(),
         "next":        sessions[0] if sessions else None,
         "upcoming":    sessions[:6],
         "walkHome":    walk_home[:10],
