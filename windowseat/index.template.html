@@ -457,7 +457,10 @@ body.hero-only .wrap{padding-bottom:18px}
       <p class="date lab stamp" id="d-stamp">live</p>
     </div>
     <h1>the window seat</h1>
-    <p class="line">Rain on the glass all morning, clearing by four. Nothing is due until Monday — today is a catching-up day, not a keeping-up one.</p>
+    <!-- Written by the hydration step from d.sky and d.counts. The sentence
+         below is only what ships in the file, for the case where data.json
+         never arrives: it says nothing that can go out of date. -->
+    <p class="line" id="d-line">Rain is the ground, sun is the event. Today's line fills in when the data lands.</p>
   </div>
   <section class="pad s-hud">
       <div class="hud">
@@ -795,6 +798,70 @@ body.hero-only .wrap{padding-bottom:18px}
       var now = new Date();
       set('d-term', DOW[now.getDay()] + ' · ' + MON[now.getMonth()] + ' ' + now.getDate() +
                     ' · Week ' + (t.week || '?') + ' of ' + (t.of || '?'));
+
+      /* the line under the window ------------------------------------------
+         It used to be hand-written — "Rain on the glass all morning, clearing
+         by four. Nothing is due until Monday" — and it was still saying that
+         four days later, on a page whose every other number was live. A
+         sentence that cannot go stale is one nobody types: the weather half
+         comes from d.sky (Open-Meteo, pulled by the same Action), the workload
+         half from the same counts the rows read. Either half stands alone if
+         the other is missing, and if data.json never arrives the shipped
+         sentence — which claims nothing about today — stays put. */
+      var HRS = ['midnight','one','two','three','four','five','six','seven',
+                 'eight','nine','ten','eleven','noon'];
+      var NUMS = ['Nothing','One','Two','Three','Four','Five','Six','Seven',
+                  'Eight','Nine'];
+      function hourWord(h){
+        h = ((h % 24) + 24) % 24;
+        return h === 0 ? 'midnight' : h === 12 ? 'noon' : HRS[h % 12];
+      }
+      function countWord(n){ return n < NUMS.length ? NUMS[n] : String(n); }
+      /* WMO codes, coarsened to the five skies this window actually has. */
+      function skyPhrase(code){
+        if (code == null) return null;
+        if (code >= 95) return {t: 'Thunder somewhere over the bay', wet: true};
+        if (code >= 80 && code <= 82) return {t: 'Showers coming through in bursts', wet: true};
+        if (code >= 71 && code <= 86) return {t: 'Snow on the glass', wet: true};
+        if (code >= 61) return {t: 'Rain on the glass', wet: true};
+        if (code >= 51) return {t: 'Drizzle beading on the glass', wet: true};
+        if (code >= 45) return {t: 'Fog up against the glass', wet: false};
+        if (code === 3) return {t: 'Flat grey light with no rain in it', wet: false};
+        if (code === 2) return {t: 'Sun and cloud trading places', wet: false};
+        return {t: 'Clear light straight through', wet: false};
+      }
+
+      var sky = d.sky || null, s1 = '';
+      if (sky) {
+        var ph = skyPhrase(sky.code != null ? sky.code : sky.dayCode);
+        if (ph) {
+          s1 = ph.t;
+          if (ph.wet && sky.wetUntil) {
+            /* the hour AFTER the last wet hour is when it is dry, and whether
+               that has happened yet decides the tense. */
+            var dry = +String(sky.wetUntil).slice(11, 13) + 1;
+            s1 += (dry <= now.getHours() ? ', cleared by ' : ', clearing by ') + hourWord(dry);
+          } else if (!ph.wet && sky.high != null) {
+            s1 += ', ' + Math.round(sky.high) + '° at the warmest';
+          }
+          s1 += '.';
+        }
+      }
+
+      var s2;
+      if (c.overdue) s2 = countWord(c.overdue) + (c.overdue === 1 ? ' thing is' : ' things are') + ' already past due';
+      else if (c.dueSoon) s2 = countWord(c.dueSoon) + (c.dueSoon === 1 ? ' thing is' : ' things are') + ' due in the next seven days';
+      else s2 = 'Nothing is due in the next seven days';
+
+      var capTail = null;
+      if (d.next && d.next.date) {
+        var cn = parseDay(d.next.date), ct = new Date(); ct.setHours(0, 0, 0, 0);
+        var capDays = Math.round((cn - ct) / 86400000);
+        if (capDays <= 0)      capTail = d.next.prepped ? "today's reading is done" : "today's reading is still open";
+        else if (capDays === 1) capTail = d.next.prepped ? 'tomorrow is already prepped' : "tomorrow's reading is still open";
+        else                    capTail = 'no class until ' + DAY[cn.getDay()];
+      }
+      set('d-line', [s1, s2 + (capTail ? ' — ' + capTail : '') + '.'].filter(Boolean).join(' '));
 
       /* next up */
       if (d.next) {
