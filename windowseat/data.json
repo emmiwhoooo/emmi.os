@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T21:13:02+00:00",
+ "generated": "2026-09-01T23:17:56+00:00",
  "today": "2026-09-01",
  "term": {
   "week": 3,
@@ -11,9 +11,9 @@
  "sky": {
   "code": 1,
   "dayCode": 3,
-  "temp": 68.7,
-  "high": 69.2,
-  "low": 56.6,
+  "temp": 68.6,
+  "high": 69.6,
+  "low": 56.3,
   "rainMax": 5,
   "wetUntil": null
  },
@@ -198,6 +198,56 @@
   }
  ],
  "shelf": [
+  {
+   "title": "United States v. Johnson (Keithley Johnson)",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Johnson-Keithley-Johnson-3ce063496baf811fbaefe30e9fbab0f1"
+  },
+  {
+   "title": "United States v. Jefferson",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Jefferson-3ce063496baf8124b532e7bb47112578"
+  },
+  {
+   "title": "Subramaniam v. Public Prosecutor",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Subramaniam-v-Public-Prosecutor-3ce063496baf814dac71f8937b89222b"
+  },
+  {
+   "title": "United States v. Saavedra",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Saavedra-3ce063496baf8152b96ec06da134846e"
+  },
+  {
+   "title": "Hart v. Keenan Properties, Inc.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Hart-v-Keenan-Properties-Inc-3ce063496baf8156955efb095d269261"
+  },
+  {
+   "title": "Campbell v. Boston Scientific Corp.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Campbell-v-Boston-Scientific-Corp-3ce063496baf8163ab4bfe24277b80bc"
+  },
+  {
+   "title": "Lyons Partnership, L.P. v. Morris Costumes, Inc.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Lyons-Partnership-L-P-v-Morris-Costumes-Inc-3ce063496baf817eadb1c2369715477e"
+  },
+  {
+   "title": "Hanson v. Johnson",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Hanson-v-Johnson-3ce063496baf81c2a5fce64e021d262a"
+  },
+  {
+   "title": "Creaghe v. Iowa Home Mutual Casualty Co.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Creaghe-v-Iowa-Home-Mutual-Casualty-Co-3ce063496baf81cba374c869006f2e79"
+  },
+  {
+   "title": "United States v. Montana",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Montana-3ce063496baf81ee86bcd29aa1d95f6c"
+  },
   {
    "title": "Nome 2000 v. Fagerstrom",
    "course": "Property",
@@ -882,7 +932,7 @@
   "graded": 28,
   "unmerged": 4,
   "courses": 5,
-  "cases": 86,
+  "cases": 96,
   "reserve": 16
  },
  "courses": [
