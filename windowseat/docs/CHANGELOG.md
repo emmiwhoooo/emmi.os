@@ -1,5 +1,19 @@
 # the window seat — build log
 
+## v15 · sep 1
+- **The line under the window is generated, not typed.** It had read "Rain on the glass
+  all morning, clearing by four. Nothing is due until Monday" since Aug 28 — four days
+  of confident weather and a workload claim that had stopped being true, on a page whose
+  every other number was live. It is now two derived sentences: sky, then workload.
+- **Weather is real.** `pull_notion.py` also calls Open-Meteo (no key, no account,
+  Oakland hard-coded) and writes a `sky` block into `data.json`. The hourly precipitation
+  probabilities are what make "clearing by four" possible — the page names the hour after
+  the last hour rain is likely, and picks the tense by whether that hour has passed.
+- The weather call is strictly optional: any failure appends to `errors`, leaves `sky`
+  null, and the page writes the workload sentence alone rather than inventing a sky. The
+  sentence that ships in the file claims nothing about any particular day, so a page
+  opened from disk — or before the first refresh — is not lying either.
+
 ## v14 · aug 29
 - **Type stack replaced.** Pixelify Sans out (its 5 reads as an S at tag sizes — shipped
   as `+2S XP` and `S OPEN`), DotGothic16 in. Cabin out, Zen Kaku Gothic New in. Petrona
