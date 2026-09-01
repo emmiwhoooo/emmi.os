@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T00:47:06+00:00",
+ "generated": "2026-09-01T17:50:53+00:00",
  "today": "2026-09-01",
  "term": {
   "week": 3,
@@ -8,13 +8,22 @@
   "end": "2026-12-02",
   "daysToFinals": 92
  },
+ "sky": {
+  "code": 3,
+  "dayCode": 3,
+  "temp": 66.4,
+  "high": 68.7,
+  "low": 57.8,
+  "rainMax": 5,
+  "wetUntil": null
+ },
  "next": {
   "title": "LRW 5 — Analyzing Necessary",
   "course": "LRW",
   "date": "2026-09-01",
   "session": 5,
   "reading": "Review Burton Record (Burton & King declarations); bring Baughman paragraph.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
  },
@@ -25,7 +34,7 @@
    "date": "2026-09-01",
    "session": 5,
    "reading": "Review Burton Record (Burton & King declarations); bring Baughman paragraph.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
   },
@@ -610,15 +619,6 @@
  ],
  "weather": [
   {
-   "title": "Baughman Explanation Paragraph",
-   "course": "LRW",
-   "due": "2026-08-31",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Baughman-Explanation-Paragraph-3c6063496baf8149b867cdb05f77e633"
-  },
-  {
    "title": "Practice Exercise 1",
    "course": "Property",
    "due": "2026-09-02",
@@ -698,18 +698,18 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Core-Grammar-Post-Test-3c6063496baf81dc9b00f522579f831d"
+  },
+  {
+   "title": "Citation Problem Set #2",
+   "course": "LRW",
+   "due": "2026-10-05",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-2-3c6063496baf81a48a8de994eff0e67f"
   }
  ],
  "longHaul": [
-  {
-   "title": "Baughman Explanation Paragraph",
-   "course": "LRW",
-   "due": "2026-08-31",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Baughman-Explanation-Paragraph-3c6063496baf8149b867cdb05f77e633"
-  },
   {
    "title": "Practice Exercise 1",
    "course": "Property",
@@ -754,13 +754,22 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Citation-Problem-Set-1-3c6063496baf8187b73ccaa522f950db"
+  },
+  {
+   "title": "Revised Umbrella Rule + Reasonable CREAC",
+   "course": "LRW",
+   "due": "2026-09-28",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Revised-Umbrella-Rule-Reasonable-CREAC-3c6063496baf8151b23ff07c6dda420e"
   }
  ],
  "counts": {
-  "open": 36,
-  "overdue": 1,
-  "dueSoon": 3,
-  "graded": 29,
+  "open": 35,
+  "overdue": 0,
+  "dueSoon": 2,
+  "graded": 28,
   "unmerged": 9,
   "courses": 5,
   "cases": 78,
