@@ -1,34 +1,24 @@
 {
- "generated": "2026-08-31T02:15:14+00:00",
- "today": "2026-08-31",
+ "generated": "2026-09-01T00:47:06+00:00",
+ "today": "2026-09-01",
  "term": {
   "week": 3,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 93
+  "daysToFinals": 92
  },
  "next": {
-  "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
-  "course": "Evidence",
-  "date": "2026-08-31",
+  "title": "LRW 5 — Analyzing Necessary",
+  "course": "LRW",
+  "date": "2026-09-01",
   "session": 5,
-  "reading": "CB 47-70 (skip Hanson p.65). F.R.E. 801(a)(c), 802.",
+  "reading": "Review Burton Record (Burton & King declarations); bring Baughman paragraph.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-5-Intro-to-Hearsay-Defining-Hearsay-3c6063496baf81e2a7fae4f2ba1c857f"
+  "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
  },
  "upcoming": [
-  {
-   "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
-   "course": "Evidence",
-   "date": "2026-08-31",
-   "session": 5,
-   "reading": "CB 47-70 (skip Hanson p.65). F.R.E. 801(a)(c), 802.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-5-Intro-to-Hearsay-Defining-Hearsay-3c6063496baf81e2a7fae4f2ba1c857f"
-  },
   {
    "title": "LRW 5 — Analyzing Necessary",
    "course": "LRW",
@@ -78,6 +68,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-8-Present-estates-life-estates-pur-autre-vie-fee-tail-3c6063496baf81bf9641c34ae4c532d1"
+  },
+  {
+   "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
+   "course": "Negotiations",
+   "date": "2026-09-04",
+   "session": 3,
+   "reading": "Role-play: Batmobile (car sale). Prep: BA Ch. 8-9; DC Ch. 2-4; email feedback for Serene Isle; planning memo for Batmobile due on bCourses before class.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
   }
  ],
  "walkHome": [
@@ -128,6 +128,12 @@
    "course": "Property",
    "date": "2026-08-28",
    "url": "https://app.notion.com/p/Property-6-Introduction-to-estates-fee-simple-absolute-defeasible-fees-3c6063496baf8102bff5f1e6da78af0a"
+  },
+  {
+   "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
+   "course": "Evidence",
+   "date": "2026-08-31",
+   "url": "https://app.notion.com/p/Evidence-5-Intro-to-Hearsay-Defining-Hearsay-3c6063496baf81e2a7fae4f2ba1c857f"
   }
  ],
  "shelf": [
@@ -609,7 +615,7 @@
    "due": "2026-08-31",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Baughman-Explanation-Paragraph-3c6063496baf8149b867cdb05f77e633"
   },
   {
@@ -701,7 +707,7 @@
    "due": "2026-08-31",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Baughman-Explanation-Paragraph-3c6063496baf8149b867cdb05f77e633"
   },
   {
@@ -752,10 +758,10 @@
  ],
  "counts": {
   "open": 36,
-  "overdue": 0,
+  "overdue": 1,
   "dueSoon": 3,
   "graded": 29,
-  "unmerged": 8,
+  "unmerged": 9,
   "courses": 5,
   "cases": 78,
   "reserve": 13
