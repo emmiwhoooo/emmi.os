@@ -485,24 +485,24 @@ body.hero-only .wrap{padding-bottom:18px}
       <div class="hud">
         <div class="pnl tslate stat">
           <p class="l lab">Level</p>
-          <div class="mid"><p class="num" style="color:var(--slate-ink)" id="d-level">18</p><svg class="sp" width="48" height="48"><use href="#px-sun"/></svg></div>
-          <small class="rwd" style="color:var(--slate-ink)">at 19 <svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>75 · rainy-day skin</small>
+          <div class="mid"><p class="num" style="color:var(--slate-ink)" id="d-level">&mdash;</p><svg class="sp" width="48" height="48"><use href="#px-sun"/></svg></div>
+          <small class="rwd" style="color:var(--slate-ink)" id="d-level-sub">not loaded yet</small>
         </div>
         <div class="pnl tmoss stat">
           <p class="l lab">XP</p>
-          <div class="mid"><p class="num" style="color:var(--moss-ink)" id="d-xp">1,540</p><svg class="sp" width="48" height="48"><use href="#px-book"/></svg></div>
+          <div class="mid"><p class="num" style="color:var(--moss-ink)" id="d-xp">&mdash;</p><svg class="sp" width="48" height="48"><use href="#px-book"/></svg></div>
           <div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="tip"></i><i></i><i></i><i></i></div>
-          <small class="rwd" style="color:var(--moss-ink)">460 to <svg class="sp" width="16" height="16"><use href="#px-sun"/></svg>19</small>
+          <small class="rwd" style="color:var(--moss-ink)" id="d-xp-sub">not loaded yet</small>
         </div>
         <div class="pnl tbutter stat">
           <p class="l lab">Gold</p>
-          <div class="mid"><p class="num" style="color:var(--butter-ink)" id="d-gold">210</p><svg class="sp" width="48" height="48"><use href="#px-coin"/></svg></div>
-          <small class="rwd" style="color:var(--butter-ink)"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>15 to claim</small>
+          <div class="mid"><p class="num" style="color:var(--butter-ink)" id="d-gold">&mdash;</p><svg class="sp" width="48" height="48"><use href="#px-coin"/></svg></div>
+          <small class="rwd" style="color:var(--butter-ink)" id="d-gold-sub">not loaded yet</small>
         </div>
         <div class="pnl trose stat">
           <p class="l lab">Streak</p>
-          <div class="mid"><p class="num" style="color:var(--rose-ink)" id="d-streak">6</p><svg class="sp" width="48" height="48"><use href="#px-sprout"/></svg></div>
-          <small class="rwd" style="color:var(--rose-ink)">1 night to <svg class="sp" width="16" height="16"><use href="#px-sprout"/></svg>7</small>
+          <div class="mid"><p class="num" style="color:var(--rose-ink)" id="d-streak">&mdash;</p><svg class="sp" width="48" height="48"><use href="#px-sprout"/></svg></div>
+          <small class="rwd" style="color:var(--rose-ink)" id="d-streak-sub">not loaded yet</small>
         </div>
       </div>
     </section>
@@ -554,16 +554,14 @@ body.hero-only .wrap{padding-bottom:18px}
           <p class="meta" style="font-size:.74rem;margin-top:6px">week 2 of 14 · aug 17 → dec 2</p>
         </div>
       </div>
-      <div class="quests">
-        <div class="pnl quest"><span class="slot"><svg class="sp" width="32" height="32"><use href="#px-gavel"/></svg></span>
-          <div><h4>brief a case</h4><p>daily · litigation</p></div>
-          <span class="rw"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>5</span></div>
-        <div class="pnl quest" id="d-q-read-row"><span class="slot"><svg class="sp" width="32" height="32"><use href="#px-book"/></svg></span>
-          <div><h4 id="d-q-read">prep tomorrow's reading</h4><p id="d-q-read-sub">daily · lore</p></div>
-          <span class="rw"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>5</span></div>
-        <div class="pnl quest"><span class="slot"><svg class="sp" width="32" height="32"><use href="#px-quill"/></svg></span>
-          <div><h4>brain dump before bed</h4><p>daily · drafting</p></div>
-          <span class="rw"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>5</span></div>
+      <!-- Rebuilt from d.quests.dailies when the data arrives. The three rows
+           below are what ships in the file; two of them are not even on her
+           real roster ("brain dump before bed" is still locked), which is why
+           they get replaced rather than topped up. -->
+      <div class="quests" id="d-quests">
+        <div class="pnl quest"><span class="slot"><svg class="sp" width="32" height="32"><use href="#px-sprout"/></svg></span>
+          <div><h4>the ladder</h4><p>loads from notion</p></div>
+          <span class="rw"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>&mdash;</span></div>
       </div>
     </div>
   </section>
@@ -938,10 +936,64 @@ body.hero-only .wrap{padding-bottom:18px}
       if (c.dueSoon != null) set('d-open-hd', 'THIS WEEK · ' + c.dueSoon + ' DUE');
       else if (c.open != null) set('d-open-hd', c.open + ' OPEN');
 
-      /* HUD — real counts where the game state does not exist yet */
-      set('d-xp', c.open != null ? String(c.open) : null);
-      set('d-gold', c.unmerged != null ? String(c.unmerged) : null);
-      set('d-streak', c.overdue != null ? String(c.overdue) : null);
+      /* HUD — the game state, from the quests and player databases ----------
+         These four cards used to carry school counts under game labels: STREAK
+         was the overdue count, GOLD was unmerged sessions, XP was open
+         assignments, LEVEL was a number typed into the template. So the card
+         read STREAK 0 on a day she had kept both habits two nights running,
+         and it read 0 precisely because she had just cleared the last overdue
+         thing. Every number here is now the one Notion holds, and a number
+         that is missing stays as shipped rather than borrowing a neighbour. */
+      var pl = d.player || {}, qs = d.quests || {};
+      var comma  = function(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ','); };
+      var sprite = function(id){ return '<svg class="sp" width="16" height="16"><use href="#' + id + '"/></svg>'; };
+      var esc    = function(s){ return String(s == null ? '' : s).replace(/[<>&]/g, ''); };
+
+      if (pl.level != null) set('d-level',  String(pl.level));
+      if (pl.xp    != null) set('d-xp',     comma(pl.xp));
+      if (pl.gold  != null) set('d-gold',   comma(pl.gold));
+      if (qs.run   != null) set('d-streak', String(qs.run));
+
+      var lvSub = $('d-level-sub');
+      if (lvSub && (pl.next || pl.rank)) lvSub.textContent = pl.next || pl.rank;
+
+      var xpSub = $('d-xp-sub');
+      if (xpSub && pl.toNext != null && pl.level != null)
+        xpSub.innerHTML = comma(pl.toNext) + ' to ' + sprite('px-sun') + (pl.level + 1);
+
+      var goldSub = $('d-gold-sub');
+      if (goldSub && qs.unclaimed != null)
+        goldSub.innerHTML = qs.unclaimed ? sprite('px-coin') + qs.unclaimed + ' to claim'
+                                         : 'all claimed today';
+
+      var stSub = $('d-streak-sub');
+      if (stSub && qs.run != null) {
+        var toGate = 7 - qs.run;
+        stSub.innerHTML = toGate > 0
+          ? toGate + (toGate === 1 ? ' night to ' : ' nights to ') + sprite('px-sprout') + '7'
+          : 'the gate is open';
+      }
+
+      /* the quest rows — her actual roster, dailies first. Three rows, because
+         the two columns were measured to end on the same line with three; the
+         rest of the ladder lives in Notion. */
+      var qbox = $('d-quests');
+      var SLOT = {morning: 'px-sun', night: 'px-quill', anytime: 'px-book'};
+      var live = (qs.dailies || []).concat((qs.other || []).filter(function(q){
+        return q.kind !== 'main quest';
+      })).slice(0, 3);
+      if (qbox && live.length) {
+        qbox.innerHTML = live.map(function(q){
+          var sub = [q.kind, q.when].filter(Boolean).join(' · ');
+          if (q.streak) sub += ' · ' + q.streak + (q.streak === 1 ? ' night' : ' nights');
+          return '<div class="pnl quest"' + (q.done ? ' style="opacity:.62"' : '') + '>' +
+                 '<span class="slot"><svg class="sp" width="32" height="32"><use href="#' +
+                 (SLOT[q.when] || 'px-book') + '"/></svg></span>' +
+                 '<div><h4>' + esc(q.title) + (q.done ? ' ✓' : '') + '</h4>' +
+                 '<p>' + esc(sub) + '</p></div>' +
+                 '<span class="rw">' + sprite('px-coin') + (q.gold || 0) + '</span></div>';
+        }).join('');
+      }
 
       /* the board reads what is actually next */
       if (window.__wsBoard) {
@@ -960,25 +1012,11 @@ body.hero-only .wrap{padding-bottom:18px}
       }
 
 
-      /* The reading quest was hard-coded to "tomorrow". On a Friday there is no
-         class tomorrow, so it was telling her to prep for nothing. Name the day
-         the next session actually falls on, and say so when it is not tomorrow. */
-      if (d.next && d.next.date) {
-        var nd = parseDay(d.next.date), td = new Date(); td.setHours(0,0,0,0);
-        var days = Math.round((nd - td) / 86400000);
-        var when = days <= 0 ? "today's" : days === 1 ? "tomorrow's" : DAY[nd.getDay()] + "'s";
-        set('d-q-read', 'prep ' + when + ' reading');
-        set('d-q-read-sub', days > 1 ? ('no class until ' + when.replace("'s","") + ' · lore')
-                                     : ((d.next.prepped ? 'done · ' : 'daily · ') + 'lore'));
-        var row = $('d-q-read-row');
-        if (row) {
-          var idle = (days > 1 || d.next.prepped);
-          row.style.opacity = idle ? '.62' : '';
-          /* a quest you cannot act on today should not sit between two you can —
-             greyed rows sink to the bottom of the list. */
-          if (idle && row.parentNode) row.parentNode.appendChild(row);
-        }
-      }
+      /* The "prep tomorrow's reading" quest that used to be hydrated here is
+         gone. It was never on her roster — the real row of that name is still
+         locked behind the 7-night gate — so the page was inventing a habit and
+         then reporting progress against it. The quest rows above come from the
+         ladder instead. */
 
       /* freshness, and any database the Action could not read */
       var when = d.generated ? new Date(d.generated) : null;
