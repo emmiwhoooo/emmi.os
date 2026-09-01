@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T19:13:15+00:00",
+ "generated": "2026-09-01T21:13:02+00:00",
  "today": "2026-09-01",
  "term": {
   "week": 3,
@@ -9,11 +9,11 @@
   "daysToFinals": 92
  },
  "sky": {
-  "code": 3,
+  "code": 1,
   "dayCode": 3,
-  "temp": 66.3,
+  "temp": 68.7,
   "high": 69.2,
-  "low": 57.1,
+  "low": 56.6,
   "rainMax": 5,
   "wetUntil": null
  },
@@ -27,7 +27,7 @@
  },
  "quests": {
   "run": 2,
-  "unclaimed": 10,
+  "unclaimed": 5,
   "dailies": [
    {
     "title": "open the blinds",
@@ -35,8 +35,8 @@
     "when": "morning",
     "streak": 2,
     "gold": 5,
-    "status": "not started",
-    "done": false,
+    "status": "done today",
+    "done": true,
     "lastDone": "2026-08-31",
     "url": "https://app.notion.com/p/open-the-blinds-3ca063496baf81478460c8cb63e7c198"
    },
@@ -126,7 +126,7 @@
    "date": "2026-09-01",
    "session": 6,
    "reading": "CB 70-74 (skip Dullard); 77-96.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-6-Implied-Assertions-Confrontation-Clause-3c6063496baf81d8b5b1e60d0e13e1f5"
   },
@@ -173,12 +173,6 @@
  ],
  "walkHome": [
   {
-   "title": "Property 1 — What does it mean to own something? Trespass",
-   "course": "Property",
-   "date": "2026-08-19",
-   "url": "https://app.notion.com/p/Property-1-What-does-it-mean-to-own-something-Trespass-3c6063496baf8169a9fec5b4894d7bfd"
-  },
-  {
    "title": "Property 2 — Acquisition by conquest and subordination",
    "course": "Property",
    "date": "2026-08-20",
@@ -191,43 +185,59 @@
    "url": "https://app.notion.com/p/Negotiations-1-Fundamentals-Preparation-Planning-Memos-SWON-Role-play-Adams-Riverfront-3c6063496baf81bd80e0de17a0433119"
   },
   {
-   "title": "Evidence 4 — Civil Cases; Subsequent Remedial Measures; Insurance",
-   "course": "Evidence",
-   "date": "2026-08-25",
-   "url": "https://app.notion.com/p/Evidence-4-Civil-Cases-Subsequent-Remedial-Measures-Insurance-3c6063496baf8147b71ec54f3e2adc9b"
-  },
-  {
    "title": "Negotiations 2 — Integrative Bargaining; Options/Leverage; BATNA — Role-play: Serene Isle–Signal Fragrance",
    "course": "Negotiations",
    "date": "2026-08-27",
    "url": "https://app.notion.com/p/Negotiations-2-Integrative-Bargaining-Options-Leverage-BATNA-Role-play-Serene-Isle-Signal-Fra-3c6063496baf81b9b207f5cb0c68b70b"
   },
   {
-   "title": "Property 5 — Adverse possession continued",
-   "course": "Property",
-   "date": "2026-08-27",
-   "url": "https://app.notion.com/p/Property-5-Adverse-possession-continued-3c6063496baf810b88edeada389db50a"
-  },
-  {
    "title": "LRW 4 — Reading cases; intro to CREAC; Rule drafting",
    "course": "LRW",
    "date": "2026-08-28",
    "url": "https://app.notion.com/p/LRW-4-Reading-cases-intro-to-CREAC-Rule-drafting-3c6063496baf81988c33d524279d11ad"
-  },
-  {
-   "title": "Property 6 — Introduction to estates; fee simple absolute; defeasible fees",
-   "course": "Property",
-   "date": "2026-08-28",
-   "url": "https://app.notion.com/p/Property-6-Introduction-to-estates-fee-simple-absolute-defeasible-fees-3c6063496baf8102bff5f1e6da78af0a"
-  },
-  {
-   "title": "Evidence 5 — Intro to Hearsay; Defining Hearsay",
-   "course": "Evidence",
-   "date": "2026-08-31",
-   "url": "https://app.notion.com/p/Evidence-5-Intro-to-Hearsay-Defining-Hearsay-3c6063496baf81e2a7fae4f2ba1c857f"
   }
  ],
  "shelf": [
+  {
+   "title": "Nome 2000 v. Fagerstrom",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Nome-2000-v-Fagerstrom-3ce063496baf814bb960cb5301a4f7fc"
+  },
+  {
+   "title": "United States v. Mezzanatto",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Mezzanatto-3ce063496baf814b9de5f98e01269012"
+  },
+  {
+   "title": "Clausen v. Storage Tank Development Corp.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Clausen-v-Storage-Tank-Development-Corp-3ce063496baf81a982fbe0312e1a9e5d"
+  },
+  {
+   "title": "Carney v. American University",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Carney-v-American-University-3ce063496baf81a58183d9f562e08600"
+  },
+  {
+   "title": "Diehl v. Blaw-Knox",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Diehl-v-Blaw-Knox-3ce063496baf81ecbe00d71ee8dd3ce8"
+  },
+  {
+   "title": "United States v. Parry",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Parry-3ce063496baf814c9b6dd135288ed4ef"
+  },
+  {
+   "title": "United States v. Feliz",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Feliz-3ce063496baf81878496d38e70af1c70"
+  },
+  {
+   "title": "United States v. Zenni",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Zenni-3ce063496baf810ebc32e3c07ffa203b"
+  },
   {
    "title": "Vasquez v. Glassboro Service Assoc.",
    "course": "Property",
@@ -621,6 +631,18 @@
  ],
  "reserve": [
   {
+   "title": "📑 Slides — Adverse possession, elements and answer template (Property 5)",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/Slides-Adverse-possession-elements-and-answer-template-Property-5-3ce063496baf81bc8347f73ae192ca64"
+  },
+  {
+   "title": "Evidence 5 Prep Sheet",
+   "course": "Evidence",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Evidence-5-Prep-Sheet-3ce063496baf81eb9b1eed75b86c90e2"
+  },
+  {
    "title": "Evidence 6 Prep Sheet",
    "course": "Evidence",
    "kind": "prep sheet",
@@ -858,10 +880,10 @@
   "overdue": 0,
   "dueSoon": 2,
   "graded": 28,
-  "unmerged": 9,
+  "unmerged": 4,
   "courses": 5,
-  "cases": 78,
-  "reserve": 14
+  "cases": 86,
+  "reserve": 16
  },
  "courses": [
   "Evidence",
