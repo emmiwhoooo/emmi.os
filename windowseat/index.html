@@ -872,13 +872,31 @@ body.hero-only .wrap{padding-bottom:18px}
       else if (c.dueSoon) s2 = countWord(c.dueSoon) + (c.dueSoon === 1 ? ' thing is' : ' things are') + ' due in the next seven days';
       else s2 = 'Nothing is due in the next seven days';
 
+      /* d.next is one session, and Tuesdays have two. Speaking for the first one
+         only is how the tail ends up saying "today's reading is done" while an
+         unprepped Evidence sits at 2:10, so today is counted across every
+         session dated today, not just the nearest. */
+      var ct = new Date(); ct.setHours(0, 0, 0, 0);
+      var todaySess = (d.upcoming || []).filter(function(a){
+        var x = parseDay(a.date); return x && x.getTime() === ct.getTime();
+      });
       var capTail = null;
-      if (d.next && d.next.date) {
-        var cn = parseDay(d.next.date), ct = new Date(); ct.setHours(0, 0, 0, 0);
+      if (todaySess.length) {
+        var openN = todaySess.filter(function(a){ return !a.prepped; }).length;
+        if (openN === 0)            capTail = todaySess.length === 1 ? "today's reading is done"
+                                            : todaySess.length === 2 ? "today's readings are both done"
+                                            : "today's readings are all done";
+        else if (todaySess.length === 1)   capTail = "today's reading is still open";
+        else if (openN === todaySess.length) capTail = todaySess.length === 2
+                                            ? "neither of today's readings is done"
+                                            : "none of today's readings are done";
+        else                        capTail = countWord(openN).toLowerCase() + " of today's " +
+                                              countWord(todaySess.length).toLowerCase() + ' readings still open';
+      } else if (d.next && d.next.date) {
+        var cn = parseDay(d.next.date);
         var capDays = Math.round((cn - ct) / 86400000);
-        if (capDays <= 0)      capTail = d.next.prepped ? "today's reading is done" : "today's reading is still open";
-        else if (capDays === 1) capTail = d.next.prepped ? 'tomorrow is already prepped' : "tomorrow's reading is still open";
-        else                    capTail = 'no class until ' + DAY[cn.getDay()];
+        if (capDays <= 1) capTail = d.next.prepped ? 'tomorrow is already prepped' : "tomorrow's reading is still open";
+        else              capTail = 'no class until ' + DAY[cn.getDay()];
       }
       set('d-line', [s1, s2 + (capTail ? ' — ' + capTail : '') + '.'].filter(Boolean).join(' '));
 
