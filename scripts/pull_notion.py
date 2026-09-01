@@ -31,6 +31,8 @@ DB = {
     "cases":      "cfca3b5f-1ce2-48b2-a879-966edfe610c9",   # Case Bank v6
     "courses":    "c1977d28-e2e1-4125-8ddb-2a38a9d23b41",   # courses
     "resources":  "a52c8648-160e-43a1-9d88-302664a48bd4",   # Resources v6
+    "quests":     "aef1c9cc-f5ce-43d2-b4de-a4d43c85a28d",   # ⋆ q u e s t s ⋆
+    "player":     "6e371468-38f6-4a2d-8017-a5f669ea5a38",   # ☆ p l a y e r  o n e ☆
 }
 
 TERM_START, TERM_END, TERM_WEEKS = date(2026, 8, 17), date(2026, 12, 2), 14
@@ -105,6 +107,23 @@ def checked(p, key):
 
 def relation_ids(p, key):
     return [r["id"] for r in (p.get(key) or {}).get("relation", [])]
+
+
+def number_of(p, key):
+    return (p.get(key) or {}).get("number")
+
+
+def formula_of(p, key):
+    """A formula property carries its result under its own type key."""
+    f = (p.get(key) or {}).get("formula") or {}
+    for k in ("number", "string", "boolean"):
+        if k in f:
+            return f[k]
+    return None
+
+
+def rollup_of(p, key):
+    return ((p.get(key) or {}).get("rollup") or {}).get("number")
 
 
 def day_only(s):
@@ -267,6 +286,55 @@ def main():
             "link":   (p.get("Link") or {}).get("url") or row.get("url"),
         })
 
+    # ---- the ladder — active quests, and the run they are on ----
+    # The HUD used to show counts borrowed from school data under game labels:
+    # "streak" was the overdue count, "gold" was unmerged sessions, "level" was
+    # a number typed into the template. A card that says STREAK 0 on a night she
+    # kept both habits is worse than a blank one, so these come from the quests
+    # database or they do not render at all.
+    dailies, other_quests = [], []
+    for row in query("quests", filter={"property": "locked",
+                                       "checkbox": {"equals": False}}):
+        p = row["properties"]
+        name = title_of(p)
+        if is_placeholder(name):
+            continue
+        q = {
+            "title":    name,
+            "kind":     select_of(p, "kind"),
+            "when":     select_of(p, "time of day"),
+            "streak":   number_of(p, "streak"),
+            "gold":     number_of(p, "gold per completion"),
+            "status":   select_of(p, "status"),
+            "done":     select_of(p, "status") == "done today",
+            "lastDone": day_only(date_of(p, "last done")),
+            "url":      row.get("url"),
+        }
+        (dailies if q["kind"] == "daily" else other_quests).append(q)
+
+    # The ladder's own definition of the run: the lowest streak among the active
+    # dailies (the gate's `G`). One missed night takes the whole run down —
+    # that is the point of it — so a max or an average would flatter her.
+    run = min([q["streak"] or 0 for q in dailies], default=None)
+    # None, not 0 — with no dailies in hand the honest answer is "unknown", and
+    # 0 would render as "all claimed today" on a day nothing was read.
+    unclaimed = (sum([q["gold"] or 0 for q in dailies if not q["done"]])
+                 if dailies else None)
+
+    # ---- the player — level, xp and purse, all computed inside Notion ----
+    player = {}
+    prows = query("player", page_size=1)
+    if prows:
+        p = prows[0]["properties"]
+        player = {
+            "level":  formula_of(p, "level"),
+            "xp":     rollup_of(p, "total xp"),
+            "toNext": formula_of(p, "xp to next level"),
+            "gold":   formula_of(p, "gold available"),
+            "rank":   formula_of(p, "⚔ rank"),
+            "next":   formula_of(p, "✦ next"),
+        }
+
     d = date.today()
     week = max(1, min(TERM_WEEKS, ((d - TERM_START).days // 7) + 1))
 
@@ -277,6 +345,9 @@ def main():
                         "start": TERM_START.isoformat(), "end": TERM_END.isoformat(),
                         "daysToFinals": (TERM_END - d).days},
         "sky":         sky(),
+        "player":      player,
+        "quests":      {"run": run, "unclaimed": unclaimed,
+                        "dailies": dailies, "other": other_quests},
         "next":        sessions[0] if sessions else None,
         "upcoming":    sessions[:6],
         "walkHome":    walk_home[:10],
