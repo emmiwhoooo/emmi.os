@@ -1,5 +1,25 @@
 # the window seat — build log
 
+## v16 · sep 1
+- **The HUD stops borrowing.** All four cards were school counts wearing game labels:
+  STREAK was `counts.overdue`, GOLD was unmerged sessions, XP was open assignments, and
+  LEVEL was a number typed into the template. The card read STREAK 0 on a day both
+  habits were on a two-night run — and read 0 *because* the last overdue thing had just
+  been cleared. Level, xp, purse and next-unlock now come from ☆ player one ☆; the
+  streak is the ladder's own `G`, the lowest streak among active dailies.
+- **The quest rows are the real roster.** They were three hard-coded rows, two of which
+  are not on her board — `brain dump before bed` is still locked behind the 7-night
+  gate — and the middle one was hydrated into "prep tomorrow's reading", a habit the
+  page invented and then reported progress against. That hydration is deleted. Rows now
+  come from ⋆ quests ⋆, dailies first, capped at three so the two columns still end on
+  the same line.
+- **What ships in the file is an em-dash.** The old placeholders asserted a level, an xp
+  total, a purse and a streak. If the Action cannot reach the two databases, the cards
+  now read `—` / "not loaded yet" and the stamp says a source is unavailable, which is
+  the true statement.
+- Known remainder: the XP bar under the card is still a fixed 6/10. Nothing in the
+  player schema gives xp-within-level, so it cannot be computed yet.
+
 ## v15 · sep 1
 - **The line under the window is generated, not typed.** It had read "Rain on the glass
   all morning, clearing by four. Nothing is due until Monday" since Aug 28 — four days
