@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T18:28:56+00:00",
+ "generated": "2026-09-01T18:59:16+00:00",
  "today": "2026-09-01",
  "term": {
   "week": 3,
@@ -12,10 +12,17 @@
   "code": 3,
   "dayCode": 3,
   "temp": 66.8,
-  "high": 68.7,
-  "low": 57.8,
+  "high": 69.2,
+  "low": 57.1,
   "rainMax": 5,
   "wetUntil": null
+ },
+ "player": {},
+ "quests": {
+  "run": null,
+  "unclaimed": null,
+  "dailies": [],
+  "other": []
  },
  "next": {
   "title": "LRW 5 — Analyzing Necessary",
@@ -788,5 +795,8 @@
   "Property",
   "Youth Justice"
  ],
- "errors": []
+ "errors": [
+  "quests: HTTP 404 (share the database with the integration) {\"object\":\"error\",\"status\":404,\"code\":\"object_not_found\",\"message\":\"Could not find database with ID: aef1c9cc-f5ce-43d2-b4de-a4d43c85a28d. Make sure the relevant pages and databases are shared with yo",
+  "player: HTTP 404 (share the database with the integration) {\"object\":\"error\",\"status\":404,\"code\":\"object_not_found\",\"message\":\"Could not find database with ID: 6e371468-38f6-4a2d-8017-a5f669ea5a38. Make sure the relevant pages and databases are shared with yo"
+ ]
 }
