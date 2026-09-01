@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T17:50:53+00:00",
+ "generated": "2026-09-01T18:28:56+00:00",
  "today": "2026-09-01",
  "term": {
   "week": 3,
@@ -11,7 +11,7 @@
  "sky": {
   "code": 3,
   "dayCode": 3,
-  "temp": 66.4,
+  "temp": 66.8,
   "high": 68.7,
   "low": 57.8,
   "rainMax": 5,
@@ -539,6 +539,12 @@
  ],
  "reserve": [
   {
+   "title": "Evidence 6 Prep Sheet",
+   "course": "Evidence",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Evidence-6-Prep-Sheet-3ce063496baf80d9aa46ee67aad17e3d"
+  },
+  {
    "title": "📝 Prep sheet — Relevance, balancing, 403 vs 352 (Evidence 1)",
    "course": "Evidence",
    "kind": "prep sheet",
@@ -773,7 +779,7 @@
   "unmerged": 9,
   "courses": 5,
   "cases": 78,
-  "reserve": 13
+  "reserve": 14
  },
  "courses": [
   "Evidence",
