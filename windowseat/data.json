@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T01:09:36+00:00",
+ "generated": "2026-09-02T05:47:22+00:00",
  "today": "2026-09-02",
  "term": {
   "week": 3,
@@ -11,19 +11,19 @@
  "sky": {
   "code": 0,
   "dayCode": 3,
-  "temp": 67.4,
+  "temp": 58.6,
   "high": 70.3,
-  "low": 58.5,
+  "low": 58.1,
   "rainMax": 5,
   "wetUntil": null
  },
  "player": {
-  "level": 16,
+  "level": 23,
   "xp": 40,
-  "toNext": 30,
-  "gold": 115,
-  "rank": "lvl 16",
-  "next": "30 xp to lvl 17"
+  "toNext": 75,
+  "gold": 135,
+  "rank": "lvl 23",
+  "next": "75 xp to lvl 24"
  },
  "quests": {
   "run": 2,
@@ -105,7 +105,7 @@
   "date": "2026-09-02",
   "session": 7,
   "reading": "Skills Workshop 1 (adverse possession). PRACTICE EXERCISE 1 DUE (graded on completion, 3 pts).",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/Property-7-SKILLS-WORKSHOP-1-adverse-possession-PRACTICE-EXERCISE-1-DUE-3c6063496baf8182aa05e82d7a1d3e18"
  },
@@ -116,7 +116,7 @@
    "date": "2026-09-02",
    "session": 7,
    "reading": "Skills Workshop 1 (adverse possession). PRACTICE EXERCISE 1 DUE (graded on completion, 3 pts).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-7-SKILLS-WORKSHOP-1-adverse-possession-PRACTICE-EXERCISE-1-DUE-3c6063496baf8182aa05e82d7a1d3e18"
   },
