@@ -86,6 +86,16 @@ svg.sp{display:block;shape-rendering:crispEdges;image-rendering:pixelated}
 .title h1{font-family:"Petrona",Georgia,serif;font-weight:600;margin:0;color:var(--moss-ink);
   font-size:clamp(1.9rem,6.4vw,2.7rem);line-height:1.04;letter-spacing:-.015em}
 .title .line{margin:.5em auto 0;color:var(--dim);font-size:.95rem;max-width:52ch}
+/* the three-day sky: a glance, not a sentence. sits under the caption and
+   borrows the chipcard vocabulary so it reads as instrumentation. */
+.sky3{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin:.55em auto 0}
+.sky3 .d3{display:inline-flex;align-items:center;gap:5px;
+  background:var(--sunk);border:2px solid var(--edge);padding:2px 8px;
+  font-family:var(--bd-face);font-size:.62rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.11em;color:var(--dim)}
+.sky3 .d3 b{color:var(--ink);letter-spacing:.05em}
+.sky3 .d3 .wet{font-style:normal;color:var(--slate-ink)}
+.sky3 .sp.pale{opacity:.5}
 
 /* ================= the departures rail =================
    this is a horizontal RULE, not a monument. it separates the window from the
@@ -391,7 +401,11 @@ body.hero-only .mastr{display:contents}
 body.hero-only .winwrap{grid-area:win;padding:6px 0 0}
 body.hero-only .window{max-width:none}
 body.hero-only .title{grid-area:head;text-align:left;padding:2px 0 0}
-body.hero-only .title .line{margin-left:0;max-width:46ch}
+/* the caption was pinned to 46ch while the hero's title column runs 520-950px,
+   so it wrapped to five lines with up to 540px sitting empty beside it.
+   It now fills the column, capped at a readable measure. */
+body.hero-only .title .line{margin-left:0;max-width:min(100%,72ch)}
+body.hero-only .sky3{justify-content:flex-start;margin-left:0}
 /* The HUD and the quests now live inside .cols, so the grid places that one
    wrapper and .cols distributes them itself. It stretches to the window's
    height and spaces its two children apart, which is what fixes the mismatched
@@ -480,6 +494,7 @@ body.hero-only .wrap{padding-bottom:18px}
          below is only what ships in the file, for the case where data.json
          never arrives: it says nothing that can go out of date. -->
     <p class="line" id="d-line">Rain is the ground, sun is the event. Today's line fills in when the data lands.</p>
+    <div class="sky3" id="d-sky3" hidden></div>
   </div>
   <section class="pad s-hud">
       <div class="hud">
@@ -834,69 +849,177 @@ body.hero-only .wrap{padding-bottom:18px}
         return h === 0 ? 'midnight' : h === 12 ? 'noon' : HRS[h % 12];
       }
       function countWord(n){ return n < NUMS.length ? NUMS[n] : String(n); }
-      /* WMO codes, coarsened to the five skies this window actually has. */
-      function skyPhrase(code){
-        if (code == null) return null;
-        if (code >= 95) return {t: 'Thunder somewhere over the bay', wet: true};
-        if (code >= 80 && code <= 82) return {t: 'Showers coming through in bursts', wet: true};
-        if (code >= 71 && code <= 86) return {t: 'Snow on the glass', wet: true};
-        if (code >= 61) return {t: 'Rain on the glass', wet: true};
-        if (code >= 51) return {t: 'Drizzle beading on the glass', wet: true};
-        if (code >= 45) return {t: 'Fog up against the glass', wet: false};
-        if (code === 3) return {t: 'Flat grey light with no rain in it', wet: false};
-        if (code === 2) return {t: 'Sun and cloud trading places', wet: false};
-        return {t: 'Clear light straight through', wet: false};
-      }
 
-      var sky = d.sky || null, s1 = '';
-      if (sky) {
-        var ph = skyPhrase(sky.code != null ? sky.code : sky.dayCode);
-        if (ph) {
-          s1 = ph.t;
-          if (ph.wet && sky.wetUntil) {
-            /* the hour AFTER the last wet hour is when it is dry, and whether
-               that has happened yet decides the tense. */
-            var dry = +String(sky.wetUntil).slice(11, 13) + 1;
-            s1 += (dry <= now.getHours() ? ', cleared by ' : ', clearing by ') + hourWord(dry);
-          } else if (!ph.wet && sky.high != null) {
-            s1 += ', ' + Math.round(sky.high) + '° at the warmest';
-          }
-          s1 += '.';
-        }
-      }
+      /* ── today's line ──────────────────────────────────────────────────
+         Day first; the sky only when it changes what she carries.
 
-      var s2;
-      if (c.overdue) s2 = countWord(c.overdue) + (c.overdue === 1 ? ' thing is' : ' things are') + ' already past due';
-      else if (c.dueSoon) s2 = countWord(c.dueSoon) + (c.dueSoon === 1 ? ' thing is' : ' things are') + ' due in the next seven days';
-      else s2 = 'Nothing is due in the next seven days';
-
-      /* d.next is one session, and Tuesdays have two. Speaking for the first one
-         only is how the tail ends up saying "today's reading is done" while an
-         unprepped Evidence sits at 2:10, so today is counted across every
-         session dated today, not just the nearest. */
+         Em's note (Sep 2): the old opener led with the weather and produced
+         "Flat grey light with no rain in it" — a whole clause spent on an
+         absence, on a day that had a graded exercise due. Overcast-and-dry
+         is not news. So the sky now enters this sentence only when it would
+         change what she wears or takes with her, and the rest of the
+         forecast moved to the strip underneath, where a glance is cheaper
+         than a sentence. The line itself is about the day: what she is
+         going to, what it owes, and what is coming at her next. */
       var ct = new Date(); ct.setHours(0, 0, 0, 0);
-      var todaySess = (d.upcoming || []).filter(function(a){
-        var x = parseDay(a.date); return x && x.getTime() === ct.getTime();
-      });
-      var capTail = null;
-      if (todaySess.length) {
-        var openN = todaySess.filter(function(a){ return !a.prepped; }).length;
-        if (openN === 0)            capTail = todaySess.length === 1 ? "today's reading is done"
-                                            : todaySess.length === 2 ? "today's readings are both done"
-                                            : "today's readings are all done";
-        else if (todaySess.length === 1)   capTail = "today's reading is still open";
-        else if (openN === todaySess.length) capTail = todaySess.length === 2
-                                            ? "neither of today's readings is done"
-                                            : "none of today's readings are done";
-        else                        capTail = countWord(openN).toLowerCase() + " of today's " +
-                                              countWord(todaySess.length).toLowerCase() + ' readings still open';
-      } else if (d.next && d.next.date) {
-        var cn = parseDay(d.next.date);
-        var capDays = Math.round((cn - ct) / 86400000);
-        if (capDays <= 1) capTail = d.next.prepped ? 'tomorrow is already prepped' : "tomorrow's reading is still open";
-        else              capTail = 'no class until ' + DAY[cn.getDay()];
+      function dayOffset(iso){
+        var x = parseDay(iso);
+        return x ? Math.round((x - ct) / 86400000) : null;
       }
-      set('d-line', [s1, s2 + (capTail ? ' — ' + capTail : '') + '.'].filter(Boolean).join(' '));
+      function dateWord(iso){
+        var x = parseDay(iso);
+        return x ? MON[x.getMonth()] + ' ' + x.getDate() : '';
+      }
+      /* "today" / "tomorrow" / "on Friday", and a real date once the weekday
+         name stops being unambiguous. */
+      function whenWord(iso){
+        var n = dayOffset(iso), x = parseDay(iso);
+        if (n === 0) return 'today';
+        if (n === 1) return 'tomorrow';
+        if (n > 1 && n < 7 && x) return 'on ' + DAY[x.getDay()];
+        return 'on ' + dateWord(iso);
+      }
+      function courseTag(a){ return a.course + (a.session ? ' ' + a.session : ''); }
+      function joinList(xs){
+        return xs.length < 2  ? (xs[0] || '')
+             : xs.length === 2 ? xs[0] + ' and ' + xs[1]
+             : xs.slice(0, -1).join(', ') + ' and ' + xs[xs.length - 1];
+      }
+
+      /* null unless the sky is worth a clause. Everything else is the strip. */
+      function skyNote(sky){
+        if (!sky) return null;
+        var code = sky.code != null ? sky.code : sky.dayCode;
+        if (code == null) return null;
+        var hi = sky.high == null ? null : Math.round(sky.high), t;
+        if (code >= 95)                    t = 'Thunder somewhere over the bay';
+        else if (code >= 80 && code <= 82) t = 'Showers coming through in bursts';
+        else if (code >= 71 && code <= 86) t = 'Snow on the glass';
+        else if (code >= 61)               t = 'Rain on the glass';
+        else if (code >= 51)               t = 'Drizzle beading on the glass';
+        else if (code >= 45)               t = 'Fog up against the glass';
+        else if (hi != null && hi >= 85)   t = 'Hot by the middle of the day, ' + hi + '°';
+        else if (hi != null && hi <= 52)   t = 'Cold enough for the good coat, ' + hi + '°';
+        else return null;                  /* grey and dry is not news */
+        if (code >= 51 && sky.wetUntil) {
+          var dry = +String(sky.wetUntil).slice(11, 13) + 1;
+          t += (dry <= now.getHours() ? ', cleared by ' : ', clearing by ') + hourWord(dry);
+        }
+        return t + '.';
+      }
+
+      var up = d.upcoming || [];
+      var todaySess = up.filter(function(a){ return dayOffset(a.date) === 0; });
+
+      /* 1 — the stops on today's line. Counted across every session dated
+         today, not just d.next: Tuesdays have two, and speaking for the
+         first one only is how the page ends up calling the day done while
+         an unprepped Evidence sits at 2:10. */
+      var ahead = {};
+      up.forEach(function(a){
+        var n = dayOffset(a.date);
+        if (n > 0 && n <= 4) (ahead[n] = ahead[n] || []).push(a);
+      });
+      var keys = Object.keys(ahead).map(Number).sort(function(x, y){ return x - y; }).slice(0, 2);
+
+      var s1;
+      if (!todaySess.length) {
+        /* the horizon sentence carries the next stop when there is one inside
+           the window; naming it here as well just says Saturday twice. */
+        var nx = up.filter(function(a){ return dayOffset(a.date) > 0; })[0];
+        s1 = (!keys.length && nx)
+               ? 'No class today, and nothing until ' + courseTag(nx) + ' ' + whenWord(nx.date) + '.'
+               : 'No class today.';
+      } else if (todaySess.length === 1) {
+        s1 = "Today's only stop is " + courseTag(todaySess[0]) +
+             (todaySess[0].prepped ? ', and the reading is done.'
+                                   : ', and the reading is still open.');
+      } else {
+        var openN = todaySess.filter(function(a){ return !a.prepped; }).length;
+        s1 = countWord(todaySess.length) + ' stops today — ' +
+             joinList(todaySess.map(courseTag)) + ' — ' +
+             (openN === 0                  ? 'all of them prepped.'
+            : openN === todaySess.length   ? 'none of them prepped yet.'
+            : countWord(openN).toLowerCase() + ' of them still unread.');
+      }
+
+      /* 2 — what the day actually owes. Overdue outranks everything. */
+      var wx = d.weather || [];
+      var overdue  = wx.filter(function(a){ return a.overdue; });
+      var dueToday = wx.filter(function(a){ return !a.overdue && dayOffset(a.due) === 0; });
+      var s2 = '';
+      if (overdue.length)
+        s2 = countWord(overdue.length) +
+             (overdue.length === 1 ? ' thing is' : ' things are') + ' already past due' +
+             (overdue.length <= 2 ? ' — ' + joinList(overdue.map(function(a){ return a.title; })) : '') + '.';
+      else if (dueToday.length)
+        s2 = joinList(dueToday.map(function(a){ return a.title; })) +
+             (dueToday.length === 1 ? ' goes in' : ' go in') + ' before the day is out.';
+
+      /* 3 — the near horizon: the next two class days, then the next thing due.
+         "the line gets busy" has to earn itself — it is a lie in front of a
+         single Thursday stop, so it waits for four. */
+      var s3 = '';
+      if (keys.length) {
+        var parts = keys.map(function(n){
+          var g = ahead[n];
+          return countWord(g.length).toLowerCase() + ' ' +
+                 (g.length === 1 ? 'stop ' : 'stops ') + whenWord(g[0].date);
+        });
+        var tot = keys.reduce(function(s, n){ return s + ahead[n].length; }, 0);
+        var un  = keys.reduce(function(s, n){
+          return s + ahead[n].filter(function(a){ return !a.prepped; }).length; }, 0);
+        var lead = !todaySess.length ? 'Next up: '
+                 : tot >= 4          ? 'Then the line gets busy: '
+                                     : 'Then ';
+        s3 = lead + joinList(parts) +
+             (tot === 1   ? (un ? ', still unread.' : ', already prepped.')
+            : un === 0    ? ', and every one of them is prepped.'
+            : un === tot  ? ', and none of the ' + countWord(tot).toLowerCase() + ' prepped yet.'
+            : ', ' + countWord(un).toLowerCase() + ' of the ' + countWord(tot).toLowerCase() +
+              ' still unread.');
+      }
+      var nextDue = wx.filter(function(a){ return !a.overdue && dayOffset(a.due) > 0; })[0];
+      if (nextDue)
+        s3 += (s3 ? ' ' : '') + 'Next on the board is ' + nextDue.title + ' ' +
+              whenWord(nextDue.due) + '.';
+
+      set('d-line', [skyNote(d.sky), s1, s2, s3].filter(Boolean).join(' '));
+
+      /* ── the three-day strip ───────────────────────────────────────────
+         The forecast the caption no longer carries. Today first, then two
+         days out: a sprite for the sky, the high, and a rain figure only
+         when it is high enough to change what she takes with her. Absent
+         entirely if the weather call failed, same as the caption clause. */
+      /* [sprite, dimmed, wet]. "wet" is what decides whether the rain figure is
+         worth the space: tomorrow's drizzle reads 21%, under any sensible
+         percentage bar, and hiding it is how the strip ends up claiming a dry
+         day Em can see out the window is not one. */
+      var SKYPX = function(code){
+        if (code == null)                             return ['px-cloud', true,  false];
+        if (code >= 95 || (code >= 80 && code <= 82)) return ['px-umbrella', false, true];
+        if (code >= 51 && code <= 86)                 return ['px-drop', false, true];
+        if (code >= 45)                               return ['px-cloud', false, false];
+        if (code >= 2)                                return ['px-cloud', true,  false];
+        return ['px-sun', false, false];
+      };
+      var sky3 = $('d-sky3'), fdays = (d.sky && d.sky.days) || [];
+      if (sky3 && fdays.length) {
+        sky3.innerHTML = fdays.slice(0, 3).map(function(w, i){
+          /* lbl is ours — 'today' or a DAY entry — so it needs no escaping,
+             and esc() is not defined this early in the handler anyway. */
+          var px = SKYPX(w.code), x = parseDay(w.date);
+          var lbl = i === 0 ? 'today' : (x ? DAY[x.getDay()].slice(0, 3) : '');
+          return '<span class="d3">' +
+                 '<svg class="sp' + (px[1] ? ' pale' : '') + '" width="16" height="16"><use href="#' +
+                 px[0] + '"/></svg>' + lbl +
+                 (w.high != null ? ' <b>' + Math.round(w.high) + '°</b>' : '') +
+                 (w.rainMax != null && (px[2] || w.rainMax >= 30)
+                    ? ' <i class="wet">' + Math.round(w.rainMax) + '%</i>' : '') +
+                 '</span>';
+        }).join('');
+        sky3.hidden = false;
+      }
 
       /* next up */
       if (d.next) {
@@ -970,7 +1093,7 @@ body.hero-only .wrap{padding-bottom:18px}
       if (stSub && qs.run != null) {
         var toGate = 7 - qs.run;
         stSub.innerHTML = toGate > 0
-          ? toGate + (toGate === 1 ? ' night to ' : ' nights to ') + sprite('px-sprout') + '7'
+          ? toGate + (toGate === 1 ? ' day to ' : ' days to ') + sprite('px-sprout') + '7'
           : 'the gate is open';
       }
 
@@ -985,7 +1108,7 @@ body.hero-only .wrap{padding-bottom:18px}
       if (qbox && live.length) {
         qbox.innerHTML = live.map(function(q){
           var sub = [q.kind, q.when].filter(Boolean).join(' · ');
-          if (q.streak) sub += ' · ' + q.streak + (q.streak === 1 ? ' night' : ' nights');
+          if (q.streak) sub += ' · ' + q.streak + ' day streak';
           return '<div class="pnl quest"' + (q.done ? ' style="opacity:.62"' : '') + '>' +
                  '<span class="slot"><svg class="sp" width="32" height="32"><use href="#' +
                  (SLOT[q.when] || 'px-book') + '"/></svg></span>' +
