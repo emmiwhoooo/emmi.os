@@ -25,6 +25,15 @@
   sentence. `day_only()` now converts to Pacific before taking the date; date-only
   properties (no time) are passed through untouched, since those are already local.
   This is the source of the same bug the daily log had patched by hand on Sep 1.
+- **Due dates are NOT instants, and must not be converted.** Fixing the class dates
+  above and applying the same conversion to `Due` broke the other direction: the page
+  announced the Umbrella Rule on Sunday when it is due Monday. The assignments table
+  stores that one as `2026-09-07T05:00:00Z` and Reflection 1 as `2026-09-15T00:00:00Z`
+  — midnight Eastern and midnight UTC, neither a Pacific instant. Those are dates that
+  picked up a placeholder time on the way in, and converting them rolls each back a
+  day. There are now two helpers: `day_pacific()` for things that happen at a time
+  (sessions), `day_only()` for days on a calendar (due dates, `last done`). A class
+  time is data; a due-date time is noise.
 - **The caption fills its column.** It was capped at 46ch — 412px — while the hero's
   title column runs 520-950px, so it wrapped to five lines with up to 540px of empty
   space beside it. Now `min(100%, 72ch)`: 645px and four lines at full width.
