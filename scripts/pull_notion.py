@@ -21,6 +21,15 @@ import urllib.error
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
+# Every day boundary on this page is Pacific, because that is the day Em is
+# living in. Notion hands back timed properties as UTC instants, so the
+# conversion has to happen here rather than by string-slicing downstream.
+try:
+    from zoneinfo import ZoneInfo
+    PACIFIC = ZoneInfo("America/Los_Angeles")
+except Exception:                                         # noqa: BLE001
+    PACIFIC = timezone(timedelta(hours=-7))               # DST-naive fallback
+
 TOKEN = os.environ.get("NOTION_TOKEN", "").strip()
 API = "https://api.notion.com/v1"
 VERSION = "2022-06-28"          # long-stable; do not chase the newest header
@@ -127,7 +136,26 @@ def rollup_of(p, key):
 
 
 def day_only(s):
-    return (s or "")[:10]
+    """The calendar day a Notion date falls on, in Pacific.
+
+    Date-only properties come back as "2026-09-02" and are already local, so
+    they pass through. Properties that carry a TIME come back as a UTC instant
+    — and slicing the first ten characters of one puts an evening class on the
+    following day. Youth Justice meets Wednesday 6:25pm Pacific, which Notion
+    stores as "2026-09-03T01:25:00.000Z"; the old slice filed it under
+    Thursday, so the page said "today's only stop is Property 7" on a day Em
+    had two, and the horizon sentence counted it twice over. The daily log had
+    the same bug fixed by hand on Sep 1 — this is the source of it.
+    """
+    if not s:
+        return ""
+    if len(s) <= 10:
+        return s[:10]
+    try:
+        return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(PACIFIC).date().isoformat()
+    except Exception as e:                                    # noqa: BLE001
+        errors.append("date %r: %s" % (s, e))
+        return s[:10]
 
 
 def is_placeholder(title):
@@ -152,7 +180,7 @@ WX = ("https://api.open-meteo.com/v1/forecast"
       "&current=weather_code,temperature_2m"
       "&hourly=precipitation_probability"
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,"
-      "precipitation_probability_max&forecast_days=1")
+      "precipitation_probability_max&forecast_days=4")
 
 
 def sky():
@@ -175,12 +203,36 @@ def sky():
     # The last hour today the rain is still likely. This is what lets the page
     # say "clearing by four" rather than just "raining"; None means today never
     # gets wet enough to be worth a clause.
+    #
+    # forecast_days is 4 now (the page carries a three-day strip), so "hourly"
+    # runs four days deep. Without the date guard below this loop walks off the
+    # end of today and reports Friday's rain as tonight's.
+    today_iso = date.today().isoformat()
     wet_until = None
     for t, p in zip(times, probs):
+        if not str(t).startswith(today_iso):
+            continue
         if p is not None and p >= 40:
             wet_until = t
 
+    # The strip's three cells. Kept deliberately thin — a code, a high, a low
+    # and a rain chance is everything the page draws, and anything more would
+    # be a second forecast to keep honest.
+    daily = w.get("daily") or {}
+
+    def col(key, i):
+        v = daily.get(key)
+        return v[i] if isinstance(v, list) and i < len(v) else None
+
+    days = [{"date":    t,
+             "code":    col("weather_code", i),
+             "high":    col("temperature_2m_max", i),
+             "low":     col("temperature_2m_min", i),
+             "rainMax": col("precipitation_probability_max", i)}
+            for i, t in enumerate((daily.get("time") or [])[:4])]
+
     return {
+        "days":     days,
         "code":     cur.get("weather_code", first("daily", "weather_code")),
         "dayCode":  first("daily", "weather_code"),
         "temp":     cur.get("temperature_2m"),
