@@ -1,5 +1,47 @@
 # the window seat — build log
 
+## v17 · sep 2
+- **The caption leads with the day, not the sky.** It had been opening on the weather
+  and, on an overcast dry Tuesday, produced *"Flat grey light with no rain in it"* — a
+  whole clause spent describing an absence, on a day that had a graded exercise due.
+  Em's call: the sky is a garnish. `skyNote()` now returns null unless the weather would
+  change what she carries — rain, drizzle, snow, showers, thunder, fog, ≥85° or ≤52° —
+  and overcast-and-dry simply does not appear. The line is now about the day: the stops
+  on it and whether their reading is done, what the day owes (overdue outranks
+  everything, then what is due today), and the near horizon — the next two class days
+  and the next thing on the board.
+- **The forecast moved to a strip.** Three cells under the caption — today, then two days
+  out — each a pixel sprite, a high, and a rain figure only at ≥30%, where a glance is
+  cheaper than a sentence. Hidden entirely when the weather call fails, same rule the
+  caption clause follows.
+- **`forecast_days` 1 → 4** in `pull_notion.py`, with a new `sky.days` array. NOTE: the
+  hourly block now runs four days deep, so the `wetUntil` scan is date-guarded — without
+  it the loop walks off the end of today and reports Friday's rain as tonight's.
+- **Evening classes were landing on the wrong day.** `day_only()` sliced the first
+  ten characters off whatever Notion returned. Timed properties come back as UTC
+  instants, so Youth Justice — Wednesday 6:25pm Pacific, stored as
+  `2026-09-03T01:25:00.000Z` — was filed under Thursday. The page said "today's only
+  stop is Property 7" on a day Em had two, and then counted YJ again in the horizon
+  sentence. `day_only()` now converts to Pacific before taking the date; date-only
+  properties (no time) are passed through untouched, since those are already local.
+  This is the source of the same bug the daily log had patched by hand on Sep 1.
+- **The caption fills its column.** It was capped at 46ch — 412px — while the hero's
+  title column runs 520-950px, so it wrapped to five lines with up to 540px of empty
+  space beside it. Now `min(100%, 72ch)`: 645px and four lines at full width.
+- **A wet day always shows its rain figure.** The strip only printed a percentage at
+  ≥30%, so tomorrow's drizzle (WMO 53, 21%) would have rendered as a bare temperature
+  next to a rain sprite. Any wet code now prints its number whatever the odds.
+- **A habit streak is counted in days.** The quest rows and the streak card said "2
+  nights"; they now say "2 day streak" and "5 days to 7". Em's call.
+- Prose guards worth keeping: "the line gets busy" waits until there are four stops
+  ahead (it is a lie in front of a single Thursday), a one-stop horizon says "still
+  unread" rather than "none of the one", and on a no-class day the horizon sentence
+  carries the next stop so the line does not name Saturday twice.
+- Gotcha for the next person: `esc` is declared with `var` *below* the caption block, so
+  calling it from there throws — and the page's single `.catch()` swallows it, taking
+  the HUD and the quest rows down with it while the caption still renders. Anything
+  added near the caption must not reach forward into the later helpers.
+
 ## v16 · sep 1
 - **The HUD stops borrowing.** All four cards were school counts wearing game labels:
   STREAK was `counts.overdue`, GOLD was unmerged sessions, XP was open assignments, and
