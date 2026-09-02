@@ -1,19 +1,19 @@
 {
- "generated": "2026-09-01T23:17:56+00:00",
- "today": "2026-09-01",
+ "generated": "2026-09-02T01:09:36+00:00",
+ "today": "2026-09-02",
  "term": {
   "week": 3,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 92
+  "daysToFinals": 91
  },
  "sky": {
-  "code": 1,
+  "code": 0,
   "dayCode": 3,
-  "temp": 68.6,
-  "high": 69.6,
-  "low": 56.3,
+  "temp": 67.4,
+  "high": 70.3,
+  "low": 58.5,
   "rainMax": 5,
   "wetUntil": null
  },
@@ -100,36 +100,16 @@
   ]
  },
  "next": {
-  "title": "LRW 5 — Analyzing Necessary",
-  "course": "LRW",
-  "date": "2026-09-01",
-  "session": 5,
-  "reading": "Review Burton Record (Burton & King declarations); bring Baughman paragraph.",
-  "prepped": true,
+  "title": "Property 7 — SKILLS WORKSHOP 1 (adverse possession) — PRACTICE EXERCISE 1 DUE",
+  "course": "Property",
+  "date": "2026-09-02",
+  "session": 7,
+  "reading": "Skills Workshop 1 (adverse possession). PRACTICE EXERCISE 1 DUE (graded on completion, 3 pts).",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
+  "url": "https://app.notion.com/p/Property-7-SKILLS-WORKSHOP-1-adverse-possession-PRACTICE-EXERCISE-1-DUE-3c6063496baf8182aa05e82d7a1d3e18"
  },
  "upcoming": [
-  {
-   "title": "LRW 5 — Analyzing Necessary",
-   "course": "LRW",
-   "date": "2026-09-01",
-   "session": 5,
-   "reading": "Review Burton Record (Burton & King declarations); bring Baughman paragraph.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
-  },
-  {
-   "title": "Evidence 6 — Implied Assertions; Confrontation Clause",
-   "course": "Evidence",
-   "date": "2026-09-01",
-   "session": 6,
-   "reading": "CB 70-74 (skip Dullard); 77-96.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-6-Implied-Assertions-Confrontation-Clause-3c6063496baf81d8b5b1e60d0e13e1f5"
-  },
   {
    "title": "Property 7 — SKILLS WORKSHOP 1 (adverse possession) — PRACTICE EXERCISE 1 DUE",
    "course": "Property",
@@ -169,6 +149,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
+  },
+  {
+   "title": "LRW 6 — Multi-CREAC structure; the Umbrella Rule",
+   "course": "LRW",
+   "date": "2026-09-04",
+   "session": 6,
+   "reading": "Read Sample Office Memo; bring PGA + Bluebook. After: Citation Handout C. Umbrella Rule due Sun Sep 6 10pm; sign up for 15-min Umbrella Rule meeting.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-6-Multi-CREAC-structure-the-Umbrella-Rule-3c6063496baf8116a8cfefa3517e71ba"
+  },
+  {
+   "title": "Property 9 — Introduction to future interests",
+   "course": "Property",
+   "date": "2026-09-04",
+   "session": 9,
+   "reading": "Re-read 764-70.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-9-Introduction-to-future-interests-3c6063496baf8135999fce5e73a5fd26"
   }
  ],
  "walkHome": [
@@ -195,6 +195,18 @@
    "course": "LRW",
    "date": "2026-08-28",
    "url": "https://app.notion.com/p/LRW-4-Reading-cases-intro-to-CREAC-Rule-drafting-3c6063496baf81988c33d524279d11ad"
+  },
+  {
+   "title": "LRW 5 — Analyzing Necessary",
+   "course": "LRW",
+   "date": "2026-09-01",
+   "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
+  },
+  {
+   "title": "Evidence 6 — Implied Assertions; Confrontation Clause",
+   "course": "Evidence",
+   "date": "2026-09-01",
+   "url": "https://app.notion.com/p/Evidence-6-Implied-Assertions-Confrontation-Clause-3c6063496baf81d8b5b1e60d0e13e1f5"
   }
  ],
  "shelf": [
@@ -928,9 +940,9 @@
  "counts": {
   "open": 35,
   "overdue": 0,
-  "dueSoon": 2,
+  "dueSoon": 3,
   "graded": 28,
-  "unmerged": 4,
+  "unmerged": 6,
   "courses": 5,
   "cases": 96,
   "reserve": 16
