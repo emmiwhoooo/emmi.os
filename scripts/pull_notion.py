@@ -136,16 +136,32 @@ def rollup_of(p, key):
 
 
 def day_only(s):
-    """The calendar day a Notion date falls on, in Pacific.
+    """The date as written, ignoring any time on it.
 
-    Date-only properties come back as "2026-09-02" and are already local, so
-    they pass through. Properties that carry a TIME come back as a UTC instant
-    — and slicing the first ten characters of one puts an evening class on the
-    following day. Youth Justice meets Wednesday 6:25pm Pacific, which Notion
-    stores as "2026-09-03T01:25:00.000Z"; the old slice filed it under
-    Thursday, so the page said "today's only stop is Property 7" on a day Em
-    had two, and the horizon sentence counted it twice over. The daily log had
-    the same bug fixed by hand on Sep 1 — this is the source of it.
+    For DUE DATES and other days-on-a-calendar. Do not "fix" this to convert
+    timezones — see day_pacific below for why the two are different.
+    """
+    return (s or "")[:10]
+
+
+def day_pacific(s):
+    """The calendar day a real instant falls on, in Pacific.
+
+    For things that HAPPEN AT A TIME — class sessions. Notion returns those as
+    UTC instants, and slicing the first ten characters off one puts an evening
+    class on the following day: Youth Justice meets Wednesday 6:25pm Pacific,
+    stored as "2026-09-03T01:25:00.000Z", and the slice filed it under
+    Thursday. The page then said "today's only stop is Property 7" on a day Em
+    had two, and counted YJ again in the horizon sentence. The daily log had
+    the same bug patched by hand on Sep 1; this is the source of it.
+
+    WHY DUE DATES DO NOT GET THIS TREATMENT. Their times are not real. The
+    assignments table stores "Umbrella Rule" as 2026-09-07T05:00:00Z and
+    "Reflection 1" as 2026-09-15T00:00:00Z — midnight Eastern and midnight
+    UTC, neither of which is a Pacific instant. They are dates that picked up
+    a placeholder time on the way in. Converting them to Pacific rolls each
+    one back a day, so the page announces the Umbrella Rule on Sunday when it
+    is due Monday. A class time is data; a due-date time is noise.
     """
     if not s:
         return ""
@@ -268,7 +284,7 @@ def main():
         sessions.append({
             "title":   title_of(p),
             "course":  course_of(p),
-            "date":    day_only(date_of(p, "Date")),
+            "date":    day_pacific(date_of(p, "Date")),
             "session": (p.get("Class") or {}).get("number"),
             "reading": text_of(p, "Readings"),
             "prepped": checked(p, "✓ prepped"),
@@ -288,7 +304,7 @@ def main():
         walk_home.append({
             "title":  title_of(p),
             "course": course_of(p),
-            "date":   day_only(date_of(p, "Date")),
+            "date":   day_pacific(date_of(p, "Date")),
             "url":    row.get("url"),
         })
 
