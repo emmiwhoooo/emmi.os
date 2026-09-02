@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T10:09:39+00:00",
+ "generated": "2026-09-02T14:26:45+00:00",
  "today": "2026-09-02",
  "term": {
   "week": 3,
@@ -9,12 +9,12 @@
   "daysToFinals": 91
  },
  "sky": {
-  "code": 0,
+  "code": 3,
   "dayCode": 3,
-  "temp": 56.8,
-  "high": 71.0,
-  "low": 56.0,
-  "rainMax": 4,
+  "temp": 58.4,
+  "high": 69.8,
+  "low": 56.5,
+  "rainMax": 3,
   "wetUntil": null
  },
  "player": {
