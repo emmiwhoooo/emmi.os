@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T17:58:05+00:00",
+ "generated": "2026-09-02T19:05:38+00:00",
  "today": "2026-09-02",
  "term": {
   "week": 3,
@@ -9,46 +9,76 @@
   "daysToFinals": 91
  },
  "sky": {
-  "code": 3,
+  "days": [
+   {
+    "date": "2026-09-02",
+    "code": 3,
+    "high": 71.2,
+    "low": 57.4,
+    "rainMax": 1
+   },
+   {
+    "date": "2026-09-03",
+    "code": 53,
+    "high": 63.8,
+    "low": 54.4,
+    "rainMax": 21
+   },
+   {
+    "date": "2026-09-04",
+    "code": 3,
+    "high": 71.8,
+    "low": 53.6,
+    "rainMax": 1
+   },
+   {
+    "date": "2026-09-05",
+    "code": 0,
+    "high": 71.8,
+    "low": 54.4,
+    "rainMax": 0
+   }
+  ],
+  "code": 1,
   "dayCode": 3,
-  "temp": 65.7,
-  "high": 69.5,
-  "low": 56.4,
+  "temp": 69.5,
+  "high": 71.2,
+  "low": 57.4,
   "rainMax": 1,
   "wetUntil": null
  },
  "player": {
   "level": 23,
-  "xp": 40,
-  "toNext": 75,
+  "xp": 60,
+  "toNext": 55,
   "gold": 135,
   "rank": "lvl 23",
-  "next": "75 xp to lvl 24"
+  "next": "55 xp to lvl 24"
  },
  "quests": {
-  "run": 2,
+  "run": 3,
   "unclaimed": 5,
   "dailies": [
    {
     "title": "open the blinds",
     "kind": "daily",
     "when": "morning",
-    "streak": 2,
+    "streak": 3,
     "gold": 5,
     "status": "done today",
     "done": true,
-    "lastDone": "2026-08-31",
+    "lastDone": "2026-09-01",
     "url": "https://app.notion.com/p/open-the-blinds-3ca063496baf81478460c8cb63e7c198"
    },
    {
     "title": "log tonight's mood",
     "kind": "daily",
     "when": "night",
-    "streak": 2,
+    "streak": 3,
     "gold": 5,
     "status": "not started",
     "done": false,
-    "lastDone": "2026-08-31",
+    "lastDone": "2026-09-01",
     "url": "https://app.notion.com/p/log-tonight-s-mood-3c9063496baf8170916afde6a010d939"
    }
   ],
@@ -123,7 +153,7 @@
   {
    "title": "Youth Justice 3 — Adolescence, Racism and Trauma [GROUP PROJECTS DISCUSSED]",
    "course": "Youth Justice",
-   "date": "2026-09-03",
+   "date": "2026-09-02",
    "session": 3,
    "reading": "Roper v. Simmons (Parts I, II, III-B; skim III-A, IV); Graham v. Florida (majority + Thomas dissent Part III-C); TROI Ch.1 pp.3-24; BDTH Ch.8 pp.151-163 (optional 163-180). Watch: Cauffman TED talk. NOTE: Group Projects discussed this class. Optional resources on bCourses.",
    "prepped": false,
@@ -143,7 +173,7 @@
   {
    "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
    "course": "Negotiations",
-   "date": "2026-09-04",
+   "date": "2026-09-03",
    "session": 3,
    "reading": "Role-play: Batmobile (car sale). Prep: BA Ch. 8-9; DC Ch. 2-4; email feedback for Serene Isle; planning memo for Batmobile due on bCourses before class.",
    "prepped": false,
@@ -181,7 +211,7 @@
   {
    "title": "Negotiations 1 — Fundamentals; Preparation; Planning Memos (SWON) — Role-play: Adams-Riverfront",
    "course": "Negotiations",
-   "date": "2026-08-21",
+   "date": "2026-08-20",
    "url": "https://app.notion.com/p/Negotiations-1-Fundamentals-Preparation-Planning-Memos-SWON-Role-play-Adams-Riverfront-3c6063496baf81bd80e0de17a0433119"
   },
   {
@@ -802,7 +832,7 @@
   {
    "title": "Umbrella Rule",
    "course": "LRW",
-   "due": "2026-09-07",
+   "due": "2026-09-06",
    "type": "graded",
    "weight": "",
    "overdue": false,
@@ -820,7 +850,7 @@
   {
    "title": "Reflection 1 (Classes 1-4)",
    "course": "Youth Justice",
-   "due": "2026-09-15",
+   "due": "2026-09-14",
    "type": "graded",
    "weight": "10 points",
    "overdue": false,
@@ -847,7 +877,7 @@
   {
    "title": "Revised Umbrella Rule + Reasonable CREAC",
    "course": "LRW",
-   "due": "2026-09-28",
+   "due": "2026-09-27",
    "type": "graded",
    "weight": "",
    "overdue": false,
@@ -865,7 +895,7 @@
   {
    "title": "Core Grammar Post-Test",
    "course": "LRW",
-   "due": "2026-10-05",
+   "due": "2026-10-04",
    "type": "admin",
    "weight": "",
    "overdue": false,
@@ -874,7 +904,7 @@
   {
    "title": "Citation Problem Set #2",
    "course": "LRW",
-   "due": "2026-10-05",
+   "due": "2026-10-04",
    "type": "graded",
    "weight": "",
    "overdue": false,
@@ -894,7 +924,7 @@
   {
    "title": "Umbrella Rule",
    "course": "LRW",
-   "due": "2026-09-07",
+   "due": "2026-09-06",
    "type": "graded",
    "weight": "",
    "overdue": false,
@@ -903,7 +933,7 @@
   {
    "title": "Reflection 1 (Classes 1-4)",
    "course": "Youth Justice",
-   "due": "2026-09-15",
+   "due": "2026-09-14",
    "type": "graded",
    "weight": "10 points",
    "overdue": false,
@@ -930,7 +960,7 @@
   {
    "title": "Revised Umbrella Rule + Reasonable CREAC",
    "course": "LRW",
-   "due": "2026-09-28",
+   "due": "2026-09-27",
    "type": "graded",
    "weight": "",
    "overdue": false,
