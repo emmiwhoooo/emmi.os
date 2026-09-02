@@ -174,6 +174,19 @@ def day_pacific(s):
         return s[:10]
 
 
+def today_pacific():
+    """Today, in Em's timezone — not the runner's.
+
+    The Action runs on a UTC machine, so `date.today()` there rolls over at
+    5pm Pacific. Every evening from 5pm the page would decide it was already
+    tomorrow: it would drop the day's own classes out of "today", call the
+    evening's Youth Justice a stop for tomorrow, and move the date stamp
+    forward while Em was still working through the current day. Every day
+    boundary on this page is Pacific.
+    """
+    return datetime.now(PACIFIC).date()
+
+
 def is_placeholder(title):
     """Template/placeholder rows use ⟨ ⟩ brackets or an em-dashed 'new x' label."""
     t = (title or "").strip()
@@ -223,7 +236,7 @@ def sky():
     # forecast_days is 4 now (the page carries a three-day strip), so "hourly"
     # runs four days deep. Without the date guard below this loop walks off the
     # end of today and reports Friday's rain as tonight's.
-    today_iso = date.today().isoformat()
+    today_iso = today_pacific().isoformat()
     wet_until = None
     for t, p in zip(times, probs):
         if not str(t).startswith(today_iso):
@@ -264,7 +277,7 @@ def main():
         print("NOTION_TOKEN is not set", file=sys.stderr)
         return 1
 
-    today = date.today().isoformat()
+    today = today_pacific().isoformat()
 
     # course id -> name, so relations can be shown as words not uuids
     course_name = {}
@@ -327,7 +340,7 @@ def main():
 
     graded = [a for a in open_work if a["type"] == "graded"]
     overdue = [a for a in open_work if a["overdue"]]
-    horizon = (date.today() + timedelta(days=7)).isoformat()
+    horizon = (today_pacific() + timedelta(days=7)).isoformat()
     due_soon = [a for a in open_work if a["due"] and a["due"] <= horizon]
 
     # ---- the shelf — recent cases, rule/holding lives on the page itself ----
@@ -403,7 +416,7 @@ def main():
             "next":   formula_of(p, "✦ next"),
         }
 
-    d = date.today()
+    d = today_pacific()
     week = max(1, min(TERM_WEEKS, ((d - TERM_START).days // 7) + 1))
 
     out = {
