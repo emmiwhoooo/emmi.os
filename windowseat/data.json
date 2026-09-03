@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T00:50:55+00:00",
+ "generated": "2026-09-03T05:19:45+00:00",
  "today": "2026-09-02",
  "term": {
   "week": 3,
@@ -19,17 +19,17 @@
    },
    {
     "date": "2026-09-03",
-    "code": 63,
-    "high": 63.4,
-    "low": 54.9,
-    "rainMax": 16
+    "code": 53,
+    "high": 70.5,
+    "low": 56.4,
+    "rainMax": 14
    },
    {
     "date": "2026-09-04",
-    "code": 3,
-    "high": 71.6,
-    "low": 53.2,
-    "rainMax": 2
+    "code": 0,
+    "high": 67.9,
+    "low": 50.5,
+    "rainMax": 1
    },
    {
     "date": "2026-09-05",
@@ -39,9 +39,9 @@
     "rainMax": 0
    }
   ],
-  "code": 0,
+  "code": 3,
   "dayCode": 3,
-  "temp": 68.3,
+  "temp": 61.9,
   "high": 72.0,
   "low": 57.4,
   "rainMax": 1,
@@ -156,7 +156,7 @@
    "date": "2026-09-02",
    "session": 3,
    "reading": "Roper v. Simmons (Parts I, II, III-B; skim III-A, IV); Graham v. Florida (majority + Thomas dissent Part III-C); TROI Ch.1 pp.3-24; BDTH Ch.8 pp.151-163 (optional 163-180). Watch: Cauffman TED talk. NOTE: Group Projects discussed this class. Optional resources on bCourses.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Youth-Justice-3-Adolescence-Racism-and-Trauma-GROUP-PROJECTS-DISCUSSED-3c6063496baf810a82f5d1587ee1c840"
   },
@@ -723,6 +723,12 @@
  ],
  "reserve": [
   {
+   "title": "Prep sheet — Adolescence, Racism and Trauma (Youth Justice 3)",
+   "course": "Youth Justice",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Prep-sheet-Adolescence-Racism-and-Trauma-Youth-Justice-3-3d0063496baf8145a6bcefc70c6706d9"
+  },
+  {
    "title": "📑 Slides — Adverse possession, elements and answer template (Property 5)",
    "course": "Property",
    "kind": "slides",
@@ -975,7 +981,7 @@
   "unmerged": 6,
   "courses": 5,
   "cases": 96,
-  "reserve": 16
+  "reserve": 17
  },
  "courses": [
   "Evidence",
