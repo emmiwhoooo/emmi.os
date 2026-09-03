@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T09:58:18+00:00",
+ "generated": "2026-09-03T14:08:20+00:00",
  "today": "2026-09-03",
  "term": {
   "week": 3,
@@ -12,73 +12,73 @@
   "days": [
    {
     "date": "2026-09-03",
-    "code": 53,
-    "high": 69.8,
-    "low": 57.5,
-    "rainMax": 11
+    "code": 51,
+    "high": 65.1,
+    "low": 57.4,
+    "rainMax": 16
    },
    {
     "date": "2026-09-04",
-    "code": 3,
-    "high": 68.5,
-    "low": 53.3,
+    "code": 1,
+    "high": 67.8,
+    "low": 52.0,
     "rainMax": 1
    },
    {
     "date": "2026-09-05",
-    "code": 0,
-    "high": 71.8,
-    "low": 54.5,
+    "code": 45,
+    "high": 72.5,
+    "low": 52.8,
     "rainMax": 0
    },
    {
     "date": "2026-09-06",
     "code": 3,
-    "high": 69.3,
-    "low": 54.0,
+    "high": 70.0,
+    "low": 54.9,
     "rainMax": 1
    }
   ],
   "code": 3,
-  "dayCode": 53,
-  "temp": 59.1,
-  "high": 69.8,
-  "low": 57.5,
-  "rainMax": 11,
+  "dayCode": 51,
+  "temp": 59.2,
+  "high": 65.1,
+  "low": 57.4,
+  "rainMax": 16,
   "wetUntil": null
  },
  "player": {
   "level": 23,
-  "xp": 60,
-  "toNext": 55,
+  "xp": 80,
+  "toNext": 35,
   "gold": 135,
   "rank": "lvl 23",
-  "next": "55 xp to lvl 24"
+  "next": "35 xp to lvl 24"
  },
  "quests": {
-  "run": 3,
-  "unclaimed": 0,
+  "run": 4,
+  "unclaimed": 10,
   "dailies": [
    {
     "title": "open the blinds",
     "kind": "daily",
     "when": "morning",
-    "streak": 3,
+    "streak": 4,
     "gold": 5,
-    "status": "done today",
-    "done": true,
-    "lastDone": "2026-09-01",
+    "status": "not started",
+    "done": false,
+    "lastDone": "2026-09-02",
     "url": "https://app.notion.com/p/open-the-blinds-3ca063496baf81478460c8cb63e7c198"
    },
    {
     "title": "log tonight's mood",
     "kind": "daily",
     "when": "night",
-    "streak": 3,
+    "streak": 4,
     "gold": 5,
-    "status": "done today",
-    "done": true,
-    "lastDone": "2026-09-01",
+    "status": "not started",
+    "done": false,
+    "lastDone": "2026-09-02",
     "url": "https://app.notion.com/p/log-tonight-s-mood-3c9063496baf8170916afde6a010d939"
    }
   ],
