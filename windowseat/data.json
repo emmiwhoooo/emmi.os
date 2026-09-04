@@ -1,50 +1,50 @@
 {
- "generated": "2026-09-04T04:48:53+00:00",
- "today": "2026-09-03",
+ "generated": "2026-09-04T09:11:08+00:00",
+ "today": "2026-09-04",
  "term": {
   "week": 3,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 90
+  "daysToFinals": 89
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-03",
-    "code": 3,
-    "high": 69.9,
-    "low": 57.8,
-    "rainMax": 9
-   },
-   {
     "date": "2026-09-04",
     "code": 3,
-    "high": 67.9,
+    "high": 68.8,
     "low": 55.1,
-    "rainMax": 3
+    "rainMax": 2
    },
    {
     "date": "2026-09-05",
     "code": 3,
-    "high": 68.3,
-    "low": 52.6,
+    "high": 67.1,
+    "low": 51.8,
     "rainMax": 0
    },
    {
     "date": "2026-09-06",
     "code": 2,
-    "high": 70.2,
-    "low": 56.0,
+    "high": 69.5,
+    "low": 55.8,
+    "rainMax": 1
+   },
+   {
+    "date": "2026-09-07",
+    "code": 3,
+    "high": 82.6,
+    "low": 55.6,
     "rainMax": 0
    }
   ],
   "code": 2,
   "dayCode": 3,
-  "temp": 62.2,
-  "high": 69.9,
-  "low": 57.8,
-  "rainMax": 9,
+  "temp": 59.6,
+  "high": 68.8,
+  "low": 55.1,
+  "rainMax": 2,
   "wetUntil": null
  },
  "player": {
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 3 — Adolescence, Racism and Trauma [GROUP PROJECTS DISCUSSED]",
-  "course": "Youth Justice",
-  "date": "2026-09-02",
+  "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
+  "course": "Negotiations",
+  "date": "2026-09-03",
   "session": 3,
-  "reading": "Roper v. Simmons (Parts I, II, III-B; skim III-A, IV); Graham v. Florida (majority + Thomas dissent Part III-C); TROI Ch.1 pp.3-24; BDTH Ch.8 pp.151-163 (optional 163-180). Watch: Cauffman TED talk. NOTE: Group Projects discussed this class. Optional resources on bCourses.",
-  "prepped": true,
+  "reading": "Role-play: Batmobile (car sale). Prep: BA Ch. 8-9; DC Ch. 2-4; email feedback for Serene Isle; planning memo for Batmobile due on bCourses before class.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-3-Adolescence-Racism-and-Trauma-GROUP-PROJECTS-DISCUSSED-3c6063496baf810a82f5d1587ee1c840"
+  "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 3 — Adolescence, Racism and Trauma [GROUP PROJECTS DISCUSSED]",
-   "course": "Youth Justice",
-   "date": "2026-09-02",
-   "session": 3,
-   "reading": "Roper v. Simmons (Parts I, II, III-B; skim III-A, IV); Graham v. Florida (majority + Thomas dissent Part III-C); TROI Ch.1 pp.3-24; BDTH Ch.8 pp.151-163 (optional 163-180). Watch: Cauffman TED talk. NOTE: Group Projects discussed this class. Optional resources on bCourses.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-3-Adolescence-Racism-and-Trauma-GROUP-PROJECTS-DISCUSSED-3c6063496baf810a82f5d1587ee1c840"
-  },
-  {
-   "title": "Property 8 — Present estates — life estates, pur autre vie, fee tail",
-   "course": "Property",
-   "date": "2026-09-03",
-   "session": 8,
-   "reading": "Slowly read 769-70 (§3.2) and 761-62 (\"The Fee Tail\").",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-8-Present-estates-life-estates-pur-autre-vie-fee-tail-3c6063496baf81bf9641c34ae4c532d1"
-  },
   {
    "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
    "course": "Negotiations",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-7-Research-Class-1-Federal-Annotated-Code-3c6063496baf815b907fd817711014b9"
+  },
+  {
+   "title": "Property 10 — Future interests — reversion, remainder",
+   "course": "Property",
+   "date": "2026-09-09",
+   "session": 10,
+   "reading": "Re-read 764-70.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-10-Future-interests-reversion-remainder-3c6063496baf81058451ffd234622aad"
+  },
+  {
+   "title": "Youth Justice 4 — Juvenile Court Jurisdiction — Minimum Age to Adult Transfer [PROJECT LIST]",
+   "course": "Youth Justice",
+   "date": "2026-09-09",
+   "session": 4,
+   "reading": "SB 439 + Assembly analysis; SB 1391 Senate analysis; AB 2361 + floor analysis; In re O.F. (2026) 119 Cal.App.5th 133 (specified parts); skim HRW/Burns Inst., Futures Denied. NOTE: rank group-project preferences BEFORE this class. Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
   }
  ],
  "walkHome": [
@@ -243,6 +243,18 @@
    "course": "Property",
    "date": "2026-09-02",
    "url": "https://app.notion.com/p/Property-7-SKILLS-WORKSHOP-1-adverse-possession-PRACTICE-EXERCISE-1-DUE-3c6063496baf8182aa05e82d7a1d3e18"
+  },
+  {
+   "title": "Youth Justice 3 — Adolescence, Racism and Trauma [GROUP PROJECTS DISCUSSED]",
+   "course": "Youth Justice",
+   "date": "2026-09-02",
+   "url": "https://app.notion.com/p/Youth-Justice-3-Adolescence-Racism-and-Trauma-GROUP-PROJECTS-DISCUSSED-3c6063496baf810a82f5d1587ee1c840"
+  },
+  {
+   "title": "Property 8 — Present estates — life estates, pur autre vie, fee tail",
+   "course": "Property",
+   "date": "2026-09-03",
+   "url": "https://app.notion.com/p/Property-8-Present-estates-life-estates-pur-autre-vie-fee-tail-3c6063496baf81bf9641c34ae4c532d1"
   }
  ],
  "shelf": [
@@ -984,7 +996,7 @@
   "overdue": 0,
   "dueSoon": 2,
   "graded": 27,
-  "unmerged": 7,
+  "unmerged": 9,
   "courses": 5,
   "cases": 96,
   "reserve": 17
