@@ -1,35 +1,28 @@
 {
- "generated": "2026-09-05T05:56:59+00:00",
- "today": "2026-09-04",
+ "generated": "2026-09-05T09:50:21+00:00",
+ "today": "2026-09-05",
  "term": {
   "week": 3,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 89
+  "daysToFinals": 88
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-04",
-    "code": 3,
-    "high": 72.1,
-    "low": 55.4,
-    "rainMax": 2
-   },
-   {
     "date": "2026-09-05",
-    "code": 2,
-    "high": 71.7,
-    "low": 53.3,
+    "code": 3,
+    "high": 72.0,
+    "low": 54.2,
     "rainMax": 0
    },
    {
     "date": "2026-09-06",
-    "code": 45,
-    "high": 67.8,
+    "code": 3,
+    "high": 67.3,
     "low": 54.1,
-    "rainMax": 2
+    "rainMax": 0
    },
    {
     "date": "2026-09-07",
@@ -37,14 +30,21 @@
     "high": 84.6,
     "low": 55.8,
     "rainMax": 0
+   },
+   {
+    "date": "2026-09-08",
+    "code": 3,
+    "high": 84.1,
+    "low": 58.3,
+    "rainMax": 3
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 58.1,
-  "high": 72.1,
-  "low": 55.4,
-  "rainMax": 2,
+  "temp": 55.0,
+  "high": 72.0,
+  "low": 54.2,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -130,46 +130,16 @@
   ]
  },
  "next": {
-  "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
-  "course": "Negotiations",
-  "date": "2026-09-03",
-  "session": 3,
-  "reading": "Role-play: Batmobile (car sale). Prep: BA Ch. 8-9; DC Ch. 2-4; email feedback for Serene Isle; planning memo for Batmobile due on bCourses before class.",
+  "title": "LRW 7 — Research Class 1: Federal Annotated Code",
+  "course": "LRW",
+  "date": "2026-09-08",
+  "session": 7,
+  "reading": "Watch RC1 video; bring laptop + Bluebook.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
+  "url": "https://app.notion.com/p/LRW-7-Research-Class-1-Federal-Annotated-Code-3c6063496baf815b907fd817711014b9"
  },
  "upcoming": [
-  {
-   "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
-   "course": "Negotiations",
-   "date": "2026-09-03",
-   "session": 3,
-   "reading": "Role-play: Batmobile (car sale). Prep: BA Ch. 8-9; DC Ch. 2-4; email feedback for Serene Isle; planning memo for Batmobile due on bCourses before class.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
-  },
-  {
-   "title": "LRW 6 — Multi-CREAC structure; the Umbrella Rule",
-   "course": "LRW",
-   "date": "2026-09-04",
-   "session": 6,
-   "reading": "Read Sample Office Memo; bring PGA + Bluebook. After: Citation Handout C. Umbrella Rule due Sun Sep 6 10pm; sign up for 15-min Umbrella Rule meeting.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-6-Multi-CREAC-structure-the-Umbrella-Rule-3c6063496baf8116a8cfefa3517e71ba"
-  },
-  {
-   "title": "Property 9 — Introduction to future interests",
-   "course": "Property",
-   "date": "2026-09-04",
-   "session": 9,
-   "reading": "Re-read 764-70.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-9-Introduction-to-future-interests-3c6063496baf8135999fce5e73a5fd26"
-  },
   {
    "title": "LRW 7 — Research Class 1: Federal Annotated Code",
    "course": "LRW",
@@ -199,6 +169,36 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
+  },
+  {
+   "title": "Property 11 — Vested and contingent remainders",
+   "course": "Property",
+   "date": "2026-09-10",
+   "session": 11,
+   "reading": "Slowly read 770-71.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-11-Vested-and-contingent-remainders-3c6063496baf813f982cc067ab9d7756"
+  },
+  {
+   "title": "Negotiations 4 — Negotiation Process; Concessions; Emotion — Role-play: Depp v. Heard",
+   "course": "Negotiations",
+   "date": "2026-09-10",
+   "session": 4,
+   "reading": "Role-play: Depp v. Heard. Prep: BA Ch. 7-9 + App. C; DC Ch. 5 + Q8; email feedback for Batmobile; prep Depp v. Heard; note: Rose Lane email negotiation (cross-class) conducted during the 2-week gap 9/10-9/24 — buy materials ($4, Bookstore).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-4-Negotiation-Process-Concessions-Emotion-Role-play-Depp-v-Heard-3c6063496baf815bbd98fb1df74e657b"
+  },
+  {
+   "title": "LRW 8 — Research Class 2: Citators",
+   "course": "LRW",
+   "date": "2026-09-11",
+   "session": 8,
+   "reading": "Watch RC2 video. After: complete citator Research Worksheet.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-8-Research-Class-2-Citators-3c6063496baf81239eeac670cfce5e1e"
   }
  ],
  "walkHome": [
@@ -255,6 +255,12 @@
    "course": "Property",
    "date": "2026-09-03",
    "url": "https://app.notion.com/p/Property-8-Present-estates-life-estates-pur-autre-vie-fee-tail-3c6063496baf81bf9641c34ae4c532d1"
+  },
+  {
+   "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
+   "course": "Negotiations",
+   "date": "2026-09-03",
+   "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
   }
  ],
  "shelf": [
@@ -996,7 +1002,7 @@
   "overdue": 0,
   "dueSoon": 2,
   "graded": 27,
-  "unmerged": 9,
+  "unmerged": 12,
   "courses": 5,
   "cases": 96,
   "reserve": 17
