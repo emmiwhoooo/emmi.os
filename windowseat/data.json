@@ -1,34 +1,27 @@
 {
- "generated": "2026-09-06T06:38:26+00:00",
- "today": "2026-09-05",
+ "generated": "2026-09-06T11:20:10+00:00",
+ "today": "2026-09-06",
  "term": {
   "week": 3,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 88
+  "daysToFinals": 87
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-05",
-    "code": 2,
-    "high": 73.6,
-    "low": 54.2,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-06",
-    "code": 3,
-    "high": 70.0,
-    "low": 54.2,
+    "code": 45,
+    "high": 69.6,
+    "low": 55.1,
     "rainMax": 1
    },
    {
     "date": "2026-09-07",
     "code": 0,
-    "high": 80.6,
-    "low": 53.3,
+    "high": 78.6,
+    "low": 53.5,
     "rainMax": 0
    },
    {
@@ -36,15 +29,22 @@
     "code": 3,
     "high": 86.6,
     "low": 57.6,
+    "rainMax": 2
+   },
+   {
+    "date": "2026-09-09",
+    "code": 3,
+    "high": 93.4,
+    "low": 65.9,
     "rainMax": 3
    }
   ],
-  "code": 0,
-  "dayCode": 2,
-  "temp": 58.2,
-  "high": 73.6,
-  "low": 54.2,
-  "rainMax": 0,
+  "code": 45,
+  "dayCode": 45,
+  "temp": 57.1,
+  "high": 69.6,
+  "low": 55.1,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
