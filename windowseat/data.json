@@ -1,34 +1,27 @@
 {
- "generated": "2026-09-09T05:31:57+00:00",
- "today": "2026-09-08",
+ "generated": "2026-09-09T10:06:00+00:00",
+ "today": "2026-09-09",
  "term": {
   "week": 4,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 85
+  "daysToFinals": 84
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-08",
-    "code": 3,
-    "high": 86.1,
-    "low": 56.3,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-09",
     "code": 3,
-    "high": 95.0,
-    "low": 62.9,
-    "rainMax": 3
+    "high": 94.5,
+    "low": 62.2,
+    "rainMax": 2
    },
    {
     "date": "2026-09-10",
     "code": 3,
-    "high": 80.6,
-    "low": 61.6,
+    "high": 81.0,
+    "low": 61.4,
     "rainMax": 2
    },
    {
@@ -37,14 +30,21 @@
     "high": 74.2,
     "low": 57.8,
     "rainMax": 0
+   },
+   {
+    "date": "2026-09-12",
+    "code": 3,
+    "high": 68.9,
+    "low": 54.9,
+    "rainMax": 0
    }
   ],
-  "code": 2,
+  "code": 1,
   "dayCode": 3,
-  "temp": 67.1,
-  "high": 86.1,
-  "low": 56.3,
-  "rainMax": 0,
+  "temp": 64.2,
+  "high": 94.5,
+  "low": 62.2,
+  "rainMax": 2,
   "wetUntil": null
  },
  "player": {
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 7 — Research Class 1: Federal Annotated Code",
-  "course": "LRW",
-  "date": "2026-09-08",
-  "session": 7,
-  "reading": "Watch RC1 video; bring laptop + Bluebook.",
+  "title": "Property 10 — Future interests — reversion, remainder",
+  "course": "Property",
+  "date": "2026-09-09",
+  "session": 10,
+  "reading": "Re-read 764-70.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-7-Research-Class-1-Federal-Annotated-Code-3c6063496baf815b907fd817711014b9"
+  "url": "https://app.notion.com/p/Property-10-Future-interests-reversion-remainder-3c6063496baf81058451ffd234622aad"
  },
  "upcoming": [
-  {
-   "title": "LRW 7 — Research Class 1: Federal Annotated Code",
-   "course": "LRW",
-   "date": "2026-09-08",
-   "session": 7,
-   "reading": "Watch RC1 video; bring laptop + Bluebook.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-7-Research-Class-1-Federal-Annotated-Code-3c6063496baf815b907fd817711014b9"
-  },
   {
    "title": "Property 10 — Future interests — reversion, remainder",
    "course": "Property",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-8-Research-Class-2-Citators-3c6063496baf81239eeac670cfce5e1e"
+  },
+  {
+   "title": "Property 12 — Waste; rules affecting future interests",
+   "course": "Property",
+   "date": "2026-09-11",
+   "session": 12,
+   "reading": "Read §3.4 intro re Waste pp.779-80; Notes & Questions 1-4 pp.782-84; 800-02 (§§4-4.1); 661-66 (§5.4).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-12-Waste-rules-affecting-future-interests-3c6063496baf8105a9b4ffd9299baf5f"
   }
  ],
  "walkHome": [
@@ -1002,7 +1002,7 @@
   "overdue": 1,
   "dueSoon": 3,
   "graded": 27,
-  "unmerged": 12,
+  "unmerged": 13,
   "courses": 5,
   "cases": 96,
   "reserve": 17
