@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T20:29:09+00:00",
+ "generated": "2026-09-09T22:41:08+00:00",
  "today": "2026-09-09",
  "term": {
   "week": 4,
@@ -13,7 +13,7 @@
    {
     "date": "2026-09-09",
     "code": 3,
-    "high": 93.3,
+    "high": 93.8,
     "low": 61.9,
     "rainMax": 1
    },
@@ -39,10 +39,10 @@
     "rainMax": 0
    }
   ],
-  "code": 3,
+  "code": 0,
   "dayCode": 3,
-  "temp": 88.4,
-  "high": 93.3,
+  "temp": 91.2,
+  "high": 93.8,
   "low": 61.9,
   "rainMax": 1,
   "wetUntil": null
