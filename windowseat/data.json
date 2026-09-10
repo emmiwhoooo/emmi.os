@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-10T05:15:17+00:00",
- "today": "2026-09-09",
+ "generated": "2026-09-10T09:46:36+00:00",
+ "today": "2026-09-10",
  "term": {
   "week": 4,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 84
+  "daysToFinals": 83
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-09",
-    "code": 3,
-    "high": 94.7,
-    "low": 61.9,
-    "rainMax": 1
-   },
-   {
     "date": "2026-09-10",
     "code": 3,
-    "high": 81.5,
-    "low": 60.0,
+    "high": 81.4,
+    "low": 60.4,
     "rainMax": 1
    },
    {
     "date": "2026-09-11",
     "code": 45,
-    "high": 70.3,
-    "low": 56.7,
-    "rainMax": 5
+    "high": 69.7,
+    "low": 56.8,
+    "rainMax": 3
    },
    {
     "date": "2026-09-12",
     "code": 3,
-    "high": 69.7,
-    "low": 55.6,
-    "rainMax": 0
+    "high": 68.9,
+    "low": 55.8,
+    "rainMax": 1
+   },
+   {
+    "date": "2026-09-13",
+    "code": 1,
+    "high": 74.0,
+    "low": 52.0,
+    "rainMax": 1
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 75.4,
-  "high": 94.7,
-  "low": 61.9,
+  "temp": 70.9,
+  "high": 81.4,
+  "low": 60.4,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Property 10 — Future interests — reversion, remainder",
-  "course": "Property",
+  "title": "Youth Justice 4 — Juvenile Court Jurisdiction — Minimum Age to Adult Transfer [PROJECT LIST]",
+  "course": "Youth Justice",
   "date": "2026-09-09",
-  "session": 10,
-  "reading": "Re-read 764-70.",
+  "session": 4,
+  "reading": "SB 439 + Assembly analysis; SB 1391 Senate analysis; AB 2361 + floor analysis; In re O.F. (2026) 119 Cal.App.5th 133 (specified parts); skim HRW/Burns Inst., Futures Denied. NOTE: rank group-project preferences BEFORE this class. Optional resources on bCourses.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-10-Future-interests-reversion-remainder-3c6063496baf81058451ffd234622aad"
+  "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
  },
  "upcoming": [
-  {
-   "title": "Property 10 — Future interests — reversion, remainder",
-   "course": "Property",
-   "date": "2026-09-09",
-   "session": 10,
-   "reading": "Re-read 764-70.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-10-Future-interests-reversion-remainder-3c6063496baf81058451ffd234622aad"
-  },
   {
    "title": "Youth Justice 4 — Juvenile Court Jurisdiction — Minimum Age to Adult Transfer [PROJECT LIST]",
    "course": "Youth Justice",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-12-Waste-rules-affecting-future-interests-3c6063496baf8105a9b4ffd9299baf5f"
+  },
+  {
+   "title": "Evidence 7 — Hearsay Exceptions; Admissions by Opposing Party",
+   "course": "Evidence",
+   "date": "2026-09-14",
+   "session": 7,
+   "reading": "CB 96-109; 111-120. F.R.E. Art. VIII, 106, 801(d)(1), 901(d)(2)(a). In limine arg 1.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-7-Hearsay-Exceptions-Admissions-by-Opposing-Party-3c6063496baf814f91eae2d4fad4e2a4"
   }
  ],
  "walkHome": [
@@ -865,7 +865,7 @@
    "due": "2026-09-09",
    "type": "admin",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Rank-group-project-preferences-3c6063496baf8167acb3de0c3d3108d3"
   },
   {
@@ -999,10 +999,10 @@
  ],
  "counts": {
   "open": 34,
-  "overdue": 1,
+  "overdue": 2,
   "dueSoon": 3,
   "graded": 27,
-  "unmerged": 13,
+  "unmerged": 14,
   "courses": 5,
   "cases": 96,
   "reserve": 17
