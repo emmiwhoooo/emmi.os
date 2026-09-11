@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T00:07:17+00:00",
+ "generated": "2026-09-11T04:33:28+00:00",
  "today": "2026-09-10",
  "term": {
   "week": 4,
@@ -14,22 +14,22 @@
     "date": "2026-09-10",
     "code": 3,
     "high": 85.5,
-    "low": 60.8,
+    "low": 60.7,
     "rainMax": 1
    },
    {
     "date": "2026-09-11",
     "code": 45,
-    "high": 68.3,
-    "low": 56.7,
+    "high": 68.8,
+    "low": 57.3,
     "rainMax": 1
    },
    {
     "date": "2026-09-12",
     "code": 3,
-    "high": 70.7,
-    "low": 56.0,
-    "rainMax": 5
+    "high": 67.9,
+    "low": 53.9,
+    "rainMax": 3
    },
    {
     "date": "2026-09-13",
@@ -39,11 +39,11 @@
     "rainMax": 0
    }
   ],
-  "code": 3,
+  "code": 0,
   "dayCode": 3,
-  "temp": 73.6,
+  "temp": 63.0,
   "high": 85.5,
-  "low": 60.8,
+  "low": 60.7,
   "rainMax": 1,
   "wetUntil": null
  },
