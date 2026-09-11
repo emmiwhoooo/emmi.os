@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-11T04:33:28+00:00",
- "today": "2026-09-10",
+ "generated": "2026-09-11T09:08:01+00:00",
+ "today": "2026-09-11",
  "term": {
   "week": 4,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 83
+  "daysToFinals": 82
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-10",
-    "code": 3,
-    "high": 85.5,
-    "low": 60.7,
-    "rainMax": 1
-   },
-   {
     "date": "2026-09-11",
     "code": 45,
-    "high": 68.8,
-    "low": 57.3,
+    "high": 68.7,
+    "low": 57.7,
     "rainMax": 1
    },
    {
     "date": "2026-09-12",
     "code": 3,
-    "high": 67.9,
-    "low": 53.9,
-    "rainMax": 3
+    "high": 68.2,
+    "low": 53.8,
+    "rainMax": 1
    },
    {
     "date": "2026-09-13",
     "code": 3,
-    "high": 74.5,
-    "low": 52.9,
+    "high": 73.4,
+    "low": 53.1,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-09-14",
+    "code": 3,
+    "high": 81.0,
+    "low": 54.4,
     "rainMax": 0
    }
   ],
-  "code": 0,
-  "dayCode": 3,
-  "temp": 63.0,
-  "high": 85.5,
-  "low": 60.7,
+  "code": 2,
+  "dayCode": 45,
+  "temp": 59.5,
+  "high": 68.7,
+  "low": 57.7,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 4 — Juvenile Court Jurisdiction — Minimum Age to Adult Transfer [PROJECT LIST]",
-  "course": "Youth Justice",
-  "date": "2026-09-09",
+  "title": "Negotiations 4 — Negotiation Process; Concessions; Emotion — Role-play: Depp v. Heard",
+  "course": "Negotiations",
+  "date": "2026-09-10",
   "session": 4,
-  "reading": "SB 439 + Assembly analysis; SB 1391 Senate analysis; AB 2361 + floor analysis; In re O.F. (2026) 119 Cal.App.5th 133 (specified parts); skim HRW/Burns Inst., Futures Denied. NOTE: rank group-project preferences BEFORE this class. Optional resources on bCourses.",
+  "reading": "Role-play: Depp v. Heard. Prep: BA Ch. 7-9 + App. C; DC Ch. 5 + Q8; email feedback for Batmobile; prep Depp v. Heard; note: Rose Lane email negotiation (cross-class) conducted during the 2-week gap 9/10-9/24 — buy materials ($4, Bookstore).",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
+  "url": "https://app.notion.com/p/Negotiations-4-Negotiation-Process-Concessions-Emotion-Role-play-Depp-v-Heard-3c6063496baf815bbd98fb1df74e657b"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 4 — Juvenile Court Jurisdiction — Minimum Age to Adult Transfer [PROJECT LIST]",
-   "course": "Youth Justice",
-   "date": "2026-09-09",
-   "session": 4,
-   "reading": "SB 439 + Assembly analysis; SB 1391 Senate analysis; AB 2361 + floor analysis; In re O.F. (2026) 119 Cal.App.5th 133 (specified parts); skim HRW/Burns Inst., Futures Denied. NOTE: rank group-project preferences BEFORE this class. Optional resources on bCourses.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
-  },
-  {
-   "title": "Property 11 — Vested and contingent remainders",
-   "course": "Property",
-   "date": "2026-09-10",
-   "session": 11,
-   "reading": "Slowly read 770-71.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-11-Vested-and-contingent-remainders-3c6063496baf813f982cc067ab9d7756"
-  },
   {
    "title": "Negotiations 4 — Negotiation Process; Concessions; Emotion — Role-play: Depp v. Heard",
    "course": "Negotiations",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-7-Hearsay-Exceptions-Admissions-by-Opposing-Party-3c6063496baf814f91eae2d4fad4e2a4"
+  },
+  {
+   "title": "LRW 9 — Analyzing Reasonable (I)",
+   "course": "LRW",
+   "date": "2026-09-15",
+   "session": 9,
+   "reading": "Read Revised Umbrella Rule + Reasonable CREAC assignment; complete Research Worksheet + read the two cases it selects; complete Citation Handout C; bring laptop.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-9-Analyzing-Reasonable-I-3c6063496baf81cc92bafb74fc509957"
+  },
+  {
+   "title": "Evidence 8 — Multiple Hearsay; Adoptive/Authorized Admissions",
+   "course": "Evidence",
+   "date": "2026-09-15",
+   "session": 8,
+   "reading": "CB 109-110 (skip Foster); 120-136 (skip Sea-Land). F.R.E. 801(d)(2)(B)(C)(D), 805. In limine arg 2.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-8-Multiple-Hearsay-Adoptive-Authorized-Admissions-3c6063496baf81a5934ed75de284a753"
   }
  ],
  "walkHome": [
@@ -1002,7 +1002,7 @@
   "overdue": 2,
   "dueSoon": 3,
   "graded": 27,
-  "unmerged": 14,
+  "unmerged": 16,
   "courses": 5,
   "cases": 96,
   "reserve": 17
