@@ -1,34 +1,27 @@
 {
- "generated": "2026-09-12T06:29:44+00:00",
- "today": "2026-09-11",
+ "generated": "2026-09-12T11:07:06+00:00",
+ "today": "2026-09-12",
  "term": {
   "week": 4,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 82
+  "daysToFinals": 81
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-11",
-    "code": 45,
-    "high": 71.4,
-    "low": 57.8,
-    "rainMax": 1
-   },
-   {
     "date": "2026-09-12",
     "code": 3,
     "high": 69.0,
-    "low": 54.7,
-    "rainMax": 1
+    "low": 55.2,
+    "rainMax": 0
    },
    {
     "date": "2026-09-13",
-    "code": 3,
-    "high": 72.8,
-    "low": 56.3,
+    "code": 0,
+    "high": 73.1,
+    "low": 56.0,
     "rainMax": 0
    },
    {
@@ -37,14 +30,21 @@
     "high": 81.7,
     "low": 54.5,
     "rainMax": 0
+   },
+   {
+    "date": "2026-09-15",
+    "code": 0,
+    "high": 79.2,
+    "low": 55.4,
+    "rainMax": 0
    }
   ],
   "code": 0,
-  "dayCode": 45,
-  "temp": 57.7,
-  "high": 71.4,
-  "low": 57.8,
-  "rainMax": 1,
+  "dayCode": 3,
+  "temp": 55.7,
+  "high": 69.0,
+  "low": 55.2,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -130,46 +130,16 @@
   ]
  },
  "next": {
-  "title": "Negotiations 4 — Negotiation Process; Concessions; Emotion — Role-play: Depp v. Heard",
-  "course": "Negotiations",
-  "date": "2026-09-10",
-  "session": 4,
-  "reading": "Role-play: Depp v. Heard. Prep: BA Ch. 7-9 + App. C; DC Ch. 5 + Q8; email feedback for Batmobile; prep Depp v. Heard; note: Rose Lane email negotiation (cross-class) conducted during the 2-week gap 9/10-9/24 — buy materials ($4, Bookstore).",
+  "title": "Evidence 7 — Hearsay Exceptions; Admissions by Opposing Party",
+  "course": "Evidence",
+  "date": "2026-09-14",
+  "session": 7,
+  "reading": "CB 96-109; 111-120. F.R.E. Art. VIII, 106, 801(d)(1), 901(d)(2)(a). In limine arg 1.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Negotiations-4-Negotiation-Process-Concessions-Emotion-Role-play-Depp-v-Heard-3c6063496baf815bbd98fb1df74e657b"
+  "url": "https://app.notion.com/p/Evidence-7-Hearsay-Exceptions-Admissions-by-Opposing-Party-3c6063496baf814f91eae2d4fad4e2a4"
  },
  "upcoming": [
-  {
-   "title": "Negotiations 4 — Negotiation Process; Concessions; Emotion — Role-play: Depp v. Heard",
-   "course": "Negotiations",
-   "date": "2026-09-10",
-   "session": 4,
-   "reading": "Role-play: Depp v. Heard. Prep: BA Ch. 7-9 + App. C; DC Ch. 5 + Q8; email feedback for Batmobile; prep Depp v. Heard; note: Rose Lane email negotiation (cross-class) conducted during the 2-week gap 9/10-9/24 — buy materials ($4, Bookstore).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-4-Negotiation-Process-Concessions-Emotion-Role-play-Depp-v-Heard-3c6063496baf815bbd98fb1df74e657b"
-  },
-  {
-   "title": "LRW 8 — Research Class 2: Citators",
-   "course": "LRW",
-   "date": "2026-09-11",
-   "session": 8,
-   "reading": "Watch RC2 video. After: complete citator Research Worksheet.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-8-Research-Class-2-Citators-3c6063496baf81239eeac670cfce5e1e"
-  },
-  {
-   "title": "Property 12 — Waste; rules affecting future interests",
-   "course": "Property",
-   "date": "2026-09-11",
-   "session": 12,
-   "reading": "Read §3.4 intro re Waste pp.779-80; Notes & Questions 1-4 pp.782-84; 800-02 (§§4-4.1); 661-66 (§5.4).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-12-Waste-rules-affecting-future-interests-3c6063496baf8105a9b4ffd9299baf5f"
-  },
   {
    "title": "Evidence 7 — Hearsay Exceptions; Admissions by Opposing Party",
    "course": "Evidence",
@@ -199,6 +169,36 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-8-Multiple-Hearsay-Adoptive-Authorized-Admissions-3c6063496baf81a5934ed75de284a753"
+  },
+  {
+   "title": "Property 13 — Forms of concurrent ownership",
+   "course": "Property",
+   "date": "2026-09-16",
+   "session": 13,
+   "reading": "Read 683-88.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-13-Forms-of-concurrent-ownership-3c6063496baf8116b403f6bb7d39d720"
+  },
+  {
+   "title": "Youth Justice 5 — Police in Schools and School to Prison Pipeline",
+   "course": "Youth Justice",
+   "date": "2026-09-16",
+   "session": 5,
+   "reading": "TROI Ch.6 pp.122-146, Ch.12 pp.306-320; Rios, Mother Jones. Watch: Last Week Tonight (6/12/22). Guest TBD. Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-5-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf81f7a910c41d73a5d4bc"
+  },
+  {
+   "title": "Property 14 — Unilateral encumbrance by a co-owner",
+   "course": "Property",
+   "date": "2026-09-17",
+   "session": 14,
+   "reading": "Read 690-701 (§§2.2-2.3A&B; skip Problems pp.692-94).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-14-Unilateral-encumbrance-by-a-co-owner-3c6063496baf81b6ac73d992681528cb"
   }
  ],
  "walkHome": [
@@ -1002,7 +1002,7 @@
   "overdue": 2,
   "dueSoon": 3,
   "graded": 27,
-  "unmerged": 16,
+  "unmerged": 19,
   "courses": 5,
   "cases": 96,
   "reserve": 17
