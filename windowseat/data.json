@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-14T05:26:04+00:00",
- "today": "2026-09-13",
+ "generated": "2026-09-14T10:50:32+00:00",
+ "today": "2026-09-14",
  "term": {
-  "week": 4,
+  "week": 5,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 80
+  "daysToFinals": 79
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-13",
-    "code": 0,
-    "high": 73.8,
-    "low": 55.3,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-14",
     "code": 3,
-    "high": 77.4,
-    "low": 53.6,
+    "high": 78.0,
+    "low": 53.3,
     "rainMax": 0
    },
    {
     "date": "2026-09-15",
-    "code": 1,
-    "high": 72.1,
+    "code": 2,
+    "high": 69.7,
     "low": 56.0,
-    "rainMax": 0
+    "rainMax": 1
    },
    {
     "date": "2026-09-16",
     "code": 3,
-    "high": 71.1,
-    "low": 54.9,
+    "high": 72.2,
+    "low": 54.7,
     "rainMax": 1
+   },
+   {
+    "date": "2026-09-17",
+    "code": 3,
+    "high": 72.0,
+    "low": 58.1,
+    "rainMax": 5
    }
   ],
-  "code": 0,
-  "dayCode": 0,
-  "temp": 58.8,
-  "high": 73.8,
-  "low": 55.3,
+  "code": 3,
+  "dayCode": 3,
+  "temp": 54.8,
+  "high": 78.0,
+  "low": 53.3,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -134,7 +134,7 @@
   "course": "Evidence",
   "date": "2026-09-14",
   "session": 7,
-  "reading": "CB 96-109; 111-120. F.R.E. Art. VIII, 106, 801(d)(1), 901(d)(2)(a). In limine arg 1.",
+  "reading": "CB 96-109; 111-120. Hemphill v. New York. F.R.E. Art. VIII, 106, 801(d)(1), 801(d)(2)(A). C.E.C. 356, 1220, 1222. NO in limine this class per the posted assignment list — panel is Aboutorabi, Jaffe-Pachullo, Alam, Minden.",
   "prepped": false,
   "status": "not merged",
   "url": "https://app.notion.com/p/Evidence-7-Hearsay-Exceptions-Admissions-by-Opposing-Party-3c6063496baf814f91eae2d4fad4e2a4"
@@ -145,7 +145,7 @@
    "course": "Evidence",
    "date": "2026-09-14",
    "session": 7,
-   "reading": "CB 96-109; 111-120. F.R.E. Art. VIII, 106, 801(d)(1), 901(d)(2)(a). In limine arg 1.",
+   "reading": "CB 96-109; 111-120. Hemphill v. New York. F.R.E. Art. VIII, 106, 801(d)(1), 801(d)(2)(A). C.E.C. 356, 1220, 1222. NO in limine this class per the posted assignment list — panel is Aboutorabi, Jaffe-Pachullo, Alam, Minden.",
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-7-Hearsay-Exceptions-Admissions-by-Opposing-Party-3c6063496baf814f91eae2d4fad4e2a4"
@@ -165,7 +165,7 @@
    "course": "Evidence",
    "date": "2026-09-15",
    "session": 8,
-   "reading": "CB 109-110 (skip Foster); 120-136 (skip Sea-Land). F.R.E. 801(d)(2)(B)(C)(D), 805. In limine arg 2.",
+   "reading": "CB 109-110 (skip Foster); 120-136 (skip Sea-Land). F.R.E. 801(d)(2)(B)(C)(D), 805. C.E.C. 1201, 1221, 1224, 1225. IN LIMINE 1 (posted list) — Myers, Su, Westbrook, Williams. Not you.",
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-8-Multiple-Hearsay-Adoptive-Authorized-Admissions-3c6063496baf81a5934ed75de284a753"
@@ -851,23 +851,97 @@
  ],
  "weather": [
   {
-   "title": "Umbrella Rule",
-   "course": "LRW",
-   "due": "2026-09-07",
+   "title": "Reflection 1 (Classes 1-4)",
+   "course": "Youth Justice",
+   "due": "2026-09-15",
    "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Umbrella-Rule-3c6063496baf8121a166c00b6fd3f83e"
+   "weight": "10 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reflection-1-Classes-1-4-3c6063496baf81a589ccd936f6272cca"
   },
   {
-   "title": "Rank group-project preferences",
-   "course": "Youth Justice",
-   "due": "2026-09-09",
+   "title": "Buy Rose Lane role-play materials ($4, Bookstore)",
+   "course": "Negotiations",
+   "due": "2026-09-15",
    "type": "admin",
    "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Rank-group-project-preferences-3c6063496baf8167acb3de0c3d3108d3"
+   "overdue": false,
+   "url": "https://app.notion.com/p/Buy-Rose-Lane-role-play-materials-4-Bookstore-3c6063496baf8186adc5f7df9c3f353a"
   },
+  {
+   "title": "Rose Lane email negotiation (out-of-class)",
+   "course": "Negotiations",
+   "due": "2026-09-17",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Rose-Lane-email-negotiation-out-of-class-3c6063496baf8150a5eec2803d646cd6"
+  },
+  {
+   "title": "Rose Lane — forward threads + outcome summary to Hockett & Winters",
+   "course": "Negotiations",
+   "due": "2026-09-17",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Rose-Lane-forward-threads-outcome-summary-to-Hockett-Winters-3db063496baf81989e11c346f6f92bf4"
+  },
+  {
+   "title": "Negotiation feedback to counterpart — Rose Lane (Jessica Cambiati)",
+   "course": "Negotiations",
+   "due": "2026-09-18",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Rose-Lane-Jessica-Cambiati-3db063496baf8103868ff21ceb7b8c16"
+  },
+  {
+   "title": "Citation Problem Set #1",
+   "course": "LRW",
+   "due": "2026-09-25",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-1-3c6063496baf8187b73ccaa522f950db"
+  },
+  {
+   "title": "Negotiation feedback to counterpart — Widow Land Sale (Neg 5)",
+   "course": "Negotiations",
+   "due": "2026-09-26",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Widow-Land-Sale-Neg-5-3db063496baf81edaef3d604a9862fb6"
+  },
+  {
+   "title": "Revised Umbrella Rule + Reasonable CREAC",
+   "course": "LRW",
+   "due": "2026-09-28",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Revised-Umbrella-Rule-Reasonable-CREAC-3c6063496baf8151b23ff07c6dda420e"
+  },
+  {
+   "title": "Practice Exercise 2",
+   "course": "Property",
+   "due": "2026-09-30",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-2-3c6063496baf81bf8135c27b72ee20ee"
+  },
+  {
+   "title": "Negotiation feedback to counterpart — Bataglia Trust Dispute (Neg 6)",
+   "course": "Negotiations",
+   "due": "2026-10-03",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Bataglia-Trust-Dispute-Neg-6-3db063496baf811c9dbad4bbdd0f1caa"
+  }
+ ],
+ "longHaul": [
   {
    "title": "Reflection 1 (Classes 1-4)",
    "course": "Youth Justice",
@@ -880,7 +954,7 @@
   {
    "title": "Rose Lane email negotiation (out-of-class)",
    "course": "Negotiations",
-   "due": "2026-09-24",
+   "due": "2026-09-17",
    "type": "graded",
    "weight": "",
    "overdue": false,
@@ -912,15 +986,6 @@
    "weight": "3 points (completion)",
    "overdue": false,
    "url": "https://app.notion.com/p/Practice-Exercise-2-3c6063496baf81bf8135c27b72ee20ee"
-  },
-  {
-   "title": "Core Grammar Post-Test",
-   "course": "LRW",
-   "due": "2026-10-05",
-   "type": "admin",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Core-Grammar-Post-Test-3c6063496baf81dc9b00f522579f831d"
   },
   {
    "title": "Citation Problem Set #2",
@@ -930,79 +995,14 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Citation-Problem-Set-2-3c6063496baf81a48a8de994eff0e67f"
-  },
-  {
-   "title": "Facts",
-   "course": "LRW",
-   "due": "2026-10-12",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Facts-3c6063496baf81a5ab7cca6ff7e53055"
-  }
- ],
- "longHaul": [
-  {
-   "title": "Umbrella Rule",
-   "course": "LRW",
-   "due": "2026-09-07",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Umbrella-Rule-3c6063496baf8121a166c00b6fd3f83e"
-  },
-  {
-   "title": "Reflection 1 (Classes 1-4)",
-   "course": "Youth Justice",
-   "due": "2026-09-15",
-   "type": "graded",
-   "weight": "10 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Reflection-1-Classes-1-4-3c6063496baf81a589ccd936f6272cca"
-  },
-  {
-   "title": "Rose Lane email negotiation (out-of-class)",
-   "course": "Negotiations",
-   "due": "2026-09-24",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Rose-Lane-email-negotiation-out-of-class-3c6063496baf8150a5eec2803d646cd6"
-  },
-  {
-   "title": "Citation Problem Set #1",
-   "course": "LRW",
-   "due": "2026-09-25",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-1-3c6063496baf8187b73ccaa522f950db"
-  },
-  {
-   "title": "Revised Umbrella Rule + Reasonable CREAC",
-   "course": "LRW",
-   "due": "2026-09-28",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Revised-Umbrella-Rule-Reasonable-CREAC-3c6063496baf8151b23ff07c6dda420e"
-  },
-  {
-   "title": "Practice Exercise 2",
-   "course": "Property",
-   "due": "2026-09-30",
-   "type": "graded",
-   "weight": "3 points (completion)",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Practice-Exercise-2-3c6063496baf81bf8135c27b72ee20ee"
   }
  ],
  "counts": {
-  "open": 34,
-  "overdue": 2,
-  "dueSoon": 3,
-  "graded": 27,
-  "unmerged": 19,
+  "open": 40,
+  "overdue": 0,
+  "dueSoon": 5,
+  "graded": 26,
+  "unmerged": 18,
   "courses": 5,
   "cases": 96,
   "reserve": 17
