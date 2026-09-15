@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T01:40:44+00:00",
+ "generated": "2026-09-15T06:41:22+00:00",
  "today": "2026-09-14",
  "term": {
   "week": 5,
@@ -20,28 +20,28 @@
    {
     "date": "2026-09-15",
     "code": 3,
-    "high": 67.9,
-    "low": 55.5,
-    "rainMax": 1
+    "high": 72.6,
+    "low": 54.6,
+    "rainMax": 0
    },
    {
     "date": "2026-09-16",
     "code": 3,
-    "high": 68.4,
-    "low": 58.7,
-    "rainMax": 3
+    "high": 68.6,
+    "low": 56.1,
+    "rainMax": 6
    },
    {
     "date": "2026-09-17",
     "code": 3,
-    "high": 75.4,
+    "high": 75.1,
     "low": 58.7,
-    "rainMax": 8
+    "rainMax": 5
    }
   ],
-  "code": 0,
+  "code": 3,
   "dayCode": 3,
-  "temp": 67.9,
+  "temp": 58.5,
   "high": 79.2,
   "low": 54.2,
   "rainMax": 0,
@@ -747,6 +747,12 @@
  ],
  "reserve": [
   {
+   "title": "LRW — Week 4 Wrap-Up + Week Ahead (Sep 14)",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/LRW-Week-4-Wrap-Up-Week-Ahead-Sep-14-3dc063496baf8100975cfd893a4fa71c"
+  },
+  {
    "title": "Prep sheet — Adolescence, Racism and Trauma (Youth Justice 3)",
    "course": "Youth Justice",
    "kind": "prep sheet",
@@ -1005,7 +1011,7 @@
   "unmerged": 18,
   "courses": 5,
   "cases": 96,
-  "reserve": 17
+  "reserve": 18
  },
  "courses": [
   "Evidence",
