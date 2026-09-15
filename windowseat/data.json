@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-15T06:41:22+00:00",
- "today": "2026-09-14",
+ "generated": "2026-09-15T12:07:19+00:00",
+ "today": "2026-09-15",
  "term": {
   "week": 5,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 79
+  "daysToFinals": 78
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-14",
-    "code": 3,
-    "high": 79.2,
-    "low": 54.2,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-15",
     "code": 3,
-    "high": 72.6,
-    "low": 54.6,
+    "high": 71.4,
+    "low": 52.8,
     "rainMax": 0
    },
    {
     "date": "2026-09-16",
     "code": 3,
-    "high": 68.6,
-    "low": 56.1,
+    "high": 65.1,
+    "low": 56.6,
     "rainMax": 6
    },
    {
     "date": "2026-09-17",
     "code": 3,
-    "high": 75.1,
-    "low": 58.7,
-    "rainMax": 5
+    "high": 74.9,
+    "low": 58.3,
+    "rainMax": 7
+   },
+   {
+    "date": "2026-09-18",
+    "code": 2,
+    "high": 78.3,
+    "low": 56.0,
+    "rainMax": 0
    }
   ],
-  "code": 3,
+  "code": 0,
   "dayCode": 3,
-  "temp": 58.5,
-  "high": 79.2,
-  "low": 54.2,
+  "temp": 53.5,
+  "high": 71.4,
+  "low": 52.8,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Evidence 7 — Hearsay Exceptions; Admissions by Opposing Party",
-  "course": "Evidence",
-  "date": "2026-09-14",
-  "session": 7,
-  "reading": "CB 96-109; 111-120. Hemphill v. New York. F.R.E. Art. VIII, 106, 801(d)(1), 801(d)(2)(A). C.E.C. 356, 1220, 1222. NO in limine this class per the posted assignment list — panel is Aboutorabi, Jaffe-Pachullo, Alam, Minden.",
+  "title": "LRW 9 — Analyzing Reasonable (I)",
+  "course": "LRW",
+  "date": "2026-09-15",
+  "session": 9,
+  "reading": "Read Revised Umbrella Rule + Reasonable CREAC assignment; complete Research Worksheet + read the two cases it selects; complete Citation Handout C; bring laptop.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-7-Hearsay-Exceptions-Admissions-by-Opposing-Party-3c6063496baf814f91eae2d4fad4e2a4"
+  "url": "https://app.notion.com/p/LRW-9-Analyzing-Reasonable-I-3c6063496baf81cc92bafb74fc509957"
  },
  "upcoming": [
-  {
-   "title": "Evidence 7 — Hearsay Exceptions; Admissions by Opposing Party",
-   "course": "Evidence",
-   "date": "2026-09-14",
-   "session": 7,
-   "reading": "CB 96-109; 111-120. Hemphill v. New York. F.R.E. Art. VIII, 106, 801(d)(1), 801(d)(2)(A). C.E.C. 356, 1220, 1222. NO in limine this class per the posted assignment list — panel is Aboutorabi, Jaffe-Pachullo, Alam, Minden.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-7-Hearsay-Exceptions-Admissions-by-Opposing-Party-3c6063496baf814f91eae2d4fad4e2a4"
-  },
   {
    "title": "LRW 9 — Analyzing Reasonable (I)",
    "course": "LRW",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-14-Unilateral-encumbrance-by-a-co-owner-3c6063496baf81b6ac73d992681528cb"
+  },
+  {
+   "title": "LRW 10 — Analyzing Reasonable (II)",
+   "course": "LRW",
+   "date": "2026-09-18",
+   "session": 10,
+   "reading": "After: begin Citation Problem Set #1.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-10-Analyzing-Reasonable-II-3c6063496baf81758029c31871ef2dca"
   }
  ],
  "walkHome": [
@@ -1008,7 +1008,7 @@
   "overdue": 0,
   "dueSoon": 5,
   "graded": 26,
-  "unmerged": 18,
+  "unmerged": 19,
   "courses": 5,
   "cases": 96,
   "reserve": 18
