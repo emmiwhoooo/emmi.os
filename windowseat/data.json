@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T00:47:19+00:00",
+ "generated": "2026-09-16T05:28:19+00:00",
  "today": "2026-09-15",
  "term": {
   "week": 5,
@@ -20,16 +20,16 @@
    {
     "date": "2026-09-16",
     "code": 3,
-    "high": 64.1,
-    "low": 56.5,
+    "high": 64.4,
+    "low": 57.1,
     "rainMax": 1
    },
    {
     "date": "2026-09-17",
     "code": 3,
-    "high": 73.6,
-    "low": 56.4,
-    "rainMax": 14
+    "high": 70.1,
+    "low": 56.7,
+    "rainMax": 9
    },
    {
     "date": "2026-09-18",
@@ -41,7 +41,7 @@
   ],
   "code": 3,
   "dayCode": 45,
-  "temp": 61.8,
+  "temp": 58.8,
   "high": 70.4,
   "low": 54.1,
   "rainMax": 1,
@@ -857,15 +857,6 @@
  ],
  "weather": [
   {
-   "title": "Reflection 1 (Classes 1-4)",
-   "course": "Youth Justice",
-   "due": "2026-09-15",
-   "type": "graded",
-   "weight": "10 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Reflection-1-Classes-1-4-3c6063496baf81a589ccd936f6272cca"
-  },
-  {
    "title": "Buy Rose Lane role-play materials ($4, Bookstore)",
    "course": "Negotiations",
    "due": "2026-09-15",
@@ -945,18 +936,18 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Bataglia-Trust-Dispute-Neg-6-3db063496baf811c9dbad4bbdd0f1caa"
+  },
+  {
+   "title": "Core Grammar Post-Test",
+   "course": "LRW",
+   "due": "2026-10-05",
+   "type": "admin",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Core-Grammar-Post-Test-3c6063496baf81dc9b00f522579f831d"
   }
  ],
  "longHaul": [
-  {
-   "title": "Reflection 1 (Classes 1-4)",
-   "course": "Youth Justice",
-   "due": "2026-09-15",
-   "type": "graded",
-   "weight": "10 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Reflection-1-Classes-1-4-3c6063496baf81a589ccd936f6272cca"
-  },
   {
    "title": "Rose Lane email negotiation (out-of-class)",
    "course": "Negotiations",
@@ -1001,13 +992,22 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Citation-Problem-Set-2-3c6063496baf81a48a8de994eff0e67f"
+  },
+  {
+   "title": "Facts",
+   "course": "LRW",
+   "due": "2026-10-12",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Facts-3c6063496baf81a5ab7cca6ff7e53055"
   }
  ],
  "counts": {
-  "open": 40,
+  "open": 39,
   "overdue": 0,
-  "dueSoon": 5,
-  "graded": 26,
+  "dueSoon": 4,
+  "graded": 25,
   "unmerged": 19,
   "courses": 5,
   "cases": 96,
