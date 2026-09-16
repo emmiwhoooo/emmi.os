@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T18:35:14+00:00",
+ "generated": "2026-09-16T21:42:18+00:00",
  "today": "2026-09-16",
  "term": {
   "week": 5,
@@ -13,22 +13,22 @@
    {
     "date": "2026-09-16",
     "code": 3,
-    "high": 63.5,
-    "low": 57.5,
+    "high": 64.0,
+    "low": 57.6,
     "rainMax": 1
    },
    {
     "date": "2026-09-17",
     "code": 3,
-    "high": 68.0,
-    "low": 56.7,
+    "high": 67.7,
+    "low": 56.5,
     "rainMax": 2
    },
    {
     "date": "2026-09-18",
-    "code": 2,
+    "code": 45,
     "high": 77.8,
-    "low": 55.6,
+    "low": 54.9,
     "rainMax": 0
    },
    {
@@ -41,9 +41,9 @@
   ],
   "code": 2,
   "dayCode": 3,
-  "temp": 60.1,
-  "high": 63.5,
-  "low": 57.5,
+  "temp": 62.2,
+  "high": 64.0,
+  "low": 57.6,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -251,16 +251,16 @@
    "url": "https://app.notion.com/p/Youth-Justice-3-Adolescence-Racism-and-Trauma-GROUP-PROJECTS-DISCUSSED-3c6063496baf810a82f5d1587ee1c840"
   },
   {
-   "title": "Property 8 — Present estates — life estates, pur autre vie, fee tail",
-   "course": "Property",
-   "date": "2026-09-03",
-   "url": "https://app.notion.com/p/Property-8-Present-estates-life-estates-pur-autre-vie-fee-tail-3c6063496baf81bf9641c34ae4c532d1"
-  },
-  {
    "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
    "course": "Negotiations",
    "date": "2026-09-03",
    "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
+  },
+  {
+   "title": "LRW 6 — Multi-CREAC structure; the Umbrella Rule",
+   "course": "LRW",
+   "date": "2026-09-04",
+   "url": "https://app.notion.com/p/LRW-6-Multi-CREAC-structure-the-Umbrella-Rule-3c6063496baf8116a8cfefa3517e71ba"
   }
  ],
  "shelf": [
@@ -1008,7 +1008,7 @@
   "overdue": 0,
   "dueSoon": 3,
   "graded": 25,
-  "unmerged": 21,
+  "unmerged": 20,
   "courses": 5,
   "cases": 96,
   "reserve": 18
