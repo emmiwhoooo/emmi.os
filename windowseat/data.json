@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T21:42:18+00:00",
+ "generated": "2026-09-16T23:50:30+00:00",
  "today": "2026-09-16",
  "term": {
   "week": 5,
@@ -12,17 +12,17 @@
   "days": [
    {
     "date": "2026-09-16",
-    "code": 3,
+    "code": 51,
     "high": 64.0,
     "low": 57.6,
-    "rainMax": 1
+    "rainMax": 2
    },
    {
     "date": "2026-09-17",
     "code": 3,
     "high": 67.7,
     "low": 56.5,
-    "rainMax": 2
+    "rainMax": 1
    },
    {
     "date": "2026-09-18",
@@ -33,18 +33,18 @@
    },
    {
     "date": "2026-09-19",
-    "code": 3,
-    "high": 79.4,
-    "low": 56.0,
+    "code": 2,
+    "high": 81.2,
+    "low": 55.8,
     "rainMax": 0
    }
   ],
   "code": 2,
-  "dayCode": 3,
-  "temp": 62.2,
+  "dayCode": 51,
+  "temp": 63.8,
   "high": 64.0,
   "low": 57.6,
-  "rainMax": 1,
+  "rainMax": 2,
   "wetUntil": null
  },
  "player": {
@@ -151,14 +151,14 @@
    "url": "https://app.notion.com/p/Property-13-Forms-of-concurrent-ownership-3c6063496baf8116b403f6bb7d39d720"
   },
   {
-   "title": "Youth Justice 5 — Police in Schools and School to Prison Pipeline",
+   "title": "Youth Justice 5 — The Role of Counsel in Delinquency Court",
    "course": "Youth Justice",
    "date": "2026-09-16",
    "session": 5,
-   "reading": "TROI Ch.6 pp.122-146, Ch.12 pp.306-320; Rios, Mother Jones. Watch: Last Week Tonight (6/12/22). Guest TBD. Optional resources on bCourses.",
-   "prepped": false,
+   "reading": "W&I §§634.3 (Duties of Appointed Counsel), 634.6 (Continuity in Representation); Cal. Rules of Court rule 5.663; ABA Model Rule 1.14 (Client with Diminished Capacity); NJDC, Ten Core Principles (2012); NDAA, National Prosecution Standards for Juvenile Justice (2016); In re Alonzo J. (2014) 58 Cal.4th 924 [Read: Part I, Part II pp.937-end; skim remainder of Part II] + PJDC amicus (Argument Parts I-II) + Sacramento County PD amicus (Parts II-A, IV) + Appellant's Answer (Parts 1-A, 3). Optional resources on bCourses.",
+   "prepped": true,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-5-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf81f7a910c41d73a5d4bc"
+   "url": "https://app.notion.com/p/Youth-Justice-5-The-Role-of-Counsel-in-Delinquency-Court-3c6063496baf81f7a910c41d73a5d4bc"
   },
   {
    "title": "Property 14 — Unilateral encumbrance by a co-owner",
@@ -264,6 +264,11 @@
   }
  ],
  "shelf": [
+  {
+   "title": "In re Alonzo J.",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/In-re-Alonzo-J-3dd063496baf8150b3c4f7f02588e2e8"
+  },
   {
    "title": "United States v. Johnson (Keithley Johnson)",
    "course": "Evidence",
@@ -747,6 +752,72 @@
  ],
  "reserve": [
   {
+   "title": "NDAA — National Prosecution Standards ch. 11, Juvenile Justice (3d ed., rev. 11/12/2016)",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/NDAA-National-Prosecution-Standards-ch-11-Juvenile-Justice-3d-ed-rev-11-12-2016-3dd063496baf811fae9bcb0d1b2318de"
+  },
+  {
+   "title": "Alonzo J. — PJDC amicus brief (2013) [for appellant]",
+   "course": "Youth Justice",
+   "kind": "case text",
+   "link": "https://app.notion.com/p/Alonzo-J-PJDC-amicus-brief-2013-for-appellant-3dd063496baf81209fcbfe7ddd26fd78"
+  },
+  {
+   "title": "Alonzo J. — Appellant's Answer to Sacramento PD amicus (2013)",
+   "course": "Youth Justice",
+   "kind": "case text",
+   "link": "https://app.notion.com/p/Alonzo-J-Appellant-s-Answer-to-Sacramento-PD-amicus-2013-3dd063496baf8157ba79c2ee17f13651"
+  },
+  {
+   "title": "CRC rule 5.663 — through 6/30/2023 (superseded, best-interests version)",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/CRC-rule-5-663-through-6-30-2023-superseded-best-interests-version-3dd063496baf81689a37e7932265a03d"
+  },
+  {
+   "title": "Alonzo J. — Sacramento County PD amicus brief (2013) [for respondent]",
+   "course": "Youth Justice",
+   "kind": "case text",
+   "link": "https://app.notion.com/p/Alonzo-J-Sacramento-County-PD-amicus-brief-2013-for-respondent-3dd063496baf8182ac60d4fa72501e1b"
+  },
+  {
+   "title": "NJDC — National Juvenile Defense Standards (2012/2013) [optional]",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/NJDC-National-Juvenile-Defense-Standards-2012-2013-optional-3dd063496baf81888e18c28a92621848"
+  },
+  {
+   "title": "CRC rule 5.663 — as amended 7/1/2023 (current)",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://www.courts.ca.gov/cms/rules/index/five/rule5_663"
+  },
+  {
+   "title": "NJDC — Ten Core Principles for Providing Quality Delinquency Representation (2012)",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/NJDC-Ten-Core-Principles-for-Providing-Quality-Delinquency-Representation-2012-3dd063496baf81cdb796e4f27f7b2131"
+  },
+  {
+   "title": "W&I §§634.3, 634.6 + ABA Model Rule 1.14 (combined handout)",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://codes.findlaw.com/ca/welfare-and-institutions-code/wic-sect-634-3.html"
+  },
+  {
+   "title": "NDAA — The Ethics of a Dedicated Juvenile Court Prosecutor [optional]",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/NDAA-The-Ethics-of-a-Dedicated-Juvenile-Court-Prosecutor-optional-3dd063496baf81e594abcf2a1c4e08af"
+  },
+  {
+   "title": "In re Alonzo J. (2014) 58 Cal.4th 924",
+   "course": "Youth Justice",
+   "kind": "case text",
+   "link": "https://caselaw.findlaw.com/court/ca-supreme-court/1662444.html"
+  },
+  {
    "title": "LRW — Week 4 Wrap-Up + Week Ahead (Sep 14)",
    "course": "LRW",
    "kind": "handout",
@@ -1010,8 +1081,8 @@
   "graded": 25,
   "unmerged": 20,
   "courses": 5,
-  "cases": 96,
-  "reserve": 18
+  "cases": 97,
+  "reserve": 29
  },
  "courses": [
   "Evidence",
