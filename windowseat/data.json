@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-16T05:28:19+00:00",
- "today": "2026-09-15",
+ "generated": "2026-09-16T10:10:17+00:00",
+ "today": "2026-09-16",
  "term": {
   "week": 5,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 78
+  "daysToFinals": 77
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-15",
-    "code": 45,
-    "high": 70.4,
-    "low": 54.1,
-    "rainMax": 1
-   },
-   {
     "date": "2026-09-16",
     "code": 3,
-    "high": 64.4,
-    "low": 57.1,
+    "high": 64.9,
+    "low": 57.5,
     "rainMax": 1
    },
    {
     "date": "2026-09-17",
     "code": 3,
-    "high": 70.1,
+    "high": 68.5,
     "low": 56.7,
-    "rainMax": 9
+    "rainMax": 2
    },
    {
     "date": "2026-09-18",
     "code": 0,
-    "high": 78.7,
-    "low": 55.8,
+    "high": 79.0,
+    "low": 56.0,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-09-19",
+    "code": 3,
+    "high": 77.6,
+    "low": 55.6,
     "rainMax": 0
    }
   ],
-  "code": 3,
-  "dayCode": 45,
-  "temp": 58.8,
-  "high": 70.4,
-  "low": 54.1,
+  "code": 2,
+  "dayCode": 3,
+  "temp": 58.4,
+  "high": 64.9,
+  "low": 57.5,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -130,43 +130,23 @@
   ]
  },
  "next": {
-  "title": "LRW 9 — Analyzing Reasonable (I)",
-  "course": "LRW",
-  "date": "2026-09-15",
-  "session": 9,
-  "reading": "Read Revised Umbrella Rule + Reasonable CREAC assignment; complete Research Worksheet + read the two cases it selects; complete Citation Handout C; bring laptop.",
-  "prepped": false,
+  "title": "Property 13 — Forms of concurrent ownership",
+  "course": "Property",
+  "date": "2026-09-16",
+  "session": 13,
+  "reading": "Read 683-88.",
+  "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-9-Analyzing-Reasonable-I-3c6063496baf81cc92bafb74fc509957"
+  "url": "https://app.notion.com/p/Property-13-Forms-of-concurrent-ownership-3c6063496baf8116b403f6bb7d39d720"
  },
  "upcoming": [
-  {
-   "title": "LRW 9 — Analyzing Reasonable (I)",
-   "course": "LRW",
-   "date": "2026-09-15",
-   "session": 9,
-   "reading": "Read Revised Umbrella Rule + Reasonable CREAC assignment; complete Research Worksheet + read the two cases it selects; complete Citation Handout C; bring laptop.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-9-Analyzing-Reasonable-I-3c6063496baf81cc92bafb74fc509957"
-  },
-  {
-   "title": "Evidence 8 — Multiple Hearsay; Adoptive/Authorized Admissions",
-   "course": "Evidence",
-   "date": "2026-09-15",
-   "session": 8,
-   "reading": "CB 109-110 (skip Foster); 120-136 (skip Sea-Land). F.R.E. 801(d)(2)(B)(C)(D), 805. C.E.C. 1201, 1221, 1224, 1225. IN LIMINE 1 (posted list) — Myers, Su, Westbrook, Williams. Not you.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-8-Multiple-Hearsay-Adoptive-Authorized-Admissions-3c6063496baf81a5934ed75de284a753"
-  },
   {
    "title": "Property 13 — Forms of concurrent ownership",
    "course": "Property",
    "date": "2026-09-16",
    "session": 13,
    "reading": "Read 683-88.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-13-Forms-of-concurrent-ownership-3c6063496baf8116b403f6bb7d39d720"
   },
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-10-Analyzing-Reasonable-II-3c6063496baf81758029c31871ef2dca"
+  },
+  {
+   "title": "Property 15 — Co-owners' rights and duties; partition",
+   "course": "Property",
+   "date": "2026-09-18",
+   "session": 15,
+   "reading": "Read note 4 pp.689-90; 707-713 (§2.4); watch \"What is Heirs' Property?\"; listen to Heirs' Property podcast.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-15-Co-owners-rights-and-duties-partition-3c6063496baf812989c3cc2b04fff25b"
+  },
+  {
+   "title": "Evidence 9 — Co-Conspirator Admissions; Bruton",
+   "course": "Evidence",
+   "date": "2026-09-18",
+   "session": 9,
+   "reading": "CB 136-152. F.R.E. 801(d)(2), 801(d)(2)(E). In limine arg 3. Recorded make-up class, Fri 2:30-3:45.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-9-Co-Conspirator-Admissions-Bruton-3c6063496baf819f9d60cbdcf12bc100"
   }
  ],
  "walkHome": [
@@ -862,7 +862,7 @@
    "due": "2026-09-15",
    "type": "admin",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Buy-Rose-Lane-role-play-materials-4-Bookstore-3c6063496baf8186adc5f7df9c3f353a"
   },
   {
@@ -1005,10 +1005,10 @@
  ],
  "counts": {
   "open": 39,
-  "overdue": 0,
+  "overdue": 1,
   "dueSoon": 4,
   "graded": 25,
-  "unmerged": 19,
+  "unmerged": 21,
   "courses": 5,
   "cases": 96,
   "reserve": 18
