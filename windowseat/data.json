@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T23:50:30+00:00",
+ "generated": "2026-09-17T02:20:57+00:00",
  "today": "2026-09-16",
  "term": {
   "week": 5,
@@ -12,23 +12,23 @@
   "days": [
    {
     "date": "2026-09-16",
-    "code": 51,
-    "high": 64.0,
+    "code": 3,
+    "high": 64.5,
     "low": 57.6,
     "rainMax": 2
    },
    {
     "date": "2026-09-17",
-    "code": 3,
-    "high": 67.7,
-    "low": 56.5,
+    "code": 51,
+    "high": 69.7,
+    "low": 57.1,
     "rainMax": 1
    },
    {
     "date": "2026-09-18",
-    "code": 45,
-    "high": 77.8,
-    "low": 54.9,
+    "code": 3,
+    "high": 71.9,
+    "low": 54.4,
     "rainMax": 0
    },
    {
@@ -40,20 +40,20 @@
    }
   ],
   "code": 2,
-  "dayCode": 51,
-  "temp": 63.8,
-  "high": 64.0,
+  "dayCode": 3,
+  "temp": 60.5,
+  "high": 64.5,
   "low": 57.6,
   "rainMax": 2,
   "wetUntil": null
  },
  "player": {
-  "level": 25,
+  "level": 28,
   "xp": 0,
-  "toNext": 10,
+  "toNext": 15,
   "gold": 155,
-  "rank": "lvl 25",
-  "next": "10 xp to lvl 26"
+  "rank": "lvl 28",
+  "next": "15 xp to lvl 29"
  },
  "quests": {
   "run": 0,
