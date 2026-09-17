@@ -1,50 +1,50 @@
 {
- "generated": "2026-09-17T02:20:57+00:00",
- "today": "2026-09-16",
+ "generated": "2026-09-17T07:51:50+00:00",
+ "today": "2026-09-17",
  "term": {
   "week": 5,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 77
+  "daysToFinals": 76
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-16",
-    "code": 3,
-    "high": 64.5,
-    "low": 57.6,
-    "rainMax": 2
-   },
-   {
     "date": "2026-09-17",
     "code": 51,
-    "high": 69.7,
+    "high": 68.7,
     "low": 57.1,
-    "rainMax": 1
+    "rainMax": 6
    },
    {
     "date": "2026-09-18",
     "code": 3,
-    "high": 71.9,
+    "high": 71.1,
     "low": 54.4,
-    "rainMax": 0
+    "rainMax": 1
    },
    {
     "date": "2026-09-19",
     "code": 2,
-    "high": 81.2,
-    "low": 55.8,
+    "high": 79.4,
+    "low": 55.4,
     "rainMax": 0
+   },
+   {
+    "date": "2026-09-20",
+    "code": 3,
+    "high": 69.7,
+    "low": 58.0,
+    "rainMax": 1
    }
   ],
-  "code": 2,
-  "dayCode": 3,
-  "temp": 60.5,
-  "high": 64.5,
-  "low": 57.6,
-  "rainMax": 2,
+  "code": 3,
+  "dayCode": 51,
+  "temp": 61.0,
+  "high": 68.7,
+  "low": 57.1,
+  "rainMax": 6,
   "wetUntil": null
  },
  "player": {
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Property 13 — Forms of concurrent ownership",
-  "course": "Property",
+  "title": "Youth Justice 5 — The Role of Counsel in Delinquency Court",
+  "course": "Youth Justice",
   "date": "2026-09-16",
-  "session": 13,
-  "reading": "Read 683-88.",
+  "session": 5,
+  "reading": "W&I §§634.3 (Duties of Appointed Counsel), 634.6 (Continuity in Representation); Cal. Rules of Court rule 5.663; ABA Model Rule 1.14 (Client with Diminished Capacity); NJDC, Ten Core Principles (2012); NDAA, National Prosecution Standards for Juvenile Justice (2016); In re Alonzo J. (2014) 58 Cal.4th 924 [Read: Part I, Part II pp.937-end; skim remainder of Part II] + PJDC amicus (Argument Parts I-II) + Sacramento County PD amicus (Parts II-A, IV) + Appellant's Answer (Parts 1-A, 3). Optional resources on bCourses.",
   "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-13-Forms-of-concurrent-ownership-3c6063496baf8116b403f6bb7d39d720"
+  "url": "https://app.notion.com/p/Youth-Justice-5-The-Role-of-Counsel-in-Delinquency-Court-3c6063496baf81f7a910c41d73a5d4bc"
  },
  "upcoming": [
-  {
-   "title": "Property 13 — Forms of concurrent ownership",
-   "course": "Property",
-   "date": "2026-09-16",
-   "session": 13,
-   "reading": "Read 683-88.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-13-Forms-of-concurrent-ownership-3c6063496baf8116b403f6bb7d39d720"
-  },
   {
    "title": "Youth Justice 5 — The Role of Counsel in Delinquency Court",
    "course": "Youth Justice",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-9-Co-Conspirator-Admissions-Bruton-3c6063496baf819f9d60cbdcf12bc100"
+  },
+  {
+   "title": "Evidence 10 — Spontaneous Statements; State of Mind; Dying Declarations",
+   "course": "Evidence",
+   "date": "2026-09-21",
+   "session": 10,
+   "reading": "CB 152-163 (skip Elem); 242-248 (skip Shepard). F.R.E. 803(1)(2)(3), 804(b)(2). In limine arg 4.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-10-Spontaneous-Statements-State-of-Mind-Dying-Declarations-3c6063496baf8161ba89d3f5683bdcb8"
   }
  ],
  "walkHome": [
@@ -219,18 +219,6 @@
    "course": "Negotiations",
    "date": "2026-08-27",
    "url": "https://app.notion.com/p/Negotiations-2-Integrative-Bargaining-Options-Leverage-BATNA-Role-play-Serene-Isle-Signal-Fra-3c6063496baf81b9b207f5cb0c68b70b"
-  },
-  {
-   "title": "LRW 4 — Reading cases; intro to CREAC; Rule drafting",
-   "course": "LRW",
-   "date": "2026-08-28",
-   "url": "https://app.notion.com/p/LRW-4-Reading-cases-intro-to-CREAC-Rule-drafting-3c6063496baf81988c33d524279d11ad"
-  },
-  {
-   "title": "LRW 5 — Analyzing Necessary",
-   "course": "LRW",
-   "date": "2026-09-01",
-   "url": "https://app.notion.com/p/LRW-5-Analyzing-Necessary-3c6063496baf8103b193ee6e1e4d8c85"
   },
   {
    "title": "Evidence 6 — Implied Assertions; Confrontation Clause",
@@ -257,13 +245,35 @@
    "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
   },
   {
-   "title": "LRW 6 — Multi-CREAC structure; the Umbrella Rule",
-   "course": "LRW",
+   "title": "Property 9 — Introduction to future interests",
+   "course": "Property",
    "date": "2026-09-04",
-   "url": "https://app.notion.com/p/LRW-6-Multi-CREAC-structure-the-Umbrella-Rule-3c6063496baf8116a8cfefa3517e71ba"
+   "url": "https://app.notion.com/p/Property-9-Introduction-to-future-interests-3c6063496baf8135999fce5e73a5fd26"
+  },
+  {
+   "title": "Property 10 — Future interests — reversion, remainder",
+   "course": "Property",
+   "date": "2026-09-09",
+   "url": "https://app.notion.com/p/Property-10-Future-interests-reversion-remainder-3c6063496baf81058451ffd234622aad"
+  },
+  {
+   "title": "Youth Justice 4 — Juvenile Court Jurisdiction — Minimum Age to Adult Transfer [PROJECT LIST]",
+   "course": "Youth Justice",
+   "date": "2026-09-09",
+   "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
   }
  ],
  "shelf": [
+  {
+   "title": "PGA Tour, Inc. v. Martin",
+   "course": "LRW",
+   "url": "https://app.notion.com/p/PGA-Tour-Inc-v-Martin-3de063496baf815692edf49055d981c5"
+  },
+  {
+   "title": "Baughman v. Walt Disney World Co.",
+   "course": "LRW",
+   "url": "https://app.notion.com/p/Baughman-v-Walt-Disney-World-Co-3de063496baf81869419edc1d5ae3df6"
+  },
   {
    "title": "In re Alonzo J.",
    "course": "Youth Justice",
@@ -752,6 +762,78 @@
  ],
  "reserve": [
   {
+   "title": "LRW — Research Class 1 video: Statutory Research (annotated codes)",
+   "course": "LRW",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/LRW-Research-Class-1-video-Statutory-Research-annotated-codes-3de063496baf81aa9a1cd1d9eea02091"
+  },
+  {
+   "title": "LRW — Research Class 2 video: Citators (KeyCite and Shepard's)",
+   "course": "LRW",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/LRW-Research-Class-2-video-Citators-KeyCite-and-Shepard-s-3de063496baf81dab64ad41e3c91bff0"
+  },
+  {
+   "title": "LRW — Citation Handout C KEY: Signals and Navigating the Bluebook",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/LRW-Citation-Handout-C-KEY-Signals-and-Navigating-the-Bluebook-3de063496baf811b8da6d25a5f25d083"
+  },
+  {
+   "title": "LRW — Week 3 Class 2 deck: Multi-CREAC structure + the Umbrella Rule (Sep 4)",
+   "course": "LRW",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/LRW-Week-3-Class-2-deck-Multi-CREAC-structure-the-Umbrella-Rule-Sep-4-3de063496baf819c809cd0135fce4b95"
+  },
+  {
+   "title": "Citation Handout B — Pincites, Short Cites, Federal Statutes (+ KEY)",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Citation-Handout-B-Pincites-Short-Cites-Federal-Statutes-KEY-3de063496baf81019b32efaa1f72a959"
+  },
+  {
+   "title": "Burton v. NHSSA Record (2026)",
+   "course": "LRW",
+   "kind": "case text",
+   "link": "https://app.notion.com/p/Burton-v-NHSSA-Record-2026-3de063496baf810a8b51faf4a62569b3"
+  },
+  {
+   "title": "My Baughman Explanation Paragraph (submitted Aug 30)",
+   "course": "LRW",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/My-Baughman-Explanation-Paragraph-submitted-Aug-30-3de063496baf810da753e3f3892eac26"
+  },
+  {
+   "title": "Sample Office Memo — Respondeat Superior (2026, annotated)",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Sample-Office-Memo-Respondeat-Superior-2026-annotated-3de063496baf8122b096e549b9d9b550"
+  },
+  {
+   "title": "Week 2 Class 2 deck — Intro to CREAC; PGA and Baughman; Necessary Rule; cites",
+   "course": "LRW",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/Week-2-Class-2-deck-Intro-to-CREAC-PGA-and-Baughman-Necessary-Rule-cites-3de063496baf8181aeacfd77cb2620aa"
+  },
+  {
+   "title": "★ Sample Necessary Analysis (2026) — the model full CREAC",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Sample-Necessary-Analysis-2026-the-model-full-CREAC-3de063496baf8183a0f4f4517ab8fa19"
+  },
+  {
+   "title": "How to CREAC 2026 (handout)",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/How-to-CREAC-2026-handout-3de063496baf81e0a879d0dbd479e3f6"
+  },
+  {
+   "title": "Week 3 Class 1 deck — Analyzing Necessary",
+   "course": "LRW",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/Week-3-Class-1-deck-Analyzing-Necessary-3de063496baf81e5afb8ecf1434f62be"
+  },
+  {
    "title": "NDAA — National Prosecution Standards ch. 11, Juvenile Justice (3d ed., rev. 11/12/2016)",
    "course": "Youth Justice",
    "kind": "handout",
@@ -1079,10 +1161,10 @@
   "overdue": 0,
   "dueSoon": 3,
   "graded": 25,
-  "unmerged": 20,
+  "unmerged": 16,
   "courses": 5,
-  "cases": 97,
-  "reserve": 29
+  "cases": 99,
+  "reserve": 41
  },
  "courses": [
   "Evidence",
