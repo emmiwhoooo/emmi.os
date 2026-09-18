@@ -1,35 +1,28 @@
 {
- "generated": "2026-09-18T05:31:03+00:00",
- "today": "2026-09-17",
+ "generated": "2026-09-18T10:02:27+00:00",
+ "today": "2026-09-18",
  "term": {
   "week": 5,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 76
+  "daysToFinals": 75
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-17",
-    "code": 3,
-    "high": 70.4,
-    "low": 58.4,
-    "rainMax": 5
-   },
-   {
     "date": "2026-09-18",
     "code": 45,
-    "high": 69.4,
-    "low": 54.8,
+    "high": 69.5,
+    "low": 54.6,
     "rainMax": 0
    },
    {
     "date": "2026-09-19",
     "code": 45,
-    "high": 72.1,
-    "low": 56.5,
-    "rainMax": 1
+    "high": 70.9,
+    "low": 56.6,
+    "rainMax": 0
    },
    {
     "date": "2026-09-20",
@@ -37,14 +30,21 @@
     "high": 71.3,
     "low": 56.7,
     "rainMax": 1
+   },
+   {
+    "date": "2026-09-21",
+    "code": 3,
+    "high": 78.5,
+    "low": 57.2,
+    "rainMax": 1
    }
   ],
   "code": 0,
-  "dayCode": 3,
-  "temp": 58.9,
-  "high": 70.4,
-  "low": 58.4,
-  "rainMax": 5,
+  "dayCode": 45,
+  "temp": 54.8,
+  "high": 69.5,
+  "low": 54.6,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 5 — The Role of Counsel in Delinquency Court",
-  "course": "Youth Justice",
-  "date": "2026-09-16",
-  "session": 5,
-  "reading": "W&I §§634.3 (Duties of Appointed Counsel), 634.6 (Continuity in Representation); Cal. Rules of Court rule 5.663; ABA Model Rule 1.14 (Client with Diminished Capacity); NJDC, Ten Core Principles (2012); NDAA, National Prosecution Standards for Juvenile Justice (2016); In re Alonzo J. (2014) 58 Cal.4th 924 [Read: Part I, Part II pp.937-end; skim remainder of Part II] + PJDC amicus (Argument Parts I-II) + Sacramento County PD amicus (Parts II-A, IV) + Appellant's Answer (Parts 1-A, 3). Optional resources on bCourses.",
-  "prepped": true,
+  "title": "LRW 10 — Analyzing Reasonable (II)",
+  "course": "LRW",
+  "date": "2026-09-18",
+  "session": 10,
+  "reading": "After: begin Citation Problem Set #1.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-5-The-Role-of-Counsel-in-Delinquency-Court-3c6063496baf81f7a910c41d73a5d4bc"
+  "url": "https://app.notion.com/p/LRW-10-Analyzing-Reasonable-II-3c6063496baf81758029c31871ef2dca"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 5 — The Role of Counsel in Delinquency Court",
-   "course": "Youth Justice",
-   "date": "2026-09-16",
-   "session": 5,
-   "reading": "W&I §§634.3 (Duties of Appointed Counsel), 634.6 (Continuity in Representation); Cal. Rules of Court rule 5.663; ABA Model Rule 1.14 (Client with Diminished Capacity); NJDC, Ten Core Principles (2012); NDAA, National Prosecution Standards for Juvenile Justice (2016); In re Alonzo J. (2014) 58 Cal.4th 924 [Read: Part I, Part II pp.937-end; skim remainder of Part II] + PJDC amicus (Argument Parts I-II) + Sacramento County PD amicus (Parts II-A, IV) + Appellant's Answer (Parts 1-A, 3). Optional resources on bCourses.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-5-The-Role-of-Counsel-in-Delinquency-Court-3c6063496baf81f7a910c41d73a5d4bc"
-  },
-  {
-   "title": "Property 14 — Unilateral encumbrance by a co-owner",
-   "course": "Property",
-   "date": "2026-09-17",
-   "session": 14,
-   "reading": "Read 690-701 (§§2.2-2.3A&B; skip Problems pp.692-94).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-14-Unilateral-encumbrance-by-a-co-owner-3c6063496baf81b6ac73d992681528cb"
-  },
   {
    "title": "LRW 10 — Analyzing Reasonable (II)",
    "course": "LRW",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-10-Spontaneous-Statements-State-of-Mind-Dying-Declarations-3c6063496baf8161ba89d3f5683bdcb8"
+  },
+  {
+   "title": "LRW 11 — Drafting class (LRW Lounge)",
+   "course": "LRW",
+   "date": "2026-09-22",
+   "session": 11,
+   "reading": "Review Burton Record (NHSSA facts); Sample Office Memo; bring laptop. After: draft Reasonable Application Analysis. Citation Problem Set #1 due Fri Sep 25 8:35am.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-11-Drafting-class-LRW-Lounge-3c6063496baf81be9c8ae8f9522bfa19"
+  },
+  {
+   "title": "Evidence 11 — Recorded Recollection; Former Testimony; Declarations Against Interest",
+   "course": "Evidence",
+   "date": "2026-09-22",
+   "session": 11,
+   "reading": "CB 183-184; 230-242 (skip Bollin); 248-255. F.R.E. 612, 803(5), 804(a)(b)(1), 804(b)(3). In limine arg 5.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-11-Recorded-Recollection-Former-Testimony-Declarations-Against-Interest-3c6063496baf819589f9c045c4c30332"
   }
  ],
  "walkHome": [
@@ -1015,7 +1015,7 @@
    "due": "2026-09-17",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Rose-Lane-email-negotiation-out-of-class-3c6063496baf8150a5eec2803d646cd6"
   },
   {
@@ -1024,7 +1024,7 @@
    "due": "2026-09-17",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Rose-Lane-forward-threads-outcome-summary-to-Hockett-Winters-3db063496baf81989e11c346f6f92bf4"
   },
   {
@@ -1107,7 +1107,7 @@
    "due": "2026-09-17",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Rose-Lane-email-negotiation-out-of-class-3c6063496baf8150a5eec2803d646cd6"
   },
   {
@@ -1158,10 +1158,10 @@
  ],
  "counts": {
   "open": 38,
-  "overdue": 0,
-  "dueSoon": 3,
+  "overdue": 2,
+  "dueSoon": 4,
   "graded": 25,
-  "unmerged": 16,
+  "unmerged": 18,
   "courses": 5,
   "cases": 99,
   "reserve": 41
