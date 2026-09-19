@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-19T05:01:59+00:00",
- "today": "2026-09-18",
+ "generated": "2026-09-19T09:27:13+00:00",
+ "today": "2026-09-19",
  "term": {
   "week": 5,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 75
+  "daysToFinals": 74
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-18",
-    "code": 45,
-    "high": 73.6,
-    "low": 55.2,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-19",
     "code": 45,
-    "high": 73.3,
-    "low": 56.9,
+    "high": 74.0,
+    "low": 57.1,
     "rainMax": 0
    },
    {
     "date": "2026-09-20",
     "code": 45,
-    "high": 73.1,
-    "low": 56.1,
-    "rainMax": 4
+    "high": 67.7,
+    "low": 56.5,
+    "rainMax": 3
    },
    {
     "date": "2026-09-21",
     "code": 3,
-    "high": 77.4,
+    "high": 77.2,
     "low": 57.2,
+    "rainMax": 1
+   },
+   {
+    "date": "2026-09-22",
+    "code": 0,
+    "high": 77.4,
+    "low": 55.4,
     "rainMax": 1
    }
   ],
   "code": 3,
   "dayCode": 45,
-  "temp": 60.2,
-  "high": 73.6,
-  "low": 55.2,
+  "temp": 58.1,
+  "high": 74.0,
+  "low": 57.1,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,46 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 10 — Analyzing Reasonable (II)",
-  "course": "LRW",
-  "date": "2026-09-18",
+  "title": "Evidence 10 — Spontaneous Statements; State of Mind; Dying Declarations",
+  "course": "Evidence",
+  "date": "2026-09-21",
   "session": 10,
-  "reading": "After: begin Citation Problem Set #1.",
+  "reading": "CB 152-163 (skip Elem); 242-248 (skip Shepard). F.R.E. 803(1)(2)(3), 804(b)(2). In limine arg 4.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-10-Analyzing-Reasonable-II-3c6063496baf81758029c31871ef2dca"
+  "url": "https://app.notion.com/p/Evidence-10-Spontaneous-Statements-State-of-Mind-Dying-Declarations-3c6063496baf8161ba89d3f5683bdcb8"
  },
  "upcoming": [
-  {
-   "title": "LRW 10 — Analyzing Reasonable (II)",
-   "course": "LRW",
-   "date": "2026-09-18",
-   "session": 10,
-   "reading": "After: begin Citation Problem Set #1.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-10-Analyzing-Reasonable-II-3c6063496baf81758029c31871ef2dca"
-  },
-  {
-   "title": "Property 15 — Co-owners' rights and duties; partition",
-   "course": "Property",
-   "date": "2026-09-18",
-   "session": 15,
-   "reading": "Read note 4 pp.689-90; 707-713 (§2.4); watch \"What is Heirs' Property?\"; listen to Heirs' Property podcast.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-15-Co-owners-rights-and-duties-partition-3c6063496baf812989c3cc2b04fff25b"
-  },
-  {
-   "title": "Evidence 9 — Co-Conspirator Admissions; Bruton",
-   "course": "Evidence",
-   "date": "2026-09-18",
-   "session": 9,
-   "reading": "CB 136-152. F.R.E. 801(d)(2), 801(d)(2)(E). In limine arg 3. Recorded make-up class, Fri 2:30-3:45.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-9-Co-Conspirator-Admissions-Bruton-3c6063496baf819f9d60cbdcf12bc100"
-  },
   {
    "title": "Evidence 10 — Spontaneous Statements; State of Mind; Dying Declarations",
    "course": "Evidence",
@@ -199,6 +169,36 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-11-Recorded-Recollection-Former-Testimony-Declarations-Against-Interest-3c6063496baf819589f9c045c4c30332"
+  },
+  {
+   "title": "Property 16 — Introduction to leasehold estates",
+   "course": "Property",
+   "date": "2026-09-23",
+   "session": 16,
+   "reading": "Read 831-846 (skip Problems p.846).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-16-Introduction-to-leasehold-estates-3c6063496baf81b5a6faf81ad7d1c855"
+  },
+  {
+   "title": "Youth Justice 6 — Pre-Adjudication Detention",
+   "course": "Youth Justice",
+   "date": "2026-09-23",
+   "session": 6,
+   "reading": "Holman & Ziedenberg, The Dangers of Detention (Justice Policy Institute 2006); Cabanatuan, Why Juvenile Hall is still open after vote to close it, SF Chronicle (May 21, 2022); YWFC & Freedom Research Institute, Through Their Eyes [Read: Ten Page Summary] (2021); SB 1009 Fact Sheet + Bill Language (Findings and Declarations only). Guests: Young Women's Freedom Center Fellows. Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-6-Pre-Adjudication-Detention-3c6063496baf81079d54f6e3b3cc2319"
+  },
+  {
+   "title": "Property 17 — Transfer of landlord's and tenant's interest; assignment and sublease",
+   "course": "Property",
+   "date": "2026-09-24",
+   "session": 17,
+   "reading": "Read 852-55 (§§2.3-2.4); Ernst v. Conditt (bCourses).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-17-Transfer-of-landlord-s-and-tenant-s-interest-assignment-and-sublease-3c6063496baf816eb45ee9d82dbd9212"
   }
  ],
  "walkHome": [
@@ -1033,7 +1033,7 @@
    "due": "2026-09-18",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Rose-Lane-Jessica-Cambiati-3db063496baf8103868ff21ceb7b8c16"
   },
   {
@@ -1158,10 +1158,10 @@
  ],
  "counts": {
   "open": 38,
-  "overdue": 2,
-  "dueSoon": 4,
+  "overdue": 3,
+  "dueSoon": 5,
   "graded": 25,
-  "unmerged": 18,
+  "unmerged": 21,
   "courses": 5,
   "cases": 99,
   "reserve": 41
