@@ -1,50 +1,50 @@
 {
- "generated": "2026-09-20T05:25:14+00:00",
- "today": "2026-09-19",
+ "generated": "2026-09-20T09:53:46+00:00",
+ "today": "2026-09-20",
  "term": {
   "week": 5,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 74
+  "daysToFinals": 73
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-19",
-    "code": 45,
-    "high": 72.2,
-    "low": 56.4,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-20",
-    "code": 45,
-    "high": 64.4,
-    "low": 56.5,
-    "rainMax": 3
+    "code": 3,
+    "high": 65.0,
+    "low": 55.6,
+    "rainMax": 2
    },
    {
     "date": "2026-09-21",
     "code": 45,
-    "high": 66.8,
-    "low": 56.7,
+    "high": 64.1,
+    "low": 56.3,
     "rainMax": 3
    },
    {
     "date": "2026-09-22",
-    "code": 1,
-    "high": 76.9,
-    "low": 55.6,
+    "code": 2,
+    "high": 79.0,
+    "low": 55.1,
     "rainMax": 1
+   },
+   {
+    "date": "2026-09-23",
+    "code": 3,
+    "high": 82.8,
+    "low": 56.0,
+    "rainMax": 0
    }
   ],
-  "code": 2,
-  "dayCode": 45,
-  "temp": 56.2,
-  "high": 72.2,
-  "low": 56.4,
-  "rainMax": 0,
+  "code": 3,
+  "dayCode": 3,
+  "temp": 55.6,
+  "high": 65.0,
+  "low": 55.6,
+  "rainMax": 2,
   "wetUntil": null
  },
  "player": {
@@ -221,12 +221,6 @@
    "url": "https://app.notion.com/p/Negotiations-2-Integrative-Bargaining-Options-Leverage-BATNA-Role-play-Serene-Isle-Signal-Fra-3c6063496baf81b9b207f5cb0c68b70b"
   },
   {
-   "title": "Evidence 6 — Implied Assertions; Confrontation Clause",
-   "course": "Evidence",
-   "date": "2026-09-01",
-   "url": "https://app.notion.com/p/Evidence-6-Implied-Assertions-Confrontation-Clause-3c6063496baf81d8b5b1e60d0e13e1f5"
-  },
-  {
    "title": "Property 7 — SKILLS WORKSHOP 1 (adverse possession) — PRACTICE EXERCISE 1 DUE",
    "course": "Property",
    "date": "2026-09-02",
@@ -261,6 +255,12 @@
    "course": "Youth Justice",
    "date": "2026-09-09",
    "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
+  },
+  {
+   "title": "Property 11 — Vested and contingent remainders",
+   "course": "Property",
+   "date": "2026-09-10",
+   "url": "https://app.notion.com/p/Property-11-Vested-and-contingent-remainders-3c6063496baf813f982cc067ab9d7756"
   }
  ],
  "shelf": [
@@ -1161,7 +1161,7 @@
   "overdue": 3,
   "dueSoon": 5,
   "graded": 25,
-  "unmerged": 21,
+  "unmerged": 20,
   "courses": 5,
   "cases": 99,
   "reserve": 41
