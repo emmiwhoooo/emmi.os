@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T21:43:09+00:00",
+ "generated": "2026-09-20T23:32:26+00:00",
  "today": "2026-09-20",
  "term": {
   "week": 5,
@@ -13,38 +13,38 @@
    {
     "date": "2026-09-20",
     "code": 45,
-    "high": 64.1,
+    "high": 63.2,
     "low": 55.7,
-    "rainMax": 1
+    "rainMax": 2
    },
    {
     "date": "2026-09-21",
     "code": 45,
     "high": 62.1,
-    "low": 56.2,
-    "rainMax": 2
+    "low": 56.8,
+    "rainMax": 1
    },
    {
     "date": "2026-09-22",
     "code": 3,
-    "high": 79.6,
-    "low": 57.4,
+    "high": 78.7,
+    "low": 57.2,
     "rainMax": 3
    },
    {
     "date": "2026-09-23",
     "code": 3,
-    "high": 83.5,
-    "low": 55.4,
+    "high": 81.9,
+    "low": 55.1,
     "rainMax": 0
    }
   ],
   "code": 3,
   "dayCode": 45,
-  "temp": 62.2,
-  "high": 64.1,
+  "temp": 62.3,
+  "high": 63.2,
   "low": 55.7,
-  "rainMax": 1,
+  "rainMax": 2,
   "wetUntil": null
  },
  "player": {
@@ -264,6 +264,16 @@
   }
  ],
  "shelf": [
+  {
+   "title": "Fortyune v. American Multi-Cinema, Inc.",
+   "course": "LRW",
+   "url": "https://app.notion.com/p/Fortyune-v-American-Multi-Cinema-Inc-3e1063496baf8109b152fd348ff66ec6"
+  },
+  {
+   "title": "Lentini v. California Center for the Arts, Escondido",
+   "course": "LRW",
+   "url": "https://app.notion.com/p/Lentini-v-California-Center-for-the-Arts-Escondido-3e1063496baf817dab69c22b6514ff2c"
+  },
   {
    "title": "PGA Tour, Inc. v. Martin",
    "course": "LRW",
@@ -762,6 +772,18 @@
  ],
  "reserve": [
   {
+   "title": "LRW — Reasonable Inquiry Research Worksheet (completed)",
+   "course": "LRW",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/LRW-Reasonable-Inquiry-Research-Worksheet-completed-3e1063496baf81209af2fc058faa56be"
+  },
+  {
+   "title": "LRW — Citation Handout C (blank): Signals and Navigating the Bluebook",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/LRW-Citation-Handout-C-blank-Signals-and-Navigating-the-Bluebook-3e1063496baf81328f40d4baa0b8d7e0"
+  },
+  {
    "title": "LRW — Research Class 1 video: Statutory Research (annotated codes)",
    "course": "LRW",
    "kind": "slides",
@@ -1161,10 +1183,10 @@
   "overdue": 3,
   "dueSoon": 5,
   "graded": 25,
-  "unmerged": 20,
+  "unmerged": 19,
   "courses": 5,
-  "cases": 99,
-  "reserve": 41
+  "cases": 101,
+  "reserve": 43
  },
  "courses": [
   "Evidence",
