@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T07:08:55+00:00",
+ "generated": "2026-09-21T14:03:29+00:00",
  "today": "2026-09-21",
  "term": {
   "week": 6,
@@ -13,37 +13,37 @@
    {
     "date": "2026-09-21",
     "code": 45,
-    "high": 62.0,
-    "low": 55.3,
+    "high": 63.3,
+    "low": 56.4,
     "rainMax": 1
    },
    {
     "date": "2026-09-22",
-    "code": 3,
-    "high": 72.7,
-    "low": 57.1,
+    "code": 45,
+    "high": 71.2,
+    "low": 56.1,
     "rainMax": 2
    },
    {
     "date": "2026-09-23",
-    "code": 3,
-    "high": 86.2,
+    "code": 0,
+    "high": 83.0,
     "low": 54.7,
     "rainMax": 0
    },
    {
     "date": "2026-09-24",
     "code": 3,
-    "high": 77.6,
-    "low": 55.4,
+    "high": 76.7,
+    "low": 55.6,
     "rainMax": 0
    }
   ],
   "code": 3,
   "dayCode": 45,
-  "temp": 56.3,
-  "high": 62.0,
-  "low": 55.3,
+  "temp": 57.1,
+  "high": 63.3,
+  "low": 56.4,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -135,7 +135,7 @@
   "date": "2026-09-21",
   "session": 10,
   "reading": "CB 152-163 (skip Elem); 242-248 (skip Shepard). F.R.E. 803(1)(2)(3), 804(b)(2). In limine arg 4.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/Evidence-10-Spontaneous-Statements-State-of-Mind-Dying-Declarations-3c6063496baf8161ba89d3f5683bdcb8"
  },
@@ -146,7 +146,7 @@
    "date": "2026-09-21",
    "session": 10,
    "reading": "CB 152-163 (skip Elem); 242-248 (skip Shepard). F.R.E. 803(1)(2)(3), 804(b)(2). In limine arg 4.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-10-Spontaneous-Statements-State-of-Mind-Dying-Declarations-3c6063496baf8161ba89d3f5683bdcb8"
   },
@@ -264,6 +264,16 @@
   }
  ],
  "shelf": [
+  {
+   "title": "United States v. Obayagbona",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Obayagbona-3e2063496baf8196b7a1ce6edd1c8082"
+  },
+  {
+   "title": "People v. Cummings",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/People-v-Cummings-3e2063496baf810fac7ff4623a297156"
+  },
   {
    "title": "Hanson v. Waller",
    "course": "Evidence",
@@ -842,6 +852,12 @@
  ],
  "reserve": [
   {
+   "title": "📝 Prep sheet — Spontaneous statements, state of mind, dying declarations (Evidence 10)",
+   "course": "Evidence",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/Prep-sheet-Spontaneous-statements-state-of-mind-dying-declarations-Evidence-10-3e2063496baf81e98aacd803d7c26c5a"
+  },
+  {
    "title": "LRW — Reasonable Inquiry Research Worksheet (completed)",
    "course": "LRW",
    "kind": "prep sheet",
@@ -1255,8 +1271,8 @@
   "graded": 25,
   "unmerged": 16,
   "courses": 5,
-  "cases": 115,
-  "reserve": 43
+  "cases": 117,
+  "reserve": 44
  },
  "courses": [
   "Evidence",
