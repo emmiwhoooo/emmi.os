@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T23:32:26+00:00",
+ "generated": "2026-09-21T01:39:43+00:00",
  "today": "2026-09-20",
  "term": {
   "week": 5,
@@ -12,10 +12,10 @@
   "days": [
    {
     "date": "2026-09-20",
-    "code": 45,
-    "high": 63.2,
+    "code": 3,
+    "high": 62.7,
     "low": 55.7,
-    "rainMax": 2
+    "rainMax": 1
    },
    {
     "date": "2026-09-21",
@@ -29,7 +29,7 @@
     "code": 3,
     "high": 78.7,
     "low": 57.2,
-    "rainMax": 3
+    "rainMax": 1
    },
    {
     "date": "2026-09-23",
@@ -40,20 +40,20 @@
    }
   ],
   "code": 3,
-  "dayCode": 45,
-  "temp": 62.3,
-  "high": 63.2,
+  "dayCode": 3,
+  "temp": 60.5,
+  "high": 62.7,
   "low": 55.7,
-  "rainMax": 2,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
-  "level": 31,
+  "level": 32,
   "xp": 0,
-  "toNext": 85,
+  "toNext": 5,
   "gold": 155,
-  "rank": "lvl 31",
-  "next": "85 xp to lvl 32"
+  "rank": "lvl 32",
+  "next": "5 xp to lvl 33"
  },
  "quests": {
   "run": 0,
@@ -264,6 +264,76 @@
   }
  ],
  "shelf": [
+  {
+   "title": "Hanson v. Waller",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Hanson-v-Waller-3e2063496baf81d3818cf0677408b4cd"
+  },
+  {
+   "title": "Schack v. Property Owners Association of Sunset Bay",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Schack-v-Property-Owners-Association-of-Sunset-Bay-3e2063496baf812b95becefcad2e4194"
+  },
+  {
+   "title": "United States v. Rivera",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Rivera-3e2063496baf81d4a2ddf63dd6dd8ac7"
+  },
+  {
+   "title": "Moss v. Commonwealth",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Moss-v-Commonwealth-3e2063496baf818e8832c5a4fbdd132e"
+  },
+  {
+   "title": "United States v. Mirabal",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Mirabal-3e2063496baf81b78c48ffe4116473fd"
+  },
+  {
+   "title": "United States v. Jemison",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Jemison-3e2063496baf8108a361ee89243e09ef"
+  },
+  {
+   "title": "Mahlandt v. Wild Canid Survival & Research Center, Inc.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Mahlandt-v-Wild-Canid-Survival-Research-Center-Inc-3e2063496baf81ef9807cbfec02609fc"
+  },
+  {
+   "title": "Albert v. McKay & Co.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Albert-v-McKay-Co-3e2063496baf8181a8fef131ab52b2f3"
+  },
+  {
+   "title": "Reed v. McCord",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Reed-v-McCord-3e2063496baf8122ad15d898ad933aaf"
+  },
+  {
+   "title": "People v. Serrano",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/People-v-Serrano-3e2063496baf8149a49dd43ede8c517a"
+  },
+  {
+   "title": "United States v. Owens",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Owens-3e2063496baf81ae8db6d58e3dc7c17f"
+  },
+  {
+   "title": "United States v. Phelps",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Phelps-3e2063496baf81e1b1bbdd4e490f3189"
+  },
+  {
+   "title": "United States v. McGee",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-McGee-3e2063496baf81e99935f88b16b8848e"
+  },
+  {
+   "title": "Salvitti v. Throppe",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Salvitti-v-Throppe-3e2063496baf81f0acfdf1f5d63a1559"
+  },
   {
    "title": "Fortyune v. American Multi-Cinema, Inc.",
    "course": "LRW",
@@ -1183,9 +1253,9 @@
   "overdue": 3,
   "dueSoon": 5,
   "graded": 25,
-  "unmerged": 19,
+  "unmerged": 17,
   "courses": 5,
-  "cases": 101,
+  "cases": 115,
   "reserve": 43
  },
  "courses": [
