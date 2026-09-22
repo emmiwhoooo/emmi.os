@@ -1,34 +1,27 @@
 {
- "generated": "2026-09-22T06:10:10+00:00",
- "today": "2026-09-21",
+ "generated": "2026-09-22T11:31:47+00:00",
+ "today": "2026-09-22",
  "term": {
   "week": 6,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 72
+  "daysToFinals": 71
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-21",
-    "code": 45,
-    "high": 64.1,
-    "low": 56.6,
-    "rainMax": 1
-   },
-   {
     "date": "2026-09-22",
     "code": 45,
-    "high": 69.7,
-    "low": 56.4,
+    "high": 67.5,
+    "low": 56.0,
     "rainMax": 1
    },
    {
     "date": "2026-09-23",
     "code": 3,
-    "high": 82.0,
-    "low": 52.7,
+    "high": 80.9,
+    "low": 52.3,
     "rainMax": 0
    },
    {
@@ -37,13 +30,20 @@
     "high": 80.8,
     "low": 57.2,
     "rainMax": 0
+   },
+   {
+    "date": "2026-09-25",
+    "code": 3,
+    "high": 72.4,
+    "low": 55.4,
+    "rainMax": 1
    }
   ],
-  "code": 1,
+  "code": 3,
   "dayCode": 45,
-  "temp": 57.6,
-  "high": 64.1,
-  "low": 56.6,
+  "temp": 56.9,
+  "high": 67.5,
+  "low": 56.0,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Evidence 10 — Spontaneous Statements; State of Mind; Dying Declarations",
-  "course": "Evidence",
-  "date": "2026-09-21",
-  "session": 10,
-  "reading": "CB 152-163 (skip Elem); 242-248 (skip Shepard). F.R.E. 803(1)(2)(3), 804(b)(2). In limine arg 4.",
-  "prepped": true,
+  "title": "LRW 11 — Drafting class (LRW Lounge)",
+  "course": "LRW",
+  "date": "2026-09-22",
+  "session": 11,
+  "reading": "Review Burton Record (NHSSA facts); Sample Office Memo; bring laptop. After: draft Reasonable Application Analysis. Citation Problem Set #1 due Fri Sep 25 8:35am.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-10-Spontaneous-Statements-State-of-Mind-Dying-Declarations-3c6063496baf8161ba89d3f5683bdcb8"
+  "url": "https://app.notion.com/p/LRW-11-Drafting-class-LRW-Lounge-3c6063496baf81be9c8ae8f9522bfa19"
  },
  "upcoming": [
-  {
-   "title": "Evidence 10 — Spontaneous Statements; State of Mind; Dying Declarations",
-   "course": "Evidence",
-   "date": "2026-09-21",
-   "session": 10,
-   "reading": "CB 152-163 (skip Elem); 242-248 (skip Shepard). F.R.E. 803(1)(2)(3), 804(b)(2). In limine arg 4.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-10-Spontaneous-Statements-State-of-Mind-Dying-Declarations-3c6063496baf8161ba89d3f5683bdcb8"
-  },
   {
    "title": "LRW 11 — Drafting class (LRW Lounge)",
    "course": "LRW",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-17-Transfer-of-landlord-s-and-tenant-s-interest-assignment-and-sublease-3c6063496baf816eb45ee9d82dbd9212"
+  },
+  {
+   "title": "Negotiations 5 — Negotiation Styles & Approaches — Role-play: Widow Land Sale",
+   "course": "Negotiations",
+   "date": "2026-09-24",
+   "session": 5,
+   "reading": "Role-play: Widow Land Sale. Prep: BA Ch. 9 + complete App. A + finish BA; DC Ch. 6; email feedback for Depp v. Heard AND Rose Lane; planning memo for Widow Land Sale due on bCourses before class.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-5-Negotiation-Styles-Approaches-Role-play-Widow-Land-Sale-3c6063496baf81c98877ed35a903f0ab"
   }
  ],
  "walkHome": [
@@ -1269,7 +1269,7 @@
   "overdue": 3,
   "dueSoon": 6,
   "graded": 25,
-  "unmerged": 16,
+  "unmerged": 17,
   "courses": 5,
   "cases": 117,
   "reserve": 44
