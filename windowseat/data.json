@@ -1,50 +1,50 @@
 {
- "generated": "2026-09-23T04:58:38+00:00",
- "today": "2026-09-22",
+ "generated": "2026-09-23T09:45:12+00:00",
+ "today": "2026-09-23",
  "term": {
   "week": 6,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 71
+  "daysToFinals": 70
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-22",
-    "code": 45,
-    "high": 67.1,
-    "low": 56.9,
-    "rainMax": 1
-   },
-   {
     "date": "2026-09-23",
     "code": 45,
-    "high": 79.0,
-    "low": 55.2,
+    "high": 78.6,
+    "low": 55.4,
     "rainMax": 0
    },
    {
     "date": "2026-09-24",
     "code": 3,
-    "high": 75.4,
-    "low": 53.9,
+    "high": 74.4,
+    "low": 53.7,
     "rainMax": 0
    },
    {
     "date": "2026-09-25",
     "code": 3,
-    "high": 75.1,
-    "low": 57.2,
+    "high": 75.4,
+    "low": 58.0,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-09-26",
+    "code": 3,
+    "high": 76.9,
+    "low": 53.5,
     "rainMax": 0
    }
   ],
-  "code": 45,
+  "code": 3,
   "dayCode": 45,
-  "temp": 57.8,
-  "high": 67.1,
-  "low": 56.9,
-  "rainMax": 1,
+  "temp": 56.6,
+  "high": 78.6,
+  "low": 55.4,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 11 — Drafting class (LRW Lounge)",
-  "course": "LRW",
-  "date": "2026-09-22",
-  "session": 11,
-  "reading": "Review Burton Record (NHSSA facts); Sample Office Memo; bring laptop. After: draft Reasonable Application Analysis. Citation Problem Set #1 due Fri Sep 25 8:35am.",
+  "title": "Property 16 — Introduction to leasehold estates",
+  "course": "Property",
+  "date": "2026-09-23",
+  "session": 16,
+  "reading": "Read 831-846 (skip Problems p.846).",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-11-Drafting-class-LRW-Lounge-3c6063496baf81be9c8ae8f9522bfa19"
+  "url": "https://app.notion.com/p/Property-16-Introduction-to-leasehold-estates-3c6063496baf81b5a6faf81ad7d1c855"
  },
  "upcoming": [
-  {
-   "title": "LRW 11 — Drafting class (LRW Lounge)",
-   "course": "LRW",
-   "date": "2026-09-22",
-   "session": 11,
-   "reading": "Review Burton Record (NHSSA facts); Sample Office Memo; bring laptop. After: draft Reasonable Application Analysis. Citation Problem Set #1 due Fri Sep 25 8:35am.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-11-Drafting-class-LRW-Lounge-3c6063496baf81be9c8ae8f9522bfa19"
-  },
-  {
-   "title": "Evidence 11 — Recorded Recollection; Former Testimony; Declarations Against Interest",
-   "course": "Evidence",
-   "date": "2026-09-22",
-   "session": 11,
-   "reading": "CB 183-184; 230-242 (skip Bollin); 248-255. F.R.E. 612, 803(5), 804(a)(b)(1), 804(b)(3). In limine arg 5.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-11-Recorded-Recollection-Former-Testimony-Declarations-Against-Interest-3c6063496baf819589f9c045c4c30332"
-  },
   {
    "title": "Property 16 — Introduction to leasehold estates",
    "course": "Property",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-5-Negotiation-Styles-Approaches-Role-play-Widow-Land-Sale-3c6063496baf81c98877ed35a903f0ab"
+  },
+  {
+   "title": "LRW 12 — Application analysis writing lab",
+   "course": "LRW",
+   "date": "2026-09-25",
+   "session": 12,
+   "reading": "Bring CPS#1 + four copies of one Reasonable paragraph (double-spaced, 12pt TNR). Revised Umbrella Rule + Reasonable CREAC due Sun Sep 27 10pm.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-12-Application-analysis-writing-lab-3c6063496baf810cb4fae63682f367fb"
+  },
+  {
+   "title": "Property 18 — Assignment and sublease continued; prohibition/approval",
+   "course": "Property",
+   "date": "2026-09-25",
+   "session": 18,
+   "reading": "No new reading listed.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-18-Assignment-and-sublease-continued-prohibition-approval-3c6063496baf814b9cd7fb4267d3041d"
   }
  ],
  "walkHome": [
@@ -1267,9 +1267,9 @@
  "counts": {
   "open": 38,
   "overdue": 3,
-  "dueSoon": 6,
+  "dueSoon": 7,
   "graded": 25,
-  "unmerged": 17,
+  "unmerged": 19,
   "courses": 5,
   "cases": 117,
   "reserve": 44
