@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T00:06:18+00:00",
+ "generated": "2026-09-24T04:42:42+00:00",
  "today": "2026-09-23",
  "term": {
   "week": 6,
@@ -13,22 +13,22 @@
    {
     "date": "2026-09-23",
     "code": 45,
-    "high": 77.2,
+    "high": 77.3,
     "low": 57.2,
     "rainMax": 0
    },
    {
     "date": "2026-09-24",
     "code": 3,
-    "high": 75.8,
-    "low": 55.6,
+    "high": 79.4,
+    "low": 55.7,
     "rainMax": 0
    },
    {
     "date": "2026-09-25",
-    "code": 1,
-    "high": 74.9,
-    "low": 55.0,
+    "code": 3,
+    "high": 73.6,
+    "low": 55.1,
     "rainMax": 0
    },
    {
@@ -41,19 +41,19 @@
   ],
   "code": 0,
   "dayCode": 45,
-  "temp": 74.0,
-  "high": 77.2,
+  "temp": 63.0,
+  "high": 77.3,
   "low": 57.2,
   "rainMax": 0,
   "wetUntil": null
  },
  "player": {
-  "level": 36,
+  "level": 37,
   "xp": 0,
-  "toNext": 55,
+  "toNext": 50,
   "gold": 155,
-  "rank": "lvl 36",
-  "next": "55 xp to lvl 37"
+  "rank": "lvl 37",
+  "next": "50 xp to lvl 38"
  },
  "quests": {
   "run": 0,
@@ -227,12 +227,6 @@
    "url": "https://app.notion.com/p/Property-7-SKILLS-WORKSHOP-1-adverse-possession-PRACTICE-EXERCISE-1-DUE-3c6063496baf8182aa05e82d7a1d3e18"
   },
   {
-   "title": "Youth Justice 3 — Adolescence, Racism and Trauma [GROUP PROJECTS DISCUSSED]",
-   "course": "Youth Justice",
-   "date": "2026-09-02",
-   "url": "https://app.notion.com/p/Youth-Justice-3-Adolescence-Racism-and-Trauma-GROUP-PROJECTS-DISCUSSED-3c6063496baf810a82f5d1587ee1c840"
-  },
-  {
    "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
    "course": "Negotiations",
    "date": "2026-09-03",
@@ -261,6 +255,12 @@
    "course": "Property",
    "date": "2026-09-10",
    "url": "https://app.notion.com/p/Property-11-Vested-and-contingent-remainders-3c6063496baf813f982cc067ab9d7756"
+  },
+  {
+   "title": "Property 12 — Waste; rules affecting future interests",
+   "course": "Property",
+   "date": "2026-09-11",
+   "url": "https://app.notion.com/p/Property-12-Waste-rules-affecting-future-interests-3c6063496baf8105a9b4ffd9299baf5f"
   }
  ],
  "shelf": [
@@ -1275,7 +1275,7 @@
   "overdue": 3,
   "dueSoon": 7,
   "graded": 25,
-  "unmerged": 19,
+  "unmerged": 18,
   "courses": 5,
   "cases": 117,
   "reserve": 45
