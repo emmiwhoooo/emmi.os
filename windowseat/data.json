@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-24T04:42:42+00:00",
- "today": "2026-09-23",
+ "generated": "2026-09-24T09:32:38+00:00",
+ "today": "2026-09-24",
  "term": {
   "week": 6,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 70
+  "daysToFinals": 69
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-23",
-    "code": 45,
-    "high": 77.3,
-    "low": 57.2,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-24",
     "code": 3,
-    "high": 79.4,
-    "low": 55.7,
+    "high": 79.7,
+    "low": 56.0,
     "rainMax": 0
    },
    {
     "date": "2026-09-25",
     "code": 3,
-    "high": 73.6,
+    "high": 73.1,
     "low": 55.1,
-    "rainMax": 0
+    "rainMax": 1
    },
    {
     "date": "2026-09-26",
     "code": 3,
-    "high": 74.5,
-    "low": 52.7,
+    "high": 73.4,
+    "low": 52.9,
     "rainMax": 0
+   },
+   {
+    "date": "2026-09-27",
+    "code": 3,
+    "high": 68.0,
+    "low": 55.3,
+    "rainMax": 2
    }
   ],
   "code": 0,
-  "dayCode": 45,
-  "temp": 63.0,
-  "high": 77.3,
-  "low": 57.2,
+  "dayCode": 3,
+  "temp": 58.5,
+  "high": 79.7,
+  "low": 56.0,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Property 16 — Introduction to leasehold estates",
-  "course": "Property",
+  "title": "Youth Justice 6 — Pre-Adjudication Detention",
+  "course": "Youth Justice",
   "date": "2026-09-23",
-  "session": 16,
-  "reading": "Read 831-846 (skip Problems p.846).",
-  "prepped": false,
+  "session": 6,
+  "reading": "Holman & Ziedenberg, The Dangers of Detention (Justice Policy Institute 2006); Cabanatuan, Why Juvenile Hall is still open after vote to close it, SF Chronicle (May 21, 2022); YWFC & Freedom Research Institute, Through Their Eyes [Read: Ten Page Summary] (2021); SB 1009 Fact Sheet + Bill Language (Findings and Declarations only). Guests: Young Women's Freedom Center Fellows. Optional resources on bCourses.",
+  "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-16-Introduction-to-leasehold-estates-3c6063496baf81b5a6faf81ad7d1c855"
+  "url": "https://app.notion.com/p/Youth-Justice-6-Pre-Adjudication-Detention-3c6063496baf81079d54f6e3b3cc2319"
  },
  "upcoming": [
-  {
-   "title": "Property 16 — Introduction to leasehold estates",
-   "course": "Property",
-   "date": "2026-09-23",
-   "session": 16,
-   "reading": "Read 831-846 (skip Problems p.846).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-16-Introduction-to-leasehold-estates-3c6063496baf81b5a6faf81ad7d1c855"
-  },
   {
    "title": "Youth Justice 6 — Pre-Adjudication Detention",
    "course": "Youth Justice",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-18-Assignment-and-sublease-continued-prohibition-approval-3c6063496baf814b9cd7fb4267d3041d"
+  },
+  {
+   "title": "Evidence 12 — The Hillmon doctrine and its limits; Due Process",
+   "course": "Evidence",
+   "date": "2026-09-28",
+   "session": 12,
+   "reading": "CB 164-175; 276-286. F.R.E. 803(3). In limine arg 6.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-12-The-Hillmon-doctrine-and-its-limits-Due-Process-3c6063496baf8163bb3dc52255f5dd13"
   }
  ],
  "walkHome": [
@@ -1275,7 +1275,7 @@
   "overdue": 3,
   "dueSoon": 7,
   "graded": 25,
-  "unmerged": 18,
+  "unmerged": 19,
   "courses": 5,
   "cases": 117,
   "reserve": 45
