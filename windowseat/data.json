@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T14:51:14+00:00",
+ "generated": "2026-09-25T19:01:26+00:00",
  "today": "2026-09-25",
  "term": {
   "week": 6,
@@ -14,7 +14,7 @@
     "date": "2026-09-25",
     "code": 3,
     "high": 72.2,
-    "low": 55.6,
+    "low": 55.3,
     "rainMax": 0
    },
    {
@@ -22,28 +22,28 @@
     "code": 3,
     "high": 69.0,
     "low": 51.8,
-    "rainMax": 0
+    "rainMax": 1
    },
    {
     "date": "2026-09-27",
     "code": 3,
-    "high": 65.9,
+    "high": 66.8,
     "low": 53.3,
     "rainMax": 5
    },
    {
     "date": "2026-09-28",
     "code": 3,
-    "high": 74.7,
+    "high": 75.1,
     "low": 52.7,
     "rainMax": 1
    }
   ],
-  "code": 1,
+  "code": 3,
   "dayCode": 3,
-  "temp": 58.2,
+  "temp": 66.3,
   "high": 72.2,
-  "low": 55.6,
+  "low": 55.3,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -1124,42 +1124,6 @@
  ],
  "weather": [
   {
-   "title": "Rose Lane email negotiation (out-of-class)",
-   "course": "Negotiations",
-   "due": "2026-09-17",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Rose-Lane-email-negotiation-out-of-class-3c6063496baf8150a5eec2803d646cd6"
-  },
-  {
-   "title": "Rose Lane — forward threads + outcome summary to Hockett & Winters",
-   "course": "Negotiations",
-   "due": "2026-09-17",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Rose-Lane-forward-threads-outcome-summary-to-Hockett-Winters-3db063496baf81989e11c346f6f92bf4"
-  },
-  {
-   "title": "Negotiation feedback to counterpart — Rose Lane (Jessica Cambiati)",
-   "course": "Negotiations",
-   "due": "2026-09-18",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Rose-Lane-Jessica-Cambiati-3db063496baf8103868ff21ceb7b8c16"
-  },
-  {
-   "title": "Citation Problem Set #1",
-   "course": "LRW",
-   "due": "2026-09-25",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-1-3c6063496baf8187b73ccaa522f950db"
-  },
-  {
    "title": "Negotiation feedback to counterpart — Widow Land Sale (Neg 5)",
    "course": "Negotiations",
    "due": "2026-09-26",
@@ -1212,27 +1176,45 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Citation-Problem-Set-2-3c6063496baf81a48a8de994eff0e67f"
-  }
- ],
- "longHaul": [
-  {
-   "title": "Rose Lane email negotiation (out-of-class)",
-   "course": "Negotiations",
-   "due": "2026-09-17",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Rose-Lane-email-negotiation-out-of-class-3c6063496baf8150a5eec2803d646cd6"
   },
   {
-   "title": "Citation Problem Set #1",
+   "title": "Negotiation feedback to counterpart — Gossett v. Bacchus (Neg 7)",
+   "course": "Negotiations",
+   "due": "2026-10-10",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Gossett-v-Bacchus-Neg-7-3db063496baf81eab9f0f00b2e3dc32f"
+  },
+  {
+   "title": "Facts",
    "course": "LRW",
-   "due": "2026-09-25",
+   "due": "2026-10-12",
    "type": "graded",
    "weight": "",
    "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-1-3c6063496baf8187b73ccaa522f950db"
+   "url": "https://app.notion.com/p/Facts-3c6063496baf81a5ab7cca6ff7e53055"
   },
+  {
+   "title": "Reflection 2 (Classes 5-8)",
+   "course": "Youth Justice",
+   "due": "2026-10-13",
+   "type": "graded",
+   "weight": "10 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reflection-2-Classes-5-8-3c6063496baf8149a402cd1ac688a448"
+  },
+  {
+   "title": "Practice Exercise 3",
+   "course": "Property",
+   "due": "2026-10-14",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-3-3c6063496baf815dbf78d7fe2413561f"
+  }
+ ],
+ "longHaul": [
   {
    "title": "Revised Umbrella Rule + Reasonable CREAC",
    "course": "LRW",
@@ -1268,13 +1250,31 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Facts-3c6063496baf81a5ab7cca6ff7e53055"
+  },
+  {
+   "title": "Reflection 2 (Classes 5-8)",
+   "course": "Youth Justice",
+   "due": "2026-10-13",
+   "type": "graded",
+   "weight": "10 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reflection-2-Classes-5-8-3c6063496baf8149a402cd1ac688a448"
+  },
+  {
+   "title": "Practice Exercise 3",
+   "course": "Property",
+   "due": "2026-10-14",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-3-3c6063496baf815dbf78d7fe2413561f"
   }
  ],
  "counts": {
-  "open": 38,
-  "overdue": 3,
-  "dueSoon": 7,
-  "graded": 25,
+  "open": 34,
+  "overdue": 0,
+  "dueSoon": 3,
+  "graded": 23,
   "unmerged": 20,
   "courses": 5,
   "cases": 117,
