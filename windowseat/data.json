@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-25T04:51:58+00:00",
- "today": "2026-09-24",
+ "generated": "2026-09-25T09:54:39+00:00",
+ "today": "2026-09-25",
  "term": {
   "week": 6,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 69
+  "daysToFinals": 68
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-24",
-    "code": 3,
-    "high": 79.4,
-    "low": 55.2,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-25",
     "code": 3,
-    "high": 73.6,
-    "low": 54.4,
-    "rainMax": 1
+    "high": 73.4,
+    "low": 55.3,
+    "rainMax": 0
    },
    {
     "date": "2026-09-26",
     "code": 3,
-    "high": 73.4,
-    "low": 53.4,
+    "high": 72.5,
+    "low": 52.8,
     "rainMax": 0
    },
    {
     "date": "2026-09-27",
     "code": 3,
-    "high": 66.1,
+    "high": 65.5,
     "low": 53.5,
-    "rainMax": 4
+    "rainMax": 5
+   },
+   {
+    "date": "2026-09-28",
+    "code": 3,
+    "high": 74.5,
+    "low": 52.4,
+    "rainMax": 1
    }
   ],
-  "code": 2,
+  "code": 0,
   "dayCode": 3,
-  "temp": 60.2,
-  "high": 79.4,
-  "low": 55.2,
+  "temp": 56.0,
+  "high": 73.4,
+  "low": 55.3,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 6 — Pre-Adjudication Detention",
-  "course": "Youth Justice",
-  "date": "2026-09-23",
-  "session": 6,
-  "reading": "Holman & Ziedenberg, The Dangers of Detention (Justice Policy Institute 2006); Cabanatuan, Why Juvenile Hall is still open after vote to close it, SF Chronicle (May 21, 2022); YWFC & Freedom Research Institute, Through Their Eyes [Read: Ten Page Summary] (2021); SB 1009 Fact Sheet + Bill Language (Findings and Declarations only). Guests: Young Women's Freedom Center Fellows. Optional resources on bCourses.",
-  "prepped": true,
+  "title": "Negotiations 5 — Negotiation Styles & Approaches — Role-play: Widow Land Sale",
+  "course": "Negotiations",
+  "date": "2026-09-24",
+  "session": 5,
+  "reading": "Role-play: Widow Land Sale. Prep: BA Ch. 9 + complete App. A + finish BA; DC Ch. 6; email feedback for Depp v. Heard AND Rose Lane; planning memo for Widow Land Sale due on bCourses before class.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-6-Pre-Adjudication-Detention-3c6063496baf81079d54f6e3b3cc2319"
+  "url": "https://app.notion.com/p/Negotiations-5-Negotiation-Styles-Approaches-Role-play-Widow-Land-Sale-3c6063496baf81c98877ed35a903f0ab"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 6 — Pre-Adjudication Detention",
-   "course": "Youth Justice",
-   "date": "2026-09-23",
-   "session": 6,
-   "reading": "Holman & Ziedenberg, The Dangers of Detention (Justice Policy Institute 2006); Cabanatuan, Why Juvenile Hall is still open after vote to close it, SF Chronicle (May 21, 2022); YWFC & Freedom Research Institute, Through Their Eyes [Read: Ten Page Summary] (2021); SB 1009 Fact Sheet + Bill Language (Findings and Declarations only). Guests: Young Women's Freedom Center Fellows. Optional resources on bCourses.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-6-Pre-Adjudication-Detention-3c6063496baf81079d54f6e3b3cc2319"
-  },
-  {
-   "title": "Property 17 — Transfer of landlord's and tenant's interest; assignment and sublease",
-   "course": "Property",
-   "date": "2026-09-24",
-   "session": 17,
-   "reading": "Read 852-55 (§§2.3-2.4); Ernst v. Conditt (bCourses).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-17-Transfer-of-landlord-s-and-tenant-s-interest-assignment-and-sublease-3c6063496baf816eb45ee9d82dbd9212"
-  },
   {
    "title": "Negotiations 5 — Negotiation Styles & Approaches — Role-play: Widow Land Sale",
    "course": "Negotiations",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-12-The-Hillmon-doctrine-and-its-limits-Due-Process-3c6063496baf8163bb3dc52255f5dd13"
+  },
+  {
+   "title": "LRW 13 — Research Class 3: State Annotated Code",
+   "course": "LRW",
+   "date": "2026-09-29",
+   "session": 13,
+   "reading": "Watch RC3 video. After: begin Citation Problem Set #2.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-13-Research-Class-3-State-Annotated-Code-3c6063496baf811c9c82ec8f6d3c4585"
+  },
+  {
+   "title": "Evidence 13 — Forfeiture by Wrongdoing; Residual Exception; Machine Evidence",
+   "course": "Evidence",
+   "date": "2026-09-29",
+   "session": 13,
+   "reading": "CB 255-276. F.R.E. 804(b)(6), 807. ★ YOUR PANEL — Brekke, Le, Mallela, Pokhomovsky. No in limine this class per the posted assignment list.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-13-Forfeiture-by-Wrongdoing-Residual-Exception-Machine-Evidence-3c6063496baf81b6bfa2e1127b676ec8"
   }
  ],
  "walkHome": [
@@ -1275,7 +1275,7 @@
   "overdue": 3,
   "dueSoon": 7,
   "graded": 25,
-  "unmerged": 18,
+  "unmerged": 20,
   "courses": 5,
   "cases": 117,
   "reserve": 45
