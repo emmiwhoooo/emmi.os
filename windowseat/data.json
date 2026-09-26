@@ -1,50 +1,50 @@
 {
- "generated": "2026-09-26T05:29:44+00:00",
- "today": "2026-09-25",
+ "generated": "2026-09-26T10:05:40+00:00",
+ "today": "2026-09-26",
  "term": {
   "week": 6,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 68
+  "daysToFinals": 67
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-25",
-    "code": 3,
-    "high": 73.2,
-    "low": 55.4,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-26",
     "code": 3,
-    "high": 70.8,
-    "low": 53.4,
+    "high": 70.4,
+    "low": 52.8,
     "rainMax": 1
    },
    {
     "date": "2026-09-27",
     "code": 3,
-    "high": 67.1,
+    "high": 67.5,
     "low": 53.3,
     "rainMax": 2
    },
    {
     "date": "2026-09-28",
     "code": 3,
-    "high": 74.9,
-    "low": 53.6,
-    "rainMax": 1
+    "high": 75.6,
+    "low": 53.3,
+    "rainMax": 2
+   },
+   {
+    "date": "2026-09-29",
+    "code": 3,
+    "high": 81.0,
+    "low": 54.0,
+    "rainMax": 0
    }
   ],
-  "code": 2,
+  "code": 1,
   "dayCode": 3,
-  "temp": 56.5,
-  "high": 73.2,
-  "low": 55.4,
-  "rainMax": 0,
+  "temp": 53.6,
+  "high": 70.4,
+  "low": 52.8,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -130,46 +130,16 @@
   ]
  },
  "next": {
-  "title": "Negotiations 5 — Negotiation Styles & Approaches — Role-play: Widow Land Sale",
-  "course": "Negotiations",
-  "date": "2026-09-24",
-  "session": 5,
-  "reading": "Role-play: Widow Land Sale. Prep: BA Ch. 9 + complete App. A + finish BA; DC Ch. 6; email feedback for Depp v. Heard AND Rose Lane; planning memo for Widow Land Sale due on bCourses before class.",
+  "title": "Evidence 12 — The Hillmon doctrine and its limits; Due Process",
+  "course": "Evidence",
+  "date": "2026-09-28",
+  "session": 12,
+  "reading": "CB 164-175; 276-286. F.R.E. 803(3). In limine arg 6.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Negotiations-5-Negotiation-Styles-Approaches-Role-play-Widow-Land-Sale-3c6063496baf81c98877ed35a903f0ab"
+  "url": "https://app.notion.com/p/Evidence-12-The-Hillmon-doctrine-and-its-limits-Due-Process-3c6063496baf8163bb3dc52255f5dd13"
  },
  "upcoming": [
-  {
-   "title": "Negotiations 5 — Negotiation Styles & Approaches — Role-play: Widow Land Sale",
-   "course": "Negotiations",
-   "date": "2026-09-24",
-   "session": 5,
-   "reading": "Role-play: Widow Land Sale. Prep: BA Ch. 9 + complete App. A + finish BA; DC Ch. 6; email feedback for Depp v. Heard AND Rose Lane; planning memo for Widow Land Sale due on bCourses before class.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-5-Negotiation-Styles-Approaches-Role-play-Widow-Land-Sale-3c6063496baf81c98877ed35a903f0ab"
-  },
-  {
-   "title": "LRW 12 — Application analysis writing lab",
-   "course": "LRW",
-   "date": "2026-09-25",
-   "session": 12,
-   "reading": "Bring CPS#1 + four copies of one Reasonable paragraph (double-spaced, 12pt TNR). Revised Umbrella Rule + Reasonable CREAC due Sun Sep 27 10pm.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-12-Application-analysis-writing-lab-3c6063496baf810cb4fae63682f367fb"
-  },
-  {
-   "title": "Property 18 — Assignment and sublease continued; prohibition/approval",
-   "course": "Property",
-   "date": "2026-09-25",
-   "session": 18,
-   "reading": "No new reading listed.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-18-Assignment-and-sublease-continued-prohibition-approval-3c6063496baf814b9cd7fb4267d3041d"
-  },
   {
    "title": "Evidence 12 — The Hillmon doctrine and its limits; Due Process",
    "course": "Evidence",
@@ -199,6 +169,36 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-13-Forfeiture-by-Wrongdoing-Residual-Exception-Machine-Evidence-3c6063496baf81b6bfa2e1127b676ec8"
+  },
+  {
+   "title": "Property 19 — SKILLS WORKSHOP 2 (estates, future interests, concurrent ownership) — PRACTICE EXERCISE 2 DUE",
+   "course": "Property",
+   "date": "2026-09-30",
+   "session": 19,
+   "reading": "Skills Workshop 2 (present estates, future interests, concurrent ownership). PRACTICE EXERCISE 2 DUE.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-19-SKILLS-WORKSHOP-2-estates-future-interests-concurrent-ownership-PRACTICE-EXERCIS-3c6063496baf8198b20ccc051702b161"
+  },
+  {
+   "title": "Youth Justice 7 — Disposition Advocacy and the Role of Probation",
+   "course": "Youth Justice",
+   "date": "2026-09-30",
+   "session": 7,
+   "reading": "W&I §§706 (Disposition), 726(a) (Removal from the Home), 730(a) (Disposition, Custody, and Probation Conditions); In re Teofilio A. (1989) 210 Cal.App.3d 571; AB 1376 Senate Public Safety Analysis (June 20, 2025); AB 1886 Fact Sheet; SB 1009 (review — syllabus says 'from Class 7', but SB 1009 is assigned in Class 6); Burns Inst., Los Angeles County: Youth Justice Reimagined (2020) [Read: Executive Summary]; skim Soung, Is Juvenile Probation Obsolete? (2022) [Intro; Parts I, IV, V; Conclusion]. Watch: Antonio 'Tone' Fernandez, Credible Messengers (2019). Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-7-Disposition-Advocacy-and-the-Role-of-Probation-3c6063496baf819e8095ee5858cbf652"
+  },
+  {
+   "title": "Property 20 — Tenant/landlord duties; quiet enjoyment; constructive eviction",
+   "course": "Property",
+   "date": "2026-10-01",
+   "session": 20,
+   "reading": "Read 847-48 (§§2-2.1); 884-90.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-20-Tenant-landlord-duties-quiet-enjoyment-constructive-eviction-3c6063496baf81c9a2cfce99ab52a948"
   }
  ],
  "walkHome": [
@@ -1273,9 +1273,9 @@
  "counts": {
   "open": 34,
   "overdue": 0,
-  "dueSoon": 3,
+  "dueSoon": 4,
   "graded": 23,
-  "unmerged": 20,
+  "unmerged": 23,
   "courses": 5,
   "cases": 117,
   "reserve": 45
