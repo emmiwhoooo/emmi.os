@@ -1,50 +1,50 @@
 {
- "generated": "2026-09-27T06:43:33+00:00",
- "today": "2026-09-26",
+ "generated": "2026-09-27T12:27:57+00:00",
+ "today": "2026-09-27",
  "term": {
   "week": 6,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 67
+  "daysToFinals": 66
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-26",
-    "code": 3,
-    "high": 70.6,
-    "low": 53.4,
-    "rainMax": 1
-   },
-   {
     "date": "2026-09-27",
     "code": 3,
-    "high": 66.5,
-    "low": 53.3,
-    "rainMax": 3
+    "high": 67.1,
+    "low": 54.0,
+    "rainMax": 2
    },
    {
     "date": "2026-09-28",
-    "code": 0,
-    "high": 74.8,
-    "low": 50.2,
+    "code": 1,
+    "high": 72.9,
+    "low": 50.6,
     "rainMax": 2
    },
    {
     "date": "2026-09-29",
-    "code": 0,
+    "code": 3,
     "high": 79.9,
-    "low": 54.2,
+    "low": 54.4,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-09-30",
+    "code": 0,
+    "high": 88.0,
+    "low": 58.7,
     "rainMax": 0
    }
   ],
   "code": 3,
   "dayCode": 3,
-  "temp": 53.7,
-  "high": 70.6,
-  "low": 53.4,
-  "rainMax": 1,
+  "temp": 54.5,
+  "high": 67.1,
+  "low": 54.0,
+  "rainMax": 2,
   "wetUntil": null
  },
  "player": {
@@ -1129,7 +1129,7 @@
    "due": "2026-09-26",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Widow-Land-Sale-Neg-5-3db063496baf81edaef3d604a9862fb6"
   },
   {
@@ -1272,7 +1272,7 @@
  ],
  "counts": {
   "open": 34,
-  "overdue": 0,
+  "overdue": 1,
   "dueSoon": 4,
   "graded": 23,
   "unmerged": 23,
