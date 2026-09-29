@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-29T06:51:55+00:00",
- "today": "2026-09-28",
+ "generated": "2026-09-29T13:33:06+00:00",
+ "today": "2026-09-29",
  "term": {
   "week": 7,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 65
+  "daysToFinals": 64
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-28",
-    "code": 45,
-    "high": 70.7,
-    "low": 55.1,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-29",
-    "code": 0,
-    "high": 82.0,
-    "low": 51.7,
+    "code": 3,
+    "high": 82.6,
+    "low": 51.4,
     "rainMax": 0
    },
    {
     "date": "2026-09-30",
     "code": 0,
-    "high": 82.3,
-    "low": 55.7,
+    "high": 81.4,
+    "low": 55.5,
     "rainMax": 0
    },
    {
     "date": "2026-10-01",
-    "code": 0,
-    "high": 87.5,
-    "low": 56.3,
+    "code": 3,
+    "high": 84.8,
+    "low": 55.8,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-02",
+    "code": 3,
+    "high": 93.2,
+    "low": 59.9,
     "rainMax": 0
    }
   ],
-  "code": 0,
-  "dayCode": 45,
-  "temp": 54.1,
-  "high": 70.7,
-  "low": 55.1,
+  "code": 3,
+  "dayCode": 3,
+  "temp": 51.5,
+  "high": 82.6,
+  "low": 51.4,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Evidence 12 — The Hillmon doctrine and its limits; Due Process",
-  "course": "Evidence",
-  "date": "2026-09-28",
-  "session": 12,
-  "reading": "CB 164-175; 276-286. F.R.E. 803(3). In limine arg 6.",
+  "title": "LRW 13 — Research Class 3: State Annotated Code",
+  "course": "LRW",
+  "date": "2026-09-29",
+  "session": 13,
+  "reading": "Watch RC3 video. After: begin Citation Problem Set #2.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-12-The-Hillmon-doctrine-and-its-limits-Due-Process-3c6063496baf8163bb3dc52255f5dd13"
+  "url": "https://app.notion.com/p/LRW-13-Research-Class-3-State-Annotated-Code-3c6063496baf811c9c82ec8f6d3c4585"
  },
  "upcoming": [
-  {
-   "title": "Evidence 12 — The Hillmon doctrine and its limits; Due Process",
-   "course": "Evidence",
-   "date": "2026-09-28",
-   "session": 12,
-   "reading": "CB 164-175; 276-286. F.R.E. 803(3). In limine arg 6.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-12-The-Hillmon-doctrine-and-its-limits-Due-Process-3c6063496baf8163bb3dc52255f5dd13"
-  },
   {
    "title": "LRW 13 — Research Class 3: State Annotated Code",
    "course": "LRW",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-20-Tenant-landlord-duties-quiet-enjoyment-constructive-eviction-3c6063496baf81c9a2cfce99ab52a948"
+  },
+  {
+   "title": "Negotiations 6 — Critical Tools: Active Listening, Empathy, Silence, EQ — Role-play: Bataglia Trust Dispute",
+   "course": "Negotiations",
+   "date": "2026-10-01",
+   "session": 6,
+   "reading": "Role-play: Bataglia Trust Dispute. Prep: BA Ch. 4-5; DC Ch. 5-9; Chris Voss TEDx talk (12 min); email feedback for Widow Land Sale; planning memo for Bataglia due on bCourses before class.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-6-Critical-Tools-Active-Listening-Empathy-Silence-EQ-Role-play-Bataglia-Trust--3c6063496baf81ce9792dd019f3ac78e"
   }
  ],
  "walkHome": [
@@ -1138,7 +1138,7 @@
    "due": "2026-09-28",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Revised-Umbrella-Rule-Reasonable-CREAC-3c6063496baf8151b23ff07c6dda420e"
   },
   {
@@ -1221,7 +1221,7 @@
    "due": "2026-09-28",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Revised-Umbrella-Rule-Reasonable-CREAC-3c6063496baf8151b23ff07c6dda420e"
   },
   {
@@ -1272,10 +1272,10 @@
  ],
  "counts": {
   "open": 34,
-  "overdue": 1,
+  "overdue": 2,
   "dueSoon": 6,
   "graded": 23,
-  "unmerged": 23,
+  "unmerged": 24,
   "courses": 5,
   "cases": 117,
   "reserve": 45
