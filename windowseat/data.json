@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T18:51:36+00:00",
+ "generated": "2026-09-29T22:45:22+00:00",
  "today": "2026-09-29",
  "term": {
   "week": 7,
@@ -13,22 +13,22 @@
    {
     "date": "2026-09-29",
     "code": 3,
-    "high": 81.3,
+    "high": 81.1,
     "low": 51.9,
     "rainMax": 0
    },
    {
     "date": "2026-09-30",
-    "code": 3,
-    "high": 82.5,
-    "low": 55.9,
+    "code": 0,
+    "high": 82.1,
+    "low": 55.8,
     "rainMax": 0
    },
    {
     "date": "2026-10-01",
     "code": 45,
     "high": 85.1,
-    "low": 56.0,
+    "low": 52.6,
     "rainMax": 0
    },
    {
@@ -41,8 +41,8 @@
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 72.6,
-  "high": 81.3,
+  "temp": 79.3,
+  "high": 81.1,
   "low": 51.9,
   "rainMax": 0,
   "wetUntil": null
@@ -156,7 +156,7 @@
    "date": "2026-09-29",
    "session": 13,
    "reading": "CB 255-276. F.R.E. 804(b)(6), 807. ★ YOUR PANEL — Brekke, Le, Mallela, Pokhomovsky. No in limine this class per the posted assignment list.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-13-Forfeiture-by-Wrongdoing-Residual-Exception-Machine-Evidence-3c6063496baf81b6bfa2e1127b676ec8"
   },
