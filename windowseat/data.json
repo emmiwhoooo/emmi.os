@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-30T01:44:00+00:00",
- "today": "2026-09-29",
+ "generated": "2026-09-30T07:28:50+00:00",
+ "today": "2026-09-30",
  "term": {
   "week": 7,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 64
+  "daysToFinals": 63
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-29",
-    "code": 3,
-    "high": 80.7,
-    "low": 51.9,
-    "rainMax": 0
-   },
-   {
     "date": "2026-09-30",
-    "code": 0,
+    "code": 1,
     "high": 82.1,
-    "low": 56.9,
+    "low": 56.3,
     "rainMax": 0
    },
    {
     "date": "2026-10-01",
     "code": 45,
-    "high": 84.6,
-    "low": 52.6,
+    "high": 74.1,
+    "low": 55.0,
     "rainMax": 0
    },
    {
     "date": "2026-10-02",
     "code": 3,
-    "high": 90.5,
-    "low": 59.8,
+    "high": 86.8,
+    "low": 59.2,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-03",
+    "code": 3,
+    "high": 94.5,
+    "low": 63.4,
     "rainMax": 0
    }
   ],
   "code": 0,
-  "dayCode": 3,
-  "temp": 72.7,
-  "high": 80.7,
-  "low": 51.9,
+  "dayCode": 1,
+  "temp": 58.5,
+  "high": 82.1,
+  "low": 56.3,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 13 — Research Class 3: State Annotated Code",
-  "course": "LRW",
-  "date": "2026-09-29",
-  "session": 13,
-  "reading": "Watch RC3 video. After: begin Citation Problem Set #2.",
+  "title": "Property 19 — SKILLS WORKSHOP 2 (estates, future interests, concurrent ownership) — PRACTICE EXERCISE 2 DUE",
+  "course": "Property",
+  "date": "2026-09-30",
+  "session": 19,
+  "reading": "Skills Workshop 2 (present estates, future interests, concurrent ownership). PRACTICE EXERCISE 2 DUE.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-13-Research-Class-3-State-Annotated-Code-3c6063496baf811c9c82ec8f6d3c4585"
+  "url": "https://app.notion.com/p/Property-19-SKILLS-WORKSHOP-2-estates-future-interests-concurrent-ownership-PRACTICE-EXERCIS-3c6063496baf8198b20ccc051702b161"
  },
  "upcoming": [
-  {
-   "title": "LRW 13 — Research Class 3: State Annotated Code",
-   "course": "LRW",
-   "date": "2026-09-29",
-   "session": 13,
-   "reading": "Watch RC3 video. After: begin Citation Problem Set #2.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-13-Research-Class-3-State-Annotated-Code-3c6063496baf811c9c82ec8f6d3c4585"
-  },
-  {
-   "title": "Evidence 13 — Forfeiture by Wrongdoing; Residual Exception; Machine Evidence",
-   "course": "Evidence",
-   "date": "2026-09-29",
-   "session": 13,
-   "reading": "CB 255-276. F.R.E. 804(b)(6), 807. ★ YOUR PANEL — Brekke, Le, Mallela, Pokhomovsky. No in limine this class per the posted assignment list.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-13-Forfeiture-by-Wrongdoing-Residual-Exception-Machine-Evidence-3c6063496baf81b6bfa2e1127b676ec8"
-  },
   {
    "title": "Property 19 — SKILLS WORKSHOP 2 (estates, future interests, concurrent ownership) — PRACTICE EXERCISE 2 DUE",
    "course": "Property",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-6-Critical-Tools-Active-Listening-Empathy-Silence-EQ-Role-play-Bataglia-Trust--3c6063496baf81ce9792dd019f3ac78e"
+  },
+  {
+   "title": "LRW 14 — Research Class 4: Word Searches",
+   "course": "LRW",
+   "date": "2026-10-02",
+   "session": 14,
+   "reading": "Watch RC4 video. Core Grammar Post-Test due Sun Oct 4 5pm; Citation Problem Set #2 due Sun Oct 4 10pm.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-14-Research-Class-4-Word-Searches-3c6063496baf81bf957be7a06c140118"
+  },
+  {
+   "title": "Property 21 — Implied warranty of habitability; tenant's remedies",
+   "course": "Property",
+   "date": "2026-10-02",
+   "session": 21,
+   "reading": "Read 891-903 (§4.2 through note 3(h)).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-21-Implied-warranty-of-habitability-tenant-s-remedies-3c6063496baf81c68c41d2dc6ecafa74"
   }
  ],
  "walkHome": [
@@ -1275,7 +1275,7 @@
   "overdue": 2,
   "dueSoon": 6,
   "graded": 23,
-  "unmerged": 24,
+  "unmerged": 26,
   "courses": 5,
   "cases": 117,
   "reserve": 45
