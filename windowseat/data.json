@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-01T02:05:55+00:00",
- "today": "2026-09-30",
+ "generated": "2026-10-01T08:50:34+00:00",
+ "today": "2026-10-01",
  "term": {
   "week": 7,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 63
+  "daysToFinals": 62
  },
  "sky": {
   "days": [
    {
-    "date": "2026-09-30",
-    "code": 2,
-    "high": 79.2,
-    "low": 53.6,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-01",
     "code": 45,
-    "high": 71.6,
-    "low": 54.9,
+    "high": 72.9,
+    "low": 53.3,
     "rainMax": 0
    },
    {
     "date": "2026-10-02",
     "code": 45,
-    "high": 78.0,
-    "low": 54.7,
+    "high": 72.8,
+    "low": 53.5,
     "rainMax": 0
    },
    {
     "date": "2026-10-03",
-    "code": 0,
-    "high": 95.9,
-    "low": 63.0,
+    "code": 3,
+    "high": 96.8,
+    "low": 64.1,
     "rainMax": 0
+   },
+   {
+    "date": "2026-10-04",
+    "code": 3,
+    "high": 94.7,
+    "low": 67.3,
+    "rainMax": 1
    }
   ],
-  "code": 0,
-  "dayCode": 2,
-  "temp": 67.0,
-  "high": 79.2,
-  "low": 53.6,
+  "code": 2,
+  "dayCode": 45,
+  "temp": 55.3,
+  "high": 72.9,
+  "low": 53.3,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Property 19 — SKILLS WORKSHOP 2 (estates, future interests, concurrent ownership) — PRACTICE EXERCISE 2 DUE",
-  "course": "Property",
+  "title": "Youth Justice 7 — Disposition Advocacy and the Role of Probation",
+  "course": "Youth Justice",
   "date": "2026-09-30",
-  "session": 19,
-  "reading": "Skills Workshop 2 (present estates, future interests, concurrent ownership). PRACTICE EXERCISE 2 DUE.",
+  "session": 7,
+  "reading": "W&I §§706 (Disposition), 726(a) (Removal from the Home), 730(a) (Disposition, Custody, and Probation Conditions); In re Teofilio A. (1989) 210 Cal.App.3d 571; AB 1376 Senate Public Safety Analysis (June 20, 2025); AB 1886 Fact Sheet; SB 1009 (review — syllabus says 'from Class 7', but SB 1009 is assigned in Class 6); Burns Inst., Los Angeles County: Youth Justice Reimagined (2020) [Read: Executive Summary]; skim Soung, Is Juvenile Probation Obsolete? (2022) [Intro; Parts I, IV, V; Conclusion]. Watch: Antonio 'Tone' Fernandez, Credible Messengers (2019). Optional resources on bCourses.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-19-SKILLS-WORKSHOP-2-estates-future-interests-concurrent-ownership-PRACTICE-EXERCIS-3c6063496baf8198b20ccc051702b161"
+  "url": "https://app.notion.com/p/Youth-Justice-7-Disposition-Advocacy-and-the-Role-of-Probation-3c6063496baf819e8095ee5858cbf652"
  },
  "upcoming": [
-  {
-   "title": "Property 19 — SKILLS WORKSHOP 2 (estates, future interests, concurrent ownership) — PRACTICE EXERCISE 2 DUE",
-   "course": "Property",
-   "date": "2026-09-30",
-   "session": 19,
-   "reading": "Skills Workshop 2 (present estates, future interests, concurrent ownership). PRACTICE EXERCISE 2 DUE.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-19-SKILLS-WORKSHOP-2-estates-future-interests-concurrent-ownership-PRACTICE-EXERCIS-3c6063496baf8198b20ccc051702b161"
-  },
   {
    "title": "Youth Justice 7 — Disposition Advocacy and the Role of Probation",
    "course": "Youth Justice",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-21-Implied-warranty-of-habitability-tenant-s-remedies-3c6063496baf81c68c41d2dc6ecafa74"
+  },
+  {
+   "title": "Evidence 14 — Injury Reports; Business Records; Qualifying Records",
+   "course": "Evidence",
+   "date": "2026-10-05",
+   "session": 14,
+   "reading": "CB 175-182; 190-203 (skip Absence of Record). F.R.E. 803(4)(6)(7). In limine arg 8.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-14-Injury-Reports-Business-Records-Qualifying-Records-3c6063496baf818eb8ecde06b0b8b1ca"
   }
  ],
  "walkHome": [
@@ -1147,7 +1147,7 @@
    "due": "2026-09-30",
    "type": "graded",
    "weight": "3 points (completion)",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Practice-Exercise-2-3c6063496baf81bf8135c27b72ee20ee"
   },
   {
@@ -1230,7 +1230,7 @@
    "due": "2026-09-30",
    "type": "graded",
    "weight": "3 points (completion)",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Practice-Exercise-2-3c6063496baf81bf8135c27b72ee20ee"
   },
   {
@@ -1272,10 +1272,10 @@
  ],
  "counts": {
   "open": 34,
-  "overdue": 2,
+  "overdue": 3,
   "dueSoon": 6,
   "graded": 23,
-  "unmerged": 26,
+  "unmerged": 27,
   "courses": 5,
   "cases": 117,
   "reserve": 45
