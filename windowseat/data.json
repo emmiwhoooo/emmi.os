@@ -1,34 +1,27 @@
 {
- "generated": "2026-10-02T05:34:37+00:00",
- "today": "2026-10-01",
+ "generated": "2026-10-02T11:20:14+00:00",
+ "today": "2026-10-02",
  "term": {
   "week": 7,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 62
+  "daysToFinals": 61
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-01",
-    "code": 45,
-    "high": 74.0,
-    "low": 53.3,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-02",
     "code": 45,
-    "high": 72.9,
-    "low": 54.6,
+    "high": 75.8,
+    "low": 55.1,
     "rainMax": 0
    },
    {
     "date": "2026-10-03",
     "code": 45,
-    "high": 88.9,
-    "low": 53.2,
+    "high": 83.5,
+    "low": 52.8,
     "rainMax": 0
    },
    {
@@ -37,13 +30,20 @@
     "high": 94.1,
     "low": 67.7,
     "rainMax": 0
+   },
+   {
+    "date": "2026-10-05",
+    "code": 0,
+    "high": 89.5,
+    "low": 63.2,
+    "rainMax": 0
    }
   ],
-  "code": 2,
+  "code": 3,
   "dayCode": 45,
-  "temp": 56.1,
-  "high": 74.0,
-  "low": 53.3,
+  "temp": 55.6,
+  "high": 75.8,
+  "low": 55.1,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 7 — Disposition Advocacy and the Role of Probation",
-  "course": "Youth Justice",
-  "date": "2026-09-30",
-  "session": 7,
-  "reading": "W&I §§706 (Disposition), 726(a) (Removal from the Home), 730(a) (Disposition, Custody, and Probation Conditions); In re Teofilio A. (1989) 210 Cal.App.3d 571; AB 1376 Senate Public Safety Analysis (June 20, 2025); AB 1886 Fact Sheet; SB 1009 (review — syllabus says 'from Class 7', but SB 1009 is assigned in Class 6); Burns Inst., Los Angeles County: Youth Justice Reimagined (2020) [Read: Executive Summary]; skim Soung, Is Juvenile Probation Obsolete? (2022) [Intro; Parts I, IV, V; Conclusion]. Watch: Antonio 'Tone' Fernandez, Credible Messengers (2019). Optional resources on bCourses.",
+  "title": "Negotiations 6 — Critical Tools: Active Listening, Empathy, Silence, EQ — Role-play: Bataglia Trust Dispute",
+  "course": "Negotiations",
+  "date": "2026-10-01",
+  "session": 6,
+  "reading": "Role-play: Bataglia Trust Dispute. Prep: BA Ch. 4-5; DC Ch. 5-9; Chris Voss TEDx talk (12 min); email feedback for Widow Land Sale; planning memo for Bataglia due on bCourses before class.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-7-Disposition-Advocacy-and-the-Role-of-Probation-3c6063496baf819e8095ee5858cbf652"
+  "url": "https://app.notion.com/p/Negotiations-6-Critical-Tools-Active-Listening-Empathy-Silence-EQ-Role-play-Bataglia-Trust--3c6063496baf81ce9792dd019f3ac78e"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 7 — Disposition Advocacy and the Role of Probation",
-   "course": "Youth Justice",
-   "date": "2026-09-30",
-   "session": 7,
-   "reading": "W&I §§706 (Disposition), 726(a) (Removal from the Home), 730(a) (Disposition, Custody, and Probation Conditions); In re Teofilio A. (1989) 210 Cal.App.3d 571; AB 1376 Senate Public Safety Analysis (June 20, 2025); AB 1886 Fact Sheet; SB 1009 (review — syllabus says 'from Class 7', but SB 1009 is assigned in Class 6); Burns Inst., Los Angeles County: Youth Justice Reimagined (2020) [Read: Executive Summary]; skim Soung, Is Juvenile Probation Obsolete? (2022) [Intro; Parts I, IV, V; Conclusion]. Watch: Antonio 'Tone' Fernandez, Credible Messengers (2019). Optional resources on bCourses.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-7-Disposition-Advocacy-and-the-Role-of-Probation-3c6063496baf819e8095ee5858cbf652"
-  },
-  {
-   "title": "Property 20 — Tenant/landlord duties; quiet enjoyment; constructive eviction",
-   "course": "Property",
-   "date": "2026-10-01",
-   "session": 20,
-   "reading": "Read 847-48 (§§2-2.1); 884-90.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-20-Tenant-landlord-duties-quiet-enjoyment-constructive-eviction-3c6063496baf81c9a2cfce99ab52a948"
-  },
   {
    "title": "Negotiations 6 — Critical Tools: Active Listening, Empathy, Silence, EQ — Role-play: Bataglia Trust Dispute",
    "course": "Negotiations",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-14-Injury-Reports-Business-Records-Qualifying-Records-3c6063496baf818eb8ecde06b0b8b1ca"
+  },
+  {
+   "title": "LRW 15 — Intro to Fundamental Alteration; memo components; Facts",
+   "course": "LRW",
+   "date": "2026-10-06",
+   "session": 15,
+   "reading": "Read FA Office Memo assignment; Sample Office Memo; Burton Record FA facts; FA Research Google form; PGA (FA analysis). Bring CPS#2. After: FA Research Worksheet.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-15-Intro-to-Fundamental-Alteration-memo-components-Facts-3c6063496baf81a8acf7e454371a2805"
+  },
+  {
+   "title": "Evidence 15 — Public Records; Law Enforcement Records",
+   "course": "Evidence",
+   "date": "2026-10-06",
+   "session": 15,
+   "reading": "CB 203-218 (plus Bullcoming 1st para p.218 & Sotomayor concurrence p.223); 224-230. F.R.E. 803(8). In limine arg 9.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-15-Public-Records-Law-Enforcement-Records-3c6063496baf8175a534c8df447c3e73"
   }
  ],
  "walkHome": [
@@ -1275,7 +1275,7 @@
   "overdue": 3,
   "dueSoon": 6,
   "graded": 23,
-  "unmerged": 27,
+  "unmerged": 29,
   "courses": 5,
   "cases": 117,
   "reserve": 45
