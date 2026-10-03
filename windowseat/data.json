@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-03T05:15:57+00:00",
- "today": "2026-10-02",
+ "generated": "2026-10-03T10:29:45+00:00",
+ "today": "2026-10-03",
  "term": {
   "week": 7,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 61
+  "daysToFinals": 60
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-02",
-    "code": 45,
-    "high": 76.5,
-    "low": 53.9,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-03",
-    "code": 3,
-    "high": 84.8,
-    "low": 55.3,
+    "code": 45,
+    "high": 87.9,
+    "low": 55.5,
     "rainMax": 0
    },
    {
     "date": "2026-10-04",
     "code": 3,
-    "high": 83.3,
-    "low": 57.4,
+    "high": 85.4,
+    "low": 58.5,
     "rainMax": 1
    },
    {
     "date": "2026-10-05",
     "code": 0,
+    "high": 100.1,
+    "low": 65.7,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-06",
+    "code": 0,
     "high": 98.5,
-    "low": 65.9,
+    "low": 66.7,
     "rainMax": 0
    }
   ],
   "code": 3,
   "dayCode": 45,
   "temp": 58.7,
-  "high": 76.5,
-  "low": 53.9,
+  "high": 87.9,
+  "low": 55.5,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,46 +130,16 @@
   ]
  },
  "next": {
-  "title": "Negotiations 6 — Critical Tools: Active Listening, Empathy, Silence, EQ — Role-play: Bataglia Trust Dispute",
-  "course": "Negotiations",
-  "date": "2026-10-01",
-  "session": 6,
-  "reading": "Role-play: Bataglia Trust Dispute. Prep: BA Ch. 4-5; DC Ch. 5-9; Chris Voss TEDx talk (12 min); email feedback for Widow Land Sale; planning memo for Bataglia due on bCourses before class.",
+  "title": "Evidence 14 — Injury Reports; Business Records; Qualifying Records",
+  "course": "Evidence",
+  "date": "2026-10-05",
+  "session": 14,
+  "reading": "CB 175-182; 190-203 (skip Absence of Record). F.R.E. 803(4)(6)(7). In limine arg 8.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Negotiations-6-Critical-Tools-Active-Listening-Empathy-Silence-EQ-Role-play-Bataglia-Trust--3c6063496baf81ce9792dd019f3ac78e"
+  "url": "https://app.notion.com/p/Evidence-14-Injury-Reports-Business-Records-Qualifying-Records-3c6063496baf818eb8ecde06b0b8b1ca"
  },
  "upcoming": [
-  {
-   "title": "Negotiations 6 — Critical Tools: Active Listening, Empathy, Silence, EQ — Role-play: Bataglia Trust Dispute",
-   "course": "Negotiations",
-   "date": "2026-10-01",
-   "session": 6,
-   "reading": "Role-play: Bataglia Trust Dispute. Prep: BA Ch. 4-5; DC Ch. 5-9; Chris Voss TEDx talk (12 min); email feedback for Widow Land Sale; planning memo for Bataglia due on bCourses before class.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-6-Critical-Tools-Active-Listening-Empathy-Silence-EQ-Role-play-Bataglia-Trust--3c6063496baf81ce9792dd019f3ac78e"
-  },
-  {
-   "title": "LRW 14 — Research Class 4: Word Searches",
-   "course": "LRW",
-   "date": "2026-10-02",
-   "session": 14,
-   "reading": "Watch RC4 video. Core Grammar Post-Test due Sun Oct 4 5pm; Citation Problem Set #2 due Sun Oct 4 10pm.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-14-Research-Class-4-Word-Searches-3c6063496baf81bf957be7a06c140118"
-  },
-  {
-   "title": "Property 21 — Implied warranty of habitability; tenant's remedies",
-   "course": "Property",
-   "date": "2026-10-02",
-   "session": 21,
-   "reading": "Read 891-903 (§4.2 through note 3(h)).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-21-Implied-warranty-of-habitability-tenant-s-remedies-3c6063496baf81c68c41d2dc6ecafa74"
-  },
   {
    "title": "Evidence 14 — Injury Reports; Business Records; Qualifying Records",
    "course": "Evidence",
@@ -199,6 +169,36 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-15-Public-Records-Law-Enforcement-Records-3c6063496baf8175a534c8df447c3e73"
+  },
+  {
+   "title": "Property 22 — Landlord's duty to mitigate; landlord's remedies",
+   "course": "Property",
+   "date": "2026-10-07",
+   "session": 22,
+   "reading": "Read 868-80 (through note 3).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-22-Landlord-s-duty-to-mitigate-landlord-s-remedies-3c6063496baf814688f9c5da2ae30b89"
+  },
+  {
+   "title": "Youth Justice 8 — Police in Schools and School to Prison Pipeline",
+   "course": "Youth Justice",
+   "date": "2026-10-07",
+   "session": 8,
+   "reading": "TROI Ch.6 — Cops in Schools (pp.122-146); TROI Ch.12 — #BlackBoyJoy and #BlackGirlMagic (pp.306-320); Rios, How Black Oaklanders Finally Expelled the School Police, Mother Jones (Nov/Dec 2020). Watch: Last Week Tonight (6/12/22). Guest TBD. Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-8-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf8139893ef117a54dc34c"
+  },
+  {
+   "title": "Property 23 — Express easements; interpreting ambiguous easements",
+   "course": "Property",
+   "date": "2026-10-08",
+   "session": 23,
+   "reading": "Read 535-546 (through note 4; skip Problem p.546).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-23-Express-easements-interpreting-ambiguous-easements-3c6063496baf81b18816ee1a853198f4"
   }
  ],
  "walkHome": [
@@ -1273,9 +1273,9 @@
  "counts": {
   "open": 34,
   "overdue": 3,
-  "dueSoon": 6,
+  "dueSoon": 7,
   "graded": 23,
-  "unmerged": 29,
+  "unmerged": 32,
   "courses": 5,
   "cases": 117,
   "reserve": 45
