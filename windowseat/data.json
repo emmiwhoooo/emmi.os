@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-05T06:24:31+00:00",
- "today": "2026-10-04",
+ "generated": "2026-10-05T15:03:23+00:00",
+ "today": "2026-10-05",
  "term": {
-  "week": 7,
+  "week": 8,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 59
+  "daysToFinals": 58
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-04",
-    "code": 3,
-    "high": 85.7,
-    "low": 60.7,
-    "rainMax": 1
-   },
-   {
     "date": "2026-10-05",
     "code": 0,
-    "high": 79.0,
-    "low": 57.8,
+    "high": 76.2,
+    "low": 57.9,
     "rainMax": 1
    },
    {
     "date": "2026-10-06",
     "code": 1,
-    "high": 83.1,
-    "low": 54.6,
+    "high": 80.3,
+    "low": 56.0,
     "rainMax": 0
    },
    {
     "date": "2026-10-07",
     "code": 0,
-    "high": 90.5,
-    "low": 63.7,
+    "high": 88.6,
+    "low": 58.7,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-08",
+    "code": 0,
+    "high": 88.0,
+    "low": 62.1,
     "rainMax": 0
    }
   ],
   "code": 0,
-  "dayCode": 3,
-  "temp": 64.0,
-  "high": 85.7,
-  "low": 60.7,
+  "dayCode": 0,
+  "temp": 58.7,
+  "high": 76.2,
+  "low": 57.9,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -1273,7 +1273,7 @@
  "counts": {
   "open": 34,
   "overdue": 4,
-  "dueSoon": 7,
+  "dueSoon": 8,
   "graded": 23,
   "unmerged": 32,
   "courses": 5,
