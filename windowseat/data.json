@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-06T02:05:56+00:00",
- "today": "2026-10-05",
+ "generated": "2026-10-06T08:55:45+00:00",
+ "today": "2026-10-06",
  "term": {
   "week": 8,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 58
+  "daysToFinals": 57
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-05",
-    "code": 1,
-    "high": 80.4,
-    "low": 58.4,
-    "rainMax": 1
-   },
-   {
     "date": "2026-10-06",
-    "code": 0,
-    "high": 77.6,
+    "code": 45,
+    "high": 78.5,
     "low": 56.0,
     "rainMax": 0
    },
    {
     "date": "2026-10-07",
     "code": 0,
-    "high": 79.5,
-    "low": 55.7,
+    "high": 78.5,
+    "low": 56.4,
     "rainMax": 0
    },
    {
     "date": "2026-10-08",
     "code": 0,
-    "high": 86.9,
-    "low": 61.9,
+    "high": 85.3,
+    "low": 61.0,
     "rainMax": 0
+   },
+   {
+    "date": "2026-10-09",
+    "code": 0,
+    "high": 83.0,
+    "low": 58.7,
+    "rainMax": 1
    }
   ],
   "code": 0,
-  "dayCode": 1,
-  "temp": 66.5,
-  "high": 80.4,
-  "low": 58.4,
-  "rainMax": 1,
+  "dayCode": 45,
+  "temp": 58.5,
+  "high": 78.5,
+  "low": 56.0,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Evidence 14 — Injury Reports; Business Records; Qualifying Records",
-  "course": "Evidence",
-  "date": "2026-10-05",
-  "session": 14,
-  "reading": "CB 175-182; 190-203 (skip Absence of Record). F.R.E. 803(4)(6)(7). In limine arg 8.",
+  "title": "LRW 15 — Intro to Fundamental Alteration; memo components; Facts",
+  "course": "LRW",
+  "date": "2026-10-06",
+  "session": 15,
+  "reading": "Read FA Office Memo assignment; Sample Office Memo; Burton Record FA facts; FA Research Google form; PGA (FA analysis). Bring CPS#2. After: FA Research Worksheet.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-14-Injury-Reports-Business-Records-Qualifying-Records-3c6063496baf818eb8ecde06b0b8b1ca"
+  "url": "https://app.notion.com/p/LRW-15-Intro-to-Fundamental-Alteration-memo-components-Facts-3c6063496baf81a8acf7e454371a2805"
  },
  "upcoming": [
-  {
-   "title": "Evidence 14 — Injury Reports; Business Records; Qualifying Records",
-   "course": "Evidence",
-   "date": "2026-10-05",
-   "session": 14,
-   "reading": "CB 175-182; 190-203 (skip Absence of Record). F.R.E. 803(4)(6)(7). In limine arg 8.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-14-Injury-Reports-Business-Records-Qualifying-Records-3c6063496baf818eb8ecde06b0b8b1ca"
-  },
   {
    "title": "LRW 15 — Intro to Fundamental Alteration; memo components; Facts",
    "course": "LRW",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-23-Express-easements-interpreting-ambiguous-easements-3c6063496baf81b18816ee1a853198f4"
+  },
+  {
+   "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
+   "course": "Negotiations",
+   "date": "2026-10-08",
+   "session": 7,
+   "reading": "Role-play: Gossett v. Bacchus Cruise Line. Guest: Priya Sanger. Prep: DC Ch. 10-12 + Q6; 3 articles (salary negotiation / equal pay / WNBA); email feedback for Bataglia; planning memo for Gossett due on bCourses before class.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
   }
  ],
  "walkHome": [
@@ -1165,7 +1165,7 @@
    "due": "2026-10-05",
    "type": "admin",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Core-Grammar-Post-Test-3c6063496baf81dc9b00f522579f831d"
   },
   {
@@ -1174,7 +1174,7 @@
    "due": "2026-10-05",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Citation-Problem-Set-2-3c6063496baf81a48a8de994eff0e67f"
   },
   {
@@ -1239,7 +1239,7 @@
    "due": "2026-10-05",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Citation-Problem-Set-2-3c6063496baf81a48a8de994eff0e67f"
   },
   {
@@ -1272,10 +1272,10 @@
  ],
  "counts": {
   "open": 34,
-  "overdue": 4,
-  "dueSoon": 8,
+  "overdue": 6,
+  "dueSoon": 9,
   "graded": 23,
-  "unmerged": 32,
+  "unmerged": 33,
   "courses": 5,
   "cases": 117,
   "reserve": 45
