@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-07T05:52:02+00:00",
- "today": "2026-10-06",
+ "generated": "2026-10-07T12:16:44+00:00",
+ "today": "2026-10-07",
  "term": {
   "week": 8,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 57
+  "daysToFinals": 56
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-06",
-    "code": 3,
-    "high": 80.6,
-    "low": 55.1,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-07",
-    "code": 1,
-    "high": 79.1,
-    "low": 55.1,
+    "code": 45,
+    "high": 78.6,
+    "low": 55.3,
     "rainMax": 0
    },
    {
     "date": "2026-10-08",
     "code": 1,
-    "high": 76.4,
-    "low": 54.2,
-    "rainMax": 1
+    "high": 74.3,
+    "low": 54.4,
+    "rainMax": 0
    },
    {
     "date": "2026-10-09",
     "code": 0,
-    "high": 80.3,
-    "low": 59.0,
+    "high": 79.7,
+    "low": 58.3,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-10",
+    "code": 3,
+    "high": 64.1,
+    "low": 53.5,
     "rainMax": 1
    }
   ],
   "code": 0,
-  "dayCode": 3,
-  "temp": 59.9,
-  "high": 80.6,
-  "low": 55.1,
+  "dayCode": 45,
+  "temp": 55.8,
+  "high": 78.6,
+  "low": 55.3,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 15 — Intro to Fundamental Alteration; memo components; Facts",
-  "course": "LRW",
-  "date": "2026-10-06",
-  "session": 15,
-  "reading": "Read FA Office Memo assignment; Sample Office Memo; Burton Record FA facts; FA Research Google form; PGA (FA analysis). Bring CPS#2. After: FA Research Worksheet.",
+  "title": "Property 22 — Landlord's duty to mitigate; landlord's remedies",
+  "course": "Property",
+  "date": "2026-10-07",
+  "session": 22,
+  "reading": "Read 868-80 (through note 3).",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-15-Intro-to-Fundamental-Alteration-memo-components-Facts-3c6063496baf81a8acf7e454371a2805"
+  "url": "https://app.notion.com/p/Property-22-Landlord-s-duty-to-mitigate-landlord-s-remedies-3c6063496baf814688f9c5da2ae30b89"
  },
  "upcoming": [
-  {
-   "title": "LRW 15 — Intro to Fundamental Alteration; memo components; Facts",
-   "course": "LRW",
-   "date": "2026-10-06",
-   "session": 15,
-   "reading": "Read FA Office Memo assignment; Sample Office Memo; Burton Record FA facts; FA Research Google form; PGA (FA analysis). Bring CPS#2. After: FA Research Worksheet.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-15-Intro-to-Fundamental-Alteration-memo-components-Facts-3c6063496baf81a8acf7e454371a2805"
-  },
-  {
-   "title": "Evidence 15 — Public Records; Law Enforcement Records",
-   "course": "Evidence",
-   "date": "2026-10-06",
-   "session": 15,
-   "reading": "CB 203-218 (plus Bullcoming 1st para p.218 & Sotomayor concurrence p.223); 224-230. F.R.E. 803(8). In limine arg 9.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-15-Public-Records-Law-Enforcement-Records-3c6063496baf8175a534c8df447c3e73"
-  },
   {
    "title": "Property 22 — Landlord's duty to mitigate; landlord's remedies",
    "course": "Property",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
+  },
+  {
+   "title": "LRW 16 — Research Class 5: Secondary Sources",
+   "course": "LRW",
+   "date": "2026-10-09",
+   "session": 16,
+   "reading": "Watch RC5 video. Facts due Sun Oct 11 10pm.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-16-Research-Class-5-Secondary-Sources-3c6063496baf81ffa525d03316829a9b"
+  },
+  {
+   "title": "Property 24 — Scope and unreasonable burden",
+   "course": "Property",
+   "date": "2026-10-09",
+   "session": 24,
+   "reading": "Read 546-56 (through note 8; skip Problems p.556).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-24-Scope-and-unreasonable-burden-3c6063496baf813db117d462f5d01a16"
   }
  ],
  "walkHome": [
@@ -1273,9 +1273,9 @@
  "counts": {
   "open": 34,
   "overdue": 6,
-  "dueSoon": 9,
+  "dueSoon": 10,
   "graded": 23,
-  "unmerged": 33,
+  "unmerged": 35,
   "courses": 5,
   "cases": 117,
   "reserve": 45
