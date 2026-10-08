@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-08T02:50:23+00:00",
- "today": "2026-10-07",
+ "generated": "2026-10-08T09:41:49+00:00",
+ "today": "2026-10-08",
  "term": {
   "week": 8,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 56
+  "daysToFinals": 55
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-07",
-    "code": 3,
-    "high": 78.5,
-    "low": 54.6,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-08",
     "code": 45,
-    "high": 73.0,
-    "low": 54.8,
+    "high": 74.8,
+    "low": 53.5,
     "rainMax": 1
    },
    {
     "date": "2026-10-09",
     "code": 45,
-    "high": 68.3,
-    "low": 55.5,
-    "rainMax": 0
+    "high": 64.6,
+    "low": 54.9,
+    "rainMax": 1
    },
    {
     "date": "2026-10-10",
     "code": 3,
-    "high": 64.3,
-    "low": 55.3,
+    "high": 63.7,
+    "low": 53.8,
     "rainMax": 1
+   },
+   {
+    "date": "2026-10-11",
+    "code": 1,
+    "high": 70.9,
+    "low": 49.0,
+    "rainMax": 2
    }
   ],
-  "code": 0,
-  "dayCode": 3,
-  "temp": 63.8,
-  "high": 78.5,
-  "low": 54.6,
-  "rainMax": 0,
+  "code": 45,
+  "dayCode": 45,
+  "temp": 55.1,
+  "high": 74.8,
+  "low": 53.5,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Property 22 — Landlord's duty to mitigate; landlord's remedies",
-  "course": "Property",
+  "title": "Youth Justice 8 — Police in Schools and School to Prison Pipeline",
+  "course": "Youth Justice",
   "date": "2026-10-07",
-  "session": 22,
-  "reading": "Read 868-80 (through note 3).",
+  "session": 8,
+  "reading": "TROI Ch.6 — Cops in Schools (pp.122-146); TROI Ch.12 — #BlackBoyJoy and #BlackGirlMagic (pp.306-320); Rios, How Black Oaklanders Finally Expelled the School Police, Mother Jones (Nov/Dec 2020). Watch: Last Week Tonight (6/12/22). Guest TBD. Optional resources on bCourses.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-22-Landlord-s-duty-to-mitigate-landlord-s-remedies-3c6063496baf814688f9c5da2ae30b89"
+  "url": "https://app.notion.com/p/Youth-Justice-8-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf8139893ef117a54dc34c"
  },
  "upcoming": [
-  {
-   "title": "Property 22 — Landlord's duty to mitigate; landlord's remedies",
-   "course": "Property",
-   "date": "2026-10-07",
-   "session": 22,
-   "reading": "Read 868-80 (through note 3).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-22-Landlord-s-duty-to-mitigate-landlord-s-remedies-3c6063496baf814688f9c5da2ae30b89"
-  },
   {
    "title": "Youth Justice 8 — Police in Schools and School to Prison Pipeline",
    "course": "Youth Justice",
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-24-Scope-and-unreasonable-burden-3c6063496baf813db117d462f5d01a16"
+  },
+  {
+   "title": "LRW 17 — Facts writing lab; more hierarchy",
+   "course": "LRW",
+   "date": "2026-10-13",
+   "session": 17,
+   "reading": "Review Sources & Force; bring 5 copies of Facts.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-17-Facts-writing-lab-more-hierarchy-3c6063496baf81078ed1e61f3e830a46"
   }
  ],
  "walkHome": [
@@ -1275,7 +1275,7 @@
   "overdue": 6,
   "dueSoon": 10,
   "graded": 23,
-  "unmerged": 35,
+  "unmerged": 36,
   "courses": 5,
   "cases": 117,
   "reserve": 45
