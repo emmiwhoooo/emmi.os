@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-09T01:27:12+00:00",
- "today": "2026-10-08",
+ "generated": "2026-10-09T07:40:54+00:00",
+ "today": "2026-10-09",
  "term": {
   "week": 8,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 55
+  "daysToFinals": 54
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-08",
-    "code": 45,
-    "high": 78.4,
-    "low": 55.7,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-09",
     "code": 45,
     "high": 64.1,
-    "low": 56.5,
+    "low": 56.4,
     "rainMax": 1
    },
    {
     "date": "2026-10-10",
-    "code": 1,
-    "high": 63.2,
-    "low": 53.0,
-    "rainMax": 3
+    "code": 3,
+    "high": 64.4,
+    "low": 53.1,
+    "rainMax": 2
    },
    {
     "date": "2026-10-11",
-    "code": 0,
-    "high": 65.2,
-    "low": 47.2,
-    "rainMax": 3
+    "code": 3,
+    "high": 65.7,
+    "low": 48.4,
+    "rainMax": 5
+   },
+   {
+    "date": "2026-10-12",
+    "code": 3,
+    "high": 75.6,
+    "low": 49.3,
+    "rainMax": 18
    }
   ],
   "code": 0,
   "dayCode": 45,
-  "temp": 70.8,
-  "high": 78.4,
-  "low": 55.7,
-  "rainMax": 0,
+  "temp": 57.5,
+  "high": 64.1,
+  "low": 56.4,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 8 — Police in Schools and School to Prison Pipeline",
-  "course": "Youth Justice",
-  "date": "2026-10-07",
-  "session": 8,
-  "reading": "TROI Ch.6 — Cops in Schools (pp.122-146); TROI Ch.12 — #BlackBoyJoy and #BlackGirlMagic (pp.306-320); Rios, How Black Oaklanders Finally Expelled the School Police, Mother Jones (Nov/Dec 2020). Watch: Last Week Tonight (6/12/22). Guest TBD. Optional resources on bCourses.",
+  "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
+  "course": "Negotiations",
+  "date": "2026-10-08",
+  "session": 7,
+  "reading": "Role-play: Gossett v. Bacchus Cruise Line. Guest: Priya Sanger. Prep: DC Ch. 10-12 + Q6; 3 articles (salary negotiation / equal pay / WNBA); email feedback for Bataglia; planning memo for Gossett due on bCourses before class.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-8-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf8139893ef117a54dc34c"
+  "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 8 — Police in Schools and School to Prison Pipeline",
-   "course": "Youth Justice",
-   "date": "2026-10-07",
-   "session": 8,
-   "reading": "TROI Ch.6 — Cops in Schools (pp.122-146); TROI Ch.12 — #BlackBoyJoy and #BlackGirlMagic (pp.306-320); Rios, How Black Oaklanders Finally Expelled the School Police, Mother Jones (Nov/Dec 2020). Watch: Last Week Tonight (6/12/22). Guest TBD. Optional resources on bCourses.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-8-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf8139893ef117a54dc34c"
-  },
-  {
-   "title": "Property 23 — Express easements; interpreting ambiguous easements",
-   "course": "Property",
-   "date": "2026-10-08",
-   "session": 23,
-   "reading": "Read 535-546 (through note 4; skip Problem p.546).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-23-Express-easements-interpreting-ambiguous-easements-3c6063496baf81b18816ee1a853198f4"
-  },
   {
    "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
    "course": "Negotiations",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-17-Facts-writing-lab-more-hierarchy-3c6063496baf81078ed1e61f3e830a46"
+  },
+  {
+   "title": "Evidence 16 — Intro to Character Evidence; Methods of Proving Character",
+   "course": "Evidence",
+   "date": "2026-10-13",
+   "session": 16,
+   "reading": "CB 287-306. F.R.E. 404(a), 405, 803(21). In limine arg 10.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-16-Intro-to-Character-Evidence-Methods-of-Proving-Character-3c6063496baf81998de5e63670c31cd0"
+  },
+  {
+   "title": "Property 25 — SKILLS WORKSHOP 3 (leasehold estates) — PRACTICE EXERCISE 3 DUE",
+   "course": "Property",
+   "date": "2026-10-14",
+   "session": 25,
+   "reading": "Skills Workshop 3 (leasehold estates). PRACTICE EXERCISE 3 DUE.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-25-SKILLS-WORKSHOP-3-leasehold-estates-PRACTICE-EXERCISE-3-DUE-3c6063496baf81c5818bd18eb0e08cf5"
   }
  ],
  "walkHome": [
@@ -1273,9 +1273,9 @@
  "counts": {
   "open": 34,
   "overdue": 6,
-  "dueSoon": 10,
+  "dueSoon": 11,
   "graded": 23,
-  "unmerged": 36,
+  "unmerged": 38,
   "courses": 5,
   "cases": 117,
   "reserve": 45
