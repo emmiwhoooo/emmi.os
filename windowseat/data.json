@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-10T02:44:52+00:00",
- "today": "2026-10-09",
+ "generated": "2026-10-10T09:02:59+00:00",
+ "today": "2026-10-10",
  "term": {
   "week": 8,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 54
+  "daysToFinals": 53
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-09",
-    "code": 45,
-    "high": 65.5,
-    "low": 55.2,
-    "rainMax": 1
-   },
-   {
     "date": "2026-10-10",
     "code": 3,
-    "high": 65.1,
-    "low": 51.8,
-    "rainMax": 2
+    "high": 64.6,
+    "low": 51.5,
+    "rainMax": 1
    },
    {
     "date": "2026-10-11",
     "code": 0,
-    "high": 68.5,
-    "low": 47.4,
-    "rainMax": 1
+    "high": 68.1,
+    "low": 46.4,
+    "rainMax": 0
    },
    {
     "date": "2026-10-12",
-    "code": 0,
+    "code": 3,
+    "high": 72.4,
+    "low": 51.6,
+    "rainMax": 2
+   },
+   {
+    "date": "2026-10-13",
+    "code": 3,
     "high": 70.4,
-    "low": 50.8,
-    "rainMax": 11
+    "low": 52.4,
+    "rainMax": 1
    }
   ],
   "code": 3,
-  "dayCode": 45,
-  "temp": 59.1,
-  "high": 65.5,
-  "low": 55.2,
+  "dayCode": 3,
+  "temp": 58.1,
+  "high": 64.6,
+  "low": 51.5,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -130,46 +130,16 @@
   ]
  },
  "next": {
-  "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
-  "course": "Negotiations",
-  "date": "2026-10-08",
-  "session": 7,
-  "reading": "Role-play: Gossett v. Bacchus Cruise Line. Guest: Priya Sanger. Prep: DC Ch. 10-12 + Q6; 3 articles (salary negotiation / equal pay / WNBA); email feedback for Bataglia; planning memo for Gossett due on bCourses before class.",
+  "title": "LRW 17 — Facts writing lab; more hierarchy",
+  "course": "LRW",
+  "date": "2026-10-13",
+  "session": 17,
+  "reading": "Review Sources & Force; bring 5 copies of Facts.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
+  "url": "https://app.notion.com/p/LRW-17-Facts-writing-lab-more-hierarchy-3c6063496baf81078ed1e61f3e830a46"
  },
  "upcoming": [
-  {
-   "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
-   "course": "Negotiations",
-   "date": "2026-10-08",
-   "session": 7,
-   "reading": "Role-play: Gossett v. Bacchus Cruise Line. Guest: Priya Sanger. Prep: DC Ch. 10-12 + Q6; 3 articles (salary negotiation / equal pay / WNBA); email feedback for Bataglia; planning memo for Gossett due on bCourses before class.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
-  },
-  {
-   "title": "LRW 16 — Research Class 5: Secondary Sources",
-   "course": "LRW",
-   "date": "2026-10-09",
-   "session": 16,
-   "reading": "Watch RC5 video. Facts due Sun Oct 11 10pm.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-16-Research-Class-5-Secondary-Sources-3c6063496baf81ffa525d03316829a9b"
-  },
-  {
-   "title": "Property 24 — Scope and unreasonable burden",
-   "course": "Property",
-   "date": "2026-10-09",
-   "session": 24,
-   "reading": "Read 546-56 (through note 8; skip Problems p.556).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-24-Scope-and-unreasonable-burden-3c6063496baf813db117d462f5d01a16"
-  },
   {
    "title": "LRW 17 — Facts writing lab; more hierarchy",
    "course": "LRW",
@@ -199,6 +169,36 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-25-SKILLS-WORKSHOP-3-leasehold-estates-PRACTICE-EXERCISE-3-DUE-3c6063496baf81c5818bd18eb0e08cf5"
+  },
+  {
+   "title": "Youth Justice 9 — Fourth Amendment and Policing",
+   "course": "Youth Justice",
+   "date": "2026-10-14",
+   "session": 9,
+   "reading": "TROI Ch.9 pp.204-235; Henning, The Reasonable Black Child (intro, Part 1, conclusion); J.D.B. v. North Carolina (Parts II-III; skim I). Guest: Kristin Henning (TROI author). Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-9-Fourth-Amendment-and-Policing-3c6063496baf818f9799f043b7f75570"
+  },
+  {
+   "title": "Property 26 — Prescriptive easements; easements by estoppel",
+   "course": "Property",
+   "date": "2026-10-15",
+   "session": 26,
+   "reading": "Read 335-40 (§3 through note 1); 557-66 (through note 3(c)).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-26-Prescriptive-easements-easements-by-estoppel-3c6063496baf81daab64cc05761b8dd3"
+  },
+  {
+   "title": "Negotiations 8 — Ethics Pt 2; BATNA/WATNA/Costing — SANCHEZ v. ACE AUTO (graded, videotaped)",
+   "course": "Negotiations",
+   "date": "2026-10-15",
+   "session": 8,
+   "reading": "Role-play: Sanchez v. Ace Auto (VIRTUAL/Zoom; videotaped GRADED final negotiation, 25% with journal; counterpart known in advance). Prep: BA Ch. 12 + Conclusion + App. B; DC Q2-4 + finish DC; planning memo for Sanchez (submitted later with journal); email feedback for Gossett.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
   }
  ],
  "walkHome": [
@@ -1273,9 +1273,9 @@
  "counts": {
   "open": 34,
   "overdue": 6,
-  "dueSoon": 11,
+  "dueSoon": 12,
   "graded": 23,
-  "unmerged": 38,
+  "unmerged": 41,
   "courses": 5,
   "cases": 117,
   "reserve": 45
