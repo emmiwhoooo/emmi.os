@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-11T01:16:42+00:00",
- "today": "2026-10-10",
+ "generated": "2026-10-11T07:26:40+00:00",
+ "today": "2026-10-11",
  "term": {
   "week": 8,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 53
+  "daysToFinals": 52
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-10",
-    "code": 3,
-    "high": 64.1,
-    "low": 51.9,
-    "rainMax": 1
-   },
-   {
     "date": "2026-10-11",
-    "code": 3,
-    "high": 68.4,
+    "code": 0,
+    "high": 69.1,
     "low": 47.8,
     "rainMax": 0
    },
    {
     "date": "2026-10-12",
     "code": 3,
-    "high": 71.2,
-    "low": 52.8,
-    "rainMax": 2
+    "high": 67.9,
+    "low": 50.7,
+    "rainMax": 1
    },
    {
     "date": "2026-10-13",
     "code": 3,
-    "high": 72.4,
-    "low": 51.1,
+    "high": 74.3,
+    "low": 50.8,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-14",
+    "code": 1,
+    "high": 80.5,
+    "low": 51.7,
     "rainMax": 0
    }
   ],
   "code": 0,
-  "dayCode": 3,
-  "temp": 59.6,
-  "high": 64.1,
-  "low": 51.9,
-  "rainMax": 1,
+  "dayCode": 0,
+  "temp": 51.6,
+  "high": 69.1,
+  "low": 47.8,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -1183,7 +1183,7 @@
    "due": "2026-10-10",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Gossett-v-Bacchus-Neg-7-3db063496baf81eab9f0f00b2e3dc32f"
   },
   {
@@ -1272,7 +1272,7 @@
  ],
  "counts": {
   "open": 34,
-  "overdue": 6,
+  "overdue": 7,
   "dueSoon": 12,
   "graded": 23,
   "unmerged": 41,
