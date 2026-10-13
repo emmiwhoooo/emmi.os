@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T20:31:16+00:00",
+ "generated": "2026-10-13T23:51:56+00:00",
  "today": "2026-10-13",
  "term": {
   "week": 9,
@@ -13,37 +13,37 @@
    {
     "date": "2026-10-13",
     "code": 3,
-    "high": 72.4,
-    "low": 48.8,
+    "high": 75.1,
+    "low": 48.5,
     "rainMax": 0
    },
    {
     "date": "2026-10-14",
-    "code": 2,
-    "high": 72.8,
-    "low": 49.7,
+    "code": 3,
+    "high": 72.0,
+    "low": 49.0,
     "rainMax": 0
    },
    {
     "date": "2026-10-15",
-    "code": 0,
-    "high": 87.7,
-    "low": 50.6,
+    "code": 2,
+    "high": 88.4,
+    "low": 48.6,
     "rainMax": 0
    },
    {
     "date": "2026-10-16",
     "code": 0,
-    "high": 90.0,
-    "low": 60.8,
+    "high": 91.0,
+    "low": 61.0,
     "rainMax": 0
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 71.9,
-  "high": 72.4,
-  "low": 48.8,
+  "temp": 68.1,
+  "high": 75.1,
+  "low": 48.5,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -135,7 +135,7 @@
   "date": "2026-10-13",
   "session": 17,
   "reading": "Review Sources & Force; bring 5 copies of Facts.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/LRW-17-Facts-writing-lab-more-hierarchy-3c6063496baf81078ed1e61f3e830a46"
  },
@@ -146,7 +146,7 @@
    "date": "2026-10-13",
    "session": 17,
    "reading": "Review Sources & Force; bring 5 copies of Facts.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-17-Facts-writing-lab-more-hierarchy-3c6063496baf81078ed1e61f3e830a46"
   },
@@ -156,7 +156,7 @@
    "date": "2026-10-13",
    "session": 16,
    "reading": "CB 287-306. Michelson v. U.S. F.R.E. 404(a), 405, 803(21). C.E.C. 1101(a), 1102, 1103, 1324. In limine arg 6.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-16-Intro-to-Character-Evidence-Methods-of-Proving-Character-3c6063496baf81998de5e63670c31cd0"
   },
@@ -264,6 +264,16 @@
   }
  ],
  "shelf": [
+  {
+   "title": "Michelson v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Michelson-v-United-States-3f8063496baf81bebbf5d676ceeb9e1d"
+  },
+  {
+   "title": "People v. Zackowitz",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/People-v-Zackowitz-3f8063496baf80b69769c9d623ccd836"
+  },
   {
    "title": "United States v. Obayagbona",
    "course": "Evidence",
@@ -1277,7 +1287,7 @@
   "graded": 18,
   "unmerged": 40,
   "courses": 5,
-  "cases": 117,
+  "cases": 119,
   "reserve": 45
  },
  "courses": [
