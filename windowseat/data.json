@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T14:59:14+00:00",
+ "generated": "2026-10-13T20:31:16+00:00",
  "today": "2026-10-13",
  "term": {
   "week": 9,
@@ -12,38 +12,38 @@
   "days": [
    {
     "date": "2026-10-13",
-    "code": 45,
-    "high": 71.6,
-    "low": 48.6,
+    "code": 3,
+    "high": 72.4,
+    "low": 48.8,
     "rainMax": 0
    },
    {
     "date": "2026-10-14",
-    "code": 3,
-    "high": 72.2,
-    "low": 48.9,
+    "code": 2,
+    "high": 72.8,
+    "low": 49.7,
     "rainMax": 0
    },
    {
     "date": "2026-10-15",
     "code": 0,
-    "high": 87.8,
-    "low": 55.7,
+    "high": 87.7,
+    "low": 50.6,
     "rainMax": 0
    },
    {
     "date": "2026-10-16",
     "code": 0,
-    "high": 90.2,
-    "low": 60.7,
+    "high": 90.0,
+    "low": 60.8,
     "rainMax": 0
    }
   ],
-  "code": 45,
-  "dayCode": 45,
-  "temp": 48.6,
-  "high": 71.6,
-  "low": 48.6,
+  "code": 0,
+  "dayCode": 3,
+  "temp": 71.9,
+  "high": 72.4,
+  "low": 48.8,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -155,7 +155,7 @@
    "course": "Evidence",
    "date": "2026-10-13",
    "session": 16,
-   "reading": "CB 287-306. F.R.E. 404(a), 405, 803(21). In limine arg 10.",
+   "reading": "CB 287-306. Michelson v. U.S. F.R.E. 404(a), 405, 803(21). C.E.C. 1101(a), 1102, 1103, 1324. In limine arg 6.",
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-16-Intro-to-Character-Evidence-Methods-of-Proving-Character-3c6063496baf81998de5e63670c31cd0"
@@ -171,14 +171,14 @@
    "url": "https://app.notion.com/p/Property-25-SKILLS-WORKSHOP-3-leasehold-estates-PRACTICE-EXERCISE-3-DUE-3c6063496baf81c5818bd18eb0e08cf5"
   },
   {
-   "title": "Youth Justice 9 — Fourth Amendment and Policing",
+   "title": "Youth Justice 9 — Police in Schools and School to Prison Pipeline",
    "course": "Youth Justice",
    "date": "2026-10-14",
    "session": 9,
-   "reading": "TROI Ch.9 pp.204-235; Henning, The Reasonable Black Child (intro, Part 1, conclusion); J.D.B. v. North Carolina (Parts II-III; skim I). Guest: Kristin Henning (TROI author). Optional resources on bCourses.",
+   "reading": "TROI Ch.6 Cops in Schools (pp.122-146); TROI Ch.12 #BlackBoyJoy and #BlackGirlMagic (pp.306-320); Rios, How Black Oaklanders Finally Expelled the School Police, Mother Jones (Nov/Dec 2020). Watch: Last Week Tonight (6/12/22, 26:41). Optional: TROI Ch.3 (pp.48-80). Guest: Tia Martinez. Per the 9/29 revised syllabus.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-9-Fourth-Amendment-and-Policing-3c6063496baf818f9799f043b7f75570"
+   "url": "https://app.notion.com/p/Youth-Justice-9-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf818f9799f043b7f75570"
   },
   {
    "title": "Property 26 — Prescriptive easements; easements by estoppel",
@@ -191,14 +191,14 @@
    "url": "https://app.notion.com/p/Property-26-Prescriptive-easements-easements-by-estoppel-3c6063496baf81daab64cc05761b8dd3"
   },
   {
-   "title": "Negotiations 8 — Ethics Pt 2; BATNA/WATNA/Costing — SANCHEZ v. ACE AUTO (graded, videotaped)",
+   "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
    "course": "Negotiations",
    "date": "2026-10-15",
-   "session": 8,
-   "reading": "Role-play: Sanchez v. Ace Auto (VIRTUAL/Zoom; videotaped GRADED final negotiation, 25% with journal; counterpart known in advance). Prep: BA Ch. 12 + Conclusion + App. B; DC Q2-4 + finish DC; planning memo for Sanchez (submitted later with journal); email feedback for Gossett.",
+   "session": 7,
+   "reading": "Role-play: Gossett v. Bacchus Cruise Line. Guest: Priya Sanger (Fintech, Payments & AI Counsel). Prep: DC Ch. 10-12 + Q6; 3 articles (Harvard PON salary negotiation / US Soccer equal pay / Caitlin Clark WNBA pay); email feedback for Bataglia; planning memo for Gossett due on bCourses before class. Moved from Oct 8 (no class) per the 8/28 revised syllabus.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
+   "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
   }
  ],
  "walkHome": [
@@ -1124,143 +1124,98 @@
  ],
  "weather": [
   {
-   "title": "Negotiation feedback to counterpart — Widow Land Sale (Neg 5)",
-   "course": "Negotiations",
-   "due": "2026-09-26",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Widow-Land-Sale-Neg-5-3db063496baf81edaef3d604a9862fb6"
-  },
-  {
-   "title": "Revised Umbrella Rule + Reasonable CREAC",
-   "course": "LRW",
-   "due": "2026-09-28",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Revised-Umbrella-Rule-Reasonable-CREAC-3c6063496baf8151b23ff07c6dda420e"
-  },
-  {
-   "title": "Practice Exercise 2",
+   "title": "Practice Exercise 3",
    "course": "Property",
-   "due": "2026-09-30",
+   "due": "2026-10-14",
    "type": "graded",
    "weight": "3 points (completion)",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Practice-Exercise-2-3c6063496baf81bf8135c27b72ee20ee"
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-3-3c6063496baf815dbf78d7fe2413561f"
   },
   {
-   "title": "Negotiation feedback to counterpart — Bataglia Trust Dispute (Neg 6)",
-   "course": "Negotiations",
-   "due": "2026-10-03",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Bataglia-Trust-Dispute-Neg-6-3db063496baf811c9dbad4bbdd0f1caa"
-  },
-  {
-   "title": "Core Grammar Post-Test",
+   "title": "Research Midterm (in class)",
    "course": "LRW",
-   "due": "2026-10-05",
-   "type": "admin",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Core-Grammar-Post-Test-3c6063496baf81dc9b00f522579f831d"
-  },
-  {
-   "title": "Citation Problem Set #2",
-   "course": "LRW",
-   "due": "2026-10-05",
+   "due": "2026-10-16",
    "type": "graded",
    "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-2-3c6063496baf81a48a8de994eff0e67f"
+   "overdue": false,
+   "url": "https://app.notion.com/p/Research-Midterm-in-class-3c6063496baf811ea8d9ec44466fbd21"
   },
   {
    "title": "Negotiation feedback to counterpart — Gossett v. Bacchus (Neg 7)",
    "course": "Negotiations",
-   "due": "2026-10-10",
+   "due": "2026-10-17",
    "type": "ungraded",
    "weight": "",
-   "overdue": true,
+   "overdue": false,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Gossett-v-Bacchus-Neg-7-3db063496baf81eab9f0f00b2e3dc32f"
   },
   {
-   "title": "Facts",
+   "title": "Fundamental Alteration Case List",
    "course": "LRW",
-   "due": "2026-10-12",
+   "due": "2026-10-19",
    "type": "graded",
    "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Facts-3c6063496baf81a5ab7cca6ff7e53055"
-  },
-  {
-   "title": "Reflection 2 (Classes 5-8)",
-   "course": "Youth Justice",
-   "due": "2026-10-13",
-   "type": "graded",
-   "weight": "10 points",
    "overdue": false,
-   "url": "https://app.notion.com/p/Reflection-2-Classes-5-8-3c6063496baf8149a402cd1ac688a448"
+   "url": "https://app.notion.com/p/Fundamental-Alteration-Case-List-3c6063496baf81bc99a8f3ffc5b3ead6"
   },
   {
-   "title": "Practice Exercise 3",
+   "title": "Citation Problem Set #3",
+   "course": "LRW",
+   "due": "2026-10-23",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-3-3c6063496baf8133b8f5e3838be8bfc8"
+  },
+  {
+   "title": "Issue and Brief Answer",
+   "course": "LRW",
+   "due": "2026-10-26",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Issue-and-Brief-Answer-3c6063496baf811084acfec6534081c2"
+  },
+  {
+   "title": "Citation Problem Set #4",
+   "course": "LRW",
+   "due": "2026-10-26",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-4-3c6063496baf81ba8eddd6cdfae75747"
+  },
+  {
+   "title": "Fundamental Alteration Office Memo",
+   "course": "LRW",
+   "due": "2026-11-02",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Fundamental-Alteration-Office-Memo-3c6063496baf8112b580fed5c128e980"
+  },
+  {
+   "title": "In limine argument — IL 8 (Evidence 21, Mon Nov 2)",
+   "course": "Evidence",
+   "due": "2026-11-02",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
+  },
+  {
+   "title": "Practice Exercise 4",
    "course": "Property",
-   "due": "2026-10-14",
+   "due": "2026-11-04",
    "type": "graded",
    "weight": "3 points (completion)",
    "overdue": false,
-   "url": "https://app.notion.com/p/Practice-Exercise-3-3c6063496baf815dbf78d7fe2413561f"
+   "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
   }
  ],
  "longHaul": [
   {
-   "title": "Revised Umbrella Rule + Reasonable CREAC",
-   "course": "LRW",
-   "due": "2026-09-28",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Revised-Umbrella-Rule-Reasonable-CREAC-3c6063496baf8151b23ff07c6dda420e"
-  },
-  {
-   "title": "Practice Exercise 2",
-   "course": "Property",
-   "due": "2026-09-30",
-   "type": "graded",
-   "weight": "3 points (completion)",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Practice-Exercise-2-3c6063496baf81bf8135c27b72ee20ee"
-  },
-  {
-   "title": "Citation Problem Set #2",
-   "course": "LRW",
-   "due": "2026-10-05",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-2-3c6063496baf81a48a8de994eff0e67f"
-  },
-  {
-   "title": "Facts",
-   "course": "LRW",
-   "due": "2026-10-12",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Facts-3c6063496baf81a5ab7cca6ff7e53055"
-  },
-  {
-   "title": "Reflection 2 (Classes 5-8)",
-   "course": "Youth Justice",
-   "due": "2026-10-13",
-   "type": "graded",
-   "weight": "10 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Reflection-2-Classes-5-8-3c6063496baf8149a402cd1ac688a448"
-  },
-  {
    "title": "Practice Exercise 3",
    "course": "Property",
    "due": "2026-10-14",
@@ -1268,14 +1223,59 @@
    "weight": "3 points (completion)",
    "overdue": false,
    "url": "https://app.notion.com/p/Practice-Exercise-3-3c6063496baf815dbf78d7fe2413561f"
+  },
+  {
+   "title": "Research Midterm (in class)",
+   "course": "LRW",
+   "due": "2026-10-16",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Research-Midterm-in-class-3c6063496baf811ea8d9ec44466fbd21"
+  },
+  {
+   "title": "Fundamental Alteration Case List",
+   "course": "LRW",
+   "due": "2026-10-19",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Fundamental-Alteration-Case-List-3c6063496baf81bc99a8f3ffc5b3ead6"
+  },
+  {
+   "title": "Citation Problem Set #3",
+   "course": "LRW",
+   "due": "2026-10-23",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-3-3c6063496baf8133b8f5e3838be8bfc8"
+  },
+  {
+   "title": "Issue and Brief Answer",
+   "course": "LRW",
+   "due": "2026-10-26",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Issue-and-Brief-Answer-3c6063496baf811084acfec6534081c2"
+  },
+  {
+   "title": "Citation Problem Set #4",
+   "course": "LRW",
+   "due": "2026-10-26",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-4-3c6063496baf81ba8eddd6cdfae75747"
   }
  ],
  "counts": {
-  "open": 34,
-  "overdue": 8,
-  "dueSoon": 13,
-  "graded": 23,
-  "unmerged": 41,
+  "open": 26,
+  "overdue": 0,
+  "dueSoon": 4,
+  "graded": 18,
+  "unmerged": 40,
   "courses": 5,
   "cases": 117,
   "reserve": 45
