@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-13T00:35:14+00:00",
- "today": "2026-10-12",
+ "generated": "2026-10-13T07:05:10+00:00",
+ "today": "2026-10-13",
  "term": {
   "week": 9,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 51
+  "daysToFinals": 50
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-12",
-    "code": 3,
-    "high": 68.0,
-    "low": 48.2,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-13",
-    "code": 45,
-    "high": 70.8,
-    "low": 49.7,
+    "code": 3,
+    "high": 74.1,
+    "low": 47.5,
     "rainMax": 0
    },
    {
     "date": "2026-10-14",
-    "code": 3,
-    "high": 80.5,
-    "low": 48.2,
+    "code": 0,
+    "high": 75.1,
+    "low": 49.0,
     "rainMax": 0
    },
    {
     "date": "2026-10-15",
     "code": 0,
     "high": 86.8,
-    "low": 56.7,
+    "low": 56.3,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-16",
+    "code": 0,
+    "high": 90.4,
+    "low": 61.1,
     "rainMax": 0
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 63.4,
-  "high": 68.0,
-  "low": 48.2,
+  "temp": 52.7,
+  "high": 74.1,
+  "low": 47.5,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -1192,7 +1192,7 @@
    "due": "2026-10-12",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Facts-3c6063496baf81a5ab7cca6ff7e53055"
   },
   {
@@ -1248,7 +1248,7 @@
    "due": "2026-10-12",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Facts-3c6063496baf81a5ab7cca6ff7e53055"
   },
   {
@@ -1272,7 +1272,7 @@
  ],
  "counts": {
   "open": 34,
-  "overdue": 7,
+  "overdue": 8,
   "dueSoon": 13,
   "graded": 23,
   "unmerged": 41,
