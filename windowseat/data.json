@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T23:51:56+00:00",
+ "generated": "2026-10-14T02:38:10+00:00",
  "today": "2026-10-13",
  "term": {
   "week": 9,
@@ -13,47 +13,47 @@
    {
     "date": "2026-10-13",
     "code": 3,
-    "high": 75.1,
-    "low": 48.5,
+    "high": 74.7,
+    "low": 48.8,
     "rainMax": 0
    },
    {
     "date": "2026-10-14",
     "code": 3,
     "high": 72.0,
-    "low": 49.0,
+    "low": 50.2,
     "rainMax": 0
    },
    {
     "date": "2026-10-15",
     "code": 2,
-    "high": 88.4,
-    "low": 48.6,
+    "high": 88.2,
+    "low": 48.7,
     "rainMax": 0
    },
    {
     "date": "2026-10-16",
     "code": 0,
-    "high": 91.0,
+    "high": 90.9,
     "low": 61.0,
     "rainMax": 0
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 68.1,
-  "high": 75.1,
-  "low": 48.5,
+  "temp": 60.8,
+  "high": 74.7,
+  "low": 48.8,
   "rainMax": 0,
   "wetUntil": null
  },
  "player": {
-  "level": 40,
+  "level": 49,
   "xp": 0,
-  "toNext": 65,
+  "toNext": 95,
   "gold": 155,
-  "rank": "lvl 40",
-  "next": "65 xp to lvl 41"
+  "rank": "lvl 49",
+  "next": "95 xp to lvl 50"
  },
  "quests": {
   "run": 0,
@@ -264,6 +264,16 @@
   }
  ],
  "shelf": [
+  {
+   "title": "United States v. Krapp",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Krapp-3f9063496baf81a3b6b8d9832e92f6a8"
+  },
+  {
+   "title": "Cleghorn v. N.Y. Central & Hudson River R.R. Co.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Cleghorn-v-N-Y-Central-Hudson-River-R-R-Co-3f9063496baf8180904fc677256ed947"
+  },
   {
    "title": "Michelson v. United States",
    "course": "Evidence",
@@ -1287,7 +1297,7 @@
   "graded": 18,
   "unmerged": 40,
   "courses": 5,
-  "cases": 119,
+  "cases": 121,
   "reserve": 45
  },
  "courses": [
