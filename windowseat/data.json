@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-14T02:38:10+00:00",
- "today": "2026-10-13",
+ "generated": "2026-10-14T08:00:17+00:00",
+ "today": "2026-10-14",
  "term": {
   "week": 9,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 50
+  "daysToFinals": 49
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-13",
-    "code": 3,
-    "high": 74.7,
-    "low": 48.8,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-14",
-    "code": 3,
-    "high": 72.0,
-    "low": 50.2,
+    "code": 0,
+    "high": 73.4,
+    "low": 48.6,
     "rainMax": 0
    },
    {
     "date": "2026-10-15",
-    "code": 2,
-    "high": 88.2,
-    "low": 48.7,
+    "code": 45,
+    "high": 87.5,
+    "low": 49.4,
     "rainMax": 0
    },
    {
     "date": "2026-10-16",
     "code": 0,
-    "high": 90.9,
-    "low": 61.0,
+    "high": 91.3,
+    "low": 61.6,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-17",
+    "code": 2,
+    "high": 84.9,
+    "low": 56.7,
     "rainMax": 0
    }
   ],
   "code": 0,
-  "dayCode": 3,
-  "temp": 60.8,
-  "high": 74.7,
-  "low": 48.8,
+  "dayCode": 0,
+  "temp": 52.1,
+  "high": 73.4,
+  "low": 48.6,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 17 — Facts writing lab; more hierarchy",
-  "course": "LRW",
-  "date": "2026-10-13",
-  "session": 17,
-  "reading": "Review Sources & Force; bring 5 copies of Facts.",
-  "prepped": true,
+  "title": "Property 25 — SKILLS WORKSHOP 3 (leasehold estates) — PRACTICE EXERCISE 3 DUE",
+  "course": "Property",
+  "date": "2026-10-14",
+  "session": 25,
+  "reading": "Skills Workshop 3 (leasehold estates). PRACTICE EXERCISE 3 DUE.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-17-Facts-writing-lab-more-hierarchy-3c6063496baf81078ed1e61f3e830a46"
+  "url": "https://app.notion.com/p/Property-25-SKILLS-WORKSHOP-3-leasehold-estates-PRACTICE-EXERCISE-3-DUE-3c6063496baf81c5818bd18eb0e08cf5"
  },
  "upcoming": [
-  {
-   "title": "LRW 17 — Facts writing lab; more hierarchy",
-   "course": "LRW",
-   "date": "2026-10-13",
-   "session": 17,
-   "reading": "Review Sources & Force; bring 5 copies of Facts.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-17-Facts-writing-lab-more-hierarchy-3c6063496baf81078ed1e61f3e830a46"
-  },
-  {
-   "title": "Evidence 16 — Intro to Character Evidence; Methods of Proving Character",
-   "course": "Evidence",
-   "date": "2026-10-13",
-   "session": 16,
-   "reading": "CB 287-306. Michelson v. U.S. F.R.E. 404(a), 405, 803(21). C.E.C. 1101(a), 1102, 1103, 1324. In limine arg 6.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-16-Intro-to-Character-Evidence-Methods-of-Proving-Character-3c6063496baf81998de5e63670c31cd0"
-  },
   {
    "title": "Property 25 — SKILLS WORKSHOP 3 (leasehold estates) — PRACTICE EXERCISE 3 DUE",
    "course": "Property",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
+  },
+  {
+   "title": "LRW 18 — RESEARCH MIDTERM",
+   "course": "LRW",
+   "date": "2026-10-16",
+   "session": 18,
+   "reading": "Research Midterm in class. After: FA Case List due Sun Oct 18 10pm; sign up for 20-min case-presentation meeting (12 points).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-18-RESEARCH-MIDTERM-3c6063496baf818aab7dd5e39e99649a"
+  },
+  {
+   "title": "Property 27 — Easements implied by prior use; by necessity; modifying and terminating",
+   "course": "Property",
+   "date": "2026-10-16",
+   "session": 27,
+   "reading": "Read 567-79 (skip Problems p.578).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-27-Easements-implied-by-prior-use-by-necessity-modifying-and-terminating-3c6063496baf81b2a23bc6b83c33ae54"
   }
  ],
  "walkHome": [
@@ -1295,7 +1295,7 @@
   "overdue": 0,
   "dueSoon": 4,
   "graded": 18,
-  "unmerged": 40,
+  "unmerged": 42,
   "courses": 5,
   "cases": 121,
   "reserve": 45
