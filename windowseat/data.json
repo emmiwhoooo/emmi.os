@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-15T04:30:46+00:00",
- "today": "2026-10-14",
+ "generated": "2026-10-15T09:23:55+00:00",
+ "today": "2026-10-15",
  "term": {
   "week": 9,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 49
+  "daysToFinals": 48
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-14",
-    "code": 2,
-    "high": 76.4,
-    "low": 47.7,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-15",
-    "code": 0,
-    "high": 84.7,
+    "code": 1,
+    "high": 83.9,
     "low": 51.3,
     "rainMax": 0
    },
    {
     "date": "2026-10-16",
-    "code": 0,
-    "high": 89.6,
-    "low": 52.8,
+    "code": 45,
+    "high": 88.6,
+    "low": 50.6,
     "rainMax": 0
    },
    {
     "date": "2026-10-17",
     "code": 0,
-    "high": 87.0,
-    "low": 56.7,
+    "high": 87.7,
+    "low": 57.6,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-18",
+    "code": 3,
+    "high": 66.8,
+    "low": 53.5,
     "rainMax": 0
    }
   ],
   "code": 0,
-  "dayCode": 2,
-  "temp": 57.8,
-  "high": 76.4,
-  "low": 47.7,
+  "dayCode": 1,
+  "temp": 55.2,
+  "high": 83.9,
+  "low": 51.3,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Property 25 — SKILLS WORKSHOP 3 (leasehold estates) — PRACTICE EXERCISE 3 DUE",
-  "course": "Property",
+  "title": "Youth Justice 9 — Police in Schools and School to Prison Pipeline",
+  "course": "Youth Justice",
   "date": "2026-10-14",
-  "session": 25,
-  "reading": "Skills Workshop 3 (leasehold estates). PRACTICE EXERCISE 3 DUE.",
+  "session": 9,
+  "reading": "TROI Ch.6 Cops in Schools (pp.122-146); TROI Ch.12 #BlackBoyJoy and #BlackGirlMagic (pp.306-320); Rios, How Black Oaklanders Finally Expelled the School Police, Mother Jones (Nov/Dec 2020). Watch: Last Week Tonight (6/12/22, 26:41). Optional: TROI Ch.3 (pp.48-80). Guest: Tia Martinez. Per the 9/29 revised syllabus.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-25-SKILLS-WORKSHOP-3-leasehold-estates-PRACTICE-EXERCISE-3-DUE-3c6063496baf81c5818bd18eb0e08cf5"
+  "url": "https://app.notion.com/p/Youth-Justice-9-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf818f9799f043b7f75570"
  },
  "upcoming": [
-  {
-   "title": "Property 25 — SKILLS WORKSHOP 3 (leasehold estates) — PRACTICE EXERCISE 3 DUE",
-   "course": "Property",
-   "date": "2026-10-14",
-   "session": 25,
-   "reading": "Skills Workshop 3 (leasehold estates). PRACTICE EXERCISE 3 DUE.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-25-SKILLS-WORKSHOP-3-leasehold-estates-PRACTICE-EXERCISE-3-DUE-3c6063496baf81c5818bd18eb0e08cf5"
-  },
   {
    "title": "Youth Justice 9 — Police in Schools and School to Prison Pipeline",
    "course": "Youth Justice",
@@ -166,7 +156,7 @@
    "date": "2026-10-15",
    "session": 26,
    "reading": "Read 335-40 (§3 through note 1); 557-66 (through note 3(c)).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-26-Prescriptive-easements-easements-by-estoppel-3c6063496baf81daab64cc05761b8dd3"
   },
@@ -199,6 +189,16 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-27-Easements-implied-by-prior-use-by-necessity-modifying-and-terminating-3c6063496baf81b2a23bc6b83c33ae54"
+  },
+  {
+   "title": "Evidence 17 — Other Uses of Specific Conduct",
+   "course": "Evidence",
+   "date": "2026-10-19",
+   "session": 17,
+   "reading": "CB 306-328. Huddleston v. U.S. F.R.E. 404(b). C.E.C. 1101(b). No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-17-Other-Uses-of-Specific-Conduct-3c6063496baf8160b66cd7f52561e21b"
   }
  ],
  "walkHome": [
@@ -573,11 +573,6 @@
    "title": "Minjak v. Randolph",
    "course": "Property",
    "url": "https://app.notion.com/p/Minjak-v-Randolph-3c6063496baf8160aaa3ff60f2df6181"
-  },
-  {
-   "title": "Nome 2000 v. Fagerstrom",
-   "course": "Property",
-   "url": "https://app.notion.com/p/Nome-2000-v-Fagerstrom-3c6063496baf8176bcb0c9a322a85970"
   },
   {
    "title": "State v. Mann",
@@ -1144,15 +1139,6 @@
  ],
  "weather": [
   {
-   "title": "Practice Exercise 3",
-   "course": "Property",
-   "due": "2026-10-14",
-   "type": "graded",
-   "weight": "3 points (completion)",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Practice-Exercise-3-3c6063496baf815dbf78d7fe2413561f"
-  },
-  {
    "title": "Research Midterm (in class)",
    "course": "LRW",
    "due": "2026-10-16",
@@ -1232,18 +1218,18 @@
    "weight": "3 points (completion)",
    "overdue": false,
    "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
+  },
+  {
+   "title": "Negotiation feedback to counterpart — Sanchez v. Ace Auto (Neg 8, graded)",
+   "course": "Negotiations",
+   "due": "2026-11-07",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Sanchez-v-Ace-Auto-Neg-8-graded-3db063496baf817ab705e07e9da821f6"
   }
  ],
  "longHaul": [
-  {
-   "title": "Practice Exercise 3",
-   "course": "Property",
-   "due": "2026-10-14",
-   "type": "graded",
-   "weight": "3 points (completion)",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Practice-Exercise-3-3c6063496baf815dbf78d7fe2413561f"
-  },
   {
    "title": "Research Midterm (in class)",
    "course": "LRW",
@@ -1288,16 +1274,25 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Citation-Problem-Set-4-3c6063496baf81ba8eddd6cdfae75747"
+  },
+  {
+   "title": "Fundamental Alteration Office Memo",
+   "course": "LRW",
+   "due": "2026-11-02",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Fundamental-Alteration-Office-Memo-3c6063496baf8112b580fed5c128e980"
   }
  ],
  "counts": {
-  "open": 26,
+  "open": 23,
   "overdue": 0,
-  "dueSoon": 4,
-  "graded": 18,
+  "dueSoon": 3,
+  "graded": 17,
   "unmerged": 42,
   "courses": 5,
-  "cases": 121,
+  "cases": 120,
   "reserve": 45
  },
  "courses": [
