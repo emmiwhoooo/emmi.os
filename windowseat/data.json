@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T00:05:23+00:00",
+ "generated": "2026-10-15T04:30:46+00:00",
  "today": "2026-10-14",
  "term": {
   "week": 9,
@@ -8,14 +8,52 @@
   "end": "2026-12-02",
   "daysToFinals": 49
  },
- "sky": null,
+ "sky": {
+  "days": [
+   {
+    "date": "2026-10-14",
+    "code": 2,
+    "high": 76.4,
+    "low": 47.7,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-15",
+    "code": 0,
+    "high": 84.7,
+    "low": 51.3,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-16",
+    "code": 0,
+    "high": 89.6,
+    "low": 52.8,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-17",
+    "code": 0,
+    "high": 87.0,
+    "low": 56.7,
+    "rainMax": 0
+   }
+  ],
+  "code": 0,
+  "dayCode": 2,
+  "temp": 57.8,
+  "high": 76.4,
+  "low": 47.7,
+  "rainMax": 0,
+  "wetUntil": null
+ },
  "player": {
   "level": 49,
   "xp": 0,
-  "toNext": 95,
+  "toNext": 15,
   "gold": 155,
   "rank": "lvl 49",
-  "next": "95 xp to lvl 50"
+  "next": "15 xp to lvl 50"
  },
  "quests": {
   "run": 0,
@@ -1269,7 +1307,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "weather: The read operation timed out"
- ]
+ "errors": []
 }
