@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T16:49:10+00:00",
+ "generated": "2026-10-16T19:45:19+00:00",
  "today": "2026-10-16",
  "term": {
   "week": 9,
@@ -13,37 +13,37 @@
    {
     "date": "2026-10-16",
     "code": 0,
-    "high": 83.9,
-    "low": 51.7,
+    "high": 83.7,
+    "low": 52.2,
     "rainMax": 0
    },
    {
     "date": "2026-10-17",
     "code": 1,
     "high": 81.7,
-    "low": 53.3,
+    "low": 53.7,
     "rainMax": 0
    },
    {
     "date": "2026-10-18",
     "code": 3,
-    "high": 67.0,
-    "low": 53.9,
+    "high": 66.6,
+    "low": 54.7,
     "rainMax": 0
    },
    {
     "date": "2026-10-19",
     "code": 3,
     "high": 62.5,
-    "low": 50.7,
+    "low": 50.8,
     "rainMax": 4
    }
   ],
   "code": 0,
   "dayCode": 0,
-  "temp": 65.5,
-  "high": 83.9,
-  "low": 51.7,
+  "temp": 78.1,
+  "high": 83.7,
+  "low": 52.2,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -156,7 +156,7 @@
    "date": "2026-10-16",
    "session": 18,
    "reading": "Research Midterm in class. After: FA Case List due Sun Oct 18 10pm; sign up for 20-min case-presentation meeting (12 points).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-18-RESEARCH-MIDTERM-3c6063496baf818aab7dd5e39e99649a"
   },
@@ -218,7 +218,7 @@
    "date": "2026-10-16",
    "session": 18,
    "reading": "Research Midterm in class. After: FA Case List due Sun Oct 18 10pm; sign up for 20-min case-presentation meeting (12 points).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-18-RESEARCH-MIDTERM-3c6063496baf818aab7dd5e39e99649a"
   },
@@ -610,9 +610,9 @@
    "url": "https://app.notion.com/p/Ernst-v-Conditt-3c6063496baf81079734e7f5dc68afcb"
   },
   {
-   "title": "Granite Properties v. Manns",
+   "title": "Granite Properties v. Mann",
    "course": "Property",
-   "url": "https://app.notion.com/p/Granite-Properties-v-Manns-3c6063496baf810eb7c8f511b364fedd"
+   "url": "https://app.notion.com/p/Granite-Properties-v-Mann-3c6063496baf810eb7c8f511b364fedd"
   },
   {
    "title": "South Burlington County NAACP v. Township of Mount Laurel",
@@ -1259,15 +1259,6 @@
  ],
  "weather": [
   {
-   "title": "Research Midterm (in class)",
-   "course": "LRW",
-   "due": "2026-10-16",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Research-Midterm-in-class-3c6063496baf811ea8d9ec44466fbd21"
-  },
-  {
    "title": "Negotiation feedback to counterpart — Gossett v. Bacchus (Neg 7)",
    "course": "Negotiations",
    "due": "2026-10-17",
@@ -1347,18 +1338,18 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Sanchez-v-Ace-Auto-Neg-8-graded-3db063496baf817ab705e07e9da821f6"
+  },
+  {
+   "title": "Reflection 3 (Classes 9-12)",
+   "course": "Youth Justice",
+   "due": "2026-11-10",
+   "type": "graded",
+   "weight": "10 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reflection-3-Classes-9-12-3c6063496baf811ea013d6fde4bceb53"
   }
  ],
  "longHaul": [
-  {
-   "title": "Research Midterm (in class)",
-   "course": "LRW",
-   "due": "2026-10-16",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Research-Midterm-in-class-3c6063496baf811ea8d9ec44466fbd21"
-  },
   {
    "title": "Fundamental Alteration Case List",
    "course": "LRW",
@@ -1403,13 +1394,22 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Fundamental-Alteration-Office-Memo-3c6063496baf8112b580fed5c128e980"
+  },
+  {
+   "title": "In limine argument — IL 8 (Evidence 21, Mon Nov 2)",
+   "course": "Evidence",
+   "due": "2026-11-02",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
   }
  ],
  "counts": {
-  "open": 23,
+  "open": 22,
   "overdue": 0,
-  "dueSoon": 4,
-  "graded": 17,
+  "dueSoon": 3,
+  "graded": 16,
   "unmerged": 44,
   "courses": 5,
   "cases": 120,
