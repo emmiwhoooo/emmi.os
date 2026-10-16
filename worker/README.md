@@ -6,11 +6,11 @@ does only these five things:
 
 | action   | what it writes |
 |---|---|
-| `mood`   | tonight's **Daily Log v6** row: `Mood` and `Mood note` (creates the row if the evening job hasn't yet), then claims 🌙 log tonight's mood |
+| `mood`   | a new **⋆ mood log ⋆** entry (`mood`, `date`, and the note as its title), then marks 🌙 log tonight's mood done |
 | `prep`   | `✓ prepped` on a class session |
 | `done`   | `✓ done` on an assignment, and stamps `Submitted` with today |
 | `merged` | a class session's `Status`, from `not merged` to `notes clean` |
-| `quest`  | claims a quest: `status`, `last done`, `total completions`, `streak`, and `done tonight` for night quests |
+| `quest`  | marks a quest done: `status` → `done today`, plus `done tonight` for night quests. Same as the Done button. |
 
 Two locks:
 
@@ -18,8 +18,15 @@ Two locks:
 - Every page is checked against the database its action is for, so even with
   the passphrase it can't touch any other page in the workspace.
 
-Days use the page's rule: Pacific time, and anything before 5am belongs to the
-night before.
+Days use the same rule as the 🌅 dawn pass: Pacific time, and anything before
+6am belongs to the night before.
+
+**Quests are marked done, never credited.** The dawn pass (6am) is the only
+thing that writes `streak`, `total completions` and `last done`. It credits
+every quest whose status is `done today` or whose `done tonight` is checked,
+then resets both. The Worker sets exactly those two fields, like the Done
+button does, so a claim from night shift and a tap in Notion count the same
+way, and only once.
 
 ## Set it up (about 5 minutes, no terminal)
 
@@ -37,7 +44,7 @@ night before.
 6. On night shift, click **connect to notion** (bottom of the page), then paste
    the address and the passphrase.
 
-**In Notion,** the integration must be connected to **Daily Log v6**. Open it,
+**In Notion,** the integration must be connected to **⋆ mood log ⋆**. Open it,
 then **••• → Connections → add your integration**. It already has the other
 three databases, because the refresh reads them. It also needs **update** and
 **insert** content capabilities (notion.so/my-integrations → your integration
@@ -59,18 +66,12 @@ node worker/test.mjs
 ```
 
 This runs every action against a fake Notion. It checks the passphrase, the
-database check, the streak (it continues from yesterday, resets after a missed
-night, and doesn't double-count a second claim the same night), and creating
-a Daily Log row.
+database check, the 6am cutover, that a mood creates a mood log entry, and
+that claiming a quest marks it done without touching streak, completions or
+last done.
 
 ## Known limits
 
-- **The Done button can't be pressed through the API.** `quest` repeats what
-  the button visibly changes. If the button also does something else (a
-  relation, another field), that part won't happen from night shift.
-- **A duplicate log row is possible.** If you log a mood before the evening
-  job has made the night's Daily Log row, the Worker makes one. If that job
-  then creates its own row anyway, you'll have two for the day.
 - **data.json lags.** It refreshes every ~15 minutes. The page remembers each
   write in this browser and shows it until a newer refresh lands, so nothing
   appears to undo itself in the meantime.

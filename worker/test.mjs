@@ -2,18 +2,19 @@
 // The sandbox that built this cannot reach api.notion.com, so every Notion
 // call here is answered from the in-memory pages below and recorded.
 import assert from "node:assert/strict";
-import worker, { shiftDay, dayTitle } from "./src/index.js";
+import worker, { shiftDay } from "./src/index.js";
 
 const DB = { classes: "8ee2ec9a-796b-4bdd-a1ed-287177f1a100", quests: "aef1c9cc-f5ce-43d2-b4de-a4d43c85a28d",
-             daily: "3b4d2a37-62bd-4c82-9e06-faa24f6f96be", assignments: "0c795daa-579d-460e-845e-4d53afcc1290" };
+             moods: "c10062d0-f683-426f-bfbb-9b22488a4e3d", assignments: "0c795daa-579d-460e-845e-4d53afcc1290" };
 const env = { NOTION_TOKEN: "secret_x", SHIFT_KEY: "moonlight" };
 let pages, calls;
 
-function reset(lastDone) {
+function reset(status = "not started") {
   calls = [];
   pages = {
     "3c9063496baf8170916afde6a010d939": { id: "3c906349-6baf-8170-916a-fde6a010d939", parent: { database_id: DB.quests },
-      properties: { "last done": { date: { start: lastDone } }, kind: { select: { name: "daily" } },
+      properties: { status: { select: { name: status } }, "done tonight": { checkbox: false },
+        "last done": { date: { start: "2026-10-14" } }, kind: { select: { name: "daily" } },
         "time of day": { select: { name: "night" } }, streak: { number: 3 }, "total completions": { number: 6 },
         "gold per completion": { number: 5 }, locked: { checkbox: false } } },
     "11111111111111111111111111111111": { id: "11111111-1111-1111-1111-111111111111", parent: { database_id: DB.classes }, properties: {} },
@@ -42,14 +43,14 @@ const req = (body, key = "moonlight") => worker.fetch(new Request("https://w.dev
   method: "POST", headers: { "x-shift-key": key, Origin: "https://emmiwhoooo.github.io" }, body: JSON.stringify(body) }), env);
 const json = async r => ({ status: r.status, ...(await r.json()) });
 
-// --- dates
+// --- dates: 6am Pacific is the cutover, same as the dawn pass
 assert.equal(shiftDay(new Date("2026-10-16T08:30:00Z")), "2026-10-15");   // 1:30am PDT -> still the 15th
+assert.equal(shiftDay(new Date("2026-10-16T12:30:00Z")), "2026-10-15");   // 5:30am PDT -> still the 15th
 assert.equal(shiftDay(new Date("2026-10-16T04:30:00Z")), "2026-10-15");   // 9:30pm PDT
-assert.equal(shiftDay(new Date("2026-10-16T13:00:00Z")), "2026-10-16");   // 6am PDT
-assert.equal(dayTitle("2026-10-15"), "Thu, Oct 15");
+assert.equal(shiftDay(new Date("2026-10-16T13:30:00Z")), "2026-10-16");   // 6:30am PDT
 
 // --- the passphrase
-reset("2026-01-01");
+reset();
 let r = await json(await req({ action: "prep", id: "11111111111111111111111111111111", value: true }, "nope"));
 assert.equal(r.status, 401); assert.equal(calls.length, 0, "no notion call without the passphrase");
 
@@ -61,7 +62,7 @@ r = await json(await req({ action: "prep", id: "11111111-1111-1111-1111-11111111
 assert.equal(r.status, 200); assert.equal(pages["11111111111111111111111111111111"].properties["✓ prepped"].checkbox, true);
 
 // --- a page from some other database is refused before any write
-reset("2026-01-01");
+reset();
 r = await json(await req({ action: "prep", id: "22222222222222222222222222222222", value: true }));
 assert.equal(r.status, 403); assert.ok(!calls.some(c => c.method === "PATCH"));
 
@@ -69,28 +70,34 @@ assert.equal(r.status, 403); assert.ok(!calls.some(c => c.method === "PATCH"));
 r = await json(await req({ action: "quest", id: "11111111111111111111111111111111" }));
 assert.equal(r.status, 403);
 
-// --- mood: creates the row, claims the quest, streak continues from yesterday
-const day = shiftDay();
-reset(new Date(Date.parse(day) - 864e5).toISOString().slice(0, 10));
-r = await json(await req({ action: "mood", mood: "good", note: "long day, good one" }));
+// --- mood: a new mood log entry, then the quest MARKED done — never credited.
+// The dawn pass owns streak / total completions / last done; touching them here
+// would double-count every night.
+reset();
+r = await json(await req({ action: "mood", mood: "🌙 quiet", note: "long day, good one" }));
 assert.equal(r.status, 200, JSON.stringify(r));
 const created = calls.find(c => c.path === "/pages" && c.method === "POST");
-assert.equal(created.body.properties.Mood.select.name, "good");
-assert.equal(created.body.properties.Date.date.start, day);
+assert.equal(created.body.parent.database_id, DB.moods.replace(/-/g, ""));
+assert.equal(created.body.properties.mood.select.name, "🌙 quiet");
+assert.equal(created.body.properties.Name.title[0].text.content, "long day, good one");
+assert.equal(created.body.properties.date.date.start, shiftDay());
 const q = pages["3c9063496baf8170916afde6a010d939"].properties;
-assert.equal(q.streak.number, 4); assert.equal(q["total completions"].number, 7);
-assert.equal(q["done tonight"].checkbox, true); assert.equal(q.status.select.name, "done today");
+assert.equal(q.status.select.name, "done today"); assert.equal(q["done tonight"].checkbox, true);
+assert.equal(q.streak.number, 3, "streak untouched");
+assert.equal(q["total completions"].number, 6, "completions untouched");
+assert.equal(q["last done"].date.start, "2026-10-14", "last done untouched");
 
-// --- claiming twice the same night does not double-count
+// --- claiming again before the dawn pass is a no-op
+const before = calls.length;
 r = await json(await req({ action: "quest", id: "3c9063496baf8170916afde6a010d939" }));
-assert.equal(r.already, true); assert.equal(q["total completions"].number, 7);
+assert.equal(r.already, true); assert.ok(!calls.slice(before).some(c => c.method === "PATCH"));
 
-// --- a missed night resets the streak to 1
-reset("2026-01-01");
-await req({ action: "quest", id: "3c9063496baf8170916afde6a010d939" });
-assert.equal(pages["3c9063496baf8170916afde6a010d939"].properties.streak.number, 1);
+// --- a quest already marked done in Notion counts as claimed
+reset("done today");
+r = await json(await req({ action: "quest", id: "3c9063496baf8170916afde6a010d939" }));
+assert.equal(r.already, true);
 
-// --- bad mood value
-r = await json(await req({ action: "mood", mood: "ecstatic" })); assert.equal(r.status, 400);
+// --- moods outside the log's own options are refused
+r = await json(await req({ action: "mood", mood: "great" })); assert.equal(r.status, 400);
 
 console.log("worker: all checks passed");

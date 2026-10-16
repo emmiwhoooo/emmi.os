@@ -228,15 +228,14 @@ h1 .sp{vertical-align:baseline;margin-left:10px;filter:drop-shadow(0 0 8px rgba(
 .sheet textarea{min-height:84px;resize:vertical}
 .sheet .row-end{display:flex;justify-content:flex-end;gap:10px;align-items:center}
 .sheet .fine{color:var(--dim);font-size:.8rem;margin:0 0 12px;line-height:1.45}
-/* five moons, new to full — the mood is how much of it is lit */
-.moods{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:0 0 14px}
+/* the mood log's eight, as a 4x2 grid; the picked one lights up */
+.moods{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:0 0 14px}
 .mood-opt{appearance:none;cursor:pointer;background:var(--sunk);border:2px solid var(--edge);color:var(--dim);
   padding:10px 2px 7px;display:flex;flex-direction:column;align-items:center;gap:7px;font-family:var(--tv-face);font-size:1.05rem;letter-spacing:.04em}
 .mood-opt:hover{border-color:var(--edge2);color:var(--ink)}
 .mood-opt[aria-checked="true"]{border-color:var(--moon);color:var(--moon);background:linear-gradient(rgba(236,230,198,.07),rgba(236,230,198,.07)),var(--sunk)}
-.phase{width:26px;height:26px;border-radius:50%;background:#1C2238;box-shadow:inset 0 0 0 2px #2E3654;position:relative;overflow:hidden}
-.phase i{position:absolute;inset:0;border-radius:50%;background:var(--moon)}
-.mood-opt[aria-checked="true"] .phase{filter:drop-shadow(0 0 6px rgba(236,230,198,.55))}
+.mood-opt .em{font-size:1.5rem;line-height:1;filter:grayscale(.55) brightness(.85)}
+.mood-opt[aria-checked="true"] .em{filter:drop-shadow(0 0 6px rgba(236,230,198,.5))}
 
 .toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:30;max-width:calc(100% - 32px);
   font-family:var(--tv-face);font-size:1.15rem;letter-spacing:.04em;padding:8px 14px;background:var(--scr);color:var(--phos);
@@ -406,14 +405,14 @@ body.hero-only .wrap{padding-bottom:8px}
   </footer>
 </div>
 
-<!-- the mood sheet. Writes tonight's Daily Log row and claims the mood quest. -->
+<!-- the mood sheet. Adds a ⋆ mood log ⋆ entry and marks the mood quest done. -->
 <div class="scrim" id="m-mood" hidden>
   <form class="sheet" role="dialog" aria-modal="true" aria-labelledby="m-mood-h" id="f-mood">
     <h2 id="m-mood-h"><svg class="sp" width="16" height="16"><use href="#px-moon"/></svg> TONIGHT'S MOOD
       <button type="button" class="btn ghost x" data-close>close</button></h2>
     <div class="in">
       <div class="moods" role="radiogroup" aria-label="Mood" id="n-moods"></div>
-      <label for="n-mood-note">a line about tonight <span style="text-transform:none">(optional)</span></label>
+      <label for="n-mood-note">a line about tonight <span style="text-transform:none">(optional, becomes the entry's title)</span></label>
       <textarea id="n-mood-note" maxlength="1800" placeholder="what made it that"></textarea>
       <div class="row-end"><span class="fine" id="n-mood-day" style="margin:0 auto 0 0"></span>
         <button type="submit" class="btn big" id="n-mood-go"><svg class="sp" width="16" height="16"><use href="#px-moon"/></svg>log it</button></div>
@@ -465,7 +464,8 @@ body.hero-only .wrap{padding-bottom:8px}
   var DOWL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   var NUMS = ['no','one','two','three','four','five','six','seven','eight','nine','ten'];
-  var MOODS = ['rough','low','okay','good','great'];
+  // the ⋆ mood log ⋆'s own options, exactly as Notion spells them
+  var MOODS = ['🌸 soft','✨ good','⚡ wired','🎐 drifting','🌙 quiet','💤 idling','🌧 heavy','🔥 stressed'];
   var MOOD_QUEST = '3c9063496baf8170916afde6a010d939';
 
   function $(id){ return document.getElementById(id); }
@@ -506,13 +506,13 @@ body.hero-only .wrap{padding-bottom:8px}
   function short(iso){ var p = iso.split('-'); return MON[+p[1]-1] + ' ' + (+p[2]); }
 
   /* The shift. Past midnight is still the same night: at 1am the work is for
-     the day that has just started, not the one after it. Five is the cutover —
-     a page opened at 6am is a morning check, and morning has its own skin.
-     The worker uses the same cutover, so the mood lands on the same day. */
+     the day that has just started, not the one after it. Six is the cutover —
+     the hour the 🌅 dawn pass closes the day. The worker uses it too, so a mood
+     logged at 2am lands on the night it belongs to. */
   function shift(){
     var n = parts(new Date());
-    var target = n.h < 5 ? n.iso : addDays(n.iso, 1);
-    return {now: n, today: n.iso, target: target, late: n.h < 5, night: n.h < 5 ? addDays(n.iso, -1) : n.iso};
+    var late = n.h < 6;
+    return {now: n, today: n.iso, target: late ? n.iso : addDays(n.iso, 1), late: late, night: late ? addDays(n.iso, -1) : n.iso};
   }
   function dayWord(iso, s){
     if (iso === s.today) return 'today';
@@ -541,7 +541,7 @@ body.hero-only .wrap{padding-bottom:8px}
     $('n-clock').innerHTML = (h12 < 10 ? '&nbsp;' : '') + h12 + '<span class="colon">:</span>' +
       (n.m < 10 ? '0' : '') + n.m + '<span class="ap">' + (n.h < 12 ? 'AM' : 'PM') + '</span>';
     $('n-scr-date').textContent = DOW[dowOf(n.iso)].toUpperCase() + ' ' + short(n.iso).toUpperCase();
-    var sub = n.h < 5 ? 'past midnight' : n.h < 12 ? 'off shift' : n.h < 18 ? 'before the shift' : 'on shift';
+    var sub = n.h < 6 ? 'past midnight' : n.h < 12 ? 'off shift' : n.h < 18 ? 'before the shift' : 'on shift';
     $('n-scr-sub').textContent = sub;
   }
   tick(); setInterval(tick, 15000);
@@ -703,23 +703,24 @@ body.hero-only .wrap{padding-bottom:8px}
     if (a === 'merged') act(b, 'merged', id, true, {action: 'merged', id: id},
       function(){ return 'merged · notes clean'; });
     if (a === 'quest') act(b, 'quest', id, true, {action: 'quest', id: id},
-      function(j){ return j.already ? 'already claimed tonight' : 'claimed · +' + (j.gold || 0) + 'g' + (j.streak ? ' · ' + j.streak + ' day streak' : ''); });
+      function(j){ return j.already ? 'already marked done' : 'done · +' + (j.gold || 0) + 'g at the dawn pass'; });
   });
 
   /* ---- the mood sheet ---- */
   var chosen = null;
   (function buildMoods(){
-    $('n-moods').innerHTML = MOODS.map(function(m, i){
-      // how much of the moon is lit: none for rough, all of it for great
-      var off = (1 - i / 4) * 100;
-      return '<button type="button" class="mood-opt" role="radio" aria-checked="false" data-mood="' + m + '">' +
-        '<span class="phase">' + (i ? '<i style="transform:translateX(' + off.toFixed(0) + '%)"></i>' : '') + '</span>' + m + '</button>';
+    $('n-moods').innerHTML = MOODS.map(function(m){
+      var i = m.indexOf(' ');
+      return '<button type="button" class="mood-opt" role="radio" aria-checked="false" data-mood="' + esc(m) + '">' +
+        '<span class="em" aria-hidden="true">' + m.slice(0, i) + '</span>' + esc(m.slice(i + 1)) + '</button>';
     }).join('');
     $('n-moods').addEventListener('click', function(e){
       var b = e.target.closest('.mood-opt'); if (!b) return; pick(b.getAttribute('data-mood'));
     });
     $('n-moods').addEventListener('keydown', function(e){
-      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft' && e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { var j = Math.max(0, MOODS.indexOf(chosen)) + (e.key === 'ArrowDown' ? 4 : -4);
+        pick(MOODS[(j + MOODS.length) % MOODS.length]); e.preventDefault(); return; }
       var i = Math.max(0, MOODS.indexOf(chosen)) + (e.key === 'ArrowRight' ? 1 : -1);
       pick(MOODS[(i + MOODS.length) % MOODS.length]); e.preventDefault();
     });
@@ -728,7 +729,7 @@ body.hero-only .wrap{padding-bottom:8px}
     chosen = m;
     Array.prototype.forEach.call($('n-moods').children, function(b){
       var on = b.getAttribute('data-mood') === m;
-      b.setAttribute('aria-checked', on); b.tabIndex = on || (!m && b === $('n-moods').children[2]) ? 0 : -1;
+      b.setAttribute('aria-checked', on); b.tabIndex = on ? 0 : -1;
       if (on) b.focus();
     });
   }
@@ -736,21 +737,21 @@ body.hero-only .wrap{padding-bottom:8px}
     var s = shift();
     $('n-mood-day').textContent = 'for ' + DOW[dowOf(s.night)].toLowerCase() + ' ' + short(s.night).toLowerCase();
     chosen = null;
-    Array.prototype.forEach.call($('n-moods').children, function(b, i){ b.setAttribute('aria-checked', 'false'); b.tabIndex = i === 2 ? 0 : -1; });
+    Array.prototype.forEach.call($('n-moods').children, function(b, i){ b.setAttribute('aria-checked', 'false'); b.tabIndex = i === 0 ? 0 : -1; });
     if (!needConn(openMood)) return;
     openSheet('m-mood');
-    $('n-moods').children[2].focus();
+    $('n-moods').children[0].focus();
   }
   $('f-mood').addEventListener('submit', function(e){
     e.preventDefault();
-    if (!chosen) { toast('pick a moon first', true); return; }
+    if (!chosen) { toast('pick a mood first', true); return; }
     var go = $('n-mood-go'), note = $('n-mood-note').value.trim(), mood = chosen;
     go.disabled = true;
     post({action: 'mood', mood: mood, note: note}).then(function(j){
       remember('quest:' + MOOD_QUEST, true); rerender();
       $('n-mood-note').value = '';
       closeSheet($('m-mood'));
-      toast('logged · ' + mood + (j.already ? '' : ' · +' + (j.gold || 0) + 'g') + (j.streak ? ' · ' + j.streak + ' day streak' : ''));
+      toast('logged · ' + mood + (j.already ? '' : ' · +' + (j.gold || 0) + 'g at the dawn pass'));
     }).catch(function(err){
       toast('not saved · ' + err.message, true);
       if (/passphrase/.test(err.message)) { closeSheet($('m-mood')); needConn(openMood); }

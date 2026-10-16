@@ -50,9 +50,10 @@ does not reach is drawn hatched and marked **not loaded**, never as an empty day
 
 ## The shift
 
-Past midnight is the same night. Before 5am Pacific, the day being prepped for is
-*today*. From 5am on it is *tomorrow*. Every day boundary is Pacific, as in the
-window seat.
+Past midnight is the same night. Before 6am Pacific, the day being prepped for is
+*today*. From 6am on it is *tomorrow*. Six is when the 🌅 dawn pass closes the
+day, so the page, the Worker and the dawn pass all agree about which night a
+thing belongs to.
 
 ## Type
 

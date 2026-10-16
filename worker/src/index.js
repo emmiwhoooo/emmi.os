@@ -26,18 +26,17 @@ const DB = {
   classes:     "8ee2ec9a796b4bdda1ed287177f1a100",   // Class Notes v6
   assignments: "0c795daa579d460e845e4d53afcc1290",   // Assignments v6
   quests:      "aef1c9ccf5ce43d2b4dea4d43c85a28d",   // ⋆ q u e s t s ⋆
-  daily:       "3b4d2a3762bd4c829e06faa24f6f96be",   // Daily Log v6
+  moods:       "c10062d0f683426fbfbb9b22488a4e3d",   // ⋆ m o o d  l o g ⋆
 };
 const MOOD_QUEST = "3c9063496baf8170916afde6a010d939"; // 🌙 log tonight's mood
-const MOODS = ["rough", "low", "okay", "good", "great"];
+// the mood log's own options, exactly as Notion spells them
+const MOODS = ["🌸 soft", "⚡ wired", "🌙 quiet", "🌧 heavy", "✨ good", "🔥 stressed", "🎐 drifting", "💤 idling"];
 
 // CORS only decides which browsers may READ the reply. It is not the lock —
 // the passphrase is — but there is no reason to answer anyone else.
 const ORIGINS = ["https://emmiwhoooo.github.io", "http://localhost:8765"];
 
 const TZ = "America/Los_Angeles";
-const DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 class Fail extends Error {
   constructor(status, msg) { super(msg); this.status = status; }
@@ -55,16 +54,12 @@ function addDays(iso, n) {
   const [y, m, d] = iso.split("-").map(Number);
   return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);
 }
-/* Logging the mood at 1am is still logging the night before. Same 5am
-   cutover the page uses, so the two never disagree about which day it is. */
+/* Logging the mood at 1am is still logging the night before. 6am is the
+   cutover the dawn pass closes the day on, and the page uses it too, so all
+   three agree about which day a thing belongs to. */
 export function shiftDay(now = new Date()) {
   const p = pacific(now);
-  return p.h < 5 ? addDays(p.iso, -1) : p.iso;
-}
-export function dayTitle(iso) {
-  const [y, m, d] = iso.split("-").map(Number);
-  const dt = new Date(Date.UTC(y, m - 1, d));
-  return `${DOW[dt.getUTCDay()]}, ${MON[m - 1]} ${d}`;   // "Thu, Oct 15", as the log names its rows
+  return p.h < 6 ? addDays(p.iso, -1) : p.iso;
 }
 
 /* ---------------- notion ---------------- */
@@ -101,33 +96,21 @@ async function guard(env, id, db) {
 const prop = (page, name) => (page.properties || {})[name] || {};
 const set = (env, id, properties) => notion(env, "PATCH", "/pages/" + hex(id), { properties });
 
-/* Claiming a quest by hand in Notion goes through its Done button, which the
-   API cannot press. This does what that button's results show it doing:
-   status, last done, total completions, the streak, and done tonight for a
-   night quest. Gold and xp are formulas over those, so they follow. */
-async function completeQuest(env, page, day) {
+/* Claiming a quest marks it done, exactly as the Done button and the
+   "done tonight" checkbox do, and nothing more. The 🌅 dawn pass (6am) is the
+   ONLY writer of streak, total completions and last done: it credits any quest
+   whose status is "done today" or whose "done tonight" is checked, then resets
+   both. Crediting here as well would count every claim twice. */
+async function markQuestDone(env, page) {
   if (prop(page, "locked").checkbox) throw new Fail(409, "that quest is still locked");
-  const last = ((prop(page, "last done").date || {}).start || "").slice(0, 10);
-  const kind = (prop(page, "kind").select || {}).name;
   const when = (prop(page, "time of day").select || {}).name;
-  const streak = prop(page, "streak").number || 0;
-  const total = prop(page, "total completions").number || 0;
   const gold = prop(page, "gold per completion").number || 0;
-  if (last === day) return { already: true, streak, gold: 0 };
-
-  let next = streak;
-  if (kind === "daily") next = last === addDays(day, -1) ? streak + 1 : 1;
-  else if (kind === "weekly") next = last && last >= addDays(day, -13) ? streak + 1 : 1;
-
-  const properties = {
-    "status": { select: { name: "done today" } },
-    "last done": { date: { start: day } },
-    "total completions": { number: total + 1 },
-    "streak": { number: next },
-  };
+  const status = (prop(page, "status").select || {}).name;
+  if (status === "done today" || prop(page, "done tonight").checkbox) return { already: true, gold: 0 };
+  const properties = { "status": { select: { name: "done today" } } };
   if (when === "night") properties["done tonight"] = { checkbox: true };
   await set(env, page.id, properties);
-  return { already: false, streak: next, gold };
+  return { already: false, gold };
 }
 
 /* ---------------- actions ---------------- */
@@ -158,27 +141,24 @@ const ACTIONS = {
   },
 
   async quest(env, b) {
-    const page = await guard(env, b.id, "quests");
-    return completeQuest(env, page, shiftDay());
+    return markQuestDone(env, await guard(env, b.id, "quests"));
   },
 
-  /* Tonight's mood onto tonight's Daily Log row (made if the evening job has
-     not made it yet), then the mood quest claimed. */
+  /* A new ⋆ mood log ⋆ entry for tonight (the note is its title, as the log's
+     "@Today" template leaves it), then the mood quest marked done. */
   async mood(env, b) {
     if (!MOODS.includes(b.mood)) throw new Fail(400, "mood must be one of " + MOODS.join(", "));
     const note = String(b.note || "").slice(0, 1800);
     const day = shiftDay();
-    const found = await notion(env, "POST", `/databases/${DB.daily}/query`,
-      { filter: { property: "Date", date: { equals: day } }, page_size: 1 });
-    let row = found.results && found.results[0];
-    const mood = { "Mood": { select: { name: b.mood } },
-                   "Mood note": { rich_text: note ? [{ text: { content: note } }] : [] } };
-    if (row) await set(env, row.id, mood);
-    else row = await notion(env, "POST", "/pages", { parent: { database_id: DB.daily }, properties: {
-      "Name": { title: [{ text: { content: dayTitle(day) } }] },
-      "Date": { date: { start: day } }, ...mood } });
-    const quest = await guard(env, MOOD_QUEST, "quests");
-    const q = await completeQuest(env, quest, day);
+    const row = await notion(env, "POST", "/pages", {
+      parent: { database_id: DB.moods },
+      icon: { type: "emoji", emoji: "💭" },
+      properties: {
+        "Name": { title: note ? [{ text: { content: note } }] : [] },
+        "date": { date: { start: day } },
+        "mood": { select: { name: b.mood } },
+      } });
+    const q = await markQuestDone(env, await guard(env, MOOD_QUEST, "quests"));
     return { day, row: row.url, ...q };
   },
 };
