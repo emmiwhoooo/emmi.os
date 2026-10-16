@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T12:22:03+00:00",
+ "generated": "2026-10-16T16:49:10+00:00",
  "today": "2026-10-16",
  "term": {
   "week": 9,
@@ -12,16 +12,16 @@
   "days": [
    {
     "date": "2026-10-16",
-    "code": 1,
-    "high": 84.9,
-    "low": 52.9,
+    "code": 0,
+    "high": 83.9,
+    "low": 51.7,
     "rainMax": 0
    },
    {
     "date": "2026-10-17",
-    "code": 0,
-    "high": 81.3,
-    "low": 52.2,
+    "code": 1,
+    "high": 81.7,
+    "low": 53.3,
     "rainMax": 0
    },
    {
@@ -36,18 +36,25 @@
     "code": 3,
     "high": 62.5,
     "low": 50.7,
-    "rainMax": 3
+    "rainMax": 4
    }
   ],
   "code": 0,
-  "dayCode": 1,
-  "temp": 53.7,
-  "high": 84.9,
-  "low": 52.9,
+  "dayCode": 0,
+  "temp": 65.5,
+  "high": 83.9,
+  "low": 51.7,
   "rainMax": 0,
   "wetUntil": null
  },
- "player": {},
+ "player": {
+  "level": 54,
+  "xp": 0,
+  "toNext": 30,
+  "gold": 155,
+  "rank": "lvl 54",
+  "next": "30 xp to lvl 55"
+ },
  "quests": {
   "run": 0,
   "unclaimed": 10,
@@ -1415,7 +1422,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "player: HTTP 500 {\"object\":\"error\",\"status\":500,\"code\":\"internal_server_error\",\"message\":\"Unexpected error occurred.\",\"request_id\":\"0ac72c71-3105-4840-beb5-da1562b8c804\"}"
- ]
+ "errors": []
 }
