@@ -5,7 +5,7 @@ One system, four skins. Each folder is a dashboard; `shared/` is what more than 
 ```
 savepoint/     dark, game
 windowseat/    daylight            ← live
-nightshift/    school, after dark
+nightshift/    school, after dark  ← live
 nook/          pastel              ← unbuilt
 shared/        widgets used by more than one
 ```
@@ -13,6 +13,10 @@ shared/        widgets used by more than one
 ## live
 
 **the window seat** — https://emmiwhoooo.github.io/emmi.os/windowseat/
+
+**night shift** — https://emmiwhoooo.github.io/emmi.os/nightshift/
+
+Reads the same `windowseat/data.json`. `nightshift/README.md` has the details.
 
 Add `?view=hero` for the embed variant: it hides every section marked `.below`,
 which is the part Notion still renders underneath. Migrating off Notion later is

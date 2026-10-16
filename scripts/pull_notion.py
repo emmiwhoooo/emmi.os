@@ -416,6 +416,19 @@ def main():
             "next":   formula_of(p, "✦ next"),
         }
 
+    # ---- night shift — the week ahead and the backlog by course ----
+    # "upcoming" stops at six sessions, which is about three class days: enough
+    # for the window seat's departures board, not enough for night shift's
+    # seven-day timecard, which would draw the back half of the week as empty
+    # when it was only unloaded. "ahead" is every session in the next eight
+    # days. "backlog" counts the whole walk-home list per course, where
+    # walkHome itself is capped at ten rows.
+    ahead_end = (today_pacific() + timedelta(days=8)).isoformat()
+    ahead = [s for s in sessions if s["date"] and s["date"] <= ahead_end][:24]
+    backlog = {}
+    for s in walk_home:
+        backlog[s["course"] or "other"] = backlog.get(s["course"] or "other", 0) + 1
+
     d = today_pacific()
     week = max(1, min(TERM_WEEKS, ((d - TERM_START).days // 7) + 1))
 
@@ -431,6 +444,9 @@ def main():
                         "dailies": dailies, "other": other_quests},
         "next":        sessions[0] if sessions else None,
         "upcoming":    sessions[:6],
+        "ahead":       ahead,
+        "aheadUntil":  ahead_end,
+        "backlog":     backlog,
         "walkHome":    walk_home[:10],
         "shelf":       shelf,
         "reserve":     reserve,
