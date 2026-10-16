@@ -188,6 +188,62 @@ h1 .sp{vertical-align:baseline;margin-left:10px;filter:drop-shadow(0 0 8px rgba(
 .foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;color:var(--dim);font-size:.8rem;padding-top:0}
 .foot .err{color:var(--rose)}
 
+/* ---------- the write side: buttons, the mood sheet, the toast ---------- */
+.btn{font-family:var(--tv-face);font-size:1.08rem;letter-spacing:.05em;line-height:1.1;color:var(--ink);cursor:pointer;
+  background:var(--sunk);border:2px solid var(--edge2);padding:4px 10px;white-space:nowrap;
+  box-shadow:0 3px 0 #070912}
+.btn:hover{border-color:var(--amber);color:var(--amber)}
+.btn:active{transform:translateY(2px);box-shadow:0 1px 0 #070912}
+.btn:focus-visible,.tick:focus-visible,.mood-opt:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.btn[disabled],.tick[disabled]{opacity:.55;cursor:progress}
+.btn.lit{color:var(--phos);border-color:rgba(127,224,168,.5)}
+.btn.due{color:var(--amber);border-color:rgba(242,182,90,.5)}
+.btn.big{font-size:1.25rem;padding:7px 14px;display:inline-flex;align-items:center;gap:9px}
+.btn.big .sp{filter:drop-shadow(0 0 6px rgba(236,230,198,.45))}
+.btn.ghost{background:none;border-color:transparent;box-shadow:none;color:var(--dim);padding:2px 4px;text-decoration:underline;text-underline-offset:3px}
+.btn.ghost:hover{color:var(--amber)}
+/* a lamp you can press: the status square is the checkbox */
+.tick{appearance:none;padding:0;margin:0;cursor:pointer;flex:none;width:18px;height:18px;border:2px solid var(--edge2);background:var(--sunk);
+  display:inline-grid;place-items:center}
+.tick::after{content:"";width:8px;height:8px;background:transparent}
+.tick:hover{border-color:var(--amber)}
+.tick.on{border-color:rgba(127,224,168,.6)}
+.tick.on::after{background:var(--phos);box-shadow:0 0 6px rgba(127,224,168,.8)}
+.row.struck .tx a,.row.struck .tx > span{text-decoration:line-through;text-decoration-color:var(--dim);color:var(--dim)}
+.acts{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 16px}
+.acts small{color:var(--dim);font-size:.82rem}
+
+.scrim{position:fixed;inset:0;background:rgba(5,7,14,.72);display:grid;place-items:center;padding:16px;z-index:20}
+.scrim[hidden]{display:none}
+.sheet{width:min(100%,440px);background:var(--panel);border:2px solid var(--edge2);padding:0;
+  box-shadow:0 0 0 2px var(--ground),0 0 0 4px var(--sunk),0 0 60px rgba(236,230,198,.08),8px 10px 0 4px rgba(0,0,0,.45)}
+.sheet h2{margin:0;padding:10px 14px;border-bottom:2px solid var(--edge);display:flex;align-items:center;gap:9px;
+  font-family:var(--tv-face);font-weight:400;font-size:1.3rem;letter-spacing:.08em}
+.sheet .x{margin-left:auto}
+.sheet .in{padding:14px}
+.sheet label{display:block;font-family:var(--tv-face);font-size:1.05rem;letter-spacing:.06em;color:var(--dim);margin:0 0 5px}
+.sheet input,.sheet textarea{width:100%;font:inherit;font-size:.95rem;color:var(--ink);background:var(--sunk);
+  border:2px solid var(--edge2);padding:8px 10px;margin:0 0 12px}
+.sheet input:focus,.sheet textarea:focus{outline:none;border-color:var(--amber)}
+.sheet textarea{min-height:84px;resize:vertical}
+.sheet .row-end{display:flex;justify-content:flex-end;gap:10px;align-items:center}
+.sheet .fine{color:var(--dim);font-size:.8rem;margin:0 0 12px;line-height:1.45}
+/* five moons, new to full — the mood is how much of it is lit */
+.moods{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:0 0 14px}
+.mood-opt{appearance:none;cursor:pointer;background:var(--sunk);border:2px solid var(--edge);color:var(--dim);
+  padding:10px 2px 7px;display:flex;flex-direction:column;align-items:center;gap:7px;font-family:var(--tv-face);font-size:1.05rem;letter-spacing:.04em}
+.mood-opt:hover{border-color:var(--edge2);color:var(--ink)}
+.mood-opt[aria-checked="true"]{border-color:var(--moon);color:var(--moon);background:linear-gradient(rgba(236,230,198,.07),rgba(236,230,198,.07)),var(--sunk)}
+.phase{width:26px;height:26px;border-radius:50%;background:#1C2238;box-shadow:inset 0 0 0 2px #2E3654;position:relative;overflow:hidden}
+.phase i{position:absolute;inset:0;border-radius:50%;background:var(--moon)}
+.mood-opt[aria-checked="true"] .phase{filter:drop-shadow(0 0 6px rgba(236,230,198,.55))}
+
+.toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:30;max-width:calc(100% - 32px);
+  font-family:var(--tv-face);font-size:1.15rem;letter-spacing:.04em;padding:8px 14px;background:var(--scr);color:var(--phos);
+  border:2px solid rgba(127,224,168,.45);text-shadow:0 0 6px rgba(127,224,168,.5);box-shadow:0 0 20px rgba(127,224,168,.15)}
+.toast.bad{color:var(--rose);border-color:rgba(238,155,176,.5);text-shadow:none;background:#1A0F18}
+.toast[hidden]{display:none}
+
 /* ---------- hero mode: what Notion embeds above its own blocks ---------- */
 body.hero-only .below{display:none!important}
 body.hero-only .wrap{padding-bottom:8px}
@@ -252,6 +308,7 @@ body.hero-only .wrap{padding-bottom:8px}
       <!-- Written by the hydration step. What ships in the file says nothing
            that could go out of date, for the case where data.json never lands. -->
       <p class="line" id="n-line">What tomorrow needs from tonight. The line fills in when the data lands.</p>
+      <div class="acts" id="n-acts"><button type="button" class="btn big" data-act="mood"><svg class="sp" width="16" height="16"><use href="#px-moon"/></svg>log tonight's mood</button></div>
       <div class="hud">
         <div class="pnl stat t-amber">
           <p class="lab">next up</p>
@@ -345,14 +402,59 @@ body.hero-only .wrap{padding-bottom:8px}
   <footer class="pad foot below">
     <span id="n-foot">night shift · emmi.os</span>
     <span id="n-errs"></span>
+    <button type="button" class="btn ghost" id="n-conn">connect to notion</button>
   </footer>
 </div>
 
+<!-- the mood sheet. Writes tonight's Daily Log row and claims the mood quest. -->
+<div class="scrim" id="m-mood" hidden>
+  <form class="sheet" role="dialog" aria-modal="true" aria-labelledby="m-mood-h" id="f-mood">
+    <h2 id="m-mood-h"><svg class="sp" width="16" height="16"><use href="#px-moon"/></svg> TONIGHT'S MOOD
+      <button type="button" class="btn ghost x" data-close>close</button></h2>
+    <div class="in">
+      <div class="moods" role="radiogroup" aria-label="Mood" id="n-moods"></div>
+      <label for="n-mood-note">a line about tonight <span style="text-transform:none">(optional)</span></label>
+      <textarea id="n-mood-note" maxlength="1800" placeholder="what made it that"></textarea>
+      <div class="row-end"><span class="fine" id="n-mood-day" style="margin:0 auto 0 0"></span>
+        <button type="submit" class="btn big" id="n-mood-go"><svg class="sp" width="16" height="16"><use href="#px-moon"/></svg>log it</button></div>
+    </div>
+  </form>
+</div>
+
+<!-- connect: where the worker lives and the passphrase. Kept in this browser only. -->
+<div class="scrim" id="m-conn" hidden>
+  <form class="sheet" role="dialog" aria-modal="true" aria-labelledby="m-conn-h" id="f-conn">
+    <h2 id="m-conn-h"><svg class="sp" width="16" height="16"><use href="#px-card"/></svg> CONNECT TO NOTION
+      <button type="button" class="btn ghost x" data-close>close</button></h2>
+    <div class="in">
+      <p class="fine">Night shift writes to Notion through your own worker. This browser remembers both of these; nothing is stored anywhere else.</p>
+      <label for="n-api">worker address</label>
+      <input id="n-api" type="url" placeholder="https://night-shift.you.workers.dev" autocomplete="off" required>
+      <label for="n-key">passphrase</label>
+      <input id="n-key" type="password" autocomplete="current-password" required>
+      <div class="row-end"><button type="button" class="btn ghost" id="n-conn-forget">forget this device</button>
+        <button type="submit" class="btn big">connect</button></div>
+    </div>
+  </form>
+</div>
+
+<div class="toast" id="n-toast" role="status" aria-live="polite" hidden></div>
+
 <script>
-/* Hydration. Reads the window seat's data.json — one pull, two pages — and
-   fills each section on its own. Every section is wrapped separately, so a
-   bug in one cannot blank the rest (the window seat lost its HUD and quest
-   rows to a single swallowed throw near its caption once).
+/* Hydration, then the write side.
+
+   READ: the window seat's data.json (one pull, two pages). Every section is
+   rendered on its own, so a bug in one cannot blank the rest — the window seat
+   lost its HUD and quest rows to a single swallowed throw near its caption once.
+
+   WRITE: buttons post to Em's own Cloudflare Worker (worker/), which holds the
+   Notion token. The page only ever knows the worker's address and a passphrase,
+   both kept in this browser's localStorage.
+
+   data.json refreshes every ~15 minutes, so a write would appear to undo itself
+   on the next reload. Each successful write is remembered locally as an
+   override and laid over the data until a refresh newer than the write lands —
+   then the data is the truth again and the override is dropped.
 
    Every helper is declared up here, before anything calls it. */
 (function(){
@@ -363,6 +465,8 @@ body.hero-only .wrap{padding-bottom:8px}
   var DOWL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   var NUMS = ['no','one','two','three','four','five','six','seven','eight','nine','ten'];
+  var MOODS = ['rough','low','okay','good','great'];
+  var MOOD_QUEST = '3c9063496baf8170916afde6a010d939';
 
   function $(id){ return document.getElementById(id); }
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
@@ -376,6 +480,13 @@ body.hero-only .wrap{padding-bottom:8px}
   function countWord(n){ return n < NUMS.length ? NUMS[n] : String(n); }
   function cap(s){ return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
   function plural(n, one, many){ return n === 1 ? one : (many || one + 's'); }
+  /* a Notion page id is the last 32 hex characters of its url */
+  function pid(url){ var m = String(url || '').match(/([0-9a-f]{32})(?:[?#].*)?$/i); return m ? m[1].toLowerCase() : null; }
+
+  /* localStorage can be missing or throw (private windows, blocked storage);
+     the page must work without it, it just forgets between visits. */
+  function load(k, dflt){ try { var v = localStorage.getItem(k); return v == null ? dflt : JSON.parse(v); } catch (e) { return dflt; } }
+  function save(k, v){ try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
 
   /* Dates. Every ISO day here is a calendar day, compared as a string, so a
      browser in another timezone can't shift them. "Now" is always Pacific. */
@@ -396,11 +507,12 @@ body.hero-only .wrap{padding-bottom:8px}
 
   /* The shift. Past midnight is still the same night: at 1am the work is for
      the day that has just started, not the one after it. Five is the cutover —
-     a page opened at 6am is a morning check, and morning has its own skin. */
+     a page opened at 6am is a morning check, and morning has its own skin.
+     The worker uses the same cutover, so the mood lands on the same day. */
   function shift(){
     var n = parts(new Date());
     var target = n.h < 5 ? n.iso : addDays(n.iso, 1);
-    return {now: n, today: n.iso, target: target, late: n.h < 5};
+    return {now: n, today: n.iso, target: target, late: n.h < 5, night: n.h < 5 ? addDays(n.iso, -1) : n.iso};
   }
   function dayWord(iso, s){
     if (iso === s.today) return 'today';
@@ -439,9 +551,219 @@ body.hero-only .wrap{padding-bottom:8px}
     catch (e) { if (window.console) console.error('night shift: ' + name, e); }
   }
 
+  /* ================= the write side ================= */
+
+  var RAW = null;                                   // data.json as fetched, never mutated
+  var OVR_KEY = 'nightshift.overrides', CONN_KEY = 'nightshift.connection';
+
+  function conn(){ var c = load(CONN_KEY, null); return c && c.api && c.key ? c : null; }
+
+  /* overrides: { "prep:<id>": {v: true, at: <ms>} } */
+  function overrides(){ return load(OVR_KEY, {}) || {}; }
+  function remember(k, v){ var o = overrides(); o[k] = {v: v, at: Date.now()}; save(OVR_KEY, o); }
+  function forget(k){ var o = overrides(); delete o[k]; save(OVR_KEY, o); }
+
+  /* Lay remembered writes over a fresh copy of the data. Pure: it starts from
+     RAW every time, so re-rendering can never apply a write twice. */
+  function withOverrides(raw){
+    var d = JSON.parse(JSON.stringify(raw));
+    var gen = Date.parse(d.generated || 0) || 0, o = overrides(), live = {}, k;
+    for (k in o) {
+      // the data has caught up with this write, or it is too old to trust
+      if (o[k].at < gen || Date.now() - o[k].at > 12 * 36e5) continue;
+      live[k] = o[k].v;
+    }
+    var pruned = {}; for (k in live) pruned[k] = o[k];
+    save(OVR_KEY, pruned);
+    function hit(kind, url){ var id = pid(url); return id && Object.prototype.hasOwnProperty.call(live, kind + ':' + id) ? live[kind + ':' + id] : undefined; }
+
+    [d.ahead, d.upcoming, d.next ? [d.next] : []].forEach(function(list){
+      (list || []).forEach(function(x){ var v = hit('prep', x.url); if (v !== undefined) x.prepped = v; });
+    });
+    [d.weather, d.longHaul].forEach(function(list){
+      (list || []).forEach(function(a){ var v = hit('done', a.url); if (v !== undefined) a.done = v; });
+    });
+    var merged = 0;
+    (d.walkHome || []).forEach(function(x){
+      if (hit('merged', x.url) === true) {
+        x.merged = true; merged++;
+        if (d.backlog && d.backlog[x.course || 'other']) d.backlog[x.course || 'other']--;
+      }
+    });
+    if (d.counts && d.counts.unmerged != null) d.counts.unmerged = Math.max(0, d.counts.unmerged - merged);
+    var q = d.quests || {};
+    (q.dailies || []).concat(q.other || []).forEach(function(x){
+      if (hit('quest', x.url) === true && !x.done) {
+        x.done = true; x.status = 'done today';
+        if (x.kind === 'daily' && q.unclaimed) q.unclaimed = Math.max(0, q.unclaimed - (x.gold || 0));
+      }
+    });
+    return d;
+  }
+
+  function rerender(){ if (RAW) hydrate(withOverrides(RAW)); }
+
+  var toastT;
+  function toast(msg, bad){
+    var t = $('n-toast'); t.textContent = msg; t.className = 'toast' + (bad ? ' bad' : ''); t.hidden = false;
+    clearTimeout(toastT); toastT = setTimeout(function(){ t.hidden = true; }, bad ? 6000 : 3200);
+  }
+
+  /* ---- sheets ---- */
+  var lastFocus = null;
+  function openSheet(id){
+    lastFocus = document.activeElement;
+    var el = $(id); el.hidden = false;
+    var f = el.querySelector('[aria-checked="true"], input, textarea, button[type=submit]');
+    if (f) f.focus();
+  }
+  function closeSheet(el){ el.hidden = true; if (lastFocus && lastFocus.focus) lastFocus.focus(); }
+  document.addEventListener('keydown', function(e){
+    if (e.key !== 'Escape') return;
+    Array.prototype.forEach.call(document.querySelectorAll('.scrim:not([hidden])'), closeSheet);
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.scrim'), function(el){
+    el.addEventListener('click', function(e){ if (e.target === el || e.target.hasAttribute('data-close')) closeSheet(el); });
+  });
+
+  /* After connecting, the action that asked for it carries on by itself. */
+  var pendingAfterConnect = null;
+  function needConn(then){
+    var c = conn();
+    if (c) return c;
+    pendingAfterConnect = then || null;
+    $('n-api').value = (load(CONN_KEY, {}) || {}).api || '';
+    $('n-key').value = '';
+    openSheet('m-conn');
+    return null;
+  }
+  $('f-conn').addEventListener('submit', function(e){
+    e.preventDefault();
+    var api = $('n-api').value.trim().replace(/\/+$/, ''), key = $('n-key').value;
+    if (!/^https:\/\//.test(api)) { toast('the worker address must start with https://', true); return; }
+    save(CONN_KEY, {api: api, key: key});
+    closeSheet($('m-conn'));
+    paintConn();
+    var go = pendingAfterConnect; pendingAfterConnect = null;
+    if (go) go(); else toast('connected · writes go to notion');
+  });
+  $('n-conn-forget').addEventListener('click', function(){
+    save(CONN_KEY, null); save(OVR_KEY, null); closeSheet($('m-conn')); paintConn(); toast('this device is disconnected');
+  });
+  function paintConn(){
+    var c = conn();
+    $('n-conn').textContent = c ? 'connected to notion · change' : 'connect to notion';
+  }
+  $('n-conn').addEventListener('click', function(){
+    pendingAfterConnect = null;
+    $('n-api').value = (load(CONN_KEY, {}) || {}).api || ''; $('n-key').value = '';
+    openSheet('m-conn');
+  });
+
+  /* ---- the one way out: POST to the worker ---- */
+  function post(body){
+    var c = conn();
+    return fetch(c.api + '/v1', {method: 'POST', headers: {'content-type': 'application/json', 'x-shift-key': c.key},
+      body: JSON.stringify(body)})
+      .then(function(r){
+        return r.json().catch(function(){ return {}; }).then(function(j){
+          if (r.status === 401) { var cc = conn(); save(CONN_KEY, {api: cc.api, key: ''}); paintConn(); }
+          if (!r.ok || !j.ok) throw new Error(j.error || ('HTTP ' + r.status));
+          return j;
+        });
+      }, function(){ throw new Error('could not reach the worker'); });
+  }
+
+  /* Optimistic: flip it on the page now, write it, put it back if the write fails. */
+  function act(btn, kind, id, value, body, okMsg){
+    var key = kind + ':' + id, prev = overrides()[key];
+    var run = function(){
+      if (btn) btn.disabled = true;
+      remember(key, value); rerender();
+      post(body).then(function(j){ toast(okMsg(j)); })
+        .catch(function(e){
+          if (prev) { var o = overrides(); o[key] = prev; save(OVR_KEY, o); } else forget(key);
+          rerender(); toast('not saved · ' + e.message, true);
+          if (/passphrase/.test(e.message)) needConn(run);
+        });
+    };
+    if (needConn(run)) run();
+  }
+
+  /* one listener for every button the renderers draw */
+  document.addEventListener('click', function(e){
+    var b = e.target.closest && e.target.closest('[data-act]');
+    if (!b || b.disabled) return;
+    var a = b.getAttribute('data-act'), id = b.getAttribute('data-id'), on = b.getAttribute('data-v') === '1';
+    if (a === 'mood') { openMood(); return; }
+    if (a === 'prep') act(b, 'prep', id, on, {action: 'prep', id: id, value: on},
+      function(){ return on ? 'marked read' : 'marked unread'; });
+    if (a === 'done') act(b, 'done', id, on, {action: 'done', id: id, value: on},
+      function(){ return on ? 'checked off · submitted today' : 'unchecked'; });
+    if (a === 'merged') act(b, 'merged', id, true, {action: 'merged', id: id},
+      function(){ return 'merged · notes clean'; });
+    if (a === 'quest') act(b, 'quest', id, true, {action: 'quest', id: id},
+      function(j){ return j.already ? 'already claimed tonight' : 'claimed · +' + (j.gold || 0) + 'g' + (j.streak ? ' · ' + j.streak + ' day streak' : ''); });
+  });
+
+  /* ---- the mood sheet ---- */
+  var chosen = null;
+  (function buildMoods(){
+    $('n-moods').innerHTML = MOODS.map(function(m, i){
+      // how much of the moon is lit: none for rough, all of it for great
+      var off = (1 - i / 4) * 100;
+      return '<button type="button" class="mood-opt" role="radio" aria-checked="false" data-mood="' + m + '">' +
+        '<span class="phase">' + (i ? '<i style="transform:translateX(' + off.toFixed(0) + '%)"></i>' : '') + '</span>' + m + '</button>';
+    }).join('');
+    $('n-moods').addEventListener('click', function(e){
+      var b = e.target.closest('.mood-opt'); if (!b) return; pick(b.getAttribute('data-mood'));
+    });
+    $('n-moods').addEventListener('keydown', function(e){
+      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      var i = Math.max(0, MOODS.indexOf(chosen)) + (e.key === 'ArrowRight' ? 1 : -1);
+      pick(MOODS[(i + MOODS.length) % MOODS.length]); e.preventDefault();
+    });
+  })();
+  function pick(m){
+    chosen = m;
+    Array.prototype.forEach.call($('n-moods').children, function(b){
+      var on = b.getAttribute('data-mood') === m;
+      b.setAttribute('aria-checked', on); b.tabIndex = on || (!m && b === $('n-moods').children[2]) ? 0 : -1;
+      if (on) b.focus();
+    });
+  }
+  function openMood(){
+    var s = shift();
+    $('n-mood-day').textContent = 'for ' + DOW[dowOf(s.night)].toLowerCase() + ' ' + short(s.night).toLowerCase();
+    chosen = null;
+    Array.prototype.forEach.call($('n-moods').children, function(b, i){ b.setAttribute('aria-checked', 'false'); b.tabIndex = i === 2 ? 0 : -1; });
+    if (!needConn(openMood)) return;
+    openSheet('m-mood');
+    $('n-moods').children[2].focus();
+  }
+  $('f-mood').addEventListener('submit', function(e){
+    e.preventDefault();
+    if (!chosen) { toast('pick a moon first', true); return; }
+    var go = $('n-mood-go'), note = $('n-mood-note').value.trim(), mood = chosen;
+    go.disabled = true;
+    post({action: 'mood', mood: mood, note: note}).then(function(j){
+      remember('quest:' + MOOD_QUEST, true); rerender();
+      $('n-mood-note').value = '';
+      closeSheet($('m-mood'));
+      toast('logged · ' + mood + (j.already ? '' : ' · +' + (j.gold || 0) + 'g') + (j.streak ? ' · ' + j.streak + ' day streak' : ''));
+    }).catch(function(err){
+      toast('not saved · ' + err.message, true);
+      if (/passphrase/.test(err.message)) { closeSheet($('m-mood')); needConn(openMood); }
+    }).then(function(){ go.disabled = false; });
+  });
+
+  paintConn();
+
+  /* ================= the read side ================= */
+
   fetch('../windowseat/data.json', {cache: 'no-store'})
     .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then(hydrate)
+    .then(function(d){ RAW = d; rerender(); })
     .catch(function(e){
       $('n-stamp').textContent = 'data unavailable';
       $('n-stamp').className = 'lab stamp err';
@@ -465,12 +787,14 @@ body.hero-only .wrap{padding-bottom:8px}
     var future = sessions.filter(function(x){ return x.date && x.date >= s.target; });
     var nextDay = future.length ? future[0].date : null;
     var nextStops = future.filter(function(x){ return x.date === nextDay; });
-    var overdue = work.filter(function(a){ return a.overdue; });
+    var open = work.filter(function(a){ return !a.done; });
+    var overdue = open.filter(function(a){ return a.overdue; });
     var horizon = addDays(s.target, 6);
-    var dueWeek = work.filter(function(a){ return !a.overdue && a.due && a.due <= horizon; });
+    var dueWeek = open.filter(function(a){ return !a.overdue && a.due && a.due <= horizon; });
 
     section('stamp', function(){
       var st = $('n-stamp'), g = d.generated ? new Date(d.generated) : null;
+      st.className = 'lab stamp';
       if (!g || isNaN(g)) { st.textContent = 'sync time unknown'; return; }
       var p = parts(g), h12 = p.h % 12 || 12;
       var t = h12 + ':' + (p.m < 10 ? '0' : '') + p.m + (p.h < 12 ? 'am' : 'pm');
@@ -512,18 +836,27 @@ body.hero-only .wrap{padding-bottom:8px}
         var names = function(xs){ return xs.map(function(x){ return '<b>' + esc(splitTitle(x.title).head) + '</b>'; }); };
         var join = function(xs){ return xs.length < 3 ? xs.join(' and ') : xs.slice(0, -1).join(', ') + ' and ' + xs[xs.length - 1]; };
         if (!unread.length) out.push(lead + (nextDay === s.target ? ' is ' : ', and it is ') + 'read: ' + join(names(read)) + '.');
-        else if (!read.length) out.push(lead + (nextDay === s.target ? ': ' : ': ') + join(names(unread)) + (unread.length === 1 ? ', still unread.' : ', all still unread.'));
+        else if (!read.length) out.push(lead + ': ' + join(names(unread)) + (unread.length === 1 ? ', still unread.' : ', all still unread.'));
         else out.push(lead + ': ' + join(names(read)) + (read.length === 1 ? ' is' : ' are') + ' read; ' + join(names(unread)) + ' still ' + (unread.length === 1 ? 'needs' : 'need') + ' it.');
       }
-      var dueT = work.filter(function(a){ return !a.overdue && a.due === s.target; });
+      var dueT = open.filter(function(a){ return !a.overdue && a.due === s.target; });
       if (dueT.length) {
         out.push('Due ' + dayWord(s.target, s) + ': ' + dueT.map(function(a){ return '<b>' + esc(a.title) + '</b>'; }).join(', ') + '.');
       } else {
-        var nx = work.filter(function(a){ return !a.overdue && a.due && a.due > s.target; })[0];
+        var nx = open.filter(function(a){ return !a.overdue && a.due && a.due > s.target; })[0];
         if (nx) out.push('Nothing is due ' + dayWord(s.target, s) + '; next on the board is ' + esc(nx.title) + ', ' + dayWord(nx.due, s) + '.');
-        else if (!overdue.length && work.length === 0) out.push('Nothing open on the board.');
+        else if (!overdue.length && open.length === 0) out.push('Nothing open on the board.');
       }
       $('n-line').innerHTML = out.join(' ');
+    });
+
+    /* ---- the mood button: says whether tonight is already logged ---- */
+    section('acts', function(){
+      var q = (d.quests && d.quests.dailies || []).filter(function(x){ return pid(x.url) === MOOD_QUEST; })[0];
+      var done = q && q.done;
+      $('n-acts').innerHTML = '<button type="button" class="btn big" data-act="mood">' + sp('moon', 16) +
+        (done ? 'mood logged · log again' : "log tonight's mood") + '</button>' +
+        (q && !done && q.gold ? '<small>+' + q.gold + 'g' + (q.streak ? ' · ' + q.streak + ' day streak on the line' : '') + '</small>' : '');
     });
 
     /* ---- the hud ---- */
@@ -556,7 +889,7 @@ body.hero-only .wrap{padding-bottom:8px}
         sessions.filter(function(x){ return x.date === iso; }).forEach(function(x){
           body += '<p class="punch" title="' + esc(x.title) + '"><i class="chip ' + (x.prepped ? 'lit' : 'later') + '"></i><span>' + esc(sessionTag(x)) + '</span></p>';
         });
-        work.filter(function(a){ return a.due === iso; }).forEach(function(a){
+        open.filter(function(a){ return a.due === iso; }).forEach(function(a){
           body += '<p class="punch ' + (a.overdue ? 'o' : 'd') + '" title="' + esc(a.title) + '"><i class="chip ' + (a.overdue ? 'over' : 'due') + '"></i><span>' + esc(a.title) + '</span></p>';
         });
         html += '<div class="' + cls + '">' + head + '<div>' + (body || '<p class="none">—</p>') + '</div></div>';
@@ -572,11 +905,13 @@ body.hero-only .wrap{padding-bottom:8px}
       $('n-prep-hd').textContent = unread ? unread + ' of ' + nextStops.length + ' to read' : 'all read';
       var html = '<p class="when">' + esc(dayWord(nextDay, s)).toUpperCase() + ' · ' + short(nextDay).toUpperCase() + '</p><ul class="prep">';
       nextStops.forEach(function(x){
-        var t = splitTitle(x.title);
+        var t = splitTitle(x.title), id = pid(x.url);
+        var btn = id ? '<button type="button" class="btn ' + (x.prepped ? 'lit' : 'due') + '" data-act="prep" data-id="' + id + '" data-v="' + (x.prepped ? '0' : '1') + '"' +
+            ' title="' + (x.prepped ? 'mark unread' : 'mark read') + '">' + (x.prepped ? '✓ read' : 'mark read') + '</button>'
+          : '<span class="tag ' + (x.prepped ? 'lit' : 'due') + '">' + (x.prepped ? 'read' : 'to read') + '</span>';
         html += '<li><i class="chip ' + (x.prepped ? 'lit' : 'due') + '"></i>' +
           '<div><h3>' + link(t.head, x.url) + '</h3>' + (t.topic ? '<p class="topic">' + esc(t.topic) + '</p>' : '') + '</div>' +
-          '<span class="tag ' + (x.prepped ? 'lit' : 'due') + '">' + (x.prepped ? 'read' : 'to read') + '</span>' +
-          (x.reading ? '<p class="rd" tabindex="0" role="button" aria-expanded="false" title="show all">' + esc(x.reading) + '</p>' : '') +
+          btn + (x.reading ? '<p class="rd" tabindex="0" role="button" aria-expanded="false" title="show all">' + esc(x.reading) + '</p>' : '') +
           '</li>';
       });
       $('n-prep').innerHTML = html + '</ul>';
@@ -590,19 +925,23 @@ body.hero-only .wrap{padding-bottom:8px}
     /* ---- on the clock: overdue, then the next seven days, then the long haul ---- */
     section('work', function(){
       function row(a){
-        var k = a.overdue ? 'over' : a.due && a.due <= horizon ? 'due' : 'later';
-        var when = a.overdue ? 'overdue' : a.due ? (daysBetween(s.today, a.due) <= 1 ? dayWord(a.due, s) : DOW[dowOf(a.due)].toLowerCase() + ' ' + short(a.due).toLowerCase()) : 'no date';
-        return '<li class="row"><i class="chip ' + k + '"></i><span class="tx">' + link(a.title, a.url) +
+        var k = a.overdue ? 'over' : a.due && a.due <= horizon ? 'due' : 'later', id = pid(a.url);
+        var when = a.done ? 'done' : a.overdue ? 'overdue' : a.due ? (daysBetween(s.today, a.due) <= 1 ? dayWord(a.due, s) : DOW[dowOf(a.due)].toLowerCase() + ' ' + short(a.due).toLowerCase()) : 'no date';
+        var box = id ? '<button type="button" class="tick' + (a.done ? ' on' : '') + '" data-act="done" data-id="' + id + '" data-v="' + (a.done ? '0' : '1') + '"' +
+            ' aria-label="' + (a.done ? 'uncheck ' : 'check off ') + esc(a.title) + '" aria-pressed="' + !!a.done + '"></button>'
+          : '<i class="chip ' + k + '"></i>';
+        return '<li class="row' + (a.done ? ' struck' : '') + '">' + box + '<span class="tx">' + link(a.title, a.url) +
           '<small>' + esc(a.course || '') + (a.type === 'graded' ? ' · graded' : '') + '</small></span>' +
-          '<span class="tag ' + k + '">' + esc(when) + '</span></li>';
+          '<span class="tag ' + (a.done ? 'lit' : k) + '">' + esc(when) + '</span></li>';
       }
-      var soon = overdue.concat(dueWeek);
+      var doneHere = work.filter(function(a){ return a.done; });
+      var soon = overdue.concat(dueWeek).concat(doneHere);
       var later = (d.longHaul || []).filter(function(a){ return a.due && a.due > horizon; }).slice(0, 4);
       var html = soon.length ? '<ul class="rows">' + soon.map(row).join('') + '</ul>'
         : '<p class="empty">Nothing due in the next seven days.</p>';
       if (later.length) html += '<p class="sub">the long haul · graded</p><ul class="rows">' + later.map(row).join('') + '</ul>';
       $('n-work').innerHTML = html;
-      $('n-clock-hd').textContent = counts.open != null ? counts.open + ' open' : '';
+      $('n-clock-hd').textContent = counts.open != null ? Math.max(0, counts.open - doneHere.length) + ' open' : '';
     });
 
     /* ---- the night list: night dailies first, then the weeklies ---- */
@@ -612,11 +951,15 @@ body.hero-only .wrap{padding-bottom:8px}
       var rank = function(x){ return x.kind === 'daily' ? (x.when === 'night' ? 0 : 1) : 2; };
       all.sort(function(a, b){ return rank(a) - rank(b); });
       var html = all.slice(0, 5).map(function(x){
-        var icon = x.when === 'night' ? 'moon' : x.kind === 'daily' ? 'mug' : 'coin';
+        var icon = x.when === 'night' ? 'moon' : x.kind === 'daily' ? 'mug' : 'coin', id = pid(x.url);
         var meta = x.kind + (x.kind === 'daily' && x.streak ? ' · ' + x.streak + ' day streak' : '');
+        var btn;
+        if (x.done) btn = '<span class="tag lit">claimed</span>';
+        else if (id === MOOD_QUEST) btn = '<button type="button" class="btn due" data-act="mood">log · +' + (x.gold || 0) + 'g</button>';
+        else if (id) btn = '<button type="button" class="btn due" data-act="quest" data-id="' + id + '">claim' + (x.gold ? ' · +' + x.gold + 'g' : '') + '</button>';
+        else btn = '<span class="tag due">' + (x.gold ? '+' + x.gold + 'g' : 'open') + '</span>';
         return '<div class="q' + (x.done ? ' done' : '') + '">' + sp(icon, 16) +
-          '<span class="tx">' + link(x.title, x.url) + '<small>' + esc(meta) + '</small></span>' +
-          '<span class="tag ' + (x.done ? 'lit' : 'due') + '">' + (x.done ? 'claimed' : (x.gold ? '+' + x.gold + 'g' : 'open')) + '</span></div>';
+          '<span class="tx">' + link(x.title, x.url) + '<small>' + esc(meta) + '</small></span>' + btn + '</div>';
       }).join('');
       if (q.unclaimed) html += '<p class="sub">' + q.unclaimed + 'g unclaimed today</p>';
       $('n-quests').innerHTML = html;
@@ -627,20 +970,24 @@ body.hero-only .wrap{padding-bottom:8px}
       var by = d.backlog, total = counts.unmerged;
       if (!by) {
         by = {};
-        (d.walkHome || []).forEach(function(x){ by[x.course || 'other'] = (by[x.course || 'other'] || 0) + 1; });
+        (d.walkHome || []).forEach(function(x){ if (!x.merged) by[x.course || 'other'] = (by[x.course || 'other'] || 0) + 1; });
       }
-      var names = Object.keys(by).sort(function(a, b){ return by[b] - by[a]; });
-      if (!names.length) { $('n-backlog').innerHTML = '<p class="empty">Nothing waiting on a merge.</p>'; return; }
-      $('n-back-hd').textContent = total != null ? total + ' sessions' : '';
+      var names = Object.keys(by).filter(function(n){ return by[n] > 0; }).sort(function(a, b){ return by[b] - by[a]; });
+      if (!names.length) { $('n-backlog').innerHTML = '<p class="empty">Nothing waiting on a merge.</p>'; $('n-back-hd').textContent = ''; return; }
+      $('n-back-hd').textContent = total != null ? total + ' ' + plural(total, 'session') : '';
       var html = '<ul class="meter">' + names.map(function(n){
         var c = by[n], blocks = '';
         for (var i = 0; i < Math.min(c, 16); i++) blocks += '<i></i>';
         return '<li class="nm" title="' + esc(n) + '">' + esc(abbr(n)) + '</li><li class="blocks">' + blocks + '</li><li class="n">' + c + '</li>';
       }).join('') + '</ul>';
       if (!d.backlog && total != null) html += '<p class="empty" style="margin-top:8px">oldest ten of ' + total + ' shown.</p>';
-      var oldest = (d.walkHome || [])[0];
-      if (oldest) html += '<p class="sub">oldest</p><ul class="rows"><li class="row"><i class="chip later"></i><span class="tx">' +
-        link(splitTitle(oldest.title).head, oldest.url) + '<small>' + esc(short(oldest.date).toLowerCase()) + '</small></span></li></ul>';
+      var oldest = (d.walkHome || []).filter(function(x){ return !x.merged; }).slice(0, 4);
+      if (oldest.length) html += '<p class="sub">oldest first</p><ul class="rows">' + oldest.map(function(x){
+        var id = pid(x.url);
+        return '<li class="row"><i class="chip later"></i><span class="tx">' + link(splitTitle(x.title).head, x.url) +
+          '<small>' + esc(short(x.date).toLowerCase()) + '</small></span>' +
+          (id ? '<button type="button" class="btn" data-act="merged" data-id="' + id + '" title="set to notes clean">merged</button>' : '') + '</li>';
+      }).join('') + '</ul>';
       $('n-backlog').innerHTML = html;
     });
 

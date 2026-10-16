@@ -67,6 +67,17 @@ window seat.
 Phosphor `#7FE0A8` means done or read. Amber `#F2B65A` means due or to read. Rose
 `#EE9BB0` means overdue. There is still no red. `--dust` is for chips only, never text.
 
+## Writing back
+
+Buttons on the page write to Notion through a Cloudflare Worker in `worker/`.
+That covers logging tonight's mood, marking reading done, checking off
+assignments, claiming quests, and marking a session merged. Setup is in
+`worker/README.md`. Until the page is connected, every button opens the
+connect sheet first, and after connecting it carries on with what you clicked.
+
+The connection (the Worker's address and the passphrase) lives in this
+browser's localStorage and nowhere else. **forget this device** clears it.
+
 ## Hero mode
 
 `?view=hero` hides everything marked `.below` and keeps the mast and the timecard,
@@ -77,3 +88,5 @@ for an embed at the top of the Notion page.
 - The Notion page `3c906349-…-d9e9bac4d716` is still skinned by `savepoint.user.css`.
   A night shift userstyle would mean taking that id out of save point's allowlist.
 - The nav's Notion links point at the same pages the window seat uses.
+- Uploads (slides, transcripts, notes) that create and merge class-notes pages
+  are next. The Worker is where they will go.
