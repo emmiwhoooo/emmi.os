@@ -1,0 +1,7 @@
+# night shift write side. Deploy: `npx wrangler deploy` from this folder, then
+#   npx wrangler secret put NOTION_TOKEN
+#   npx wrangler secret put SHIFT_KEY
+# or paste src/index.js into the Cloudflare dashboard editor — see README.md.
+name = "night-shift"
+main = "src/index.js"
+compatibility_date = "2026-09-01"

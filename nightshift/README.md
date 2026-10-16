@@ -50,9 +50,10 @@ does not reach is drawn hatched and marked **not loaded**, never as an empty day
 
 ## The shift
 
-Past midnight is the same night. Before 5am Pacific, the day being prepped for is
-*today*. From 5am on it is *tomorrow*. Every day boundary is Pacific, as in the
-window seat.
+Past midnight is the same night. Before 6am Pacific, the day being prepped for is
+*today*. From 6am on it is *tomorrow*. Six is when the 🌅 dawn pass closes the
+day, so the page, the Worker and the dawn pass all agree about which night a
+thing belongs to.
 
 ## Type
 
@@ -67,6 +68,17 @@ window seat.
 Phosphor `#7FE0A8` means done or read. Amber `#F2B65A` means due or to read. Rose
 `#EE9BB0` means overdue. There is still no red. `--dust` is for chips only, never text.
 
+## Writing back
+
+Buttons on the page write to Notion through a Cloudflare Worker in `worker/`.
+That covers logging tonight's mood, marking reading done, checking off
+assignments, claiming quests, and marking a session merged. Setup is in
+`worker/README.md`. Until the page is connected, every button opens the
+connect sheet first, and after connecting it carries on with what you clicked.
+
+The connection (the Worker's address and the passphrase) lives in this
+browser's localStorage and nowhere else. **forget this device** clears it.
+
 ## Hero mode
 
 `?view=hero` hides everything marked `.below` and keeps the mast and the timecard,
@@ -77,3 +89,5 @@ for an embed at the top of the Notion page.
 - The Notion page `3c906349-…-d9e9bac4d716` is still skinned by `savepoint.user.css`.
   A night shift userstyle would mean taking that id out of save point's allowlist.
 - The nav's Notion links point at the same pages the window seat uses.
+- Uploads (slides, transcripts, notes) that create and merge class-notes pages
+  are next. The Worker is where they will go.
