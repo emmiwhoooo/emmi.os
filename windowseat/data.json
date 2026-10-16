@@ -1,33 +1,26 @@
 {
- "generated": "2026-10-16T02:10:30+00:00",
- "today": "2026-10-15",
+ "generated": "2026-10-16T07:06:33+00:00",
+ "today": "2026-10-16",
  "term": {
   "week": 9,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 48
+  "daysToFinals": 47
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-15",
-    "code": 0,
-    "high": 83.4,
-    "low": 49.7,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-16",
     "code": 1,
-    "high": 87.4,
-    "low": 53.2,
+    "high": 85.7,
+    "low": 51.6,
     "rainMax": 0
    },
    {
     "date": "2026-10-17",
     "code": 0,
-    "high": 84.6,
+    "high": 84.5,
     "low": 54.5,
     "rainMax": 0
    },
@@ -35,15 +28,22 @@
     "date": "2026-10-18",
     "code": 3,
     "high": 66.1,
-    "low": 54.7,
+    "low": 54.3,
     "rainMax": 0
+   },
+   {
+    "date": "2026-10-19",
+    "code": 3,
+    "high": 62.1,
+    "low": 50.5,
+    "rainMax": 4
    }
   ],
   "code": 0,
-  "dayCode": 0,
-  "temp": 66.8,
-  "high": 83.4,
-  "low": 49.7,
+  "dayCode": 1,
+  "temp": 59.7,
+  "high": 85.7,
+  "low": 51.6,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 9 — Police in Schools and School to Prison Pipeline",
-  "course": "Youth Justice",
-  "date": "2026-10-14",
-  "session": 9,
-  "reading": "TROI Ch.6 Cops in Schools (pp.122-146); TROI Ch.12 #BlackBoyJoy and #BlackGirlMagic (pp.306-320); Rios, How Black Oaklanders Finally Expelled the School Police, Mother Jones (Nov/Dec 2020). Watch: Last Week Tonight (6/12/22, 26:41). Optional: TROI Ch.3 (pp.48-80). Guest: Tia Martinez. Per the 9/29 revised syllabus.",
+  "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
+  "course": "Negotiations",
+  "date": "2026-10-15",
+  "session": 7,
+  "reading": "Role-play: Gossett v. Bacchus Cruise Line. Guest: Priya Sanger (Fintech, Payments & AI Counsel). Prep: DC Ch. 10-12 + Q6; 3 articles (Harvard PON salary negotiation / US Soccer equal pay / Caitlin Clark WNBA pay); email feedback for Bataglia; planning memo for Gossett due on bCourses before class. Moved from Oct 8 (no class) per the 8/28 revised syllabus.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-9-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf818f9799f043b7f75570"
+  "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 9 — Police in Schools and School to Prison Pipeline",
-   "course": "Youth Justice",
-   "date": "2026-10-14",
-   "session": 9,
-   "reading": "TROI Ch.6 Cops in Schools (pp.122-146); TROI Ch.12 #BlackBoyJoy and #BlackGirlMagic (pp.306-320); Rios, How Black Oaklanders Finally Expelled the School Police, Mother Jones (Nov/Dec 2020). Watch: Last Week Tonight (6/12/22, 26:41). Optional: TROI Ch.3 (pp.48-80). Guest: Tia Martinez. Per the 9/29 revised syllabus.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-9-Police-in-Schools-and-School-to-Prison-Pipeline-3c6063496baf818f9799f043b7f75570"
-  },
-  {
-   "title": "Property 26 — Prescriptive easements; easements by estoppel",
-   "course": "Property",
-   "date": "2026-10-15",
-   "session": 26,
-   "reading": "Read 335-40 (§3 through note 1); 557-66 (through note 3(c)).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-26-Prescriptive-easements-easements-by-estoppel-3c6063496baf81daab64cc05761b8dd3"
-  },
   {
    "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
    "course": "Negotiations",
@@ -199,6 +179,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-17-Other-Uses-of-Specific-Conduct-3c6063496baf8160b66cd7f52561e21b"
+  },
+  {
+   "title": "LRW 19 — Analyzing Fundamental Alteration (I); multi-case CREAC",
+   "course": "LRW",
+   "date": "2026-10-20",
+   "session": 19,
+   "reading": "Bring FA Case List + key cases + Bluebook. Citation Problem Set #3 due Fri Oct 23 8:35am.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-19-Analyzing-Fundamental-Alteration-I-multi-case-CREAC-3c6063496baf81a4b1bffcecb1d2d5ef"
+  },
+  {
+   "title": "Evidence 18 — Character and Habit; Sexual Assault and Child Molestation",
+   "course": "Evidence",
+   "date": "2026-10-20",
+   "session": 18,
+   "reading": "CB 328-355. F.R.E. 406, 412-415. C.E.C. 1104, 1105. In limine arg 7. Sensitive material: Smoger invites you to flag in advance if you'd prefer not to be called on.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-18-Character-and-Habit-Sexual-Assault-and-Child-Molestation-3c6063496baf81d98480d9a0cfcf78ad"
   }
  ],
  "walkHome": [
@@ -1288,9 +1288,9 @@
  "counts": {
   "open": 23,
   "overdue": 0,
-  "dueSoon": 3,
+  "dueSoon": 4,
   "graded": 17,
-  "unmerged": 42,
+  "unmerged": 44,
   "courses": 5,
   "cases": 120,
   "reserve": 45
