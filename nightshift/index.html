@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Night Shift</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,500;1,400;1,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=VT323&display=swap">
+<style>
+/* night shift — v1
+   school, after dark. The window seat's rule is "light is transmitted, never
+   emitted"; this page is the other half of that sentence. Light here comes
+   FROM things — the screen, the lamp, the moon — and nothing else glows.
+   TYPE: Petrona = names and headings (shared with the window seat, so the two
+   read as one system), Zen Kaku Gothic New = prose, VT323 = anything on the
+   screen. VT323 ships one weight; it is never asked for bold. */
+:root{
+  --ground:#0B0E1A; --panel:#121729; --sunk:#0D1121; --edge:#252D48; --edge2:#3A4468;
+  --ink:#E6E3F2; --dim:#A2A8C8;
+  --amber:#F2B65A; --t-amber:rgba(242,182,90,.10);
+  --phos:#7FE0A8;  --t-phos:rgba(127,224,168,.09);
+  --rose:#EE9BB0;  --t-rose:rgba(238,155,176,.10);
+  --lilac:#B7A6E8; --t-lilac:rgba(183,166,232,.10);
+  --moon:#ECE6C6;
+  --dust:#4A5374;   /* chips only — 2.4:1 on panel, never text */
+  --scr:#06120C;
+  --tv-face:"VT323",ui-monospace,monospace;
+  --bd-face:"Zen Kaku Gothic New",system-ui,sans-serif;
+  --hd-face:"Petrona",Georgia,serif;
+}
+*{box-sizing:border-box}
+html{background:var(--ground)}
+body{margin:0;color:var(--ink);font-family:var(--bd-face);font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  /* the lamp: one warm pool, upper left, where the desk is */
+  background:
+    radial-gradient(900px 520px at 12% -4%, rgba(242,182,90,.13), transparent 62%),
+    radial-gradient(700px 420px at 92% 0%, rgba(201,211,242,.06), transparent 60%),
+    var(--ground);
+  background-attachment:fixed}
+a{color:inherit}
+.wrap{max-width:980px;margin:0 auto;padding:0 0 56px}
+.pad{padding:clamp(12px,2.6vw,20px) clamp(16px,3.4vw,24px)}
+.sp{display:inline-block;vertical-align:middle;shape-rendering:crispEdges;image-rendering:pixelated;flex:none}
+.tv{font-family:var(--tv-face);font-weight:400;font-synthesis:none;letter-spacing:.02em}
+.lab{font-family:var(--tv-face);font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;color:var(--dim);margin:0}
+
+/* ---------- the stepped panel. no radius anywhere: square corners, stepped
+   by a two-ring shadow so edges read as pixels, not as css. ---------- */
+.pnl{background:var(--panel);border:2px solid var(--edge);
+  box-shadow:0 0 0 2px var(--ground),0 0 0 4px var(--sunk),4px 6px 0 4px rgba(0,0,0,.35)}
+.card .hd{margin:0;padding:9px 14px;border-bottom:2px solid var(--edge);display:flex;align-items:center;gap:9px;
+  font-family:var(--tv-face);font-size:1.25rem;letter-spacing:.08em;color:var(--ink)}
+.card .hd .ct{margin-left:auto;color:var(--dim);font-size:1.05rem}
+.card .bd{padding:12px 14px 14px}
+.empty{color:var(--dim);font-size:.9rem;margin:2px 0}
+
+/* ---------- mast ---------- */
+.mast{display:grid;grid-template-columns:minmax(260px,360px) 1fr;gap:clamp(18px,3vw,34px);align-items:end;
+  padding:clamp(22px,4vw,40px) clamp(16px,3.4vw,24px) 6px}
+.desk{position:relative;padding-bottom:4px}
+.bezel{background:#262B3F;border:2px solid #070912;padding:14px 14px 22px;position:relative;
+  box-shadow:inset 0 0 0 2px #333A55,inset 0 -6px 0 #1C2033,0 0 0 2px var(--ground),6px 8px 0 2px rgba(0,0,0,.4)}
+.bezel::after{content:"";position:absolute;right:16px;bottom:7px;width:8px;height:8px;background:var(--phos);
+  box-shadow:0 0 6px 1px rgba(127,224,168,.7)}
+.screen{position:relative;background:var(--scr);border:2px solid #070912;overflow:hidden;
+  padding:14px 16px 12px;min-height:168px;color:var(--phos);
+  box-shadow:inset 0 0 28px rgba(127,224,168,.16),0 0 26px rgba(127,224,168,.12)}
+.screen::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:repeating-linear-gradient(to bottom,rgba(0,0,0,0) 0 2px,rgba(0,0,0,.28) 2px 3px)}
+.screen::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(120% 90% at 50% 40%,transparent 55%,rgba(0,0,0,.5))}
+.screen p{margin:0;position:relative;text-shadow:0 0 6px rgba(127,224,168,.55)}
+.scr-l{font-family:var(--tv-face);font-size:1.15rem;letter-spacing:.1em;opacity:.8;display:flex;justify-content:space-between;gap:8px}
+.clock{font-family:var(--tv-face);font-size:clamp(4rem,9vw,5.4rem);line-height:.95;letter-spacing:.02em;margin:6px 0 4px!important}
+.clock .colon{animation:blink 2s steps(1) infinite}
+.clock .ap{font-size:.42em;margin-left:.2em;letter-spacing:.08em}
+@keyframes blink{50%{opacity:.15}}
+.stand{width:34%;height:12px;margin:0 auto;background:#1C2033;border:2px solid #070912;border-top:0}
+.deskline{display:flex;align-items:flex-end;justify-content:space-between;margin-top:-2px;padding:0 6px;
+  border-bottom:4px solid #2A2236;box-shadow:0 4px 0 #17121F}
+.deskline .sp{margin-bottom:-1px}
+.lampglow{filter:drop-shadow(0 0 7px rgba(242,182,90,.55))}
+.mastr{min-width:0}
+.dateline{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.stamp.stale{color:var(--amber)}
+.stamp.err{color:var(--rose)}
+h1{font-family:var(--hd-face);font-style:italic;font-weight:500;font-size:clamp(2.6rem,6.4vw,4rem);
+  line-height:1;margin:8px 0 12px;letter-spacing:-.01em;color:var(--moon);
+  text-shadow:0 0 22px rgba(236,230,198,.18)}
+h1 .sp{vertical-align:baseline;margin-left:10px;filter:drop-shadow(0 0 8px rgba(236,230,198,.45))}
+.line{margin:0 0 16px;max-width:min(100%,68ch);color:var(--ink);font-size:1.02rem}
+.line b{font-weight:500;color:var(--moon)}
+.line .warn{color:var(--rose)}
+.hud{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.stat{padding:9px 12px 10px;min-width:0}
+.stat .mid{display:flex;align-items:center;justify-content:space-between;gap:6px}
+.stat .num{font-family:var(--tv-face);font-size:2.6rem;line-height:1;margin:2px 0}
+.stat small{display:block;color:var(--dim);font-size:.78rem;line-height:1.35;min-height:2.1em}
+.t-amber{background:linear-gradient(var(--t-amber),var(--t-amber)),var(--panel)} .t-amber .num{color:var(--amber)}
+.t-phos{background:linear-gradient(var(--t-phos),var(--t-phos)),var(--panel)}   .t-phos .num{color:var(--phos)}
+.t-lilac{background:linear-gradient(var(--t-lilac),var(--t-lilac)),var(--panel)} .t-lilac .num{color:var(--lilac)}
+.t-moon .num{color:var(--moon)}
+
+/* ---------- lamps: status is a small lit square ---------- */
+.chip{display:inline-block;width:10px;height:10px;flex:none;background:var(--dust);border:2px solid #070912;box-sizing:content-box}
+.chip.lit{background:var(--phos);box-shadow:0 0 6px rgba(127,224,168,.7)}
+.chip.due{background:var(--amber);box-shadow:0 0 6px rgba(242,182,90,.6)}
+.chip.over{background:var(--rose);box-shadow:0 0 6px rgba(238,155,176,.6)}
+.chip.later{background:var(--dust)}
+.tag{font-family:var(--tv-face);font-size:1.02rem;letter-spacing:.05em;white-space:nowrap;color:var(--dim)}
+.tag.lit{color:var(--phos)} .tag.due{color:var(--amber)} .tag.over{color:var(--rose)}
+
+/* ---------- the timecard ---------- */
+.tc{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:0;border:2px solid var(--edge);background:var(--sunk)}
+.day{padding:8px 8px 10px;border-right:2px dashed var(--edge);min-height:120px;min-width:0}
+.day:last-child{border-right:0}
+.day > div{min-width:0}
+.day .dh{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--tv-face);
+  font-size:1.15rem;letter-spacing:.06em;color:var(--dim);border-bottom:2px solid var(--edge);margin-bottom:7px;padding-bottom:2px}
+.day .dh b{font-weight:400;color:var(--ink)}
+.day.tgt{background:linear-gradient(rgba(242,182,90,.07),rgba(242,182,90,.07)),var(--sunk);
+  box-shadow:inset 0 0 0 2px rgba(242,182,90,.45)}
+.day.tgt .dh b{color:var(--amber)}
+.day.wknd .dh b{color:var(--lilac)}
+.punch{display:flex;align-items:center;gap:6px;font-family:var(--tv-face);font-size:1.05rem;line-height:1.15;
+  margin:0 0 5px;letter-spacing:.03em;min-width:0}
+.punch span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.punch.d span{color:var(--amber)} .punch.o span{color:var(--rose)}
+.day .none{font-family:var(--tv-face);color:var(--dust);font-size:1.1rem}
+.day.unk{background:repeating-linear-gradient(135deg,var(--sunk) 0 6px,#10152A 6px 12px)}
+.day.unk .none{color:var(--dim)}
+.tc-key{display:flex;flex-wrap:wrap;gap:6px 16px;margin:10px 0 0;font-size:.8rem;color:var(--dim)}
+.tc-key span{display:inline-flex;align-items:center;gap:6px}
+
+/* ---------- columns ---------- */
+.cols{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:0}
+.cols .pad + .pad{padding-top:0}
+
+/* tonight's reading */
+.prep{list-style:none;margin:0;padding:0}
+.prep li{display:grid;grid-template-columns:auto 1fr auto;gap:4px 10px;align-items:start;padding:10px 0;border-bottom:2px dashed var(--edge)}
+.prep li:last-child{border-bottom:0;padding-bottom:2px}
+.prep li:first-child{padding-top:2px}
+.prep .chip{margin-top:7px}
+.prep h3{font-family:var(--hd-face);font-weight:500;font-size:1.12rem;margin:0;line-height:1.3}
+.prep h3 a{text-decoration:none} .prep h3 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.prep .topic{color:var(--dim);font-size:.9rem;margin:1px 0 0;line-height:1.4}
+.prep .rd{grid-column:2 / 4;margin:4px 0 0;font-size:.88rem;line-height:1.5;color:var(--ink);
+  background:var(--sunk);border-left:3px solid var(--edge2);padding:6px 10px;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+.prep .rd.open{display:block}
+.prep .rd:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.when{font-family:var(--tv-face);font-size:1.05rem;color:var(--dim);margin:0 0 6px;letter-spacing:.06em}
+
+/* rows */
+.rows{list-style:none;margin:0;padding:0}
+.row{display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:2px dashed var(--edge);font-size:.92rem;min-width:0}
+.row:last-child{border-bottom:0}
+.row .tx{flex:1;min-width:0;line-height:1.35}
+.row .tx a{text-decoration:none} .row .tx a:hover{text-decoration:underline;text-underline-offset:3px}
+.row .tx small{display:block;color:var(--dim);font-size:.78rem}
+.sub{font-family:var(--tv-face);font-size:1.05rem;letter-spacing:.06em;color:var(--dim);margin:12px 0 2px}
+
+/* backlog meter */
+.meter{display:grid;grid-template-columns:4.2em 1fr auto;gap:6px 10px;align-items:center;margin:0;padding:0;list-style:none}
+.meter .nm{font-family:var(--tv-face);font-size:1.1rem;letter-spacing:.05em}
+.blocks{display:flex;flex-wrap:wrap;gap:2px}
+.blocks i{width:8px;height:12px;background:var(--lilac);opacity:.85}
+.meter .n{font-family:var(--tv-face);font-size:1.1rem;color:var(--lilac)}
+
+/* quests */
+.q{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:2px dashed var(--edge)}
+.q:last-child{border-bottom:0}
+.q .tx{flex:1;min-width:0;font-size:.92rem;line-height:1.35}
+.q .tx small{display:block;color:var(--dim);font-size:.78rem}
+.q.done .tx a{text-decoration:line-through;text-decoration-color:var(--dim);color:var(--dim)}
+.q a{text-decoration:none}
+
+/* docket */
+.docket{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+
+/* nav + foot */
+.nav{display:flex;flex-wrap:wrap;gap:6px;padding:6px}
+.nav a,.nav span{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;text-decoration:none;
+  font-family:var(--tv-face);font-size:1.15rem;letter-spacing:.06em;border:2px solid var(--edge);background:var(--sunk)}
+.nav a:hover{border-color:var(--amber);color:var(--amber)}
+.nav a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;color:var(--dim);font-size:.8rem;padding-top:0}
+.foot .err{color:var(--rose)}
+
+/* ---------- hero mode: what Notion embeds above its own blocks ---------- */
+body.hero-only .below{display:none!important}
+body.hero-only .wrap{padding-bottom:8px}
+
+@media (max-width:860px){
+  .mast{grid-template-columns:1fr}
+  .desk{max-width:380px}
+  .cols{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .hud{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tc{grid-template-columns:1fr}
+  .day{border-right:0;border-bottom:2px dashed var(--edge);min-height:0;display:grid;grid-template-columns:5.2em 1fr;gap:0 10px}
+  .day:last-child{border-bottom:0}
+  .day .dh{border-bottom:0;margin:0;padding:0;flex-direction:column;align-items:flex-start;line-height:1.1}
+  .docket{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  .clock .colon{animation:none}
+}
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0"><defs>
+<symbol id="px-moon" viewBox="0 0 16 16"><rect x="5" y="1" width="2" height="1" fill="#070912"/><rect x="3" y="2" width="2" height="1" fill="#070912"/><rect x="5" y="2" width="2" height="1" fill="#ECE6C6"/><rect x="7" y="2" width="1" height="1" fill="#070912"/><rect x="2" y="3" width="1" height="1" fill="#070912"/><rect x="3" y="3" width="1" height="1" fill="#B7B08F"/><rect x="4" y="3" width="2" height="1" fill="#ECE6C6"/><rect x="6" y="3" width="1" height="1" fill="#070912"/><rect x="1" y="4" width="1" height="1" fill="#070912"/><rect x="2" y="4" width="2" height="1" fill="#B7B08F"/><rect x="4" y="4" width="2" height="1" fill="#ECE6C6"/><rect x="6" y="4" width="1" height="1" fill="#070912"/><rect x="1" y="5" width="1" height="1" fill="#070912"/><rect x="2" y="5" width="2" height="1" fill="#B7B08F"/><rect x="4" y="5" width="1" height="1" fill="#ECE6C6"/><rect x="5" y="5" width="1" height="1" fill="#070912"/><rect x="0" y="6" width="1" height="1" fill="#070912"/><rect x="1" y="6" width="3" height="1" fill="#B7B08F"/><rect x="4" y="6" width="1" height="1" fill="#ECE6C6"/><rect x="5" y="6" width="1" height="1" fill="#070912"/><rect x="0" y="7" width="1" height="1" fill="#070912"/><rect x="1" y="7" width="3" height="1" fill="#B7B08F"/><rect x="4" y="7" width="2" height="1" fill="#ECE6C6"/><rect x="6" y="7" width="1" height="1" fill="#070912"/><rect x="0" y="8" width="1" height="1" fill="#070912"/><rect x="1" y="8" width="3" height="1" fill="#B7B08F"/><rect x="4" y="8" width="2" height="1" fill="#ECE6C6"/><rect x="6" y="8" width="1" height="1" fill="#070912"/><rect x="0" y="9" width="1" height="1" fill="#070912"/><rect x="1" y="9" width="3" height="1" fill="#B7B08F"/><rect x="4" y="9" width="2" height="1" fill="#ECE6C6"/><rect x="6" y="9" width="1" height="1" fill="#070912"/><rect x="1" y="10" width="1" height="1" fill="#070912"/><rect x="2" y="10" width="2" height="1" fill="#B7B08F"/><rect x="4" y="10" width="3" height="1" fill="#ECE6C6"/><rect x="7" y="10" width="3" height="1" fill="#070912"/><rect x="12" y="10" width="1" height="1" fill="#070912"/><rect x="1" y="11" width="1" height="1" fill="#070912"/><rect x="2" y="11" width="2" height="1" fill="#B7B08F"/><rect x="4" y="11" width="6" height="1" fill="#ECE6C6"/><rect x="10" y="11" width="2" height="1" fill="#070912"/><rect x="12" y="11" width="1" height="1" fill="#ECE6C6"/><rect x="13" y="11" width="1" height="1" fill="#070912"/><rect x="2" y="12" width="1" height="1" fill="#070912"/><rect x="3" y="12" width="9" height="1" fill="#B7B08F"/><rect x="12" y="12" width="1" height="1" fill="#070912"/><rect x="3" y="13" width="2" height="1" fill="#070912"/><rect x="5" y="13" width="5" height="1" fill="#B7B08F"/><rect x="10" y="13" width="2" height="1" fill="#070912"/><rect x="5" y="14" width="5" height="1" fill="#070912"/></symbol>
+<symbol id="px-lamp" viewBox="0 0 16 16"><rect x="4" y="1" width="8" height="1" fill="#070912"/><rect x="3" y="2" width="1" height="1" fill="#070912"/><rect x="4" y="2" width="1" height="1" fill="#B07A2E"/><rect x="5" y="2" width="7" height="1" fill="#F2B65A"/><rect x="12" y="2" width="1" height="1" fill="#070912"/><rect x="2" y="3" width="1" height="1" fill="#070912"/><rect x="3" y="3" width="1" height="1" fill="#B07A2E"/><rect x="4" y="3" width="9" height="1" fill="#F2B65A"/><rect x="13" y="3" width="1" height="1" fill="#070912"/><rect x="1" y="4" width="1" height="1" fill="#070912"/><rect x="2" y="4" width="1" height="1" fill="#B07A2E"/><rect x="3" y="4" width="11" height="1" fill="#F2B65A"/><rect x="14" y="4" width="1" height="1" fill="#070912"/><rect x="1" y="5" width="14" height="1" fill="#070912"/><rect x="4" y="6" width="1" height="1" fill="#070912"/><rect x="5" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="7" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="9" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="11" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="12" y="6" width="1" height="1" fill="#070912"/><rect x="7" y="7" width="2" height="1" fill="#070912"/><rect x="7" y="8" width="1" height="1" fill="#070912"/><rect x="8" y="8" width="1" height="1" fill="#3A4260"/><rect x="9" y="8" width="1" height="1" fill="#070912"/><rect x="8" y="9" width="1" height="1" fill="#070912"/><rect x="9" y="9" width="1" height="1" fill="#3A4260"/><rect x="10" y="9" width="1" height="1" fill="#070912"/><rect x="9" y="10" width="1" height="1" fill="#070912"/><rect x="10" y="10" width="1" height="1" fill="#3A4260"/><rect x="11" y="10" width="1" height="1" fill="#070912"/><rect x="8" y="11" width="1" height="1" fill="#070912"/><rect x="9" y="11" width="1" height="1" fill="#3A4260"/><rect x="10" y="11" width="1" height="1" fill="#070912"/><rect x="7" y="12" width="1" height="1" fill="#070912"/><rect x="8" y="12" width="1" height="1" fill="#3A4260"/><rect x="9" y="12" width="1" height="1" fill="#070912"/><rect x="5" y="13" width="8" height="1" fill="#070912"/><rect x="4" y="14" width="1" height="1" fill="#070912"/><rect x="5" y="14" width="8" height="1" fill="#3A4260"/><rect x="13" y="14" width="1" height="1" fill="#070912"/><rect x="4" y="15" width="10" height="1" fill="#070912"/></symbol>
+<symbol id="px-mug" viewBox="0 0 16 16"><rect x="5" y="1" width="1" height="1" fill="#FFE7B0"/><rect x="9" y="1" width="1" height="1" fill="#FFE7B0"/><rect x="4" y="2" width="1" height="1" fill="#FFE7B0"/><rect x="8" y="2" width="1" height="1" fill="#FFE7B0"/><rect x="5" y="3" width="1" height="1" fill="#FFE7B0"/><rect x="9" y="3" width="1" height="1" fill="#FFE7B0"/><rect x="4" y="4" width="1" height="1" fill="#FFE7B0"/><rect x="8" y="4" width="1" height="1" fill="#FFE7B0"/><rect x="2" y="6" width="10" height="1" fill="#070912"/><rect x="2" y="7" width="1" height="1" fill="#070912"/><rect x="3" y="7" width="8" height="1" fill="#8E7CC3"/><rect x="11" y="7" width="3" height="1" fill="#070912"/><rect x="2" y="8" width="1" height="1" fill="#070912"/><rect x="3" y="8" width="1" height="1" fill="#8E7CC3"/><rect x="4" y="8" width="1" height="1" fill="#FFE7B0"/><rect x="5" y="8" width="6" height="1" fill="#8E7CC3"/><rect x="11" y="8" width="1" height="1" fill="#070912"/><rect x="13" y="8" width="1" height="1" fill="#070912"/><rect x="2" y="9" width="1" height="1" fill="#070912"/><rect x="3" y="9" width="1" height="1" fill="#8E7CC3"/><rect x="4" y="9" width="1" height="1" fill="#FFE7B0"/><rect x="5" y="9" width="6" height="1" fill="#8E7CC3"/><rect x="11" y="9" width="1" height="1" fill="#070912"/><rect x="13" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="10" width="1" height="1" fill="#070912"/><rect x="3" y="10" width="8" height="1" fill="#8E7CC3"/><rect x="11" y="10" width="3" height="1" fill="#070912"/><rect x="2" y="11" width="1" height="1" fill="#070912"/><rect x="3" y="11" width="1" height="1" fill="#5F5190"/><rect x="4" y="11" width="6" height="1" fill="#8E7CC3"/><rect x="10" y="11" width="1" height="1" fill="#5F5190"/><rect x="11" y="11" width="1" height="1" fill="#070912"/><rect x="3" y="12" width="1" height="1" fill="#070912"/><rect x="4" y="12" width="7" height="1" fill="#5F5190"/><rect x="11" y="12" width="1" height="1" fill="#070912"/><rect x="4" y="13" width="8" height="1" fill="#070912"/><rect x="2" y="14" width="12" height="1" fill="#070912"/></symbol>
+<symbol id="px-book" viewBox="0 0 16 16"><rect x="1" y="2" width="6" height="1" fill="#070912"/><rect x="9" y="2" width="6" height="1" fill="#070912"/><rect x="1" y="3" width="1" height="1" fill="#070912"/><rect x="2" y="3" width="5" height="1" fill="#D9D2BE"/><rect x="7" y="3" width="2" height="1" fill="#070912"/><rect x="9" y="3" width="5" height="1" fill="#D9D2BE"/><rect x="14" y="3" width="1" height="1" fill="#070912"/><rect x="1" y="4" width="1" height="1" fill="#070912"/><rect x="2" y="4" width="1" height="1" fill="#D9D2BE"/><rect x="3" y="4" width="3" height="1" fill="#070912"/><rect x="6" y="4" width="1" height="1" fill="#D9D2BE"/><rect x="7" y="4" width="2" height="1" fill="#070912"/><rect x="9" y="4" width="1" height="1" fill="#D9D2BE"/><rect x="10" y="4" width="3" height="1" fill="#070912"/><rect x="13" y="4" width="1" height="1" fill="#D9D2BE"/><rect x="14" y="4" width="1" height="1" fill="#070912"/><rect x="1" y="5" width="1" height="1" fill="#070912"/><rect x="2" y="5" width="5" height="1" fill="#D9D2BE"/><rect x="7" y="5" width="2" height="1" fill="#070912"/><rect x="9" y="5" width="5" height="1" fill="#D9D2BE"/><rect x="14" y="5" width="1" height="1" fill="#070912"/><rect x="1" y="6" width="1" height="1" fill="#070912"/><rect x="2" y="6" width="1" height="1" fill="#D9D2BE"/><rect x="3" y="6" width="2" height="1" fill="#070912"/><rect x="5" y="6" width="2" height="1" fill="#D9D2BE"/><rect x="7" y="6" width="2" height="1" fill="#070912"/><rect x="9" y="6" width="1" height="1" fill="#D9D2BE"/><rect x="10" y="6" width="3" height="1" fill="#070912"/><rect x="13" y="6" width="1" height="1" fill="#D9D2BE"/><rect x="14" y="6" width="1" height="1" fill="#070912"/><rect x="1" y="7" width="1" height="1" fill="#070912"/><rect x="2" y="7" width="5" height="1" fill="#D9D2BE"/><rect x="7" y="7" width="2" height="1" fill="#070912"/><rect x="9" y="7" width="5" height="1" fill="#D9D2BE"/><rect x="14" y="7" width="1" height="1" fill="#070912"/><rect x="1" y="8" width="1" height="1" fill="#070912"/><rect x="2" y="8" width="1" height="1" fill="#D9D2BE"/><rect x="3" y="8" width="3" height="1" fill="#070912"/><rect x="6" y="8" width="1" height="1" fill="#D9D2BE"/><rect x="7" y="8" width="2" height="1" fill="#070912"/><rect x="9" y="8" width="1" height="1" fill="#D9D2BE"/><rect x="10" y="8" width="2" height="1" fill="#070912"/><rect x="12" y="8" width="2" height="1" fill="#D9D2BE"/><rect x="14" y="8" width="1" height="1" fill="#070912"/><rect x="1" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="9" width="5" height="1" fill="#D9D2BE"/><rect x="7" y="9" width="2" height="1" fill="#070912"/><rect x="9" y="9" width="5" height="1" fill="#D9D2BE"/><rect x="14" y="9" width="1" height="1" fill="#070912"/><rect x="1" y="10" width="1" height="1" fill="#070912"/><rect x="2" y="10" width="5" height="1" fill="#D9D2BE"/><rect x="7" y="10" width="2" height="1" fill="#070912"/><rect x="9" y="10" width="5" height="1" fill="#D9D2BE"/><rect x="14" y="10" width="1" height="1" fill="#070912"/><rect x="1" y="11" width="1" height="1" fill="#070912"/><rect x="2" y="11" width="12" height="1" fill="#A39C88"/><rect x="14" y="11" width="1" height="1" fill="#070912"/><rect x="1" y="12" width="14" height="1" fill="#070912"/></symbol>
+<symbol id="px-clock" viewBox="0 0 16 16"><rect x="5" y="1" width="6" height="1" fill="#070912"/><rect x="3" y="2" width="2" height="1" fill="#070912"/><rect x="5" y="2" width="6" height="1" fill="#E8E6F0"/><rect x="11" y="2" width="2" height="1" fill="#070912"/><rect x="2" y="3" width="1" height="1" fill="#070912"/><rect x="3" y="3" width="5" height="1" fill="#E8E6F0"/><rect x="8" y="3" width="1" height="1" fill="#070912"/><rect x="9" y="3" width="4" height="1" fill="#E8E6F0"/><rect x="13" y="3" width="1" height="1" fill="#070912"/><rect x="2" y="4" width="1" height="1" fill="#070912"/><rect x="3" y="4" width="5" height="1" fill="#E8E6F0"/><rect x="8" y="4" width="1" height="1" fill="#070912"/><rect x="9" y="4" width="4" height="1" fill="#E8E6F0"/><rect x="13" y="4" width="1" height="1" fill="#070912"/><rect x="1" y="5" width="1" height="1" fill="#070912"/><rect x="2" y="5" width="6" height="1" fill="#E8E6F0"/><rect x="8" y="5" width="1" height="1" fill="#070912"/><rect x="9" y="5" width="5" height="1" fill="#E8E6F0"/><rect x="14" y="5" width="1" height="1" fill="#070912"/><rect x="1" y="6" width="1" height="1" fill="#070912"/><rect x="2" y="6" width="6" height="1" fill="#E8E6F0"/><rect x="8" y="6" width="1" height="1" fill="#070912"/><rect x="9" y="6" width="5" height="1" fill="#E8E6F0"/><rect x="14" y="6" width="1" height="1" fill="#070912"/><rect x="1" y="7" width="1" height="1" fill="#070912"/><rect x="2" y="7" width="6" height="1" fill="#E8E6F0"/><rect x="8" y="7" width="4" height="1" fill="#070912"/><rect x="12" y="7" width="2" height="1" fill="#E8E6F0"/><rect x="14" y="7" width="1" height="1" fill="#070912"/><rect x="1" y="8" width="1" height="1" fill="#070912"/><rect x="2" y="8" width="12" height="1" fill="#E8E6F0"/><rect x="14" y="8" width="1" height="1" fill="#070912"/><rect x="1" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="9" width="1" height="1" fill="#9BA1BF"/><rect x="3" y="9" width="11" height="1" fill="#E8E6F0"/><rect x="14" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="10" width="1" height="1" fill="#070912"/><rect x="3" y="10" width="1" height="1" fill="#9BA1BF"/><rect x="4" y="10" width="9" height="1" fill="#E8E6F0"/><rect x="13" y="10" width="1" height="1" fill="#070912"/><rect x="2" y="11" width="1" height="1" fill="#070912"/><rect x="3" y="11" width="2" height="1" fill="#9BA1BF"/><rect x="5" y="11" width="7" height="1" fill="#E8E6F0"/><rect x="12" y="11" width="1" height="1" fill="#9BA1BF"/><rect x="13" y="11" width="1" height="1" fill="#070912"/><rect x="3" y="12" width="2" height="1" fill="#070912"/><rect x="5" y="12" width="6" height="1" fill="#9BA1BF"/><rect x="11" y="12" width="2" height="1" fill="#070912"/><rect x="5" y="13" width="6" height="1" fill="#070912"/></symbol>
+<symbol id="px-star" viewBox="0 0 16 16"><rect x="7" y="1" width="2" height="1" fill="#070912"/><rect x="7" y="2" width="2" height="1" fill="#070912"/><rect x="6" y="3" width="1" height="1" fill="#070912"/><rect x="7" y="3" width="2" height="1" fill="#C9D3F2"/><rect x="9" y="3" width="1" height="1" fill="#070912"/><rect x="6" y="4" width="1" height="1" fill="#070912"/><rect x="7" y="4" width="2" height="1" fill="#C9D3F2"/><rect x="9" y="4" width="1" height="1" fill="#070912"/><rect x="5" y="5" width="1" height="1" fill="#070912"/><rect x="6" y="5" width="1" height="1" fill="#C9D3F2"/><rect x="7" y="5" width="2" height="1" fill="#FFE7B0"/><rect x="9" y="5" width="1" height="1" fill="#C9D3F2"/><rect x="10" y="5" width="1" height="1" fill="#070912"/><rect x="1" y="6" width="4" height="1" fill="#070912"/><rect x="5" y="6" width="1" height="1" fill="#C9D3F2"/><rect x="6" y="6" width="4" height="1" fill="#FFE7B0"/><rect x="10" y="6" width="1" height="1" fill="#C9D3F2"/><rect x="11" y="6" width="4" height="1" fill="#070912"/><rect x="1" y="7" width="1" height="1" fill="#070912"/><rect x="2" y="7" width="2" height="1" fill="#C9D3F2"/><rect x="4" y="7" width="8" height="1" fill="#FFE7B0"/><rect x="12" y="7" width="2" height="1" fill="#C9D3F2"/><rect x="14" y="7" width="1" height="1" fill="#070912"/><rect x="1" y="8" width="1" height="1" fill="#070912"/><rect x="2" y="8" width="2" height="1" fill="#C9D3F2"/><rect x="4" y="8" width="8" height="1" fill="#FFE7B0"/><rect x="12" y="8" width="2" height="1" fill="#C9D3F2"/><rect x="14" y="8" width="1" height="1" fill="#070912"/><rect x="1" y="9" width="4" height="1" fill="#070912"/><rect x="5" y="9" width="1" height="1" fill="#C9D3F2"/><rect x="6" y="9" width="4" height="1" fill="#FFE7B0"/><rect x="10" y="9" width="1" height="1" fill="#C9D3F2"/><rect x="11" y="9" width="4" height="1" fill="#070912"/><rect x="5" y="10" width="1" height="1" fill="#070912"/><rect x="6" y="10" width="1" height="1" fill="#C9D3F2"/><rect x="7" y="10" width="2" height="1" fill="#FFE7B0"/><rect x="9" y="10" width="1" height="1" fill="#C9D3F2"/><rect x="10" y="10" width="1" height="1" fill="#070912"/><rect x="6" y="11" width="1" height="1" fill="#070912"/><rect x="7" y="11" width="2" height="1" fill="#C9D3F2"/><rect x="9" y="11" width="1" height="1" fill="#070912"/><rect x="6" y="12" width="1" height="1" fill="#070912"/><rect x="7" y="12" width="2" height="1" fill="#C9D3F2"/><rect x="9" y="12" width="1" height="1" fill="#070912"/><rect x="7" y="13" width="2" height="1" fill="#070912"/><rect x="7" y="14" width="2" height="1" fill="#070912"/></symbol>
+<symbol id="px-owl" viewBox="0 0 16 16"><rect x="2" y="1" width="2" height="1" fill="#070912"/><rect x="12" y="1" width="2" height="1" fill="#070912"/><rect x="2" y="2" width="1" height="1" fill="#070912"/><rect x="3" y="2" width="1" height="1" fill="#4A5578"/><rect x="4" y="2" width="2" height="1" fill="#070912"/><rect x="10" y="2" width="2" height="1" fill="#070912"/><rect x="12" y="2" width="1" height="1" fill="#4A5578"/><rect x="13" y="2" width="1" height="1" fill="#070912"/><rect x="2" y="3" width="1" height="1" fill="#070912"/><rect x="3" y="3" width="3" height="1" fill="#4A5578"/><rect x="6" y="3" width="4" height="1" fill="#070912"/><rect x="10" y="3" width="3" height="1" fill="#4A5578"/><rect x="13" y="3" width="1" height="1" fill="#070912"/><rect x="1" y="4" width="1" height="1" fill="#070912"/><rect x="2" y="4" width="12" height="1" fill="#4A5578"/><rect x="14" y="4" width="1" height="1" fill="#070912"/><rect x="1" y="5" width="1" height="1" fill="#070912"/><rect x="2" y="5" width="1" height="1" fill="#4A5578"/><rect x="3" y="5" width="3" height="1" fill="#FFE7B0"/><rect x="6" y="5" width="4" height="1" fill="#4A5578"/><rect x="10" y="5" width="3" height="1" fill="#FFE7B0"/><rect x="13" y="5" width="1" height="1" fill="#4A5578"/><rect x="14" y="5" width="1" height="1" fill="#070912"/><rect x="1" y="6" width="1" height="1" fill="#070912"/><rect x="2" y="6" width="1" height="1" fill="#4A5578"/><rect x="3" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="4" y="6" width="1" height="1" fill="#070912"/><rect x="5" y="6" width="1" height="1" fill="#F2B65A"/><rect x="6" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="7" y="6" width="2" height="1" fill="#4A5578"/><rect x="9" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="10" y="6" width="1" height="1" fill="#F2B65A"/><rect x="11" y="6" width="1" height="1" fill="#070912"/><rect x="12" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="13" y="6" width="1" height="1" fill="#4A5578"/><rect x="14" y="6" width="1" height="1" fill="#070912"/><rect x="1" y="7" width="1" height="1" fill="#070912"/><rect x="2" y="7" width="1" height="1" fill="#4A5578"/><rect x="3" y="7" width="3" height="1" fill="#FFE7B0"/><rect x="6" y="7" width="4" height="1" fill="#4A5578"/><rect x="10" y="7" width="3" height="1" fill="#FFE7B0"/><rect x="13" y="7" width="1" height="1" fill="#4A5578"/><rect x="14" y="7" width="1" height="1" fill="#070912"/><rect x="1" y="8" width="1" height="1" fill="#070912"/><rect x="2" y="8" width="5" height="1" fill="#4A5578"/><rect x="7" y="8" width="2" height="1" fill="#F2B65A"/><rect x="9" y="8" width="5" height="1" fill="#4A5578"/><rect x="14" y="8" width="1" height="1" fill="#070912"/><rect x="1" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="9" width="3" height="1" fill="#4A5578"/><rect x="5" y="9" width="1" height="1" fill="#7884AA"/><rect x="6" y="9" width="4" height="1" fill="#4A5578"/><rect x="10" y="9" width="1" height="1" fill="#7884AA"/><rect x="11" y="9" width="3" height="1" fill="#4A5578"/><rect x="14" y="9" width="1" height="1" fill="#070912"/><rect x="1" y="10" width="1" height="1" fill="#070912"/><rect x="2" y="10" width="2" height="1" fill="#4A5578"/><rect x="4" y="10" width="3" height="1" fill="#7884AA"/><rect x="7" y="10" width="2" height="1" fill="#4A5578"/><rect x="9" y="10" width="3" height="1" fill="#7884AA"/><rect x="12" y="10" width="2" height="1" fill="#4A5578"/><rect x="14" y="10" width="1" height="1" fill="#070912"/><rect x="2" y="11" width="1" height="1" fill="#070912"/><rect x="3" y="11" width="2" height="1" fill="#4A5578"/><rect x="5" y="11" width="6" height="1" fill="#7884AA"/><rect x="11" y="11" width="2" height="1" fill="#4A5578"/><rect x="13" y="11" width="1" height="1" fill="#070912"/><rect x="2" y="12" width="1" height="1" fill="#070912"/><rect x="3" y="12" width="3" height="1" fill="#4A5578"/><rect x="6" y="12" width="4" height="1" fill="#7884AA"/><rect x="10" y="12" width="3" height="1" fill="#4A5578"/><rect x="13" y="12" width="1" height="1" fill="#070912"/><rect x="3" y="13" width="2" height="1" fill="#070912"/><rect x="5" y="13" width="6" height="1" fill="#4A5578"/><rect x="11" y="13" width="2" height="1" fill="#070912"/><rect x="4" y="14" width="1" height="1" fill="#070912"/><rect x="5" y="14" width="1" height="1" fill="#F2B65A"/><rect x="6" y="14" width="1" height="1" fill="#070912"/><rect x="9" y="14" width="1" height="1" fill="#070912"/><rect x="10" y="14" width="1" height="1" fill="#F2B65A"/><rect x="11" y="14" width="1" height="1" fill="#070912"/></symbol>
+<symbol id="px-card" viewBox="0 0 16 16"><rect x="2" y="1" width="12" height="1" fill="#070912"/><rect x="2" y="2" width="1" height="1" fill="#070912"/><rect x="3" y="2" width="10" height="1" fill="#D9D2BE"/><rect x="13" y="2" width="1" height="1" fill="#070912"/><rect x="2" y="3" width="1" height="1" fill="#070912"/><rect x="3" y="3" width="1" height="1" fill="#D9D2BE"/><rect x="4" y="3" width="8" height="1" fill="#070912"/><rect x="12" y="3" width="1" height="1" fill="#D9D2BE"/><rect x="13" y="3" width="1" height="1" fill="#070912"/><rect x="2" y="4" width="1" height="1" fill="#070912"/><rect x="3" y="4" width="10" height="1" fill="#D9D2BE"/><rect x="13" y="4" width="1" height="1" fill="#070912"/><rect x="2" y="5" width="1" height="1" fill="#070912"/><rect x="3" y="5" width="1" height="1" fill="#D9D2BE"/><rect x="4" y="5" width="1" height="1" fill="#7FE0A8"/><rect x="5" y="5" width="1" height="1" fill="#D9D2BE"/><rect x="6" y="5" width="1" height="1" fill="#A39C88"/><rect x="7" y="5" width="2" height="1" fill="#D9D2BE"/><rect x="9" y="5" width="1" height="1" fill="#7FE0A8"/><rect x="10" y="5" width="1" height="1" fill="#D9D2BE"/><rect x="11" y="5" width="1" height="1" fill="#A39C88"/><rect x="12" y="5" width="1" height="1" fill="#D9D2BE"/><rect x="13" y="5" width="1" height="1" fill="#070912"/><rect x="2" y="6" width="1" height="1" fill="#070912"/><rect x="3" y="6" width="10" height="1" fill="#D9D2BE"/><rect x="13" y="6" width="1" height="1" fill="#070912"/><rect x="2" y="7" width="1" height="1" fill="#070912"/><rect x="3" y="7" width="1" height="1" fill="#D9D2BE"/><rect x="4" y="7" width="1" height="1" fill="#A39C88"/><rect x="5" y="7" width="1" height="1" fill="#D9D2BE"/><rect x="6" y="7" width="1" height="1" fill="#7FE0A8"/><rect x="7" y="7" width="2" height="1" fill="#D9D2BE"/><rect x="9" y="7" width="1" height="1" fill="#A39C88"/><rect x="10" y="7" width="1" height="1" fill="#D9D2BE"/><rect x="11" y="7" width="1" height="1" fill="#7FE0A8"/><rect x="12" y="7" width="1" height="1" fill="#D9D2BE"/><rect x="13" y="7" width="1" height="1" fill="#070912"/><rect x="2" y="8" width="1" height="1" fill="#070912"/><rect x="3" y="8" width="10" height="1" fill="#D9D2BE"/><rect x="13" y="8" width="1" height="1" fill="#070912"/><rect x="2" y="9" width="1" height="1" fill="#070912"/><rect x="3" y="9" width="1" height="1" fill="#D9D2BE"/><rect x="4" y="9" width="1" height="1" fill="#7FE0A8"/><rect x="5" y="9" width="1" height="1" fill="#D9D2BE"/><rect x="6" y="9" width="1" height="1" fill="#A39C88"/><rect x="7" y="9" width="2" height="1" fill="#D9D2BE"/><rect x="9" y="9" width="1" height="1" fill="#7FE0A8"/><rect x="10" y="9" width="1" height="1" fill="#D9D2BE"/><rect x="11" y="9" width="1" height="1" fill="#A39C88"/><rect x="12" y="9" width="1" height="1" fill="#D9D2BE"/><rect x="13" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="10" width="1" height="1" fill="#070912"/><rect x="3" y="10" width="10" height="1" fill="#D9D2BE"/><rect x="13" y="10" width="1" height="1" fill="#070912"/><rect x="2" y="11" width="1" height="1" fill="#070912"/><rect x="3" y="11" width="1" height="1" fill="#D9D2BE"/><rect x="4" y="11" width="1" height="1" fill="#A39C88"/><rect x="5" y="11" width="1" height="1" fill="#D9D2BE"/><rect x="6" y="11" width="1" height="1" fill="#A39C88"/><rect x="7" y="11" width="2" height="1" fill="#D9D2BE"/><rect x="9" y="11" width="1" height="1" fill="#A39C88"/><rect x="10" y="11" width="1" height="1" fill="#D9D2BE"/><rect x="11" y="11" width="1" height="1" fill="#A39C88"/><rect x="12" y="11" width="1" height="1" fill="#D9D2BE"/><rect x="13" y="11" width="1" height="1" fill="#070912"/><rect x="2" y="12" width="1" height="1" fill="#070912"/><rect x="3" y="12" width="10" height="1" fill="#D9D2BE"/><rect x="13" y="12" width="1" height="1" fill="#070912"/><rect x="2" y="13" width="12" height="1" fill="#070912"/></symbol>
+<symbol id="px-gavel" viewBox="0 0 16 16"><rect x="9" y="1" width="4" height="1" fill="#070912"/><rect x="8" y="2" width="1" height="1" fill="#070912"/><rect x="9" y="2" width="1" height="1" fill="#B07A2E"/><rect x="10" y="2" width="2" height="1" fill="#F2B65A"/><rect x="12" y="2" width="1" height="1" fill="#B07A2E"/><rect x="13" y="2" width="1" height="1" fill="#070912"/><rect x="7" y="3" width="1" height="1" fill="#070912"/><rect x="8" y="3" width="1" height="1" fill="#B07A2E"/><rect x="9" y="3" width="3" height="1" fill="#F2B65A"/><rect x="12" y="3" width="1" height="1" fill="#B07A2E"/><rect x="13" y="3" width="1" height="1" fill="#070912"/><rect x="6" y="4" width="1" height="1" fill="#070912"/><rect x="7" y="4" width="1" height="1" fill="#B07A2E"/><rect x="8" y="4" width="3" height="1" fill="#F2B65A"/><rect x="11" y="4" width="1" height="1" fill="#B07A2E"/><rect x="12" y="4" width="1" height="1" fill="#070912"/><rect x="5" y="5" width="1" height="1" fill="#070912"/><rect x="6" y="5" width="1" height="1" fill="#B07A2E"/><rect x="7" y="5" width="3" height="1" fill="#F2B65A"/><rect x="10" y="5" width="1" height="1" fill="#B07A2E"/><rect x="11" y="5" width="1" height="1" fill="#070912"/><rect x="4" y="6" width="2" height="1" fill="#070912"/><rect x="6" y="6" width="1" height="1" fill="#B07A2E"/><rect x="7" y="6" width="1" height="1" fill="#F2B65A"/><rect x="8" y="6" width="1" height="1" fill="#B07A2E"/><rect x="9" y="6" width="2" height="1" fill="#070912"/><rect x="3" y="7" width="1" height="1" fill="#070912"/><rect x="4" y="7" width="1" height="1" fill="#B07A2E"/><rect x="5" y="7" width="1" height="1" fill="#070912"/><rect x="6" y="7" width="2" height="1" fill="#B07A2E"/><rect x="8" y="7" width="1" height="1" fill="#070912"/><rect x="2" y="8" width="1" height="1" fill="#070912"/><rect x="3" y="8" width="2" height="1" fill="#B07A2E"/><rect x="5" y="8" width="2" height="1" fill="#070912"/><rect x="1" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="9" width="2" height="1" fill="#B07A2E"/><rect x="4" y="9" width="1" height="1" fill="#070912"/><rect x="1" y="10" width="1" height="1" fill="#070912"/><rect x="2" y="10" width="1" height="1" fill="#B07A2E"/><rect x="3" y="10" width="1" height="1" fill="#070912"/><rect x="1" y="11" width="2" height="1" fill="#070912"/><rect x="2" y="13" width="10" height="1" fill="#070912"/><rect x="2" y="14" width="1" height="1" fill="#070912"/><rect x="3" y="14" width="8" height="1" fill="#B07A2E"/><rect x="11" y="14" width="1" height="1" fill="#070912"/><rect x="2" y="15" width="10" height="1" fill="#070912"/></symbol>
+<symbol id="px-coin" viewBox="0 0 16 16"><rect x="5" y="1" width="6" height="1" fill="#070912"/><rect x="3" y="2" width="2" height="1" fill="#070912"/><rect x="5" y="2" width="6" height="1" fill="#F2B65A"/><rect x="11" y="2" width="2" height="1" fill="#070912"/><rect x="2" y="3" width="1" height="1" fill="#070912"/><rect x="3" y="3" width="2" height="1" fill="#F2B65A"/><rect x="5" y="3" width="6" height="1" fill="#FFE7B0"/><rect x="11" y="3" width="2" height="1" fill="#F2B65A"/><rect x="13" y="3" width="1" height="1" fill="#070912"/><rect x="1" y="4" width="1" height="1" fill="#070912"/><rect x="2" y="4" width="2" height="1" fill="#F2B65A"/><rect x="4" y="4" width="2" height="1" fill="#FFE7B0"/><rect x="6" y="4" width="4" height="1" fill="#F2B65A"/><rect x="10" y="4" width="2" height="1" fill="#FFE7B0"/><rect x="12" y="4" width="2" height="1" fill="#F2B65A"/><rect x="14" y="4" width="1" height="1" fill="#070912"/><rect x="1" y="5" width="1" height="1" fill="#070912"/><rect x="2" y="5" width="1" height="1" fill="#F2B65A"/><rect x="3" y="5" width="2" height="1" fill="#FFE7B0"/><rect x="5" y="5" width="2" height="1" fill="#F2B65A"/><rect x="7" y="5" width="2" height="1" fill="#B07A2E"/><rect x="9" y="5" width="2" height="1" fill="#F2B65A"/><rect x="11" y="5" width="2" height="1" fill="#FFE7B0"/><rect x="13" y="5" width="1" height="1" fill="#F2B65A"/><rect x="14" y="5" width="1" height="1" fill="#070912"/><rect x="1" y="6" width="1" height="1" fill="#070912"/><rect x="2" y="6" width="1" height="1" fill="#F2B65A"/><rect x="3" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="4" y="6" width="2" height="1" fill="#F2B65A"/><rect x="6" y="6" width="4" height="1" fill="#B07A2E"/><rect x="10" y="6" width="2" height="1" fill="#F2B65A"/><rect x="12" y="6" width="1" height="1" fill="#FFE7B0"/><rect x="13" y="6" width="1" height="1" fill="#F2B65A"/><rect x="14" y="6" width="1" height="1" fill="#070912"/><rect x="1" y="7" width="1" height="1" fill="#070912"/><rect x="2" y="7" width="1" height="1" fill="#F2B65A"/><rect x="3" y="7" width="1" height="1" fill="#FFE7B0"/><rect x="4" y="7" width="2" height="1" fill="#F2B65A"/><rect x="6" y="7" width="4" height="1" fill="#B07A2E"/><rect x="10" y="7" width="2" height="1" fill="#F2B65A"/><rect x="12" y="7" width="1" height="1" fill="#FFE7B0"/><rect x="13" y="7" width="1" height="1" fill="#F2B65A"/><rect x="14" y="7" width="1" height="1" fill="#070912"/><rect x="1" y="8" width="1" height="1" fill="#070912"/><rect x="2" y="8" width="1" height="1" fill="#F2B65A"/><rect x="3" y="8" width="2" height="1" fill="#FFE7B0"/><rect x="5" y="8" width="2" height="1" fill="#F2B65A"/><rect x="7" y="8" width="2" height="1" fill="#B07A2E"/><rect x="9" y="8" width="2" height="1" fill="#F2B65A"/><rect x="11" y="8" width="2" height="1" fill="#FFE7B0"/><rect x="13" y="8" width="1" height="1" fill="#F2B65A"/><rect x="14" y="8" width="1" height="1" fill="#070912"/><rect x="1" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="9" width="2" height="1" fill="#F2B65A"/><rect x="4" y="9" width="2" height="1" fill="#FFE7B0"/><rect x="6" y="9" width="4" height="1" fill="#F2B65A"/><rect x="10" y="9" width="2" height="1" fill="#FFE7B0"/><rect x="12" y="9" width="2" height="1" fill="#F2B65A"/><rect x="14" y="9" width="1" height="1" fill="#070912"/><rect x="2" y="10" width="1" height="1" fill="#070912"/><rect x="3" y="10" width="2" height="1" fill="#F2B65A"/><rect x="5" y="10" width="6" height="1" fill="#FFE7B0"/><rect x="11" y="10" width="2" height="1" fill="#F2B65A"/><rect x="13" y="10" width="1" height="1" fill="#070912"/><rect x="3" y="11" width="2" height="1" fill="#070912"/><rect x="5" y="11" width="6" height="1" fill="#F2B65A"/><rect x="11" y="11" width="2" height="1" fill="#070912"/><rect x="5" y="12" width="6" height="1" fill="#070912"/></symbol>
+</defs></svg>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="desk">
+      <div class="bezel">
+        <div class="screen" aria-label="Clock, Pacific time">
+          <p class="scr-l"><span>PACIFIC</span><span id="n-scr-date">&nbsp;</span></p>
+          <p class="clock" id="n-clock">--<span class="colon">:</span>--</p>
+          <p class="scr-l"><span id="n-scr-sub">clocking in</span><span id="n-scr-fin">&nbsp;</span></p>
+        </div>
+      </div>
+      <div class="stand"></div>
+      <div class="deskline">
+        <span class="lampglow"><svg class="sp" width="48" height="48"><use href="#px-lamp"/></svg></span>
+        <svg class="sp" width="32" height="32"><use href="#px-book"/></svg>
+        <svg class="sp" width="32" height="32"><use href="#px-mug"/></svg>
+      </div>
+    </div>
+
+    <div class="mastr">
+      <div class="dateline">
+        <p class="lab" id="n-term">night shift · fall term</p>
+        <p class="lab stamp" id="n-stamp">not synced yet</p>
+      </div>
+      <h1>night shift<svg class="sp" width="48" height="48"><use href="#px-moon"/></svg></h1>
+      <!-- Written by the hydration step. What ships in the file says nothing
+           that could go out of date, for the case where data.json never lands. -->
+      <p class="line" id="n-line">What tomorrow needs from tonight. The line fills in when the data lands.</p>
+      <div class="hud">
+        <div class="pnl stat t-amber">
+          <p class="lab">next up</p>
+          <div class="mid"><p class="num" id="n-stops">&mdash;</p><svg class="sp" width="32" height="32"><use href="#px-book"/></svg></div>
+          <small id="n-stops-sub">not loaded yet</small>
+        </div>
+        <div class="pnl stat t-phos">
+          <p class="lab">this week</p>
+          <div class="mid"><p class="num" id="n-due">&mdash;</p><svg class="sp" width="32" height="32"><use href="#px-clock"/></svg></div>
+          <small id="n-due-sub">not loaded yet</small>
+        </div>
+        <div class="pnl stat t-lilac">
+          <p class="lab">backlog</p>
+          <div class="mid"><p class="num" id="n-back">&mdash;</p><svg class="sp" width="32" height="32"><use href="#px-card"/></svg></div>
+          <small id="n-back-sub">not loaded yet</small>
+        </div>
+        <div class="pnl stat t-moon">
+          <p class="lab">finals</p>
+          <div class="mid"><p class="num" id="n-fin">&mdash;</p><svg class="sp" width="32" height="32"><use href="#px-star"/></svg></div>
+          <small id="n-fin-sub">not loaded yet</small>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="pad">
+    <div class="pnl card">
+      <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-card"/></svg> TIMECARD <span class="ct" id="n-tc-hd">the next seven</span></p>
+      <div class="bd">
+        <div class="tc" id="n-tc"><div class="day unk"><span class="none">loads from notion</span></div></div>
+        <p class="tc-key">
+          <span><i class="chip lit"></i>class, read</span>
+          <span><i class="chip later"></i>class, not read</span>
+          <span><i class="chip due"></i>due</span>
+          <span><i class="chip over"></i>overdue</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="cols below">
+    <main>
+      <section class="pad">
+        <div class="pnl card">
+          <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-lamp"/></svg> TONIGHT'S READING <span class="ct" id="n-prep-hd"></span></p>
+          <div class="bd" id="n-prep"><p class="empty">loads from notion</p></div>
+        </div>
+      </section>
+      <section class="pad">
+        <div class="pnl card">
+          <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-clock"/></svg> ON THE CLOCK <span class="ct" id="n-clock-hd"></span></p>
+          <div class="bd" id="n-work"><p class="empty">loads from notion</p></div>
+        </div>
+      </section>
+    </main>
+    <aside>
+      <section class="pad">
+        <div class="pnl card">
+          <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-owl"/></svg> THE NIGHT LIST</p>
+          <div class="bd" id="n-quests"><p class="empty">loads from notion</p></div>
+        </div>
+      </section>
+      <section class="pad">
+        <div class="pnl card">
+          <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-card"/></svg> UNMERGED <span class="ct" id="n-back-hd"></span></p>
+          <div class="bd" id="n-backlog"><p class="empty">loads from notion</p></div>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <section class="pad below">
+    <div class="pnl card">
+      <p class="hd"><svg class="sp" width="16" height="16"><use href="#px-gavel"/></svg> THE DOCKET</p>
+      <div class="bd docket">
+        <div><p class="sub">recent cases</p><ul class="rows" id="n-cases"><li class="row empty">loads from notion</li></ul></div>
+        <div><p class="sub">prep sheets + handouts</p><ul class="rows" id="n-reserve"><li class="row empty">loads from notion</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad below">
+    <nav class="nav pnl">
+      <a href="../windowseat/"><svg class="sp" width="16" height="16"><use href="#px-coin"/></svg>the window seat</a>
+      <a href="https://app.notion.com/p/3c9063496baf8126a0c3d9e9bac4d716" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-moon"/></svg>night shift in notion</a>
+      <a href="https://app.notion.com/p/3c6063496baf81b4be0ccc29411c4164" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-book"/></svg>this week</a>
+      <a href="https://app.notion.com/p/3c9063496baf81869c19f750a1f94e7e" target="_blank" rel="noopener"><svg class="sp" width="16" height="16"><use href="#px-star"/></svg>save point</a>
+    </nav>
+  </section>
+
+  <footer class="pad foot below">
+    <span id="n-foot">night shift · emmi.os</span>
+    <span id="n-errs"></span>
+  </footer>
+</div>
+
+<script>
+/* Hydration. Reads the window seat's data.json — one pull, two pages — and
+   fills each section on its own. Every section is wrapped separately, so a
+   bug in one cannot blank the rest (the window seat lost its HUD and quest
+   rows to a single swallowed throw near its caption once).
+
+   Every helper is declared up here, before anything calls it. */
+(function(){
+  if (/[?&]view=hero\b/.test(location.search)) document.body.classList.add('hero-only');
+
+  var TZ = 'America/Los_Angeles';
+  var DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var DOWL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  var NUMS = ['no','one','two','three','four','five','six','seven','eight','nine','ten'];
+
+  function $(id){ return document.getElementById(id); }
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function sp(name, size){ return '<svg class="sp" width="' + size + '" height="' + size + '"><use href="#px-' + name + '"/></svg>'; }
+  function safeUrl(u){ return /^https:\/\//.test(u || '') ? u : null; }
+  function link(text, url){
+    var u = safeUrl(url);
+    return u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(text) + '</a>' : esc(text);
+  }
+  function countWord(n){ return n < NUMS.length ? NUMS[n] : String(n); }
+  function cap(s){ return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+  function plural(n, one, many){ return n === 1 ? one : (many || one + 's'); }
+
+  /* Dates. Every ISO day here is a calendar day, compared as a string, so a
+     browser in another timezone can't shift them. "Now" is always Pacific. */
+  function parts(d){
+    var o = {};
+    new Intl.DateTimeFormat('en-US', {timeZone: TZ, year:'numeric', month:'2-digit', day:'2-digit',
+      hour:'2-digit', minute:'2-digit', hourCycle:'h23'}).formatToParts(d)
+      .forEach(function(p){ o[p.type] = p.value; });
+    return {iso: o.year + '-' + o.month + '-' + o.day, h: +o.hour % 24, m: +o.minute};
+  }
+  function addDays(iso, n){
+    var p = iso.split('-'), d = new Date(Date.UTC(+p[0], +p[1]-1, +p[2] + n));
+    return d.toISOString().slice(0, 10);
+  }
+  function dowOf(iso){ var p = iso.split('-'); return new Date(Date.UTC(+p[0], +p[1]-1, +p[2])).getUTCDay(); }
+  function daysBetween(a, b){ return Math.round((Date.parse(b) - Date.parse(a)) / 864e5); }
+  function short(iso){ var p = iso.split('-'); return MON[+p[1]-1] + ' ' + (+p[2]); }
+
+  /* The shift. Past midnight is still the same night: at 1am the work is for
+     the day that has just started, not the one after it. Five is the cutover —
+     a page opened at 6am is a morning check, and morning has its own skin. */
+  function shift(){
+    var n = parts(new Date());
+    var target = n.h < 5 ? n.iso : addDays(n.iso, 1);
+    return {now: n, today: n.iso, target: target, late: n.h < 5};
+  }
+  function dayWord(iso, s){
+    if (iso === s.today) return 'today';
+    if (iso === addDays(s.today, 1)) return 'tomorrow';
+    var gap = daysBetween(s.today, iso);
+    if (gap > 0 && gap < 7) return DOWL[dowOf(iso)];
+    return DOWL[dowOf(iso)] + ' ' + short(iso);
+  }
+
+  /* "Property 26 — Prescriptive easements" -> head "Property 26", topic after. */
+  function splitTitle(t){
+    var i = (t || '').indexOf(' — ');
+    return i < 0 ? {head: t || '', topic: ''} : {head: t.slice(0, i), topic: t.slice(i + 3)};
+  }
+  function abbr(course){
+    if (!course) return '—';
+    var w = course.split(/\s+/);
+    if (w.length > 1) return w.map(function(x){ return x[0]; }).join('').toUpperCase();
+    return course.length <= 4 ? course.toUpperCase() : course.slice(0, 4).toUpperCase();
+  }
+  function sessionTag(s){ return abbr(s.course) + (s.session != null ? ' ' + s.session : ''); }
+
+  /* ---- the clock: runs whether or not data ever arrives ---- */
+  function tick(){
+    var n = parts(new Date()), h12 = n.h % 12 || 12;
+    $('n-clock').innerHTML = (h12 < 10 ? '&nbsp;' : '') + h12 + '<span class="colon">:</span>' +
+      (n.m < 10 ? '0' : '') + n.m + '<span class="ap">' + (n.h < 12 ? 'AM' : 'PM') + '</span>';
+    $('n-scr-date').textContent = DOW[dowOf(n.iso)].toUpperCase() + ' ' + short(n.iso).toUpperCase();
+    var sub = n.h < 5 ? 'past midnight' : n.h < 12 ? 'off shift' : n.h < 18 ? 'before the shift' : 'on shift';
+    $('n-scr-sub').textContent = sub;
+  }
+  tick(); setInterval(tick, 15000);
+
+  function section(name, fn){
+    try { fn(); }
+    catch (e) { if (window.console) console.error('night shift: ' + name, e); }
+  }
+
+  fetch('../windowseat/data.json', {cache: 'no-store'})
+    .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(hydrate)
+    .catch(function(e){
+      $('n-stamp').textContent = 'data unavailable';
+      $('n-stamp').className = 'lab stamp err';
+      if (window.console) console.error('night shift: data.json', e);
+    });
+
+  function hydrate(d){
+    var s = shift();
+    var sessions = d.ahead || d.upcoming || [];
+    var work = d.weather || [];
+    var counts = d.counts || {};
+
+    /* How far ahead the data actually reaches. Past this day the page does not
+       know, and says so, rather than drawing an empty day it never loaded. */
+    var known;
+    if (d.ahead && d.aheadUntil) known = d.aheadUntil;
+    else known = sessions.length ? sessions[sessions.length - 1].date : s.today;
+    var workCap = work.length >= 10 && work[work.length - 1].due ? work[work.length - 1].due : null;
+    if (workCap && workCap < known) known = workCap;
+
+    var future = sessions.filter(function(x){ return x.date && x.date >= s.target; });
+    var nextDay = future.length ? future[0].date : null;
+    var nextStops = future.filter(function(x){ return x.date === nextDay; });
+    var overdue = work.filter(function(a){ return a.overdue; });
+    var horizon = addDays(s.target, 6);
+    var dueWeek = work.filter(function(a){ return !a.overdue && a.due && a.due <= horizon; });
+
+    section('stamp', function(){
+      var st = $('n-stamp'), g = d.generated ? new Date(d.generated) : null;
+      if (!g || isNaN(g)) { st.textContent = 'sync time unknown'; return; }
+      var p = parts(g), h12 = p.h % 12 || 12;
+      var t = h12 + ':' + (p.m < 10 ? '0' : '') + p.m + (p.h < 12 ? 'am' : 'pm');
+      var age = (Date.now() - g.getTime()) / 36e5;
+      if (age > 3) { st.textContent = 'last sync ' + short(p.iso).toLowerCase() + ' · ' + t; st.className = 'lab stamp stale'; }
+      else st.textContent = 'synced ' + t;
+      if (d.errors && d.errors.length) {
+        st.textContent += ' · ' + d.errors.length + ' ' + plural(d.errors.length, 'source') + ' down';
+        st.className = 'lab stamp err';
+        $('n-errs').innerHTML = '<span class="err">' + d.errors.map(esc).join(' · ') + '</span>';
+      }
+    });
+
+    section('term', function(){
+      var t = d.term || {};
+      if (t.week) $('n-term').textContent = 'week ' + t.week + ' of ' + t.of;
+      if (t.daysToFinals != null) {
+        var left = t.end ? daysBetween(s.today, t.end) : t.daysToFinals;
+        $('n-fin').textContent = left;
+        $('n-fin-sub').textContent = plural(left, 'day') + ' to ' + (t.end ? short(t.end).toLowerCase() : 'finals');
+        $('n-scr-fin').textContent = left + 'D TO FINALS';
+      }
+    });
+
+    /* ---- the line: what tomorrow needs from tonight ---- */
+    section('line', function(){
+      var out = [];
+      if (overdue.length) {
+        out.push('<span class="warn">' + cap(countWord(overdue.length)) + ' ' + plural(overdue.length, 'thing is', 'things are') +
+          ' overdue</span>, starting with ' + esc(overdue[0].title) + '.');
+      }
+      if (!nextDay) {
+        out.push('No classes on the board ahead.');
+      } else {
+        var w = dayWord(nextDay, s);
+        var read = nextStops.filter(function(x){ return x.prepped; });
+        var unread = nextStops.filter(function(x){ return !x.prepped; });
+        var lead = nextDay === s.target ? cap(w) : 'No class ' + dayWord(s.target, s) + '; the next stop is ' + w;
+        var names = function(xs){ return xs.map(function(x){ return '<b>' + esc(splitTitle(x.title).head) + '</b>'; }); };
+        var join = function(xs){ return xs.length < 3 ? xs.join(' and ') : xs.slice(0, -1).join(', ') + ' and ' + xs[xs.length - 1]; };
+        if (!unread.length) out.push(lead + (nextDay === s.target ? ' is ' : ', and it is ') + 'read: ' + join(names(read)) + '.');
+        else if (!read.length) out.push(lead + (nextDay === s.target ? ': ' : ': ') + join(names(unread)) + (unread.length === 1 ? ', still unread.' : ', all still unread.'));
+        else out.push(lead + ': ' + join(names(read)) + (read.length === 1 ? ' is' : ' are') + ' read; ' + join(names(unread)) + ' still ' + (unread.length === 1 ? 'needs' : 'need') + ' it.');
+      }
+      var dueT = work.filter(function(a){ return !a.overdue && a.due === s.target; });
+      if (dueT.length) {
+        out.push('Due ' + dayWord(s.target, s) + ': ' + dueT.map(function(a){ return '<b>' + esc(a.title) + '</b>'; }).join(', ') + '.');
+      } else {
+        var nx = work.filter(function(a){ return !a.overdue && a.due && a.due > s.target; })[0];
+        if (nx) out.push('Nothing is due ' + dayWord(s.target, s) + '; next on the board is ' + esc(nx.title) + ', ' + dayWord(nx.due, s) + '.');
+        else if (!overdue.length && work.length === 0) out.push('Nothing open on the board.');
+      }
+      $('n-line').innerHTML = out.join(' ');
+    });
+
+    /* ---- the hud ---- */
+    section('hud', function(){
+      if (nextDay) {
+        var unread = nextStops.filter(function(x){ return !x.prepped; }).length;
+        $('n-stops').textContent = nextStops.length;
+        $('n-stops-sub').textContent = plural(nextStops.length, 'class', 'classes') + ' ' + dayWord(nextDay, s) +
+          (unread ? ' · ' + unread + ' unread' : ' · all read');
+      } else { $('n-stops').textContent = 0; $('n-stops-sub').textContent = 'nothing scheduled'; }
+      $('n-due').textContent = dueWeek.length + overdue.length;
+      $('n-due-sub').textContent = overdue.length ? overdue.length + ' overdue · ' + dueWeek.length + ' due in 7 days'
+        : 'due in the next 7 days';
+      var un = counts.unmerged;
+      if (un != null) { $('n-back').textContent = un; $('n-back-sub').textContent = plural(un, 'session') + ' to merge'; }
+    });
+
+    /* ---- the timecard ---- */
+    section('timecard', function(){
+      var html = '';
+      for (var i = 0; i < 7; i++) {
+        var iso = addDays(s.target, i), dw = dowOf(iso);
+        var cls = 'day' + (i === 0 ? ' tgt' : '') + (dw === 0 || dw === 6 ? ' wknd' : '');
+        var head = '<p class="dh"><b>' + DOW[dw].toUpperCase() + '</b>' + short(iso).toLowerCase() + '</p>';
+        if (iso > known) {
+          html += '<div class="' + cls + ' unk">' + head + '<p class="none">not loaded</p></div>';
+          continue;
+        }
+        var body = '';
+        sessions.filter(function(x){ return x.date === iso; }).forEach(function(x){
+          body += '<p class="punch" title="' + esc(x.title) + '"><i class="chip ' + (x.prepped ? 'lit' : 'later') + '"></i><span>' + esc(sessionTag(x)) + '</span></p>';
+        });
+        work.filter(function(a){ return a.due === iso; }).forEach(function(a){
+          body += '<p class="punch ' + (a.overdue ? 'o' : 'd') + '" title="' + esc(a.title) + '"><i class="chip ' + (a.overdue ? 'over' : 'due') + '"></i><span>' + esc(a.title) + '</span></p>';
+        });
+        html += '<div class="' + cls + '">' + head + '<div>' + (body || '<p class="none">—</p>') + '</div></div>';
+      }
+      $('n-tc').innerHTML = html;
+      $('n-tc-hd').textContent = short(s.target).toLowerCase() + ' → ' + short(addDays(s.target, 6)).toLowerCase();
+    });
+
+    /* ---- tonight's reading: every stop on the next class day ---- */
+    section('prep', function(){
+      if (!nextDay) { $('n-prep').innerHTML = '<p class="empty">No classes ahead on the board.</p>'; return; }
+      var unread = nextStops.filter(function(x){ return !x.prepped; }).length;
+      $('n-prep-hd').textContent = unread ? unread + ' of ' + nextStops.length + ' to read' : 'all read';
+      var html = '<p class="when">' + esc(dayWord(nextDay, s)).toUpperCase() + ' · ' + short(nextDay).toUpperCase() + '</p><ul class="prep">';
+      nextStops.forEach(function(x){
+        var t = splitTitle(x.title);
+        html += '<li><i class="chip ' + (x.prepped ? 'lit' : 'due') + '"></i>' +
+          '<div><h3>' + link(t.head, x.url) + '</h3>' + (t.topic ? '<p class="topic">' + esc(t.topic) + '</p>' : '') + '</div>' +
+          '<span class="tag ' + (x.prepped ? 'lit' : 'due') + '">' + (x.prepped ? 'read' : 'to read') + '</span>' +
+          (x.reading ? '<p class="rd" tabindex="0" role="button" aria-expanded="false" title="show all">' + esc(x.reading) + '</p>' : '') +
+          '</li>';
+      });
+      $('n-prep').innerHTML = html + '</ul>';
+      Array.prototype.forEach.call($('n-prep').querySelectorAll('.rd'), function(el){
+        function flip(){ var o = el.classList.toggle('open'); el.setAttribute('aria-expanded', o); }
+        el.addEventListener('click', flip);
+        el.addEventListener('keydown', function(e){ if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } });
+      });
+    });
+
+    /* ---- on the clock: overdue, then the next seven days, then the long haul ---- */
+    section('work', function(){
+      function row(a){
+        var k = a.overdue ? 'over' : a.due && a.due <= horizon ? 'due' : 'later';
+        var when = a.overdue ? 'overdue' : a.due ? (daysBetween(s.today, a.due) <= 1 ? dayWord(a.due, s) : DOW[dowOf(a.due)].toLowerCase() + ' ' + short(a.due).toLowerCase()) : 'no date';
+        return '<li class="row"><i class="chip ' + k + '"></i><span class="tx">' + link(a.title, a.url) +
+          '<small>' + esc(a.course || '') + (a.type === 'graded' ? ' · graded' : '') + '</small></span>' +
+          '<span class="tag ' + k + '">' + esc(when) + '</span></li>';
+      }
+      var soon = overdue.concat(dueWeek);
+      var later = (d.longHaul || []).filter(function(a){ return a.due && a.due > horizon; }).slice(0, 4);
+      var html = soon.length ? '<ul class="rows">' + soon.map(row).join('') + '</ul>'
+        : '<p class="empty">Nothing due in the next seven days.</p>';
+      if (later.length) html += '<p class="sub">the long haul · graded</p><ul class="rows">' + later.map(row).join('') + '</ul>';
+      $('n-work').innerHTML = html;
+      $('n-clock-hd').textContent = counts.open != null ? counts.open + ' open' : '';
+    });
+
+    /* ---- the night list: night dailies first, then the weeklies ---- */
+    section('quests', function(){
+      var q = d.quests || {}, all = (q.dailies || []).concat((q.other || []).filter(function(x){ return x.kind === 'weekly'; }));
+      if (!all.length) { $('n-quests').innerHTML = '<p class="empty">No active quests loaded.</p>'; return; }
+      var rank = function(x){ return x.kind === 'daily' ? (x.when === 'night' ? 0 : 1) : 2; };
+      all.sort(function(a, b){ return rank(a) - rank(b); });
+      var html = all.slice(0, 5).map(function(x){
+        var icon = x.when === 'night' ? 'moon' : x.kind === 'daily' ? 'mug' : 'coin';
+        var meta = x.kind + (x.kind === 'daily' && x.streak ? ' · ' + x.streak + ' day streak' : '');
+        return '<div class="q' + (x.done ? ' done' : '') + '">' + sp(icon, 16) +
+          '<span class="tx">' + link(x.title, x.url) + '<small>' + esc(meta) + '</small></span>' +
+          '<span class="tag ' + (x.done ? 'lit' : 'due') + '">' + (x.done ? 'claimed' : (x.gold ? '+' + x.gold + 'g' : 'open')) + '</span></div>';
+      }).join('');
+      if (q.unclaimed) html += '<p class="sub">' + q.unclaimed + 'g unclaimed today</p>';
+      $('n-quests').innerHTML = html;
+    });
+
+    /* ---- the backlog: sessions waiting on a merge, by course ---- */
+    section('backlog', function(){
+      var by = d.backlog, total = counts.unmerged;
+      if (!by) {
+        by = {};
+        (d.walkHome || []).forEach(function(x){ by[x.course || 'other'] = (by[x.course || 'other'] || 0) + 1; });
+      }
+      var names = Object.keys(by).sort(function(a, b){ return by[b] - by[a]; });
+      if (!names.length) { $('n-backlog').innerHTML = '<p class="empty">Nothing waiting on a merge.</p>'; return; }
+      $('n-back-hd').textContent = total != null ? total + ' sessions' : '';
+      var html = '<ul class="meter">' + names.map(function(n){
+        var c = by[n], blocks = '';
+        for (var i = 0; i < Math.min(c, 16); i++) blocks += '<i></i>';
+        return '<li class="nm" title="' + esc(n) + '">' + esc(abbr(n)) + '</li><li class="blocks">' + blocks + '</li><li class="n">' + c + '</li>';
+      }).join('') + '</ul>';
+      if (!d.backlog && total != null) html += '<p class="empty" style="margin-top:8px">oldest ten of ' + total + ' shown.</p>';
+      var oldest = (d.walkHome || [])[0];
+      if (oldest) html += '<p class="sub">oldest</p><ul class="rows"><li class="row"><i class="chip later"></i><span class="tx">' +
+        link(splitTitle(oldest.title).head, oldest.url) + '<small>' + esc(short(oldest.date).toLowerCase()) + '</small></span></li></ul>';
+      $('n-backlog').innerHTML = html;
+    });
+
+    /* ---- the docket ---- */
+    section('docket', function(){
+      var cases = (d.shelf || []).slice(0, 6);
+      $('n-cases').innerHTML = cases.length ? cases.map(function(c){
+        return '<li class="row">' + sp('gavel', 16) + '<span class="tx">' + link(c.title, c.url) + '<small>' + esc(c.course || '') + '</small></span></li>';
+      }).join('') : '<li class="row empty">No cases yet.</li>';
+      var res = (d.reserve || []).slice(0, 6);
+      $('n-reserve').innerHTML = res.length ? res.map(function(r){
+        return '<li class="row">' + sp('book', 16) + '<span class="tx">' + link(r.title, r.link) + '<small>' + esc((r.course || '') + (r.kind ? ' · ' + r.kind : '')) + '</small></span></li>';
+      }).join('') : '<li class="row empty">Nothing on reserve.</li>';
+    });
+  }
+})();
+</script>
+</body>
+</html>
