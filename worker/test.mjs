@@ -2,11 +2,11 @@
 // The sandbox that built this cannot reach api.notion.com, so every Notion
 // call here is answered from the in-memory pages below and recorded.
 import assert from "node:assert/strict";
-import worker, { shiftDay } from "./src/index.js";
+import worker, { shiftDay, cleanToken } from "./src/index.js";
 
 const DB = { classes: "8ee2ec9a-796b-4bdd-a1ed-287177f1a100", quests: "aef1c9cc-f5ce-43d2-b4de-a4d43c85a28d",
              moods: "c10062d0-f683-426f-bfbb-9b22488a4e3d", assignments: "0c795daa-579d-460e-845e-4d53afcc1290" };
-const env = { NOTION_TOKEN: "secret_x", SHIFT_KEY: "moonlight" };
+const env = { NOTION_TOKEN: "secret_" + "x".repeat(40), SHIFT_KEY: "moonlight" };
 let pages, calls;
 
 function reset(status = "not started") {
@@ -99,5 +99,16 @@ assert.equal(r.already, true);
 
 // --- moods outside the log's own options are refused
 r = await json(await req({ action: "mood", mood: "great" })); assert.equal(r.status, 400);
+
+// --- a key pasted with invisible junk still works; a wrong thing says what it is
+const KEY = "ntn_" + "a1B2".repeat(10);
+for (const messy of [KEY, KEY + "\n", " " + KEY + " ", "\u00a0" + KEY, '"' + KEY + '"', "Bearer " + KEY, "\u201c" + KEY + "\u201d", KEY.slice(0, 20) + "\u200b" + KEY.slice(20)])
+  assert.equal(cleanToken(messy), KEY, JSON.stringify(messy));
+assert.throws(() => cleanToken("https://www.notion.so/my-integrations"), /starts "http…"/);
+assert.throws(() => cleanToken(""), /is empty/);
+r = await json(await worker.fetch(new Request("https://w.dev/v1", { method: "POST",
+  headers: { "x-shift-key": "moonlight" }, body: JSON.stringify({ action: "quest", id: "3c9063496baf8170916afde6a010d939" }) }),
+  { NOTION_TOKEN: "my integration", SHIFT_KEY: "moonlight" }));
+assert.equal(r.status, 500); assert.match(r.error, /doesn't look like a Notion key/);
 
 console.log("worker: all checks passed");
