@@ -70,10 +70,26 @@ function hex(id) {
   return h;
 }
 
+/* Secrets pasted into a dashboard pick up junk nobody can see: a trailing
+   newline, a non-breaking space, quote marks, a leading "Bearer". Any of those
+   makes Notion answer "Authorization header must use the format Bearer
+   <token>", which says nothing useful. Strip them, and if what's left still
+   isn't shaped like a Notion key, say what it looks like instead. */
+export function cleanToken(raw) {
+  let t = String(raw || "").replace(/[\s\u00a0\u200b-\u200d\u2060\ufeff]/g, "");
+  t = t.replace(/^["'`\u201c\u201d\u2018\u2019]+|["'`\u201c\u201d\u2018\u2019]+$/g, "").replace(/^bearer:?/i, "");
+  if (!/^(ntn_|secret_)[A-Za-z0-9]{20,}$/.test(t)) {
+    const start = t ? `starts "${t.slice(0, 4)}…" and is ${t.length} characters` : "is empty";
+    throw new Fail(500, `NOTION_TOKEN doesn't look like a Notion key: it ${start}. ` +
+      "It should start with ntn_ or secret_ (copy it from notion.so/my-integrations).");
+  }
+  return t;
+}
+
 async function notion(env, method, path, body) {
   const r = await fetch(API + path, {
     method,
-    headers: { Authorization: "Bearer " + env.NOTION_TOKEN, "Notion-Version": VERSION,
+    headers: { Authorization: "Bearer " + cleanToken(env.NOTION_TOKEN), "Notion-Version": VERSION,
                "Content-Type": "application/json" },
     body: body ? JSON.stringify(body) : undefined,
   });
