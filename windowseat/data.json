@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-18T04:56:43+00:00",
- "today": "2026-10-17",
+ "generated": "2026-10-18T09:16:29+00:00",
+ "today": "2026-10-18",
  "term": {
   "week": 9,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 46
+  "daysToFinals": 45
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-17",
-    "code": 2,
-    "high": 82.9,
-    "low": 52.2,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-18",
     "code": 0,
-    "high": 70.0,
-    "low": 52.1,
+    "high": 69.5,
+    "low": 52.0,
     "rainMax": 1
    },
    {
     "date": "2026-10-19",
     "code": 3,
-    "high": 63.0,
+    "high": 61.9,
     "low": 51.1,
     "rainMax": 7
    },
    {
     "date": "2026-10-20",
     "code": 3,
-    "high": 67.5,
-    "low": 54.1,
-    "rainMax": 25
+    "high": 69.9,
+    "low": 51.6,
+    "rainMax": 20
+   },
+   {
+    "date": "2026-10-21",
+    "code": 53,
+    "high": 67.2,
+    "low": 55.6,
+    "rainMax": 43
    }
   ],
   "code": 0,
-  "dayCode": 2,
-  "temp": 61.9,
-  "high": 82.9,
-  "low": 52.2,
-  "rainMax": 0,
+  "dayCode": 0,
+  "temp": 56.0,
+  "high": 69.5,
+  "low": 52.0,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -281,9 +281,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-30-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf81e8b0c6c275f9729f1b"
+  },
+  {
+   "title": "Evidence 19 — Best Evidence Rule; Authentication",
+   "course": "Evidence",
+   "date": "2026-10-26",
+   "session": 19,
+   "reading": "CB 743-751; 757-760 (advisory committee note); 762-763 (Problems); 763-764; 767-771; 773-782; 788-791; 798-799. bCourses: Craft v. Philip Morris appellate brief (excerpts). F.R.E. 901, 902, 1001-1009. C.E.C. 250-260, 1520-1523. Zoom class.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
   }
  ],
- "aheadUntil": "2026-10-25",
+ "aheadUntil": "2026-10-26",
  "backlog": {
   "Property": 20,
   "Negotiations": 6,
@@ -1234,7 +1244,7 @@
    "due": "2026-10-17",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Gossett-v-Bacchus-Neg-7-3db063496baf81eab9f0f00b2e3dc32f"
   },
   {
@@ -1377,7 +1387,7 @@
  ],
  "counts": {
   "open": 22,
-  "overdue": 0,
+  "overdue": 1,
   "dueSoon": 3,
   "graded": 16,
   "unmerged": 47,
