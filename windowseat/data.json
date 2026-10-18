@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T09:16:29+00:00",
+ "generated": "2026-10-18T13:23:44+00:00",
  "today": "2026-10-18",
  "term": {
   "week": 9,
@@ -12,9 +12,9 @@
   "days": [
    {
     "date": "2026-10-18",
-    "code": 0,
-    "high": 69.5,
-    "low": 52.0,
+    "code": 45,
+    "high": 67.2,
+    "low": 51.9,
     "rainMax": 1
    },
    {
@@ -27,23 +27,23 @@
    {
     "date": "2026-10-20",
     "code": 3,
-    "high": 69.9,
-    "low": 51.6,
+    "high": 68.2,
+    "low": 51.1,
     "rainMax": 20
    },
    {
     "date": "2026-10-21",
-    "code": 53,
-    "high": 67.2,
-    "low": 55.6,
+    "code": 81,
+    "high": 66.4,
+    "low": 54.8,
     "rainMax": 43
    }
   ],
   "code": 0,
-  "dayCode": 0,
-  "temp": 56.0,
-  "high": 69.5,
-  "low": 52.0,
+  "dayCode": 45,
+  "temp": 52.5,
+  "high": 67.2,
+  "low": 51.9,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -135,7 +135,7 @@
   "date": "2026-10-19",
   "session": 17,
   "reading": "CB 306-328. Huddleston v. U.S. F.R.E. 404(b). C.E.C. 1101(b). No in limine argument.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/Evidence-17-Other-Uses-of-Specific-Conduct-3c6063496baf8160b66cd7f52561e21b"
  },
@@ -146,7 +146,7 @@
    "date": "2026-10-19",
    "session": 17,
    "reading": "CB 306-328. Huddleston v. U.S. F.R.E. 404(b). C.E.C. 1101(b). No in limine argument.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-17-Other-Uses-of-Specific-Conduct-3c6063496baf8160b66cd7f52561e21b"
   },
@@ -208,7 +208,7 @@
    "date": "2026-10-19",
    "session": 17,
    "reading": "CB 306-328. Huddleston v. U.S. F.R.E. 404(b). C.E.C. 1101(b). No in limine argument.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-17-Other-Uses-of-Specific-Conduct-3c6063496baf8160b66cd7f52561e21b"
   },
@@ -364,6 +364,81 @@
   }
  ],
  "shelf": [
+  {
+   "title": "Lewis v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Lewis-v-United-States-3fd063496baf812a9d02ea4a1b0a1675"
+  },
+  {
+   "title": "United States v. Wright",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Wright-3fd063496baf8143a303dc11dd2ffd42"
+  },
+  {
+   "title": "United States v. Crocker",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Crocker-3fd063496baf814ca9fcf510db432ceb"
+  },
+  {
+   "title": "United States v. Davis",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Davis-3fd063496baf814faee7ccf8020c63c1"
+  },
+  {
+   "title": "United States v. Ekiyor",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Ekiyor-3fd063496baf81688651e170a15be508"
+  },
+  {
+   "title": "United States v. Weadick",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Weadick-3fd063496baf8193819efc50ed2f4283"
+  },
+  {
+   "title": "United States v. DeJohn",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-DeJohn-3fd063496baf81a9973ef0488ed5406a"
+  },
+  {
+   "title": "United States v. Edwards",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Edwards-3fd063496baf81c7a0e5f1fac5769191"
+  },
+  {
+   "title": "United States v. Merritt",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Merritt-3fd063496baf81ce9ba1c36569cddbc5"
+  },
+  {
+   "title": "United States v. Edwards",
+   "course": "",
+   "url": "https://app.notion.com/p/United-States-v-Edwards-3fd063496baf809ca47adf717bf09d50"
+  },
+  {
+   "title": "United States v. Crocker",
+   "course": "",
+   "url": "https://app.notion.com/p/United-States-v-Crocker-3fd063496baf80e09b11da6362783d8f"
+  },
+  {
+   "title": "Lewis v. United States",
+   "course": "",
+   "url": "https://app.notion.com/p/Lewis-v-United-States-3fd063496baf8054a5b3d9f2a41429da"
+  },
+  {
+   "title": "United States v. DeJohn",
+   "course": "",
+   "url": "https://app.notion.com/p/United-States-v-DeJohn-3fd063496baf80c9b455ca14d06f840d"
+  },
+  {
+   "title": "United States v. Boyd",
+   "course": "",
+   "url": "https://app.notion.com/p/United-States-v-Boyd-3fd063496baf80869758f6ee6207d948"
+  },
+  {
+   "title": "United States v. Beechum",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Beechum-3fd063496baf8166be44f9085b3ae50c"
+  },
   {
    "title": "United States v. Krapp",
    "course": "Evidence",
@@ -1392,7 +1467,7 @@
   "graded": 16,
   "unmerged": 47,
   "courses": 5,
-  "cases": 120,
+  "cases": 135,
   "reserve": 45
  },
  "courses": [
