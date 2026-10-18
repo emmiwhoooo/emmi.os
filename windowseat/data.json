@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T21:10:43+00:00",
+ "generated": "2026-10-18T23:07:33+00:00",
  "today": "2026-10-18",
  "term": {
   "week": 9,
@@ -13,16 +13,16 @@
    {
     "date": "2026-10-18",
     "code": 45,
-    "high": 65.1,
+    "high": 66.7,
     "low": 52.5,
-    "rainMax": 2
+    "rainMax": 1
    },
    {
     "date": "2026-10-19",
     "code": 3,
     "high": 62.8,
-    "low": 51.2,
-    "rainMax": 4
+    "low": 51.4,
+    "rainMax": 3
    },
    {
     "date": "2026-10-20",
@@ -39,12 +39,12 @@
     "rainMax": 54
    }
   ],
-  "code": 1,
+  "code": 0,
   "dayCode": 45,
-  "temp": 64.7,
-  "high": 65.1,
+  "temp": 63.0,
+  "high": 66.7,
   "low": 52.5,
-  "rainMax": 2,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -1332,6 +1332,15 @@
    "url": "https://app.notion.com/p/Fundamental-Alteration-Case-List-3c6063496baf81bc99a8f3ffc5b3ead6"
   },
   {
+   "title": "YJ make-up reflection (Class 9 absence)",
+   "course": "Youth Justice",
+   "due": "2026-10-19",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/YJ-make-up-reflection-Class-9-absence-3fd063496baf812588faf503f434bf64"
+  },
+  {
    "title": "Citation Problem Set #3",
    "course": "LRW",
    "due": "2026-10-23",
@@ -1393,15 +1402,6 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Sanchez-v-Ace-Auto-Neg-8-graded-3db063496baf817ab705e07e9da821f6"
-  },
-  {
-   "title": "Reflection 3 (Classes 9-12)",
-   "course": "Youth Justice",
-   "due": "2026-11-10",
-   "type": "graded",
-   "weight": "10 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Reflection-3-Classes-9-12-3c6063496baf811ea013d6fde4bceb53"
   }
  ],
  "longHaul": [
@@ -1413,6 +1413,15 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Fundamental-Alteration-Case-List-3c6063496baf81bc99a8f3ffc5b3ead6"
+  },
+  {
+   "title": "YJ make-up reflection (Class 9 absence)",
+   "course": "Youth Justice",
+   "due": "2026-10-19",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/YJ-make-up-reflection-Class-9-absence-3fd063496baf812588faf503f434bf64"
   },
   {
    "title": "Citation Problem Set #3",
@@ -1449,22 +1458,13 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Fundamental-Alteration-Office-Memo-3c6063496baf8112b580fed5c128e980"
-  },
-  {
-   "title": "In limine argument — IL 8 (Evidence 21, Mon Nov 2)",
-   "course": "Evidence",
-   "due": "2026-11-02",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
   }
  ],
  "counts": {
-  "open": 22,
+  "open": 26,
   "overdue": 1,
-  "dueSoon": 3,
-  "graded": 16,
+  "dueSoon": 4,
+  "graded": 17,
   "unmerged": 47,
   "courses": 5,
   "cases": 135,
