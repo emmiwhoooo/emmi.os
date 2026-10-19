@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-19T06:10:33+00:00",
- "today": "2026-10-18",
+ "generated": "2026-10-19T13:03:38+00:00",
+ "today": "2026-10-19",
  "term": {
-  "week": 9,
+  "week": 10,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 45
+  "daysToFinals": 44
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-18",
-    "code": 45,
-    "high": 66.7,
-    "low": 52.8,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-19",
     "code": 3,
-    "high": 60.7,
+    "high": 62.5,
     "low": 51.7,
-    "rainMax": 2
+    "rainMax": 1
    },
    {
     "date": "2026-10-20",
-    "code": 51,
-    "high": 66.9,
+    "code": 3,
+    "high": 66.4,
     "low": 49.6,
-    "rainMax": 12
+    "rainMax": 9
    },
    {
     "date": "2026-10-21",
-    "code": 55,
-    "high": 62.9,
-    "low": 55.4,
-    "rainMax": 58
+    "code": 51,
+    "high": 66.5,
+    "low": 56.2,
+    "rainMax": 51
+   },
+   {
+    "date": "2026-10-22",
+    "code": 61,
+    "high": 65.6,
+    "low": 53.6,
+    "rainMax": 29
    }
   ],
   "code": 3,
-  "dayCode": 45,
-  "temp": 55.1,
-  "high": 66.7,
-  "low": 52.8,
-  "rainMax": 0,
+  "dayCode": 3,
+  "temp": 54.7,
+  "high": 62.5,
+  "low": 51.7,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -291,11 +291,31 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
+  },
+  {
+   "title": "LRW 21 — Improving your Issue and Brief Answer; drafting tips",
+   "course": "LRW",
+   "date": "2026-10-27",
+   "session": 21,
+   "reading": "Bring CPS#4.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
+  },
+  {
+   "title": "Evidence 20 — AI and Deepfakes; Proposed FRE 107 and 901(c)",
+   "course": "Evidence",
+   "date": "2026-10-27",
+   "session": 20,
+   "reading": "CB 648-651; 761-763; 799-800; Federal Rules Committee Evidence Book pp. 133-182; Proposed F.R.E. 107 (AI evidence); Proposed F.R.E. 901(c) (deepfakes). Zoom class. Guest: Robert Weissman (Public Citizen). No office hours today.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-20-AI-and-Deepfakes-Proposed-FRE-107-and-901-c-3c6063496baf81929352edd8ff2ffc9d"
   }
  ],
- "aheadUntil": "2026-10-26",
+ "aheadUntil": "2026-10-27",
  "backlog": {
-  "Property": 20,
+  "Property": 17,
   "Negotiations": 6,
   "Youth Justice": 6,
   "Evidence": 7,
@@ -319,12 +339,6 @@
    "course": "Negotiations",
    "date": "2026-08-27",
    "url": "https://app.notion.com/p/Negotiations-2-Integrative-Bargaining-Options-Leverage-BATNA-Role-play-Serene-Isle-Signal-Fra-3c6063496baf81b9b207f5cb0c68b70b"
-  },
-  {
-   "title": "Property 7 — SKILLS WORKSHOP 1 (adverse possession) — PRACTICE EXERCISE 1 DUE",
-   "course": "Property",
-   "date": "2026-09-02",
-   "url": "https://app.notion.com/p/Property-7-SKILLS-WORKSHOP-1-adverse-possession-PRACTICE-EXERCISE-1-DUE-3c6063496baf8182aa05e82d7a1d3e18"
   },
   {
    "title": "Negotiations 3 — Distributive Bargaining; Anchoring; The Money Dance — Role-play: Batmobile",
@@ -361,6 +375,12 @@
    "course": "Property",
    "date": "2026-09-11",
    "url": "https://app.notion.com/p/Property-12-Waste-rules-affecting-future-interests-3c6063496baf8105a9b4ffd9299baf5f"
+  },
+  {
+   "title": "Property 13 — Forms of concurrent ownership",
+   "course": "Property",
+   "date": "2026-09-16",
+   "url": "https://app.notion.com/p/Property-13-Forms-of-concurrent-ownership-3c6063496baf8116b403f6bb7d39d720"
   }
  ],
  "shelf": [
@@ -410,28 +430,8 @@
    "url": "https://app.notion.com/p/United-States-v-Merritt-3fd063496baf81ce9ba1c36569cddbc5"
   },
   {
-   "title": "United States v. Edwards",
-   "course": "",
-   "url": "https://app.notion.com/p/United-States-v-Edwards-3fd063496baf809ca47adf717bf09d50"
-  },
-  {
-   "title": "United States v. Crocker",
-   "course": "",
-   "url": "https://app.notion.com/p/United-States-v-Crocker-3fd063496baf80e09b11da6362783d8f"
-  },
-  {
-   "title": "Lewis v. United States",
-   "course": "",
-   "url": "https://app.notion.com/p/Lewis-v-United-States-3fd063496baf8054a5b3d9f2a41429da"
-  },
-  {
-   "title": "United States v. DeJohn",
-   "course": "",
-   "url": "https://app.notion.com/p/United-States-v-DeJohn-3fd063496baf80c9b455ca14d06f840d"
-  },
-  {
    "title": "United States v. Boyd",
-   "course": "",
+   "course": "Evidence",
    "url": "https://app.notion.com/p/United-States-v-Boyd-3fd063496baf80869758f6ee6207d948"
   },
   {
@@ -830,11 +830,6 @@
    "url": "https://app.notion.com/p/In-re-Gault-3c6063496baf814997acce63c6b67261"
   },
   {
-   "title": "In re Alonzo J.",
-   "course": "Youth Justice",
-   "url": "https://app.notion.com/p/In-re-Alonzo-J-3c6063496baf818d95e3f7c55e13305b"
-  },
-  {
    "title": "In re O.F.",
    "course": "Youth Justice",
    "url": "https://app.notion.com/p/In-re-O-F-3c6063496baf81988447d4e3a40e7091"
@@ -1041,6 +1036,30 @@
   }
  ],
  "reserve": [
+  {
+   "title": "Youth Justice 9 Slides",
+   "course": "Youth Justice",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/Youth-Justice-9-Slides-3fe063496baf808eb564f5e81fbb3fe5"
+  },
+  {
+   "title": "Property 23 Slides",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/Property-23-Slides-3fe063496baf800caf96c542d1787cff"
+  },
+  {
+   "title": "Class 9 Hypothetical: Police in Schools",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Class-9-Hypothetical-Police-in-Schools-3fe063496baf80d99b61cdc5778e49e6"
+  },
+  {
+   "title": "Mother Jones - How Black Oaklanders Finally Expelled the School Police (11-20).pdf",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/Mother-Jones-How-Black-Oaklanders-Finally-Expelled-the-School-Police-11-20-pdf-3fe063496baf8117ae88e8397ab23dea"
+  },
   {
    "title": "📝 Prep sheet — Pre-Adjudication Detention (Youth Justice 6)",
    "course": "Youth Justice",
@@ -1323,14 +1342,88 @@
    "url": "https://app.notion.com/p/Negotiation-group-feedback-2-peers-3fd063496baf81f09ab4c4d5dc90e95c"
   },
   {
-   "title": "Fundamental Alteration Case List",
-   "course": "LRW",
+   "title": "YJ make-up reflection (Class 9 absence)",
+   "course": "Youth Justice",
    "due": "2026-10-19",
    "type": "graded",
    "weight": "",
    "overdue": false,
-   "url": "https://app.notion.com/p/Fundamental-Alteration-Case-List-3c6063496baf81bc99a8f3ffc5b3ead6"
+   "url": "https://app.notion.com/p/YJ-make-up-reflection-Class-9-absence-3fd063496baf812588faf503f434bf64"
   },
+  {
+   "title": "Post 1–2 questions for legislative staffers (Class 10)",
+   "course": "Youth Justice",
+   "due": "2026-10-21",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Post-1-2-questions-for-legislative-staffers-Class-10-3fe063496baf81b5bff4dd0e28ced181"
+  },
+  {
+   "title": "Citation Problem Set #3",
+   "course": "LRW",
+   "due": "2026-10-23",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-3-3c6063496baf8133b8f5e3838be8bfc8"
+  },
+  {
+   "title": "Conference with DiGennaro (Zoom)",
+   "course": "Property",
+   "due": "2026-10-23",
+   "type": "admin",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Conference-with-DiGennaro-Zoom-3fe063496baf81569283e551d2fefe85"
+  },
+  {
+   "title": "Issue and Brief Answer",
+   "course": "LRW",
+   "due": "2026-10-26",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Issue-and-Brief-Answer-3c6063496baf811084acfec6534081c2"
+  },
+  {
+   "title": "Citation Problem Set #4",
+   "course": "LRW",
+   "due": "2026-10-26",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Citation-Problem-Set-4-3c6063496baf81ba8eddd6cdfae75747"
+  },
+  {
+   "title": "Fundamental Alteration case conference",
+   "course": "LRW",
+   "due": "2026-10-26",
+   "type": "admin",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Fundamental-Alteration-case-conference-3fe063496baf81c5a362ce8408b8ce96"
+  },
+  {
+   "title": "Fundamental Alteration Office Memo",
+   "course": "LRW",
+   "due": "2026-11-02",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Fundamental-Alteration-Office-Memo-3c6063496baf8112b580fed5c128e980"
+  },
+  {
+   "title": "In limine argument — IL 8 (Evidence 21, Mon Nov 2)",
+   "course": "Evidence",
+   "due": "2026-11-02",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
+  }
+ ],
+ "longHaul": [
   {
    "title": "YJ make-up reflection (Class 9 absence)",
    "course": "Youth Justice",
@@ -1384,91 +1477,17 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
-  },
-  {
-   "title": "Practice Exercise 4",
-   "course": "Property",
-   "due": "2026-11-04",
-   "type": "graded",
-   "weight": "3 points (completion)",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
-  },
-  {
-   "title": "Negotiation feedback to counterpart — Sanchez v. Ace Auto (Neg 8, graded)",
-   "course": "Negotiations",
-   "due": "2026-11-07",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Sanchez-v-Ace-Auto-Neg-8-graded-3db063496baf817ab705e07e9da821f6"
-  }
- ],
- "longHaul": [
-  {
-   "title": "Fundamental Alteration Case List",
-   "course": "LRW",
-   "due": "2026-10-19",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Fundamental-Alteration-Case-List-3c6063496baf81bc99a8f3ffc5b3ead6"
-  },
-  {
-   "title": "YJ make-up reflection (Class 9 absence)",
-   "course": "Youth Justice",
-   "due": "2026-10-19",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/YJ-make-up-reflection-Class-9-absence-3fd063496baf812588faf503f434bf64"
-  },
-  {
-   "title": "Citation Problem Set #3",
-   "course": "LRW",
-   "due": "2026-10-23",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-3-3c6063496baf8133b8f5e3838be8bfc8"
-  },
-  {
-   "title": "Issue and Brief Answer",
-   "course": "LRW",
-   "due": "2026-10-26",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Issue-and-Brief-Answer-3c6063496baf811084acfec6534081c2"
-  },
-  {
-   "title": "Citation Problem Set #4",
-   "course": "LRW",
-   "due": "2026-10-26",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-4-3c6063496baf81ba8eddd6cdfae75747"
-  },
-  {
-   "title": "Fundamental Alteration Office Memo",
-   "course": "LRW",
-   "due": "2026-11-02",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Fundamental-Alteration-Office-Memo-3c6063496baf8112b580fed5c128e980"
   }
  ],
  "counts": {
-  "open": 26,
+  "open": 29,
   "overdue": 1,
-  "dueSoon": 4,
+  "dueSoon": 8,
   "graded": 17,
-  "unmerged": 47,
+  "unmerged": 44,
   "courses": 5,
-  "cases": 135,
-  "reserve": 45
+  "cases": 130,
+  "reserve": 49
  },
  "courses": [
   "Evidence",
