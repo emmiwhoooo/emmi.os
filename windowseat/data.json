@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T23:07:33+00:00",
+ "generated": "2026-10-19T01:11:47+00:00",
  "today": "2026-10-18",
  "term": {
   "week": 9,
@@ -14,36 +14,36 @@
     "date": "2026-10-18",
     "code": 45,
     "high": 66.7,
-    "low": 52.5,
+    "low": 52.8,
     "rainMax": 1
    },
    {
     "date": "2026-10-19",
     "code": 3,
-    "high": 62.8,
-    "low": 51.4,
+    "high": 62.7,
+    "low": 52.2,
     "rainMax": 3
    },
    {
     "date": "2026-10-20",
     "code": 3,
-    "high": 69.0,
-    "low": 48.6,
+    "high": 70.0,
+    "low": 48.7,
     "rainMax": 13
    },
    {
     "date": "2026-10-21",
-    "code": 63,
-    "high": 67.7,
-    "low": 56.5,
+    "code": 61,
+    "high": 62.1,
+    "low": 54.7,
     "rainMax": 54
    }
   ],
-  "code": 0,
+  "code": 2,
   "dayCode": 45,
-  "temp": 63.0,
+  "temp": 59.1,
   "high": 66.7,
-  "low": 52.5,
+  "low": 52.8,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -1314,13 +1314,13 @@
  ],
  "weather": [
   {
-   "title": "Negotiation feedback to counterpart — Gossett v. Bacchus (Neg 7)",
+   "title": "Negotiation group feedback — 2 peers",
    "course": "Negotiations",
-   "due": "2026-10-17",
+   "due": "2026-10-15",
    "type": "ungraded",
    "weight": "",
    "overdue": true,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Gossett-v-Bacchus-Neg-7-3db063496baf81eab9f0f00b2e3dc32f"
+   "url": "https://app.notion.com/p/Negotiation-group-feedback-2-peers-3fd063496baf81f09ab4c4d5dc90e95c"
   },
   {
    "title": "Fundamental Alteration Case List",
