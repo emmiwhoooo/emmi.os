@@ -1,52 +1,14 @@
 {
- "generated": "2026-10-20T06:35:02+00:00",
- "today": "2026-10-19",
+ "generated": "2026-10-20T12:09:08+00:00",
+ "today": "2026-10-20",
  "term": {
   "week": 10,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 44
+  "daysToFinals": 43
  },
- "sky": {
-  "days": [
-   {
-    "date": "2026-10-19",
-    "code": 3,
-    "high": 63.4,
-    "low": 52.5,
-    "rainMax": 1
-   },
-   {
-    "date": "2026-10-20",
-    "code": 3,
-    "high": 68.4,
-    "low": 48.6,
-    "rainMax": 5
-   },
-   {
-    "date": "2026-10-21",
-    "code": 53,
-    "high": 67.9,
-    "low": 52.2,
-    "rainMax": 29
-   },
-   {
-    "date": "2026-10-22",
-    "code": 51,
-    "high": 64.3,
-    "low": 54.3,
-    "rainMax": 39
-   }
-  ],
-  "code": 3,
-  "dayCode": 3,
-  "temp": 53.8,
-  "high": 63.4,
-  "low": 52.5,
-  "rainMax": 1,
-  "wetUntil": null
- },
+ "sky": null,
  "player": {
   "level": 59,
   "xp": 0,
@@ -130,26 +92,16 @@
   ]
  },
  "next": {
-  "title": "Evidence 17 — Other Uses of Specific Conduct",
-  "course": "Evidence",
-  "date": "2026-10-19",
-  "session": 17,
-  "reading": "CB 306-328. Huddleston v. U.S. F.R.E. 404(b). C.E.C. 1101(b). No in limine argument.",
-  "prepped": true,
+  "title": "LRW 19 — Analyzing Fundamental Alteration (I); multi-case CREAC",
+  "course": "LRW",
+  "date": "2026-10-20",
+  "session": 19,
+  "reading": "Bring FA Case List + key cases + Bluebook. Citation Problem Set #3 due Fri Oct 23 8:35am.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-17-Other-Uses-of-Specific-Conduct-3c6063496baf8160b66cd7f52561e21b"
+  "url": "https://app.notion.com/p/LRW-19-Analyzing-Fundamental-Alteration-I-multi-case-CREAC-3c6063496baf81a4b1bffcecb1d2d5ef"
  },
  "upcoming": [
-  {
-   "title": "Evidence 17 — Other Uses of Specific Conduct",
-   "course": "Evidence",
-   "date": "2026-10-19",
-   "session": 17,
-   "reading": "CB 306-328. Huddleston v. U.S. F.R.E. 404(b). C.E.C. 1101(b). No in limine argument.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-17-Other-Uses-of-Specific-Conduct-3c6063496baf8160b66cd7f52561e21b"
-  },
   {
    "title": "LRW 19 — Analyzing Fundamental Alteration (I); multi-case CREAC",
    "course": "LRW",
@@ -199,19 +151,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-29-Real-covenants-continued-3c6063496baf810d8f8fdda24223eb69"
+  },
+  {
+   "title": "LRW 20 — Analyzing FA (II): Issue, Brief Answer, Conclusion",
+   "course": "LRW",
+   "date": "2026-10-23",
+   "session": 20,
+   "reading": "Bring CPS#3. After: CPS#4. Issue & Brief Answer and Citation Problem Set #4 due Sun Oct 25 10pm.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-20-Analyzing-FA-II-Issue-Brief-Answer-Conclusion-3c6063496baf81d292e7fa4af34b71ff"
   }
  ],
  "ahead": [
-  {
-   "title": "Evidence 17 — Other Uses of Specific Conduct",
-   "course": "Evidence",
-   "date": "2026-10-19",
-   "session": 17,
-   "reading": "CB 306-328. Huddleston v. U.S. F.R.E. 404(b). C.E.C. 1101(b). No in limine argument.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-17-Other-Uses-of-Specific-Conduct-3c6063496baf8160b66cd7f52561e21b"
-  },
   {
    "title": "LRW 19 — Analyzing Fundamental Alteration (I); multi-case CREAC",
    "course": "LRW",
@@ -311,14 +263,34 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-20-AI-and-Deepfakes-Proposed-FRE-107-and-901-c-3c6063496baf81929352edd8ff2ffc9d"
+  },
+  {
+   "title": "Property 31 — Constitutional and statutory limitations on covenants",
+   "course": "Property",
+   "date": "2026-10-28",
+   "session": 31,
+   "reading": "Read 648-60 (skip Problems; syllabus cites p.569, likely a typo); Patt Morrison article (bCourses).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-31-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf8142b712e8bc0330a039"
+  },
+  {
+   "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
+   "course": "Youth Justice",
+   "date": "2026-10-28",
+   "session": 11,
+   "reading": "Bernstein, The Imprint (2023); BDTH Ch.11 pp.224-243 (optional 243-253); SB 823 Sec. 1 + Senate floor analysis; W&I §875(a)(d)(f). Watch: NZ Rangatahi Courts excerpt. VIRTUAL class via Zoom. Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
   }
  ],
- "aheadUntil": "2026-10-27",
+ "aheadUntil": "2026-10-28",
  "backlog": {
   "Property": 17,
   "Negotiations": 6,
   "Youth Justice": 6,
-  "Evidence": 7,
+  "Evidence": 8,
   "LRW": 8
  },
  "walkHome": [
@@ -1342,15 +1314,6 @@
    "url": "https://app.notion.com/p/Negotiation-group-feedback-2-peers-3fd063496baf81f09ab4c4d5dc90e95c"
   },
   {
-   "title": "YJ make-up reflection (Class 9 absence)",
-   "course": "Youth Justice",
-   "due": "2026-10-19",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/YJ-make-up-reflection-Class-9-absence-3fd063496baf812588faf503f434bf64"
-  },
-  {
    "title": "Post 1–2 questions for legislative staffers (Class 10)",
    "course": "Youth Justice",
    "due": "2026-10-21",
@@ -1421,18 +1384,18 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
+  },
+  {
+   "title": "Practice Exercise 4",
+   "course": "Property",
+   "due": "2026-11-04",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
   }
  ],
  "longHaul": [
-  {
-   "title": "YJ make-up reflection (Class 9 absence)",
-   "course": "Youth Justice",
-   "due": "2026-10-19",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/YJ-make-up-reflection-Class-9-absence-3fd063496baf812588faf503f434bf64"
-  },
   {
    "title": "Citation Problem Set #3",
    "course": "LRW",
@@ -1477,14 +1440,23 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
+  },
+  {
+   "title": "Practice Exercise 4",
+   "course": "Property",
+   "due": "2026-11-04",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
   }
  ],
  "counts": {
-  "open": 29,
+  "open": 28,
   "overdue": 1,
-  "dueSoon": 8,
-  "graded": 17,
-  "unmerged": 44,
+  "dueSoon": 7,
+  "graded": 16,
+  "unmerged": 45,
   "courses": 5,
   "cases": 130,
   "reserve": 49
@@ -1496,5 +1468,7 @@
   "Property",
   "Youth Justice"
  ],
- "errors": []
+ "errors": [
+  "weather: The read operation timed out"
+ ]
 }
