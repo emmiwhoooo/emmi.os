@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T12:09:08+00:00",
+ "generated": "2026-10-20T16:57:22+00:00",
  "today": "2026-10-20",
  "term": {
   "week": 10,
@@ -8,7 +8,45 @@
   "end": "2026-12-02",
   "daysToFinals": 43
  },
- "sky": null,
+ "sky": {
+  "days": [
+   {
+    "date": "2026-10-20",
+    "code": 3,
+    "high": 68.8,
+    "low": 50.3,
+    "rainMax": 5
+   },
+   {
+    "date": "2026-10-21",
+    "code": 53,
+    "high": 68.4,
+    "low": 53.5,
+    "rainMax": 39
+   },
+   {
+    "date": "2026-10-22",
+    "code": 51,
+    "high": 65.7,
+    "low": 55.3,
+    "rainMax": 35
+   },
+   {
+    "date": "2026-10-23",
+    "code": 3,
+    "high": 72.4,
+    "low": 52.6,
+    "rainMax": 0
+   }
+  ],
+  "code": 3,
+  "dayCode": 3,
+  "temp": 58.8,
+  "high": 68.8,
+  "low": 50.3,
+  "rainMax": 5,
+  "wetUntil": null
+ },
  "player": {
   "level": 59,
   "xp": 0,
@@ -1468,7 +1506,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "weather: The read operation timed out"
- ]
+ "errors": []
 }
