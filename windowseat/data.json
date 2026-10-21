@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T23:15:06+00:00",
+ "generated": "2026-10-21T01:36:39+00:00",
  "today": "2026-10-20",
  "term": {
   "week": 10,
@@ -13,16 +13,16 @@
    {
     "date": "2026-10-20",
     "code": 3,
-    "high": 67.1,
+    "high": 67.7,
     "low": 50.3,
-    "rainMax": 2
+    "rainMax": 3
    },
    {
     "date": "2026-10-21",
     "code": 51,
     "high": 68.2,
-    "low": 52.7,
-    "rainMax": 14
+    "low": 53.6,
+    "rainMax": 13
    },
    {
     "date": "2026-10-22",
@@ -34,17 +34,17 @@
    {
     "date": "2026-10-23",
     "code": 3,
-    "high": 72.1,
-    "low": 52.7,
+    "high": 72.9,
+    "low": 51.7,
     "rainMax": 0
    }
   ],
   "code": 3,
   "dayCode": 3,
-  "temp": 67.0,
-  "high": 67.1,
+  "temp": 61.2,
+  "high": 67.7,
   "low": 50.3,
-  "rainMax": 2,
+  "rainMax": 3,
   "wetUntil": null
  },
  "player": {
@@ -135,7 +135,7 @@
   "date": "2026-10-20",
   "session": 19,
   "reading": "Bring FA Case List + key cases + Bluebook. Citation Problem Set #3 due Fri Oct 23 8:35am.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/LRW-19-Analyzing-Fundamental-Alteration-I-multi-case-CREAC-3c6063496baf81a4b1bffcecb1d2d5ef"
  },
@@ -146,7 +146,7 @@
    "date": "2026-10-20",
    "session": 19,
    "reading": "Bring FA Case List + key cases + Bluebook. Citation Problem Set #3 due Fri Oct 23 8:35am.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-19-Analyzing-Fundamental-Alteration-I-multi-case-CREAC-3c6063496baf81a4b1bffcecb1d2d5ef"
   },
@@ -208,7 +208,7 @@
    "date": "2026-10-20",
    "session": 19,
    "reading": "Bring FA Case List + key cases + Bluebook. Citation Problem Set #3 due Fri Oct 23 8:35am.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-19-Analyzing-Fundamental-Alteration-I-multi-case-CREAC-3c6063496baf81a4b1bffcecb1d2d5ef"
   },
@@ -1370,15 +1370,6 @@
    "url": "https://app.notion.com/p/Citation-Problem-Set-3-3c6063496baf8133b8f5e3838be8bfc8"
   },
   {
-   "title": "Conference with DiGennaro (Zoom)",
-   "course": "Property",
-   "due": "2026-10-23",
-   "type": "admin",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Conference-with-DiGennaro-Zoom-3fe063496baf81569283e551d2fefe85"
-  },
-  {
    "title": "Issue and Brief Answer",
    "course": "LRW",
    "due": "2026-10-26",
@@ -1404,6 +1395,15 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Fundamental-Alteration-case-conference-3fe063496baf81c5a362ce8408b8ce96"
+  },
+  {
+   "title": "Reschedule conference with DiGennaro",
+   "course": "Property",
+   "due": "2026-10-30",
+   "type": "admin",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reschedule-conference-with-DiGennaro-3fe063496baf81569283e551d2fefe85"
   },
   {
    "title": "Fundamental Alteration Office Memo",
@@ -1492,7 +1492,7 @@
  "counts": {
   "open": 28,
   "overdue": 1,
-  "dueSoon": 7,
+  "dueSoon": 6,
   "graded": 16,
   "unmerged": 45,
   "courses": 5,
