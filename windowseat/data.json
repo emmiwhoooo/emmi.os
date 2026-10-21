@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T01:36:39+00:00",
+ "generated": "2026-10-21T06:33:13+00:00",
  "today": "2026-10-20",
  "term": {
   "week": 10,
@@ -13,38 +13,38 @@
    {
     "date": "2026-10-20",
     "code": 3,
-    "high": 67.7,
-    "low": 50.3,
-    "rainMax": 3
+    "high": 67.4,
+    "low": 50.7,
+    "rainMax": 12
    },
    {
     "date": "2026-10-21",
-    "code": 51,
-    "high": 68.2,
-    "low": 53.6,
-    "rainMax": 13
+    "code": 3,
+    "high": 69.0,
+    "low": 54.2,
+    "rainMax": 21
    },
    {
     "date": "2026-10-22",
-    "code": 3,
-    "high": 63.6,
-    "low": 51.7,
-    "rainMax": 52
+    "code": 51,
+    "high": 65.8,
+    "low": 54.2,
+    "rainMax": 37
    },
    {
     "date": "2026-10-23",
     "code": 3,
-    "high": 72.9,
-    "low": 51.7,
+    "high": 72.0,
+    "low": 54.0,
     "rainMax": 0
    }
   ],
   "code": 3,
   "dayCode": 3,
-  "temp": 61.2,
-  "high": 67.7,
-  "low": 50.3,
-  "rainMax": 3,
+  "temp": 58.0,
+  "high": 67.4,
+  "low": 50.7,
+  "rainMax": 12,
   "wetUntil": null
  },
  "player": {
@@ -136,7 +136,7 @@
   "session": 19,
   "reading": "Bring FA Case List + key cases + Bluebook. Citation Problem Set #3 due Fri Oct 23 8:35am.",
   "prepped": true,
-  "status": "not merged",
+  "status": "notes clean",
   "url": "https://app.notion.com/p/LRW-19-Analyzing-Fundamental-Alteration-I-multi-case-CREAC-3c6063496baf81a4b1bffcecb1d2d5ef"
  },
  "upcoming": [
@@ -147,7 +147,7 @@
    "session": 19,
    "reading": "Bring FA Case List + key cases + Bluebook. Citation Problem Set #3 due Fri Oct 23 8:35am.",
    "prepped": true,
-   "status": "not merged",
+   "status": "notes clean",
    "url": "https://app.notion.com/p/LRW-19-Analyzing-Fundamental-Alteration-I-multi-case-CREAC-3c6063496baf81a4b1bffcecb1d2d5ef"
   },
   {
@@ -166,7 +166,7 @@
    "date": "2026-10-21",
    "session": 28,
    "reading": "Read 579-82 + Deep Water Brewing v. Fairway Resources (bCourses).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-28-Real-covenants-3c6063496baf817781eec4bee0a31e55"
   },
@@ -209,7 +209,7 @@
    "session": 19,
    "reading": "Bring FA Case List + key cases + Bluebook. Citation Problem Set #3 due Fri Oct 23 8:35am.",
    "prepped": true,
-   "status": "not merged",
+   "status": "notes clean",
    "url": "https://app.notion.com/p/LRW-19-Analyzing-Fundamental-Alteration-I-multi-case-CREAC-3c6063496baf81a4b1bffcecb1d2d5ef"
   },
   {
@@ -228,7 +228,7 @@
    "date": "2026-10-21",
    "session": 28,
    "reading": "Read 579-82 + Deep Water Brewing v. Fairway Resources (bCourses).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-28-Real-covenants-3c6063496baf817781eec4bee0a31e55"
   },
@@ -328,7 +328,7 @@
   "Property": 17,
   "Negotiations": 6,
   "Youth Justice": 6,
-  "Evidence": 8,
+  "Evidence": 7,
   "LRW": 8
  },
  "walkHome": [
@@ -1047,6 +1047,42 @@
  ],
  "reserve": [
   {
+   "title": "notes · pasted notes · 2026-10-20",
+   "course": "Evidence",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-pasted-notes-2026-10-20-400063496baf81ee962de913338b2b25"
+  },
+  {
+   "title": "notes · pasted notes · 2026-10-20",
+   "course": "Evidence",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-pasted-notes-2026-10-20-400063496baf811392dfd682889587fb"
+  },
+  {
+   "title": "notes · Case List for FA Research (2026) (1).docx",
+   "course": "LRW",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-Case-List-for-FA-Research-2026-1-docx-400063496baf81438af6e671c6f4f594"
+  },
+  {
+   "title": "transcript · pasted transcript · 2026-10-20",
+   "course": "LRW",
+   "kind": "transcript",
+   "link": "https://app.notion.com/p/transcript-pasted-transcript-2026-10-20-400063496baf81109763caa2e0768f7f"
+  },
+  {
+   "title": "slides · Fundamental Alteration (1) Brainstorming & Structure - LRW - slides.pdf",
+   "course": "LRW",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-Fundamental-Alteration-1-Brainstorming-Structure-LRW-slides-pdf-400063496baf8186ba8dee6e0c3034fd"
+  },
+  {
+   "title": "notes · pasted notes · 2026-10-20",
+   "course": "LRW",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-pasted-notes-2026-10-20-400063496baf81209645e9d5c0c9e569"
+  },
+  {
    "title": "Youth Justice 9 Slides",
    "course": "Youth Justice",
    "kind": "slides",
@@ -1352,15 +1388,6 @@
    "url": "https://app.notion.com/p/Negotiation-group-feedback-2-peers-3fd063496baf81f09ab4c4d5dc90e95c"
   },
   {
-   "title": "Post 1–2 questions for legislative staffers (Class 10)",
-   "course": "Youth Justice",
-   "due": "2026-10-21",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Post-1-2-questions-for-legislative-staffers-Class-10-3fe063496baf81b5bff4dd0e28ced181"
-  },
-  {
    "title": "Citation Problem Set #3",
    "course": "LRW",
    "due": "2026-10-23",
@@ -1368,6 +1395,15 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Citation-Problem-Set-3-3c6063496baf8133b8f5e3838be8bfc8"
+  },
+  {
+   "title": "Watch Property 26 + 27 recordings",
+   "course": "Property",
+   "due": "2026-10-25",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Watch-Property-26-27-recordings-3fd063496baf8123bd6dd87812182c41"
   },
   {
    "title": "Issue and Brief Answer",
@@ -1490,14 +1526,14 @@
   }
  ],
  "counts": {
-  "open": 28,
+  "open": 27,
   "overdue": 1,
   "dueSoon": 6,
   "graded": 16,
-  "unmerged": 45,
+  "unmerged": 44,
   "courses": 5,
   "cases": 130,
-  "reserve": 49
+  "reserve": 55
  },
  "courses": [
   "Evidence",
