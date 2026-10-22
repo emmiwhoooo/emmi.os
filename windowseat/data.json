@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T18:03:48+00:00",
+ "generated": "2026-10-22T21:30:39+00:00",
  "today": "2026-10-22",
  "term": {
   "week": 10,
@@ -14,21 +14,21 @@
     "date": "2026-10-22",
     "code": 63,
     "high": 62.7,
-    "low": 55.2,
+    "low": 55.1,
     "rainMax": 54
    },
    {
     "date": "2026-10-23",
     "code": 3,
-    "high": 67.1,
-    "low": 53.2,
+    "high": 66.1,
+    "low": 52.5,
     "rainMax": 2
    },
    {
     "date": "2026-10-24",
-    "code": 0,
+    "code": 1,
     "high": 77.1,
-    "low": 50.7,
+    "low": 47.7,
     "rainMax": 0
    },
    {
@@ -41,9 +41,9 @@
   ],
   "code": 3,
   "dayCode": 63,
-  "temp": 60.5,
+  "temp": 60.4,
   "high": 62.7,
-  "low": 55.2,
+  "low": 55.1,
   "rainMax": 54,
   "wetUntil": "2026-10-22T09:00"
  },
@@ -156,7 +156,7 @@
    "date": "2026-10-22",
    "session": 29,
    "reading": "Read 583-93 (§§3-3.2A).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-29-Real-covenants-continued-3c6063496baf810d8f8fdda24223eb69"
   },
@@ -218,7 +218,7 @@
    "date": "2026-10-22",
    "session": 29,
    "reading": "Read 583-93 (§§3-3.2A).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-29-Real-covenants-continued-3c6063496baf810d8f8fdda24223eb69"
   },
@@ -1057,6 +1057,18 @@
  ],
  "reserve": [
   {
+   "title": "slides · F26 Property Class 28 (Terminating easements; Deep Water Brewing).pptx",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-F26-Property-Class-28-Terminating-easements-Deep-Water-Brewing-pptx-401063496baf81da982cdc209d69f992"
+  },
+  {
+   "title": "slides · F26 Property Class 29 (Neponsit).pptx",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-F26-Property-Class-29-Neponsit-pptx-401063496baf815ea477f4913f278586"
+  },
+  {
    "title": "slides · pasted slides · 2026-10-20",
    "course": "Evidence",
    "kind": "slides",
@@ -1461,15 +1473,6 @@
    "url": "https://app.notion.com/p/Fundamental-Alteration-case-conference-3fe063496baf81c5a362ce8408b8ce96"
   },
   {
-   "title": "Reschedule conference with DiGennaro",
-   "course": "Property",
-   "due": "2026-10-30",
-   "type": "admin",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Reschedule-conference-with-DiGennaro-3fe063496baf81569283e551d2fefe85"
-  },
-  {
    "title": "Fundamental Alteration Office Memo",
    "course": "LRW",
    "due": "2026-11-02",
@@ -1495,6 +1498,15 @@
    "weight": "3 points (completion)",
    "overdue": false,
    "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
+  },
+  {
+   "title": "Sanchez v. Ace Auto Planning Memo",
+   "course": "Negotiations",
+   "due": "2026-11-05",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Sanchez-v-Ace-Auto-Planning-Memo-3fe063496baf81ba9828cfd11613275b"
   }
  ],
  "longHaul": [
@@ -1554,14 +1566,14 @@
   }
  ],
  "counts": {
-  "open": 27,
+  "open": 26,
   "overdue": 1,
   "dueSoon": 6,
   "graded": 16,
   "unmerged": 46,
   "courses": 5,
   "cases": 132,
-  "reserve": 58
+  "reserve": 60
  },
  "courses": [
   "Evidence",
