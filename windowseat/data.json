@@ -1,51 +1,51 @@
 {
- "generated": "2026-10-22T02:23:51+00:00",
- "today": "2026-10-21",
+ "generated": "2026-10-22T07:47:20+00:00",
+ "today": "2026-10-22",
  "term": {
   "week": 10,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 42
+  "daysToFinals": 41
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-21",
-    "code": 3,
-    "high": 67.2,
-    "low": 55.8,
-    "rainMax": 19
-   },
-   {
     "date": "2026-10-22",
-    "code": 63,
-    "high": 60.6,
-    "low": 54.1,
-    "rainMax": 45
+    "code": 55,
+    "high": 61.0,
+    "low": 54.8,
+    "rainMax": 49
    },
    {
     "date": "2026-10-23",
     "code": 3,
-    "high": 70.0,
+    "high": 68.7,
     "low": 53.5,
-    "rainMax": 3
+    "rainMax": 2
    },
    {
     "date": "2026-10-24",
     "code": 0,
-    "high": 77.5,
-    "low": 52.1,
+    "high": 76.3,
+    "low": 51.9,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-25",
+    "code": 3,
+    "high": 77.9,
+    "low": 55.1,
     "rainMax": 0
    }
   ],
-  "code": 3,
-  "dayCode": 3,
-  "temp": 60.5,
-  "high": 67.2,
-  "low": 55.8,
-  "rainMax": 19,
-  "wetUntil": null
+  "code": 0,
+  "dayCode": 55,
+  "temp": 56.4,
+  "high": 61.0,
+  "low": 54.8,
+  "rainMax": 49,
+  "wetUntil": "2026-10-22T14:00"
  },
  "player": {
   "level": 59,
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Property 28 — Real covenants",
-  "course": "Property",
+  "title": "Youth Justice 10 — Systemic Advocacy",
+  "course": "Youth Justice",
   "date": "2026-10-21",
-  "session": 28,
-  "reading": "Read 579-82 + Deep Water Brewing v. Fairway Resources (bCourses).",
+  "session": 10,
+  "reading": "Okonkwo (2011); Bernstein, Revolution From the Inside Out; AB 1646 (HUG Act) letters + Senate committee analysis. Guest: CA legislative staff TBD. Optional resources on bCourses.",
   "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-28-Real-covenants-3c6063496baf817781eec4bee0a31e55"
+  "url": "https://app.notion.com/p/Youth-Justice-10-Systemic-Advocacy-3c6063496baf81fd97fce5fc789db9bf"
  },
  "upcoming": [
-  {
-   "title": "Property 28 — Real covenants",
-   "course": "Property",
-   "date": "2026-10-21",
-   "session": 28,
-   "reading": "Read 579-82 + Deep Water Brewing v. Fairway Resources (bCourses).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-28-Real-covenants-3c6063496baf817781eec4bee0a31e55"
-  },
   {
    "title": "Youth Justice 10 — Systemic Advocacy",
    "course": "Youth Justice",
@@ -199,19 +189,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
+  },
+  {
+   "title": "LRW 21 — Improving your Issue and Brief Answer; drafting tips",
+   "course": "LRW",
+   "date": "2026-10-27",
+   "session": 21,
+   "reading": "Bring CPS#4.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
   }
  ],
  "ahead": [
-  {
-   "title": "Property 28 — Real covenants",
-   "course": "Property",
-   "date": "2026-10-21",
-   "session": 28,
-   "reading": "Read 579-82 + Deep Water Brewing v. Fairway Resources (bCourses).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-28-Real-covenants-3c6063496baf817781eec4bee0a31e55"
-  },
   {
    "title": "Youth Justice 10 — Systemic Advocacy",
    "course": "Youth Justice",
@@ -311,11 +301,31 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-32-Modifying-and-terminating-covenants-3c6063496baf817a8b1efae4a54d5b6e"
+  },
+  {
+   "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
+   "course": "LRW",
+   "date": "2026-10-30",
+   "session": 22,
+   "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
+  },
+  {
+   "title": "Property 33 — Zoning authority",
+   "course": "Property",
+   "date": "2026-10-30",
+   "session": 33,
+   "reading": "Read 447-58 + Nectow v. City of Cambridge (bCourses).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-33-Zoning-authority-3c6063496baf81889bf2fdfd3348d191"
   }
  ],
- "aheadUntil": "2026-10-29",
+ "aheadUntil": "2026-10-30",
  "backlog": {
-  "Property": 17,
+  "Property": 18,
   "Negotiations": 6,
   "Youth Justice": 6,
   "Evidence": 8,
@@ -1548,7 +1558,7 @@
   "overdue": 1,
   "dueSoon": 6,
   "graded": 16,
-  "unmerged": 45,
+  "unmerged": 46,
   "courses": 5,
   "cases": 132,
   "reserve": 58
