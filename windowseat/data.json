@@ -1,51 +1,51 @@
 {
- "generated": "2026-10-23T04:41:56+00:00",
- "today": "2026-10-22",
+ "generated": "2026-10-23T09:34:26+00:00",
+ "today": "2026-10-23",
  "term": {
   "week": 10,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 41
+  "daysToFinals": 40
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-22",
-    "code": 63,
-    "high": 61.6,
-    "low": 55.2,
-    "rainMax": 54
-   },
-   {
     "date": "2026-10-23",
     "code": 3,
-    "high": 64.9,
-    "low": 51.4,
+    "high": 65.5,
+    "low": 52.7,
     "rainMax": 1
    },
    {
     "date": "2026-10-24",
     "code": 3,
-    "high": 74.3,
-    "low": 48.3,
+    "high": 69.1,
+    "low": 48.0,
     "rainMax": 0
    },
    {
     "date": "2026-10-25",
     "code": 3,
-    "high": 76.5,
-    "low": 53.6,
+    "high": 76.3,
+    "low": 53.1,
     "rainMax": 0
+   },
+   {
+    "date": "2026-10-26",
+    "code": 3,
+    "high": 68.0,
+    "low": 53.1,
+    "rainMax": 1
    }
   ],
   "code": 3,
-  "dayCode": 63,
-  "temp": 58.1,
-  "high": 61.6,
-  "low": 55.2,
-  "rainMax": 54,
-  "wetUntil": "2026-10-22T09:00"
+  "dayCode": 3,
+  "temp": 55.2,
+  "high": 65.5,
+  "low": 52.7,
+  "rainMax": 1,
+  "wetUntil": null
  },
  "player": {
   "level": 59,
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 10 — Systemic Advocacy",
-  "course": "Youth Justice",
-  "date": "2026-10-21",
-  "session": 10,
-  "reading": "Okonkwo (2011); Bernstein, Revolution From the Inside Out; AB 1646 (HUG Act) letters + Senate committee analysis. Guest: CA legislative staff TBD. Optional resources on bCourses.",
+  "title": "LRW 20 — Analyzing FA (II): Issue, Brief Answer, Conclusion",
+  "course": "LRW",
+  "date": "2026-10-23",
+  "session": 20,
+  "reading": "Bring CPS#3. After: CPS#4. Issue & Brief Answer and Citation Problem Set #4 due Sun Oct 25 10pm.",
   "prepped": true,
-  "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-10-Systemic-Advocacy-3c6063496baf81fd97fce5fc789db9bf"
+  "status": "notes clean",
+  "url": "https://app.notion.com/p/LRW-20-Analyzing-FA-II-Issue-Brief-Answer-Conclusion-3c6063496baf81d292e7fa4af34b71ff"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 10 — Systemic Advocacy",
-   "course": "Youth Justice",
-   "date": "2026-10-21",
-   "session": 10,
-   "reading": "Okonkwo (2011); Bernstein, Revolution From the Inside Out; AB 1646 (HUG Act) letters + Senate committee analysis. Guest: CA legislative staff TBD. Optional resources on bCourses.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-10-Systemic-Advocacy-3c6063496baf81fd97fce5fc789db9bf"
-  },
-  {
-   "title": "Property 29 — Real covenants continued",
-   "course": "Property",
-   "date": "2026-10-22",
-   "session": 29,
-   "reading": "Read 583-93 (§§3-3.2A).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-29-Real-covenants-continued-3c6063496baf810d8f8fdda24223eb69"
-  },
   {
    "title": "LRW 20 — Analyzing FA (II): Issue, Brief Answer, Conclusion",
    "course": "LRW",
@@ -199,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
+  },
+  {
+   "title": "Evidence 20 — AI and Deepfakes; Proposed FRE 107 and 901(c)",
+   "course": "Evidence",
+   "date": "2026-10-27",
+   "session": 20,
+   "reading": "CB 648-651; 761-763; 799-800; Federal Rules Committee Evidence Book pp. 133-182; Proposed F.R.E. 107 (AI evidence); Proposed F.R.E. 901(c) (deepfakes). Zoom class. Guest: Robert Weissman (Public Citizen). No office hours today.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-20-AI-and-Deepfakes-Proposed-FRE-107-and-901-c-3c6063496baf81929352edd8ff2ffc9d"
+  },
+  {
+   "title": "Property 31 — Constitutional and statutory limitations on covenants",
+   "course": "Property",
+   "date": "2026-10-28",
+   "session": 31,
+   "reading": "Read 648-60 (skip Problems; syllabus cites p.569, likely a typo); Patt Morrison article (bCourses).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-31-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf8142b712e8bc0330a039"
   }
  ],
  "ahead": [
-  {
-   "title": "Youth Justice 10 — Systemic Advocacy",
-   "course": "Youth Justice",
-   "date": "2026-10-21",
-   "session": 10,
-   "reading": "Okonkwo (2011); Bernstein, Revolution From the Inside Out; AB 1646 (HUG Act) letters + Senate committee analysis. Guest: CA legislative staff TBD. Optional resources on bCourses.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-10-Systemic-Advocacy-3c6063496baf81fd97fce5fc789db9bf"
-  },
-  {
-   "title": "Property 29 — Real covenants continued",
-   "course": "Property",
-   "date": "2026-10-22",
-   "session": 29,
-   "reading": "Read 583-93 (§§3-3.2A).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-29-Real-covenants-continued-3c6063496baf810d8f8fdda24223eb69"
-  },
   {
    "title": "LRW 20 — Analyzing FA (II): Issue, Brief Answer, Conclusion",
    "course": "LRW",
@@ -323,11 +303,11 @@
    "url": "https://app.notion.com/p/Property-33-Zoning-authority-3c6063496baf81889bf2fdfd3348d191"
   }
  ],
- "aheadUntil": "2026-10-30",
+ "aheadUntil": "2026-10-31",
  "backlog": {
-  "Property": 18,
+  "Property": 19,
   "Negotiations": 6,
-  "Youth Justice": 6,
+  "Youth Justice": 7,
   "Evidence": 8,
   "LRW": 8
  },
@@ -1582,7 +1562,7 @@
   "overdue": 1,
   "dueSoon": 5,
   "graded": 15,
-  "unmerged": 46,
+  "unmerged": 48,
   "courses": 5,
   "cases": 132,
   "reserve": 62
