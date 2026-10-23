@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T00:09:01+00:00",
+ "generated": "2026-10-23T04:41:56+00:00",
  "today": "2026-10-22",
  "term": {
   "week": 10,
@@ -13,36 +13,36 @@
    {
     "date": "2026-10-22",
     "code": 63,
-    "high": 61.5,
+    "high": 61.6,
     "low": 55.2,
     "rainMax": 54
    },
    {
     "date": "2026-10-23",
     "code": 3,
-    "high": 66.1,
-    "low": 52.5,
-    "rainMax": 2
+    "high": 64.9,
+    "low": 51.4,
+    "rainMax": 1
    },
    {
     "date": "2026-10-24",
-    "code": 1,
-    "high": 77.1,
-    "low": 47.7,
+    "code": 3,
+    "high": 74.3,
+    "low": 48.3,
     "rainMax": 0
    },
    {
     "date": "2026-10-25",
     "code": 3,
-    "high": 76.7,
-    "low": 54.2,
+    "high": 76.5,
+    "low": 53.6,
     "rainMax": 0
    }
   ],
   "code": 3,
   "dayCode": 63,
-  "temp": 60.8,
-  "high": 61.5,
+  "temp": 58.1,
+  "high": 61.6,
   "low": 55.2,
   "rainMax": 54,
   "wetUntil": "2026-10-22T09:00"
@@ -166,8 +166,8 @@
    "date": "2026-10-23",
    "session": 20,
    "reading": "Bring CPS#3. After: CPS#4. Issue & Brief Answer and Citation Problem Set #4 due Sun Oct 25 10pm.",
-   "prepped": false,
-   "status": "not merged",
+   "prepped": true,
+   "status": "notes clean",
    "url": "https://app.notion.com/p/LRW-20-Analyzing-FA-II-Issue-Brief-Answer-Conclusion-3c6063496baf81d292e7fa4af34b71ff"
   },
   {
@@ -228,8 +228,8 @@
    "date": "2026-10-23",
    "session": 20,
    "reading": "Bring CPS#3. After: CPS#4. Issue & Brief Answer and Citation Problem Set #4 due Sun Oct 25 10pm.",
-   "prepped": false,
-   "status": "not merged",
+   "prepped": true,
+   "status": "notes clean",
    "url": "https://app.notion.com/p/LRW-20-Analyzing-FA-II-Issue-Brief-Answer-Conclusion-3c6063496baf81d292e7fa4af34b71ff"
   },
   {
@@ -1057,6 +1057,18 @@
  ],
  "reserve": [
   {
+   "title": "slides · SECTION R Week 10, Class 2 (How to draft Issue, Brief Answer, Conclusion).pptx.pdf",
+   "course": "LRW",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-SECTION-R-Week-10-Class-2-How-to-draft-Issue-Brief-Answer-Conclusion-pptx-pdf-402063496baf8172a1d5f0806ce4bb3d"
+  },
+  {
+   "title": "handout · Citation Problem Set #3 (1).docx",
+   "course": "LRW",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-Citation-Problem-Set-3-1-docx-402063496baf8138a255e0ec5ba780a9"
+  },
+  {
    "title": "slides · F26 Property Class 28 (Terminating easements; Deep Water Brewing).pptx",
    "course": "Property",
    "kind": "slides",
@@ -1428,15 +1440,6 @@
    "url": "https://app.notion.com/p/Negotiation-group-feedback-2-peers-3fd063496baf81f09ab4c4d5dc90e95c"
   },
   {
-   "title": "Citation Problem Set #3",
-   "course": "LRW",
-   "due": "2026-10-23",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-3-3c6063496baf8133b8f5e3838be8bfc8"
-  },
-  {
    "title": "Watch Property 26 + 27 recordings",
    "course": "Property",
    "due": "2026-10-25",
@@ -1507,18 +1510,18 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Sanchez-v-Ace-Auto-Planning-Memo-3fe063496baf81ba9828cfd11613275b"
+  },
+  {
+   "title": "Negotiation feedback to counterpart — Sanchez v. Ace Auto (Neg 8, graded)",
+   "course": "Negotiations",
+   "due": "2026-11-07",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Sanchez-v-Ace-Auto-Neg-8-graded-3db063496baf817ab705e07e9da821f6"
   }
  ],
  "longHaul": [
-  {
-   "title": "Citation Problem Set #3",
-   "course": "LRW",
-   "due": "2026-10-23",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-3-3c6063496baf8133b8f5e3838be8bfc8"
-  },
   {
    "title": "Issue and Brief Answer",
    "course": "LRW",
@@ -1563,17 +1566,26 @@
    "weight": "3 points (completion)",
    "overdue": false,
    "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
+  },
+  {
+   "title": "Sanchez v. Ace Auto Planning Memo",
+   "course": "Negotiations",
+   "due": "2026-11-05",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Sanchez-v-Ace-Auto-Planning-Memo-3fe063496baf81ba9828cfd11613275b"
   }
  ],
  "counts": {
-  "open": 26,
+  "open": 25,
   "overdue": 1,
-  "dueSoon": 6,
-  "graded": 16,
+  "dueSoon": 5,
+  "graded": 15,
   "unmerged": 46,
   "courses": 5,
   "cases": 132,
-  "reserve": 60
+  "reserve": 62
  },
  "courses": [
   "Evidence",
