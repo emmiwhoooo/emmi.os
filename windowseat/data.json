@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-24T03:34:20+00:00",
- "today": "2026-10-23",
+ "generated": "2026-10-24T08:23:38+00:00",
+ "today": "2026-10-24",
  "term": {
   "week": 10,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 40
+  "daysToFinals": 39
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-23",
-    "code": 3,
-    "high": 66.9,
-    "low": 53.0,
-    "rainMax": 1
-   },
-   {
     "date": "2026-10-24",
-    "code": 3,
-    "high": 71.4,
-    "low": 48.5,
+    "code": 2,
+    "high": 70.8,
+    "low": 48.3,
     "rainMax": 0
    },
    {
     "date": "2026-10-25",
     "code": 3,
-    "high": 68.1,
-    "low": 49.2,
+    "high": 62.8,
+    "low": 49.0,
     "rainMax": 0
    },
    {
     "date": "2026-10-26",
-    "code": 51,
-    "high": 64.4,
-    "low": 52.7,
+    "code": 3,
+    "high": 65.7,
+    "low": 52.3,
     "rainMax": 5
+   },
+   {
+    "date": "2026-10-27",
+    "code": 3,
+    "high": 64.6,
+    "low": 48.7,
+    "rainMax": 0
    }
   ],
   "code": 0,
-  "dayCode": 3,
-  "temp": 57.2,
-  "high": 66.9,
-  "low": 53.0,
-  "rainMax": 1,
+  "dayCode": 2,
+  "temp": 52.3,
+  "high": 70.8,
+  "low": 48.3,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 20 — Analyzing FA (II): Issue, Brief Answer, Conclusion",
-  "course": "LRW",
-  "date": "2026-10-23",
-  "session": 20,
-  "reading": "Bring CPS#3. After: CPS#4. Issue & Brief Answer and Citation Problem Set #4 due Sun Oct 25 10pm.",
-  "prepped": true,
-  "status": "notes clean",
-  "url": "https://app.notion.com/p/LRW-20-Analyzing-FA-II-Issue-Brief-Answer-Conclusion-3c6063496baf81d292e7fa4af34b71ff"
+  "title": "Evidence 19 — Best Evidence Rule; Authentication",
+  "course": "Evidence",
+  "date": "2026-10-26",
+  "session": 19,
+  "reading": "CB 743-751; 757-760 (advisory committee note); 762-763 (Problems); 763-764; 767-771; 773-782; 788-791; 798-799. bCourses: Craft v. Philip Morris appellate brief (excerpts). F.R.E. 901, 902, 1001-1009. C.E.C. 250-260, 1520-1523. Zoom class.",
+  "prepped": false,
+  "status": "not merged",
+  "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
  },
  "upcoming": [
-  {
-   "title": "LRW 20 — Analyzing FA (II): Issue, Brief Answer, Conclusion",
-   "course": "LRW",
-   "date": "2026-10-23",
-   "session": 20,
-   "reading": "Bring CPS#3. After: CPS#4. Issue & Brief Answer and Citation Problem Set #4 due Sun Oct 25 10pm.",
-   "prepped": true,
-   "status": "notes clean",
-   "url": "https://app.notion.com/p/LRW-20-Analyzing-FA-II-Issue-Brief-Answer-Conclusion-3c6063496baf81d292e7fa4af34b71ff"
-  },
-  {
-   "title": "Property 30 — Equitable servitudes; CIDs; implied reciprocal negative servitudes",
-   "course": "Property",
-   "date": "2026-10-23",
-   "session": 30,
-   "reading": "Read 600-07 (§§4-4.1 through note 4; skip Problems p.607).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-30-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf81e8b0c6c275f9729f1b"
-  },
   {
    "title": "Evidence 19 — Best Evidence Rule; Authentication",
    "course": "Evidence",
@@ -199,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-31-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf8142b712e8bc0330a039"
+  },
+  {
+   "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
+   "course": "Youth Justice",
+   "date": "2026-10-28",
+   "session": 11,
+   "reading": "Bernstein, The Imprint (2023); BDTH Ch.11 pp.224-243 (optional 243-253); SB 823 Sec. 1 + Senate floor analysis; W&I §875(a)(d)(f). Watch: NZ Rangatahi Courts excerpt. VIRTUAL class via Zoom. Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
+  },
+  {
+   "title": "Property 32 — Modifying and terminating covenants",
+   "course": "Property",
+   "date": "2026-10-29",
+   "session": 32,
+   "reading": "Read 668-76.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-32-Modifying-and-terminating-covenants-3c6063496baf817a8b1efae4a54d5b6e"
   }
  ],
  "ahead": [
-  {
-   "title": "LRW 20 — Analyzing FA (II): Issue, Brief Answer, Conclusion",
-   "course": "LRW",
-   "date": "2026-10-23",
-   "session": 20,
-   "reading": "Bring CPS#3. After: CPS#4. Issue & Brief Answer and Citation Problem Set #4 due Sun Oct 25 10pm.",
-   "prepped": true,
-   "status": "notes clean",
-   "url": "https://app.notion.com/p/LRW-20-Analyzing-FA-II-Issue-Brief-Answer-Conclusion-3c6063496baf81d292e7fa4af34b71ff"
-  },
-  {
-   "title": "Property 30 — Equitable servitudes; CIDs; implied reciprocal negative servitudes",
-   "course": "Property",
-   "date": "2026-10-23",
-   "session": 30,
-   "reading": "Read 600-07 (§§4-4.1 through note 4; skip Problems p.607).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-30-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf81e8b0c6c275f9729f1b"
-  },
   {
    "title": "Evidence 19 — Best Evidence Rule; Authentication",
    "course": "Evidence",
@@ -303,9 +283,9 @@
    "url": "https://app.notion.com/p/Property-33-Zoning-authority-3c6063496baf81889bf2fdfd3348d191"
   }
  ],
- "aheadUntil": "2026-10-31",
+ "aheadUntil": "2026-11-01",
  "backlog": {
-  "Property": 19,
+  "Property": 20,
   "Negotiations": 6,
   "Youth Justice": 7,
   "Evidence": 8,
@@ -1562,7 +1542,7 @@
   "overdue": 1,
   "dueSoon": 5,
   "graded": 15,
-  "unmerged": 48,
+  "unmerged": 49,
   "courses": 5,
   "cases": 132,
   "reserve": 62
