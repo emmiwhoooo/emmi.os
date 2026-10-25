@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-25T06:24:00+00:00",
- "today": "2026-10-24",
+ "generated": "2026-10-25T11:51:47+00:00",
+ "today": "2026-10-25",
  "term": {
   "week": 10,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 39
+  "daysToFinals": 38
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-24",
-    "code": 3,
-    "high": 71.5,
-    "low": 47.0,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-25",
-    "code": 45,
-    "high": 68.7,
+    "code": 3,
+    "high": 68.8,
     "low": 47.6,
     "rainMax": 0
    },
    {
     "date": "2026-10-26",
-    "code": 1,
-    "high": 64.6,
-    "low": 49.6,
+    "code": 2,
+    "high": 63.9,
+    "low": 50.3,
     "rainMax": 1
    },
    {
     "date": "2026-10-27",
     "code": 3,
-    "high": 67.0,
-    "low": 50.2,
+    "high": 65.4,
+    "low": 50.4,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-28",
+    "code": 3,
+    "high": 69.0,
+    "low": 49.5,
     "rainMax": 0
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 53.8,
-  "high": 71.5,
-  "low": 47.0,
+  "temp": 48.8,
+  "high": 68.8,
+  "low": 47.6,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -281,9 +281,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-33-Zoning-authority-3c6063496baf81889bf2fdfd3348d191"
+  },
+  {
+   "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
+   "course": "Evidence",
+   "date": "2026-11-02",
+   "session": 21,
+   "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
   }
  ],
- "aheadUntil": "2026-11-01",
+ "aheadUntil": "2026-11-02",
  "backlog": {
   "Property": 20,
   "Negotiations": 6,
