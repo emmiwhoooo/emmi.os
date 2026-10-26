@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-26T06:06:58+00:00",
- "today": "2026-10-25",
+ "generated": "2026-10-26T12:52:08+00:00",
+ "today": "2026-10-26",
  "term": {
-  "week": 10,
+  "week": 11,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 38
+  "daysToFinals": 37
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-25",
-    "code": 3,
-    "high": 69.8,
-    "low": 47.1,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-26",
-    "code": 1,
-    "high": 65.4,
-    "low": 50.0,
-    "rainMax": 0
+    "code": 3,
+    "high": 65.1,
+    "low": 50.5,
+    "rainMax": 1
    },
    {
     "date": "2026-10-27",
     "code": 3,
-    "high": 64.5,
-    "low": 47.2,
+    "high": 64.9,
+    "low": 47.3,
     "rainMax": 0
    },
    {
     "date": "2026-10-28",
     "code": 3,
-    "high": 72.5,
-    "low": 50.3,
+    "high": 71.2,
+    "low": 49.4,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-29",
+    "code": 3,
+    "high": 69.3,
+    "low": 52.3,
     "rainMax": 0
    }
   ],
-  "code": 1,
+  "code": 0,
   "dayCode": 3,
-  "temp": 54.2,
-  "high": 69.8,
-  "low": 47.1,
-  "rainMax": 0,
+  "temp": 50.7,
+  "high": 65.1,
+  "low": 50.5,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -291,9 +291,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
+  },
+  {
+   "title": "LRW 23 — Citation Practice (Bluebook Blowout)",
+   "course": "LRW",
+   "date": "2026-11-03",
+   "session": 23,
+   "reading": "Bring Bluebook.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
+  },
+  {
+   "title": "Evidence 22 — Impeachment by Prior Inconsistent Statement; Bias",
+   "course": "Evidence",
+   "date": "2026-11-03",
+   "session": 22,
+   "reading": "CB 436-457 (skip Simmons). U.S. v. Abel. F.R.E. 613, 801(d)(1). C.E.C. 769, 770, 1235. No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-22-Impeachment-by-Prior-Inconsistent-Statement-Bias-3c6063496baf8117a11ef6811c2562d2"
   }
  ],
- "aheadUntil": "2026-11-02",
+ "aheadUntil": "2026-11-03",
  "backlog": {
   "Property": 20,
   "Negotiations": 6,
@@ -1415,7 +1435,7 @@
    "due": "2026-10-25",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Watch-Property-26-27-recordings-3fd063496baf8123bd6dd87812182c41"
   },
   {
@@ -1549,8 +1569,8 @@
  ],
  "counts": {
   "open": 25,
-  "overdue": 1,
-  "dueSoon": 5,
+  "overdue": 2,
+  "dueSoon": 7,
   "graded": 15,
   "unmerged": 49,
   "courses": 5,
