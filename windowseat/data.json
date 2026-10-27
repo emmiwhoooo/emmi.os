@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-27T01:45:46+00:00",
- "today": "2026-10-26",
+ "generated": "2026-10-27T07:00:25+00:00",
+ "today": "2026-10-27",
  "term": {
   "week": 11,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 37
+  "daysToFinals": 36
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-26",
-    "code": 3,
-    "high": 67.1,
-    "low": 50.6,
-    "rainMax": 1
-   },
-   {
     "date": "2026-10-27",
     "code": 3,
-    "high": 65.4,
-    "low": 49.3,
+    "high": 65.2,
+    "low": 49.1,
     "rainMax": 0
    },
    {
     "date": "2026-10-28",
     "code": 3,
-    "high": 69.9,
-    "low": 45.7,
+    "high": 68.2,
+    "low": 44.8,
     "rainMax": 0
    },
    {
     "date": "2026-10-29",
     "code": 3,
-    "high": 67.3,
-    "low": 51.9,
+    "high": 68.4,
+    "low": 51.6,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-10-30",
+    "code": 3,
+    "high": 65.6,
+    "low": 52.0,
     "rainMax": 0
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 58.8,
-  "high": 67.1,
-  "low": 50.6,
-  "rainMax": 1,
+  "temp": 53.8,
+  "high": 65.2,
+  "low": 49.1,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -130,33 +130,23 @@
   ]
  },
  "next": {
-  "title": "Evidence 19 — Best Evidence Rule; Authentication",
-  "course": "Evidence",
-  "date": "2026-10-26",
-  "session": 19,
-  "reading": "CB 743-751; 757-760 (advisory committee note); 762-763 (Problems); 763-764; 767-771; 773-782; 788-791; 798-799. bCourses: Craft v. Philip Morris appellate brief (excerpts). F.R.E. 901, 902, 1001-1009. C.E.C. 250-260, 1520-1523. Zoom class.",
-  "prepped": false,
+  "title": "LRW 21 — Improving your Issue and Brief Answer; drafting tips",
+  "course": "LRW",
+  "date": "2026-10-27",
+  "session": 21,
+  "reading": "Bring CPS#4.",
+  "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
+  "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
  },
  "upcoming": [
-  {
-   "title": "Evidence 19 — Best Evidence Rule; Authentication",
-   "course": "Evidence",
-   "date": "2026-10-26",
-   "session": 19,
-   "reading": "CB 743-751; 757-760 (advisory committee note); 762-763 (Problems); 763-764; 767-771; 773-782; 788-791; 798-799. bCourses: Craft v. Philip Morris appellate brief (excerpts). F.R.E. 901, 902, 1001-1009. C.E.C. 250-260, 1520-1523. Zoom class.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
-  },
   {
    "title": "LRW 21 — Improving your Issue and Brief Answer; drafting tips",
    "course": "LRW",
    "date": "2026-10-27",
    "session": 21,
    "reading": "Bring CPS#4.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
   },
@@ -166,7 +156,7 @@
    "date": "2026-10-27",
    "session": 20,
    "reading": "CB 648-651; 761-763; 799-800; Federal Rules Committee Evidence Book pp. 133-182; Proposed F.R.E. 107 (AI evidence); Proposed F.R.E. 901(c) (deepfakes). Zoom class. Guest: Robert Weissman (Public Citizen). No office hours today.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-20-AI-and-Deepfakes-Proposed-FRE-107-and-901-c-3c6063496baf81929352edd8ff2ffc9d"
   },
@@ -199,26 +189,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-32-Modifying-and-terminating-covenants-3c6063496baf817a8b1efae4a54d5b6e"
+  },
+  {
+   "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
+   "course": "LRW",
+   "date": "2026-10-30",
+   "session": 22,
+   "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
   }
  ],
  "ahead": [
-  {
-   "title": "Evidence 19 — Best Evidence Rule; Authentication",
-   "course": "Evidence",
-   "date": "2026-10-26",
-   "session": 19,
-   "reading": "CB 743-751; 757-760 (advisory committee note); 762-763 (Problems); 763-764; 767-771; 773-782; 788-791; 798-799. bCourses: Craft v. Philip Morris appellate brief (excerpts). F.R.E. 901, 902, 1001-1009. C.E.C. 250-260, 1520-1523. Zoom class.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
-  },
   {
    "title": "LRW 21 — Improving your Issue and Brief Answer; drafting tips",
    "course": "LRW",
    "date": "2026-10-27",
    "session": 21,
    "reading": "Bring CPS#4.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
   },
@@ -228,7 +218,7 @@
    "date": "2026-10-27",
    "session": 20,
    "reading": "CB 648-651; 761-763; 799-800; Federal Rules Committee Evidence Book pp. 133-182; Proposed F.R.E. 107 (AI evidence); Proposed F.R.E. 901(c) (deepfakes). Zoom class. Guest: Robert Weissman (Public Citizen). No office hours today.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-20-AI-and-Deepfakes-Proposed-FRE-107-and-901-c-3c6063496baf81929352edd8ff2ffc9d"
   },
@@ -311,14 +301,34 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-22-Impeachment-by-Prior-Inconsistent-Statement-Bias-3c6063496baf8117a11ef6811c2562d2"
+  },
+  {
+   "title": "Property 34 — SKILLS WORKSHOP 4 (easements and covenants) — PRACTICE EXERCISE 4 DUE",
+   "course": "Property",
+   "date": "2026-11-04",
+   "session": 34,
+   "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
+  },
+  {
+   "title": "Youth Justice 12 — Closing Youth Prison (Part 2) — abolition framework, healing-based approach",
+   "course": "Youth Justice",
+   "date": "2026-11-04",
+   "session": 12,
+   "reading": "CJCJ Beyond Repair pp.17-23, 28-30; LA Times (6/2/23); Bernstein, How Not to Close a Prison. Guest: Nell Bernstein (BDTH author). Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-12-Closing-Youth-Prison-Part-2-abolition-framework-healing-based-approach-3c6063496baf810aa297daaff149ae66"
   }
  ],
- "aheadUntil": "2026-11-03",
+ "aheadUntil": "2026-11-04",
  "backlog": {
   "Property": 20,
   "Negotiations": 6,
   "Youth Justice": 7,
-  "Evidence": 8,
+  "Evidence": 9,
   "LRW": 8
  },
  "walkHome": [
@@ -1439,31 +1449,13 @@
    "url": "https://app.notion.com/p/Watch-Property-26-27-recordings-3fd063496baf8123bd6dd87812182c41"
   },
   {
-   "title": "Issue and Brief Answer",
-   "course": "LRW",
-   "due": "2026-10-26",
-   "type": "graded",
+   "title": "Clean Slate motion (CORE)",
+   "course": "",
+   "due": "2026-11-02",
+   "type": "ungraded",
    "weight": "",
    "overdue": false,
-   "url": "https://app.notion.com/p/Issue-and-Brief-Answer-3c6063496baf811084acfec6534081c2"
-  },
-  {
-   "title": "Citation Problem Set #4",
-   "course": "LRW",
-   "due": "2026-10-26",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-4-3c6063496baf81ba8eddd6cdfae75747"
-  },
-  {
-   "title": "Fundamental Alteration case conference",
-   "course": "LRW",
-   "due": "2026-10-26",
-   "type": "admin",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Fundamental-Alteration-case-conference-3fe063496baf81c5a362ce8408b8ce96"
+   "url": "https://app.notion.com/p/Clean-Slate-motion-CORE-406063496baf8141b0c5ced692dd7821"
   },
   {
    "title": "Fundamental Alteration Office Memo",
@@ -1509,27 +1501,27 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Sanchez-v-Ace-Auto-Neg-8-graded-3db063496baf817ab705e07e9da821f6"
+  },
+  {
+   "title": "Reflection 3 (Classes 9-12)",
+   "course": "Youth Justice",
+   "due": "2026-11-10",
+   "type": "graded",
+   "weight": "10 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reflection-3-Classes-9-12-3c6063496baf811ea013d6fde4bceb53"
+  },
+  {
+   "title": "Sanchez negotiation package (journal + video)",
+   "course": "Negotiations",
+   "due": "2026-11-12",
+   "type": "graded",
+   "weight": "25%",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Sanchez-negotiation-package-journal-video-3c6063496baf811bbcddc7d7821f436f"
   }
  ],
  "longHaul": [
-  {
-   "title": "Issue and Brief Answer",
-   "course": "LRW",
-   "due": "2026-10-26",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Issue-and-Brief-Answer-3c6063496baf811084acfec6534081c2"
-  },
-  {
-   "title": "Citation Problem Set #4",
-   "course": "LRW",
-   "due": "2026-10-26",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Citation-Problem-Set-4-3c6063496baf81ba8eddd6cdfae75747"
-  },
   {
    "title": "Fundamental Alteration Office Memo",
    "course": "LRW",
@@ -1565,14 +1557,32 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Sanchez-v-Ace-Auto-Planning-Memo-3fe063496baf81ba9828cfd11613275b"
+  },
+  {
+   "title": "Reflection 3 (Classes 9-12)",
+   "course": "Youth Justice",
+   "due": "2026-11-10",
+   "type": "graded",
+   "weight": "10 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Reflection-3-Classes-9-12-3c6063496baf811ea013d6fde4bceb53"
+  },
+  {
+   "title": "Sanchez negotiation package (journal + video)",
+   "course": "Negotiations",
+   "due": "2026-11-12",
+   "type": "graded",
+   "weight": "25%",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Sanchez-negotiation-package-journal-video-3c6063496baf811bbcddc7d7821f436f"
   }
  ],
  "counts": {
-  "open": 25,
+  "open": 23,
   "overdue": 2,
-  "dueSoon": 7,
-  "graded": 15,
-  "unmerged": 49,
+  "dueSoon": 5,
+  "graded": 13,
+  "unmerged": 50,
   "courses": 5,
   "cases": 132,
   "reserve": 62
