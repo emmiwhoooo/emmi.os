@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-28T01:41:44+00:00",
- "today": "2026-10-27",
+ "generated": "2026-10-28T07:24:35+00:00",
+ "today": "2026-10-28",
  "term": {
   "week": 11,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 36
+  "daysToFinals": 35
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-27",
-    "code": 3,
-    "high": 66.0,
-    "low": 47.8,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-28",
     "code": 3,
-    "high": 67.2,
-    "low": 47.7,
+    "high": 67.7,
+    "low": 47.9,
     "rainMax": 0
    },
    {
     "date": "2026-10-29",
     "code": 3,
-    "high": 70.3,
-    "low": 46.6,
-    "rainMax": 1
+    "high": 67.8,
+    "low": 49.5,
+    "rainMax": 0
    },
    {
     "date": "2026-10-30",
     "code": 3,
-    "high": 64.8,
-    "low": 51.7,
-    "rainMax": 0
+    "high": 65.6,
+    "low": 53.0,
+    "rainMax": 1
+   },
+   {
+    "date": "2026-10-31",
+    "code": 3,
+    "high": 66.3,
+    "low": 52.7,
+    "rainMax": 7
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 58.4,
-  "high": 66.0,
-  "low": 47.8,
+  "temp": 50.0,
+  "high": 67.7,
+  "low": 47.9,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 21 — Improving your Issue and Brief Answer; drafting tips",
-  "course": "LRW",
-  "date": "2026-10-27",
-  "session": 21,
-  "reading": "Bring CPS#4.",
-  "prepped": true,
+  "title": "Property 31 — Constitutional and statutory limitations on covenants",
+  "course": "Property",
+  "date": "2026-10-28",
+  "session": 31,
+  "reading": "Read 648-60 (skip Problems; syllabus cites p.569, likely a typo); Patt Morrison article (bCourses).",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
+  "url": "https://app.notion.com/p/Property-31-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf8142b712e8bc0330a039"
  },
  "upcoming": [
-  {
-   "title": "LRW 21 — Improving your Issue and Brief Answer; drafting tips",
-   "course": "LRW",
-   "date": "2026-10-27",
-   "session": 21,
-   "reading": "Bring CPS#4.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
-  },
-  {
-   "title": "Evidence 20 — AI and Deepfakes; Proposed FRE 107 and 901(c)",
-   "course": "Evidence",
-   "date": "2026-10-27",
-   "session": 20,
-   "reading": "CB 648-651; 761-763; 799-800; Federal Rules Committee Evidence Book pp. 133-182; Proposed F.R.E. 107 (AI evidence); Proposed F.R.E. 901(c) (deepfakes). Zoom class. Guest: Robert Weissman (Public Citizen). No office hours today.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-20-AI-and-Deepfakes-Proposed-FRE-107-and-901-c-3c6063496baf81929352edd8ff2ffc9d"
-  },
   {
    "title": "Property 31 — Constitutional and statutory limitations on covenants",
    "course": "Property",
@@ -199,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
+  },
+  {
+   "title": "Property 33 — Zoning authority",
+   "course": "Property",
+   "date": "2026-10-30",
+   "session": 33,
+   "reading": "Read 447-58 + Nectow v. City of Cambridge (bCourses).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-33-Zoning-authority-3c6063496baf81889bf2fdfd3348d191"
+  },
+  {
+   "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
+   "course": "Evidence",
+   "date": "2026-11-02",
+   "session": 21,
+   "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
   }
  ],
  "ahead": [
-  {
-   "title": "LRW 21 — Improving your Issue and Brief Answer; drafting tips",
-   "course": "LRW",
-   "date": "2026-10-27",
-   "session": 21,
-   "reading": "Bring CPS#4.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-21-Improving-your-Issue-and-Brief-Answer-drafting-tips-3c6063496baf813989a6e1afdda4c749"
-  },
-  {
-   "title": "Evidence 20 — AI and Deepfakes; Proposed FRE 107 and 901(c)",
-   "course": "Evidence",
-   "date": "2026-10-27",
-   "session": 20,
-   "reading": "CB 648-651; 761-763; 799-800; Federal Rules Committee Evidence Book pp. 133-182; Proposed F.R.E. 107 (AI evidence); Proposed F.R.E. 901(c) (deepfakes). Zoom class. Guest: Robert Weissman (Public Citizen). No office hours today.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-20-AI-and-Deepfakes-Proposed-FRE-107-and-901-c-3c6063496baf81929352edd8ff2ffc9d"
-  },
   {
    "title": "Property 31 — Constitutional and statutory limitations on covenants",
    "course": "Property",
@@ -321,15 +301,35 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Youth-Justice-12-Closing-Youth-Prison-Part-2-abolition-framework-healing-based-approach-3c6063496baf810aa297daaff149ae66"
+  },
+  {
+   "title": "Property 35 — Prior nonconforming uses; administrative relief",
+   "course": "Property",
+   "date": "2026-11-05",
+   "session": 35,
+   "reading": "Read 462-67.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-35-Prior-nonconforming-uses-administrative-relief-3c6063496baf81b0a302e221682625ce"
+  },
+  {
+   "title": "Negotiations 8 — Ethics Pt 2; BATNA/WATNA/Costing — SANCHEZ v. ACE AUTO (graded, videotaped)",
+   "course": "Negotiations",
+   "date": "2026-11-05",
+   "session": 8,
+   "reading": "Role-play: Sanchez v. Ace Auto (VIRTUAL/Zoom; videotaped GRADED final negotiation, 25% with journal; counterpart known in advance). Prep: BA Ch. 12 + Conclusion + App. B; DC Q2-4 + finish DC; submit Sanchez prep on bCourses (planning memo goes in with the journal, due 11/12); email feedback for Gossett (no later than week of 10/22). Moved from Oct 15 per the 8/28 revised syllabus.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
   }
  ],
- "aheadUntil": "2026-11-04",
+ "aheadUntil": "2026-11-05",
  "backlog": {
   "Property": 20,
   "Negotiations": 6,
   "Youth Justice": 7,
-  "Evidence": 9,
-  "LRW": 8
+  "Evidence": 10,
+  "LRW": 9
  },
  "walkHome": [
   {
@@ -1580,9 +1580,9 @@
  "counts": {
   "open": 23,
   "overdue": 2,
-  "dueSoon": 5,
+  "dueSoon": 6,
   "graded": 13,
-  "unmerged": 50,
+  "unmerged": 52,
   "courses": 5,
   "cases": 132,
   "reserve": 62
