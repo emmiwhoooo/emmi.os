@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T14:12:36+00:00",
+ "generated": "2026-10-28T19:32:41+00:00",
  "today": "2026-10-28",
  "term": {
   "week": 11,
@@ -13,37 +13,37 @@
    {
     "date": "2026-10-28",
     "code": 3,
-    "high": 67.6,
-    "low": 46.1,
+    "high": 67.5,
+    "low": 44.9,
     "rainMax": 0
    },
    {
     "date": "2026-10-29",
     "code": 3,
-    "high": 67.1,
+    "high": 67.0,
     "low": 49.6,
     "rainMax": 1
    },
    {
     "date": "2026-10-30",
     "code": 3,
-    "high": 66.9,
-    "low": 52.5,
-    "rainMax": 1
+    "high": 65.8,
+    "low": 52.1,
+    "rainMax": 0
    },
    {
     "date": "2026-10-31",
     "code": 3,
-    "high": 68.5,
-    "low": 52.5,
-    "rainMax": 11
+    "high": 64.4,
+    "low": 50.5,
+    "rainMax": 14
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 46.5,
-  "high": 67.6,
-  "low": 46.1,
+  "temp": 63.5,
+  "high": 67.5,
+  "low": 44.9,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,25 +130,25 @@
   ]
  },
  "next": {
-  "title": "Property 31 — Constitutional and statutory limitations on covenants",
+  "title": "Property 31 — Equitable servitudes; CIDs; implied reciprocal negative servitudes",
   "course": "Property",
   "date": "2026-10-28",
   "session": 31,
-  "reading": "Read 648-60 (skip Problems; syllabus cites p.569, likely a typo); Patt Morrison article (bCourses).",
-  "prepped": false,
+  "reading": "Read 600-07 (§§4-4.1 through note 4; skip Problems p.607). Evans v. Pollock.",
+  "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-31-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf8142b712e8bc0330a039"
+  "url": "https://app.notion.com/p/Property-31-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf8142b712e8bc0330a039"
  },
  "upcoming": [
   {
-   "title": "Property 31 — Constitutional and statutory limitations on covenants",
+   "title": "Property 31 — Equitable servitudes; CIDs; implied reciprocal negative servitudes",
    "course": "Property",
    "date": "2026-10-28",
    "session": 31,
-   "reading": "Read 648-60 (skip Problems; syllabus cites p.569, likely a typo); Patt Morrison article (bCourses).",
-   "prepped": false,
+   "reading": "Read 600-07 (§§4-4.1 through note 4; skip Problems p.607). Evans v. Pollock.",
+   "prepped": true,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Property-31-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf8142b712e8bc0330a039"
+   "url": "https://app.notion.com/p/Property-31-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf8142b712e8bc0330a039"
   },
   {
    "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
@@ -161,14 +161,14 @@
    "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
   },
   {
-   "title": "Property 32 — Modifying and terminating covenants",
+   "title": "Property 32 — Constitutional and statutory limitations on covenants",
    "course": "Property",
    "date": "2026-10-29",
    "session": 32,
-   "reading": "Read 668-76.",
+   "reading": "Read 648-60 (§§5.2-5.3; skip Problems); Patt Morrison, The Ugly and True History of L.A.'s Racist Housing Covenants (bCourses). Optional: Clemence; NAR, You Can't Live Here. Shelley v. Kraemer.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Property-32-Modifying-and-terminating-covenants-3c6063496baf817a8b1efae4a54d5b6e"
+   "url": "https://app.notion.com/p/Property-32-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf817a8b1efae4a54d5b6e"
   },
   {
    "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
@@ -181,14 +181,14 @@
    "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
   },
   {
-   "title": "Property 33 — Zoning authority",
+   "title": "Property 33 — Modifying and terminating covenants",
    "course": "Property",
    "date": "2026-10-30",
    "session": 33,
-   "reading": "Read 447-58 + Nectow v. City of Cambridge (bCourses).",
+   "reading": "Read 668-76 (§§6.1-6.3). El Di, Inc. v. Town of Bethany Beach.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Property-33-Zoning-authority-3c6063496baf81889bf2fdfd3348d191"
+   "url": "https://app.notion.com/p/Property-33-Modifying-and-terminating-covenants-3c6063496baf81889bf2fdfd3348d191"
   },
   {
    "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
@@ -203,14 +203,14 @@
  ],
  "ahead": [
   {
-   "title": "Property 31 — Constitutional and statutory limitations on covenants",
+   "title": "Property 31 — Equitable servitudes; CIDs; implied reciprocal negative servitudes",
    "course": "Property",
    "date": "2026-10-28",
    "session": 31,
-   "reading": "Read 648-60 (skip Problems; syllabus cites p.569, likely a typo); Patt Morrison article (bCourses).",
-   "prepped": false,
+   "reading": "Read 600-07 (§§4-4.1 through note 4; skip Problems p.607). Evans v. Pollock.",
+   "prepped": true,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Property-31-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf8142b712e8bc0330a039"
+   "url": "https://app.notion.com/p/Property-31-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf8142b712e8bc0330a039"
   },
   {
    "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
@@ -223,14 +223,14 @@
    "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
   },
   {
-   "title": "Property 32 — Modifying and terminating covenants",
+   "title": "Property 32 — Constitutional and statutory limitations on covenants",
    "course": "Property",
    "date": "2026-10-29",
    "session": 32,
-   "reading": "Read 668-76.",
+   "reading": "Read 648-60 (§§5.2-5.3; skip Problems); Patt Morrison, The Ugly and True History of L.A.'s Racist Housing Covenants (bCourses). Optional: Clemence; NAR, You Can't Live Here. Shelley v. Kraemer.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Property-32-Modifying-and-terminating-covenants-3c6063496baf817a8b1efae4a54d5b6e"
+   "url": "https://app.notion.com/p/Property-32-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf817a8b1efae4a54d5b6e"
   },
   {
    "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
@@ -243,14 +243,14 @@
    "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
   },
   {
-   "title": "Property 33 — Zoning authority",
+   "title": "Property 33 — Modifying and terminating covenants",
    "course": "Property",
    "date": "2026-10-30",
    "session": 33,
-   "reading": "Read 447-58 + Nectow v. City of Cambridge (bCourses).",
+   "reading": "Read 668-76 (§§6.1-6.3). El Di, Inc. v. Town of Bethany Beach.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Property-33-Zoning-authority-3c6063496baf81889bf2fdfd3348d191"
+   "url": "https://app.notion.com/p/Property-33-Modifying-and-terminating-covenants-3c6063496baf81889bf2fdfd3348d191"
   },
   {
    "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
@@ -303,14 +303,14 @@
    "url": "https://app.notion.com/p/Youth-Justice-12-Closing-Youth-Prison-Part-2-abolition-framework-healing-based-approach-3c6063496baf810aa297daaff149ae66"
   },
   {
-   "title": "Property 35 — Prior nonconforming uses; administrative relief",
+   "title": "Property 35 — Zoning authority",
    "course": "Property",
    "date": "2026-11-05",
    "session": 35,
-   "reading": "Read 462-67.",
+   "reading": "Read 447-58 (§§1-1.2) + Nectow v. City of Cambridge (bCourses). Village of Euclid v. Ambler Realty; Nectow.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Property-35-Prior-nonconforming-uses-administrative-relief-3c6063496baf81b0a302e221682625ce"
+   "url": "https://app.notion.com/p/Property-35-Zoning-authority-3c6063496baf81b0a302e221682625ce"
   },
   {
    "title": "Negotiations 8 — Ethics Pt 2; BATNA/WATNA/Costing — SANCHEZ v. ACE AUTO (graded, videotaped)",
