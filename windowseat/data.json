@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T16:03:43+00:00",
+ "generated": "2026-10-29T21:04:46+00:00",
  "today": "2026-10-29",
  "term": {
   "week": 11,
@@ -13,36 +13,36 @@
    {
     "date": "2026-10-29",
     "code": 3,
-    "high": 66.5,
+    "high": 66.1,
     "low": 47.0,
     "rainMax": 4
    },
    {
     "date": "2026-10-30",
     "code": 3,
-    "high": 65.8,
-    "low": 48.3,
-    "rainMax": 1
+    "high": 64.8,
+    "low": 49.5,
+    "rainMax": 2
    },
    {
     "date": "2026-10-31",
     "code": 53,
-    "high": 61.6,
-    "low": 49.6,
+    "high": 62.4,
+    "low": 49.3,
     "rainMax": 31
    },
    {
     "date": "2026-11-01",
     "code": 80,
-    "high": 62.3,
-    "low": 50.8,
+    "high": 64.1,
+    "low": 52.3,
     "rainMax": 45
    }
   ],
   "code": 3,
   "dayCode": 3,
-  "temp": 52.0,
-  "high": 66.5,
+  "temp": 63.7,
+  "high": 66.1,
   "low": 47.0,
   "rainMax": 4,
   "wetUntil": null
@@ -1491,6 +1491,15 @@
    "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
   },
   {
+   "title": "Negotiation feedback to counterpart — Websurf makeup (Dana the Surfer v. Websurf CEO)",
+   "course": "Negotiations",
+   "due": "2026-11-04",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Websurf-makeup-Dana-the-Surfer-v-Websurf-CEO-3db063496baf81eab9f0f00b2e3dc32f"
+  },
+  {
    "title": "Sanchez v. Ace Auto Planning Memo",
    "course": "Negotiations",
    "due": "2026-11-05",
@@ -1525,15 +1534,6 @@
    "weight": "25%",
    "overdue": false,
    "url": "https://app.notion.com/p/Sanchez-negotiation-package-journal-video-3c6063496baf811bbcddc7d7821f436f"
-  },
-  {
-   "title": "Group project written component",
-   "course": "Youth Justice",
-   "due": "2026-11-14",
-   "type": "graded",
-   "weight": "20 of 40 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Group-project-written-component-3c6063496baf8114892eecd00f185794"
   }
  ],
  "longHaul": [
@@ -1595,7 +1595,7 @@
  "counts": {
   "open": 22,
   "overdue": 1,
-  "dueSoon": 6,
+  "dueSoon": 7,
   "graded": 13,
   "unmerged": 32,
   "courses": 5,
