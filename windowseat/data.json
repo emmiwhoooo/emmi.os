@@ -1,49 +1,49 @@
 {
- "generated": "2026-10-29T02:50:36+00:00",
- "today": "2026-10-28",
+ "generated": "2026-10-29T09:05:08+00:00",
+ "today": "2026-10-29",
  "term": {
   "week": 11,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 35
+  "daysToFinals": 34
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-28",
-    "code": 3,
-    "high": 68.3,
-    "low": 44.9,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-29",
     "code": 3,
-    "high": 66.9,
-    "low": 48.8,
-    "rainMax": 2
+    "high": 65.3,
+    "low": 47.7,
+    "rainMax": 0
    },
    {
     "date": "2026-10-30",
     "code": 3,
-    "high": 67.1,
-    "low": 47.0,
+    "high": 66.4,
+    "low": 47.4,
     "rainMax": 2
    },
    {
     "date": "2026-10-31",
-    "code": 3,
-    "high": 64.3,
-    "low": 51.3,
-    "rainMax": 10
+    "code": 53,
+    "high": 63.1,
+    "low": 51.7,
+    "rainMax": 29
+   },
+   {
+    "date": "2026-11-01",
+    "code": 53,
+    "high": 64.6,
+    "low": 50.4,
+    "rainMax": 23
    }
   ],
   "code": 3,
   "dayCode": 3,
-  "temp": 56.6,
-  "high": 68.3,
-  "low": 44.9,
+  "temp": 48.4,
+  "high": 65.3,
+  "low": 47.7,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,34 +130,24 @@
   ]
  },
  "next": {
-  "title": "Property 31 — Equitable servitudes; CIDs; implied reciprocal negative servitudes",
-  "course": "Property",
+  "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
+  "course": "Youth Justice",
   "date": "2026-10-28",
-  "session": 31,
-  "reading": "Read 600-07 (§§4-4.1 through note 4; skip Problems p.607). Evans v. Pollock.",
+  "session": 11,
+  "reading": "Bernstein, The Imprint (2023); BDTH Ch.11 pp.224-243 (optional 243-253); SB 823 Sec. 1 + Senate floor analysis; W&I §875(a)(d)(f). Watch: NZ Rangatahi Courts excerpt. VIRTUAL class via Zoom. Optional resources on bCourses.",
   "prepped": true,
-  "status": "not merged",
-  "url": "https://app.notion.com/p/Property-31-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf8142b712e8bc0330a039"
+  "status": "in outline",
+  "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
  },
  "upcoming": [
-  {
-   "title": "Property 31 — Equitable servitudes; CIDs; implied reciprocal negative servitudes",
-   "course": "Property",
-   "date": "2026-10-28",
-   "session": 31,
-   "reading": "Read 600-07 (§§4-4.1 through note 4; skip Problems p.607). Evans v. Pollock.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-31-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf8142b712e8bc0330a039"
-  },
   {
    "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
    "course": "Youth Justice",
    "date": "2026-10-28",
    "session": 11,
    "reading": "Bernstein, The Imprint (2023); BDTH Ch.11 pp.224-243 (optional 243-253); SB 823 Sec. 1 + Senate floor analysis; W&I §875(a)(d)(f). Watch: NZ Rangatahi Courts excerpt. VIRTUAL class via Zoom. Optional resources on bCourses.",
-   "prepped": false,
-   "status": "not merged",
+   "prepped": true,
+   "status": "in outline",
    "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
   },
   {
@@ -166,7 +156,7 @@
    "date": "2026-10-29",
    "session": 32,
    "reading": "Read 648-60 (§§5.2-5.3; skip Problems); Patt Morrison, The Ugly and True History of L.A.'s Racist Housing Covenants (bCourses). Optional: Clemence; NAR, You Can't Live Here. Shelley v. Kraemer.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-32-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf817a8b1efae4a54d5b6e"
   },
@@ -199,27 +189,27 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
+  },
+  {
+   "title": "LRW 23 — Citation Practice (Bluebook Blowout)",
+   "course": "LRW",
+   "date": "2026-11-03",
+   "session": 23,
+   "reading": "Bring Bluebook.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
   }
  ],
  "ahead": [
-  {
-   "title": "Property 31 — Equitable servitudes; CIDs; implied reciprocal negative servitudes",
-   "course": "Property",
-   "date": "2026-10-28",
-   "session": 31,
-   "reading": "Read 600-07 (§§4-4.1 through note 4; skip Problems p.607). Evans v. Pollock.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-31-Equitable-servitudes-CIDs-implied-reciprocal-negative-servitudes-3c6063496baf8142b712e8bc0330a039"
-  },
   {
    "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
    "course": "Youth Justice",
    "date": "2026-10-28",
    "session": 11,
    "reading": "Bernstein, The Imprint (2023); BDTH Ch.11 pp.224-243 (optional 243-253); SB 823 Sec. 1 + Senate floor analysis; W&I §875(a)(d)(f). Watch: NZ Rangatahi Courts excerpt. VIRTUAL class via Zoom. Optional resources on bCourses.",
-   "prepped": false,
-   "status": "not merged",
+   "prepped": true,
+   "status": "in outline",
    "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
   },
   {
@@ -228,7 +218,7 @@
    "date": "2026-10-29",
    "session": 32,
    "reading": "Read 648-60 (§§5.2-5.3; skip Problems); Patt Morrison, The Ugly and True History of L.A.'s Racist Housing Covenants (bCourses). Optional: Clemence; NAR, You Can't Live Here. Shelley v. Kraemer.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-32-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf817a8b1efae4a54d5b6e"
   },
@@ -321,15 +311,35 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
+  },
+  {
+   "title": "LRW 24 — Research Class 6: Email Memo",
+   "course": "LRW",
+   "date": "2026-11-06",
+   "session": 24,
+   "reading": "Read Sample UPL Email Analysis; Tribal Law intro; selected case (Section B. Breach). Note: Closed-Universe Office Memo materials released Sun Nov 8.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-24-Research-Class-6-Email-Memo-3c6063496baf8124abd1d84eb841118c"
+  },
+  {
+   "title": "Property 36 — Prior nonconforming uses; administrative relief; exclusionary zoning",
+   "course": "Property",
+   "date": "2026-11-06",
+   "session": 36,
+   "reading": "Read 462-67 (§§2-2.1); read 488-98 (§4.2); listen to The Racist History of Single-Family Home Zoning. Optional: Segregated By Design; Rothstein; Berkeley resolution; Stolz; Meyersohn. Town of Belleville v. Parillo's; Mount Laurel.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
   }
  ],
- "aheadUntil": "2026-11-05",
+ "aheadUntil": "2026-11-06",
  "backlog": {
-  "Property": 20,
+  "Property": 14,
   "Negotiations": 6,
-  "Youth Justice": 7,
-  "Evidence": 10,
-  "LRW": 9
+  "Youth Justice": 4,
+  "LRW": 6,
+  "Evidence": 2
  },
  "walkHome": [
   {
@@ -394,6 +404,11 @@
   }
  ],
  "shelf": [
+  {
+   "title": "State v. Hayden",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/State-v-Hayden-408063496baf81839823d7ca30910465"
+  },
   {
    "title": "Ortiz v. City of New York",
    "course": "Evidence",
@@ -1440,15 +1455,6 @@
    "url": "https://app.notion.com/p/Negotiation-group-feedback-2-peers-3fd063496baf81f09ab4c4d5dc90e95c"
   },
   {
-   "title": "Watch Property 26 + 27 recordings",
-   "course": "Property",
-   "due": "2026-10-25",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Watch-Property-26-27-recordings-3fd063496baf8123bd6dd87812182c41"
-  },
-  {
    "title": "Clean Slate motion (CORE)",
    "course": "",
    "due": "2026-11-02",
@@ -1519,6 +1525,15 @@
    "weight": "25%",
    "overdue": false,
    "url": "https://app.notion.com/p/Sanchez-negotiation-package-journal-video-3c6063496baf811bbcddc7d7821f436f"
+  },
+  {
+   "title": "Group project written component",
+   "course": "Youth Justice",
+   "due": "2026-11-14",
+   "type": "graded",
+   "weight": "20 of 40 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Group-project-written-component-3c6063496baf8114892eecd00f185794"
   }
  ],
  "longHaul": [
@@ -1578,13 +1593,13 @@
   }
  ],
  "counts": {
-  "open": 23,
-  "overdue": 2,
+  "open": 22,
+  "overdue": 1,
   "dueSoon": 6,
   "graded": 13,
-  "unmerged": 52,
+  "unmerged": 32,
   "courses": 5,
-  "cases": 132,
+  "cases": 133,
   "reserve": 62
  },
  "courses": [
