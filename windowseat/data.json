@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T13:32:27+00:00",
+ "generated": "2026-10-30T18:50:53+00:00",
  "today": "2026-10-30",
  "term": {
   "week": 11,
@@ -14,36 +14,36 @@
     "date": "2026-10-30",
     "code": 3,
     "high": 66.2,
-    "low": 49.3,
+    "low": 51.3,
     "rainMax": 1
    },
    {
     "date": "2026-10-31",
-    "code": 51,
-    "high": 63.7,
-    "low": 48.1,
-    "rainMax": 16
+    "code": 63,
+    "high": 63.6,
+    "low": 49.6,
+    "rainMax": 20
    },
    {
     "date": "2026-11-01",
-    "code": 80,
-    "high": 64.5,
-    "low": 50.8,
-    "rainMax": 34
+    "code": 51,
+    "high": 64.1,
+    "low": 48.4,
+    "rainMax": 36
    },
    {
     "date": "2026-11-02",
     "code": 3,
-    "high": 68.6,
-    "low": 49.4,
-    "rainMax": 0
+    "high": 67.0,
+    "low": 50.0,
+    "rainMax": 1
    }
   ],
-  "code": 2,
+  "code": 1,
   "dayCode": 3,
-  "temp": 51.5,
+  "temp": 62.9,
   "high": 66.2,
-  "low": 49.3,
+  "low": 51.3,
   "rainMax": 1,
   "wetUntil": null
  },
@@ -135,7 +135,7 @@
   "date": "2026-10-30",
   "session": 22,
   "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
  },
@@ -146,7 +146,7 @@
    "date": "2026-10-30",
    "session": 22,
    "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
   },
@@ -156,7 +156,7 @@
    "date": "2026-10-30",
    "session": 33,
    "reading": "Read 668-76 (§§6.1-6.3). El Di, Inc. v. Town of Bethany Beach.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-33-Modifying-and-terminating-covenants-3c6063496baf81889bf2fdfd3348d191"
   },
@@ -208,7 +208,7 @@
    "date": "2026-10-30",
    "session": 22,
    "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
   },
@@ -218,7 +218,7 @@
    "date": "2026-10-30",
    "session": 33,
    "reading": "Read 668-76 (§§6.1-6.3). El Di, Inc. v. Town of Bethany Beach.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-33-Modifying-and-terminating-covenants-3c6063496baf81889bf2fdfd3348d191"
   },
