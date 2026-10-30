@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-30T06:37:33+00:00",
- "today": "2026-10-29",
+ "generated": "2026-10-30T13:32:27+00:00",
+ "today": "2026-10-30",
  "term": {
   "week": 11,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 34
+  "daysToFinals": 33
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-29",
-    "code": 3,
-    "high": 67.7,
-    "low": 47.0,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-30",
     "code": 3,
-    "high": 63.2,
-    "low": 51.0,
+    "high": 66.2,
+    "low": 49.3,
     "rainMax": 1
    },
    {
     "date": "2026-10-31",
-    "code": 3,
-    "high": 64.8,
-    "low": 48.0,
-    "rainMax": 18
+    "code": 51,
+    "high": 63.7,
+    "low": 48.1,
+    "rainMax": 16
    },
    {
     "date": "2026-11-01",
-    "code": 53,
-    "high": 65.2,
-    "low": 50.6,
-    "rainMax": 27
+    "code": 80,
+    "high": 64.5,
+    "low": 50.8,
+    "rainMax": 34
+   },
+   {
+    "date": "2026-11-02",
+    "code": 3,
+    "high": 68.6,
+    "low": 49.4,
+    "rainMax": 0
    }
   ],
-  "code": 3,
+  "code": 2,
   "dayCode": 3,
-  "temp": 55.1,
-  "high": 67.7,
-  "low": 47.0,
-  "rainMax": 0,
+  "temp": 51.5,
+  "high": 66.2,
+  "low": 49.3,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
-  "course": "Youth Justice",
-  "date": "2026-10-28",
-  "session": 11,
-  "reading": "Bernstein, The Imprint (2023); BDTH Ch.11 pp.224-243 (optional 243-253); SB 823 Sec. 1 + Senate floor analysis; W&I §875(a)(d)(f). Watch: NZ Rangatahi Courts excerpt. VIRTUAL class via Zoom. Optional resources on bCourses.",
-  "prepped": true,
-  "status": "in outline",
-  "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
+  "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
+  "course": "LRW",
+  "date": "2026-10-30",
+  "session": 22,
+  "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
+  "prepped": false,
+  "status": "not merged",
+  "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
-   "course": "Youth Justice",
-   "date": "2026-10-28",
-   "session": 11,
-   "reading": "Bernstein, The Imprint (2023); BDTH Ch.11 pp.224-243 (optional 243-253); SB 823 Sec. 1 + Senate floor analysis; W&I §875(a)(d)(f). Watch: NZ Rangatahi Courts excerpt. VIRTUAL class via Zoom. Optional resources on bCourses.",
-   "prepped": true,
-   "status": "in outline",
-   "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
-  },
-  {
-   "title": "Property 32 — Constitutional and statutory limitations on covenants",
-   "course": "Property",
-   "date": "2026-10-29",
-   "session": 32,
-   "reading": "Read 648-60 (§§5.2-5.3; skip Problems); Patt Morrison, The Ugly and True History of L.A.'s Racist Housing Covenants (bCourses). Optional: Clemence; NAR, You Can't Live Here. Shelley v. Kraemer.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-32-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf817a8b1efae4a54d5b6e"
-  },
   {
    "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
    "course": "LRW",
@@ -199,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
+  },
+  {
+   "title": "Evidence 22 — Impeachment by Prior Inconsistent Statement; Bias",
+   "course": "Evidence",
+   "date": "2026-11-03",
+   "session": 22,
+   "reading": "CB 436-457 (skip Simmons). U.S. v. Abel. F.R.E. 613, 801(d)(1). C.E.C. 769, 770, 1235. No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-22-Impeachment-by-Prior-Inconsistent-Statement-Bias-3c6063496baf8117a11ef6811c2562d2"
+  },
+  {
+   "title": "Property 34 — SKILLS WORKSHOP 4 (easements and covenants) — PRACTICE EXERCISE 4 DUE",
+   "course": "Property",
+   "date": "2026-11-04",
+   "session": 34,
+   "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
   }
  ],
  "ahead": [
-  {
-   "title": "Youth Justice 11 — Closing Youth Prison (Part 1) — the DJJ youth prison system",
-   "course": "Youth Justice",
-   "date": "2026-10-28",
-   "session": 11,
-   "reading": "Bernstein, The Imprint (2023); BDTH Ch.11 pp.224-243 (optional 243-253); SB 823 Sec. 1 + Senate floor analysis; W&I §875(a)(d)(f). Watch: NZ Rangatahi Courts excerpt. VIRTUAL class via Zoom. Optional resources on bCourses.",
-   "prepped": true,
-   "status": "in outline",
-   "url": "https://app.notion.com/p/Youth-Justice-11-Closing-Youth-Prison-Part-1-the-DJJ-youth-prison-system-3c6063496baf814db825f538633462b7"
-  },
-  {
-   "title": "Property 32 — Constitutional and statutory limitations on covenants",
-   "course": "Property",
-   "date": "2026-10-29",
-   "session": 32,
-   "reading": "Read 648-60 (§§5.2-5.3; skip Problems); Patt Morrison, The Ugly and True History of L.A.'s Racist Housing Covenants (bCourses). Optional: Clemence; NAR, You Can't Live Here. Shelley v. Kraemer.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-32-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf817a8b1efae4a54d5b6e"
-  },
   {
    "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
    "course": "LRW",
@@ -333,9 +313,9 @@
    "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
   }
  ],
- "aheadUntil": "2026-11-06",
+ "aheadUntil": "2026-11-07",
  "backlog": {
-  "Property": 14,
+  "Property": 15,
   "Negotiations": 6,
   "Youth Justice": 4,
   "LRW": 6,
@@ -1597,7 +1577,7 @@
   "overdue": 1,
   "dueSoon": 7,
   "graded": 13,
-  "unmerged": 32,
+  "unmerged": 33,
   "courses": 5,
   "cases": 133,
   "reserve": 62
