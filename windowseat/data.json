@@ -1,50 +1,50 @@
 {
- "generated": "2026-10-31T01:50:08+00:00",
- "today": "2026-10-30",
+ "generated": "2026-10-31T07:42:48+00:00",
+ "today": "2026-10-31",
  "term": {
   "week": 11,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 33
+  "daysToFinals": 32
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-30",
-    "code": 3,
-    "high": 66.3,
-    "low": 51.5,
-    "rainMax": 0
-   },
-   {
     "date": "2026-10-31",
     "code": 3,
-    "high": 64.0,
-    "low": 47.8,
-    "rainMax": 7
+    "high": 63.5,
+    "low": 47.9,
+    "rainMax": 4
    },
    {
     "date": "2026-11-01",
     "code": 51,
-    "high": 63.5,
-    "low": 46.2,
-    "rainMax": 24
+    "high": 62.2,
+    "low": 48.8,
+    "rainMax": 23
    },
    {
     "date": "2026-11-02",
     "code": 3,
-    "high": 68.3,
-    "low": 50.4,
-    "rainMax": 0
+    "high": 68.5,
+    "low": 50.3,
+    "rainMax": 1
+   },
+   {
+    "date": "2026-11-03",
+    "code": 3,
+    "high": 66.6,
+    "low": 52.5,
+    "rainMax": 20
    }
   ],
-  "code": 1,
+  "code": 3,
   "dayCode": 3,
-  "temp": 56.9,
-  "high": 66.3,
-  "low": 51.5,
-  "rainMax": 0,
+  "temp": 51.7,
+  "high": 63.5,
+  "low": 47.9,
+  "rainMax": 4,
   "wetUntil": null
  },
  "player": {
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
-  "course": "LRW",
-  "date": "2026-10-30",
-  "session": 22,
-  "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
-  "prepped": true,
+  "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
+  "course": "Evidence",
+  "date": "2026-11-02",
+  "session": 21,
+  "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
+  "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
  },
  "upcoming": [
-  {
-   "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
-   "course": "LRW",
-   "date": "2026-10-30",
-   "session": 22,
-   "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
-  },
-  {
-   "title": "Property 33 — Modifying and terminating covenants",
-   "course": "Property",
-   "date": "2026-10-30",
-   "session": 33,
-   "reading": "Read 668-76 (§§6.1-6.3). El Di, Inc. v. Town of Bethany Beach.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-33-Modifying-and-terminating-covenants-3c6063496baf81889bf2fdfd3348d191"
-  },
   {
    "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
    "course": "Evidence",
@@ -199,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
+  },
+  {
+   "title": "Youth Justice 12 — Closing Youth Prison (Part 2) — abolition framework, healing-based approach",
+   "course": "Youth Justice",
+   "date": "2026-11-04",
+   "session": 12,
+   "reading": "CJCJ Beyond Repair pp.17-23, 28-30; LA Times (6/2/23); Bernstein, How Not to Close a Prison. Guest: Nell Bernstein (BDTH author). Optional resources on bCourses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-12-Closing-Youth-Prison-Part-2-abolition-framework-healing-based-approach-3c6063496baf810aa297daaff149ae66"
+  },
+  {
+   "title": "Property 35 — Zoning authority",
+   "course": "Property",
+   "date": "2026-11-05",
+   "session": 35,
+   "reading": "Read 447-58 (§§1-1.2) + Nectow v. City of Cambridge (bCourses). Village of Euclid v. Ambler Realty; Nectow.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-35-Zoning-authority-3c6063496baf81b0a302e221682625ce"
   }
  ],
  "ahead": [
-  {
-   "title": "LRW 22 — Drafting class (LRW Lounge) — FA Office Memo",
-   "course": "LRW",
-   "date": "2026-10-30",
-   "session": 22,
-   "reading": "Bring laptop. Fundamental Alteration Office Memo due Sun Nov 1 10pm; sign up for live-comment review.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-22-Drafting-class-LRW-Lounge-FA-Office-Memo-3c6063496baf813eac2af61054e32f69"
-  },
-  {
-   "title": "Property 33 — Modifying and terminating covenants",
-   "course": "Property",
-   "date": "2026-10-30",
-   "session": 33,
-   "reading": "Read 668-76 (§§6.1-6.3). El Di, Inc. v. Town of Bethany Beach.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-33-Modifying-and-terminating-covenants-3c6063496baf81889bf2fdfd3348d191"
-  },
   {
    "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
    "course": "Evidence",
@@ -313,12 +293,12 @@
    "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
   }
  ],
- "aheadUntil": "2026-11-07",
+ "aheadUntil": "2026-11-08",
  "backlog": {
-  "Property": 15,
+  "Property": 16,
   "Negotiations": 6,
   "Youth Justice": 4,
-  "LRW": 6,
+  "LRW": 7,
   "Evidence": 2
  },
  "walkHome": [
@@ -1575,9 +1555,9 @@
  "counts": {
   "open": 22,
   "overdue": 1,
-  "dueSoon": 7,
+  "dueSoon": 8,
   "graded": 13,
-  "unmerged": 33,
+  "unmerged": 35,
   "courses": 5,
   "cases": 133,
   "reserve": 62
