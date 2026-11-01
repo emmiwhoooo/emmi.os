@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T00:17:29+00:00",
+ "generated": "2026-11-01T06:30:40+00:00",
  "today": "2026-10-31",
  "term": {
   "week": 11,
@@ -20,28 +20,28 @@
    {
     "date": "2026-11-01",
     "code": 63,
-    "high": 63.4,
-    "low": 49.0,
-    "rainMax": 41
+    "high": 62.7,
+    "low": 48.6,
+    "rainMax": 59
    },
    {
     "date": "2026-11-02",
     "code": 3,
-    "high": 67.9,
-    "low": 48.2,
+    "high": 64.0,
+    "low": 47.6,
     "rainMax": 0
    },
    {
     "date": "2026-11-03",
-    "code": 51,
-    "high": 61.2,
-    "low": 51.5,
-    "rainMax": 40
+    "code": 55,
+    "high": 63.5,
+    "low": 52.8,
+    "rainMax": 58
    }
   ],
-  "code": 1,
+  "code": 0,
   "dayCode": 3,
-  "temp": 59.3,
+  "temp": 51.2,
   "high": 62.7,
   "low": 47.8,
   "rainMax": 1,
@@ -135,7 +135,7 @@
   "date": "2026-11-02",
   "session": 21,
   "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
  },
@@ -146,7 +146,7 @@
    "date": "2026-11-02",
    "session": 21,
    "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
   },
@@ -166,7 +166,7 @@
    "date": "2026-11-03",
    "session": 22,
    "reading": "CB 436-457 (skip Simmons). U.S. v. Abel. F.R.E. 613, 801(d)(1). C.E.C. 769, 770, 1235. No in limine argument.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-22-Impeachment-by-Prior-Inconsistent-Statement-Bias-3c6063496baf8117a11ef6811c2562d2"
   },
@@ -208,7 +208,7 @@
    "date": "2026-11-02",
    "session": 21,
    "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
   },
@@ -228,7 +228,7 @@
    "date": "2026-11-03",
    "session": 22,
    "reading": "CB 436-457 (skip Simmons). U.S. v. Abel. F.R.E. 613, 801(d)(1). C.E.C. 769, 770, 1235. No in limine argument.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-22-Impeachment-by-Prior-Inconsistent-Statement-Bias-3c6063496baf8117a11ef6811c2562d2"
   },
@@ -1032,6 +1032,12 @@
  ],
  "reserve": [
   {
+   "title": "highlights · chapter 7.pdf",
+   "course": "Evidence",
+   "kind": "highlights",
+   "link": "https://app.notion.com/p/highlights-chapter-7-pdf-40b063496baf81249576e30a1a097815"
+  },
+  {
    "title": "slides · SECTION R Week 10, Class 2 (How to draft Issue, Brief Answer, Conclusion).pptx.pdf",
    "course": "LRW",
    "kind": "slides",
@@ -1560,7 +1566,7 @@
   "unmerged": 35,
   "courses": 5,
   "cases": 133,
-  "reserve": 62
+  "reserve": 63
  },
  "courses": [
   "Evidence",
