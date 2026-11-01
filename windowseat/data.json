@@ -1,51 +1,51 @@
 {
- "generated": "2026-11-01T06:30:40+00:00",
- "today": "2026-10-31",
+ "generated": "2026-11-01T13:45:52+00:00",
+ "today": "2026-11-01",
  "term": {
   "week": 11,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 32
+  "daysToFinals": 31
  },
  "sky": {
   "days": [
    {
-    "date": "2026-10-31",
-    "code": 3,
-    "high": 62.7,
-    "low": 47.8,
-    "rainMax": 1
-   },
-   {
     "date": "2026-11-01",
-    "code": 63,
-    "high": 62.7,
-    "low": 48.6,
-    "rainMax": 59
+    "code": 61,
+    "high": 62.3,
+    "low": 47.5,
+    "rainMax": 51
    },
    {
     "date": "2026-11-02",
     "code": 3,
-    "high": 64.0,
-    "low": 47.6,
-    "rainMax": 0
+    "high": 63.2,
+    "low": 49.4,
+    "rainMax": 1
    },
    {
     "date": "2026-11-03",
-    "code": 55,
-    "high": 63.5,
-    "low": 52.8,
-    "rainMax": 58
+    "code": 51,
+    "high": 65.4,
+    "low": 49.7,
+    "rainMax": 67
+   },
+   {
+    "date": "2026-11-04",
+    "code": 3,
+    "high": 66.6,
+    "low": 47.7,
+    "rainMax": 8
    }
   ],
-  "code": 0,
-  "dayCode": 3,
-  "temp": 51.2,
-  "high": 62.7,
-  "low": 47.8,
-  "rainMax": 1,
-  "wetUntil": null
+  "code": 3,
+  "dayCode": 61,
+  "temp": 49.1,
+  "high": 62.3,
+  "low": 47.5,
+  "rainMax": 51,
+  "wetUntil": "2026-11-01T03:00"
  },
  "player": {
   "level": 59,
@@ -291,14 +291,24 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
+  },
+  {
+   "title": "Evidence 23 — Rehabilitation; Prior Consistent Statements",
+   "course": "Evidence",
+   "date": "2026-11-09",
+   "session": 23,
+   "reading": "CB 457-473. Tome v. U.S. F.R.E. 608, 801, 801(d)(1). C.E.C. 790. No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-23-Rehabilitation-Prior-Consistent-Statements-3c6063496baf816b84fad8791247e574"
   }
  ],
- "aheadUntil": "2026-11-08",
+ "aheadUntil": "2026-11-09",
  "backlog": {
-  "Property": 16,
-  "Negotiations": 6,
+  "Property": 4,
+  "Negotiations": 5,
   "Youth Justice": 4,
-  "LRW": 7,
+  "LRW": 2,
   "Evidence": 2
  },
  "walkHome": [
@@ -327,12 +337,6 @@
    "url": "https://app.notion.com/p/Negotiations-3-Distributive-Bargaining-Anchoring-The-Money-Dance-Role-play-Batmobile-3c6063496baf813ab01accf74631c64e"
   },
   {
-   "title": "Property 9 — Introduction to future interests",
-   "course": "Property",
-   "date": "2026-09-04",
-   "url": "https://app.notion.com/p/Property-9-Introduction-to-future-interests-3c6063496baf8135999fce5e73a5fd26"
-  },
-  {
    "title": "Property 10 — Future interests — reversion, remainder",
    "course": "Property",
    "date": "2026-09-09",
@@ -345,25 +349,126 @@
    "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
   },
   {
-   "title": "Property 11 — Vested and contingent remainders",
-   "course": "Property",
-   "date": "2026-09-10",
-   "url": "https://app.notion.com/p/Property-11-Vested-and-contingent-remainders-3c6063496baf813f982cc067ab9d7756"
-  },
-  {
-   "title": "Property 12 — Waste; rules affecting future interests",
-   "course": "Property",
-   "date": "2026-09-11",
-   "url": "https://app.notion.com/p/Property-12-Waste-rules-affecting-future-interests-3c6063496baf8105a9b4ffd9299baf5f"
-  },
-  {
-   "title": "Property 13 — Forms of concurrent ownership",
-   "course": "Property",
+   "title": "Youth Justice 5 — The Role of Counsel in Delinquency Court",
+   "course": "Youth Justice",
    "date": "2026-09-16",
-   "url": "https://app.notion.com/p/Property-13-Forms-of-concurrent-ownership-3c6063496baf8116b403f6bb7d39d720"
+   "url": "https://app.notion.com/p/Youth-Justice-5-The-Role-of-Counsel-in-Delinquency-Court-3c6063496baf81f7a910c41d73a5d4bc"
+  },
+  {
+   "title": "Youth Justice 6 — Pre-Adjudication Detention",
+   "course": "Youth Justice",
+   "date": "2026-09-23",
+   "url": "https://app.notion.com/p/Youth-Justice-6-Pre-Adjudication-Detention-3c6063496baf81079d54f6e3b3cc2319"
+  },
+  {
+   "title": "Negotiations 5 — Negotiation Styles & Approaches — Role-play: Widow Land Sale",
+   "course": "Negotiations",
+   "date": "2026-09-24",
+   "url": "https://app.notion.com/p/Negotiations-5-Negotiation-Styles-Approaches-Role-play-Widow-Land-Sale-3c6063496baf81c98877ed35a903f0ab"
+  },
+  {
+   "title": "LRW 13 — Research Class 3: State Annotated Code",
+   "course": "LRW",
+   "date": "2026-09-29",
+   "url": "https://app.notion.com/p/LRW-13-Research-Class-3-State-Annotated-Code-3c6063496baf811c9c82ec8f6d3c4585"
   }
  ],
  "shelf": [
+  {
+   "title": "Luce v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Luce-v-United-States-40b063496baf8175bd80c285b6b66b08"
+  },
+  {
+   "title": "Ohler v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Ohler-v-United-States-40b063496baf81f5be97edb041ed9df9"
+  },
+  {
+   "title": "United States v. Amaechi",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Amaechi-40b063496baf8107b481fde95efe2b12"
+  },
+  {
+   "title": "United States v. Hernandez",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Hernandez-40b063496baf8153bf24c7a4b1c45ef4"
+  },
+  {
+   "title": "United States v. White",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-White-40b063496baf81259327ec0c497149f9"
+  },
+  {
+   "title": "United States v. Rosa",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Rosa-40b063496baf818b9809ca5cafed98a0"
+  },
+  {
+   "title": "United States v. Aponte",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Aponte-40b063496baf81efa6bac2862158f799"
+  },
+  {
+   "title": "United States v. Ince",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Ince-40b063496baf8165ad08db688c4a8fd5"
+  },
+  {
+   "title": "United States v. Kohli",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Kohli-40b063496baf81d5b402f68589857253"
+  },
+  {
+   "title": "United States v. Estrada",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Estrada-40b063496baf81d28d89c173fc58a010"
+  },
+  {
+   "title": "United States v. Truman",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Truman-40b063496baf815fa7cdfd5a8e3e8dca"
+  },
+  {
+   "title": "United States v. Thompson",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Thompson-40b063496baf81489390ecba2c1bca45"
+  },
+  {
+   "title": "Glaze v. Childs",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Glaze-v-Childs-40b063496baf8192b72fee5ab86c33a2"
+  },
+  {
+   "title": "United States v. Lollar",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Lollar-40b063496baf81c0a5c7e101ea287760"
+  },
+  {
+   "title": "Grewal v. Greda",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Grewal-v-Greda-40b063496baf81ebb95cf4afbd442328"
+  },
+  {
+   "title": "People v. Freeman",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/People-v-Freeman-40b063496baf81008508e472279b07df"
+  },
+  {
+   "title": "United States v. Lebel",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Lebel-40b063496baf81fe8c2ff7185a530c5d"
+  },
+  {
+   "title": "United States v. Wong",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Wong-40b063496baf81158736dbb9a86215e6"
+  },
+  {
+   "title": "United States v. Webster",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Webster-40b063496baf81dab167ea56330b7e85"
+  },
   {
    "title": "State v. Hayden",
    "course": "Evidence",
@@ -1015,9 +1120,9 @@
    "url": "https://app.notion.com/p/Jaffee-v-Redmond-3c6063496baf81c8954af0d966d392e1"
   },
   {
-   "title": "U.S. v. Abel",
+   "title": "United States v. Abel",
    "course": "Evidence",
-   "url": "https://app.notion.com/p/U-S-v-Abel-3c6063496baf81ca9423c83c81e19deb"
+   "url": "https://app.notion.com/p/United-States-v-Abel-3c6063496baf81ca9423c83c81e19deb"
   },
   {
    "title": "Crawford v. City of Bakersfield",
@@ -1031,6 +1136,36 @@
   }
  ],
  "reserve": [
+  {
+   "title": "transcript · pasted transcript · 2026-10-31",
+   "course": "Negotiations",
+   "kind": "transcript",
+   "link": "https://app.notion.com/p/transcript-pasted-transcript-2026-10-31-40b063496baf81308cb3e1f2e0e2ab31"
+  },
+  {
+   "title": "notes · CONFIDENTIAL INFORMATION FOR GAIL'S ATTORNEY  9-11-26.docx",
+   "course": "Negotiations",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-CONFIDENTIAL-INFORMATION-FOR-GAIL-S-ATTORNEY-9-11-26-docx-40b063496baf81f1a077d6f350c59bba"
+  },
+  {
+   "title": "handout · Class 8 - Listen to Podcast- Never Split the Difference.docx",
+   "course": "Negotiations",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-Class-8-Listen-to-Podcast-Never-Split-the-Difference-docx-40b063496baf81cb94d9e0b2a7d8acdf"
+  },
+  {
+   "title": "notes · Gail_Negotiation_Memo.pdf",
+   "course": "Negotiations",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-Gail_Negotiation_Memo-pdf-40b063496baf8116a8bede6bea7aa490"
+  },
+  {
+   "title": "prep sheet · Bataglia Negotiation Prep",
+   "course": "Negotiations",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/prep-sheet-Bataglia-Negotiation-Prep-40b063496baf8191b7d1fde9001a0fa2"
+  },
   {
    "title": "highlights · chapter 7.pdf",
    "course": "Evidence",
@@ -1412,15 +1547,6 @@
  ],
  "weather": [
   {
-   "title": "Negotiation group feedback — 2 peers",
-   "course": "Negotiations",
-   "due": "2026-10-15",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Negotiation-group-feedback-2-peers-3fd063496baf81f09ab4c4d5dc90e95c"
-  },
-  {
    "title": "Clean Slate motion (CORE)",
    "course": "",
    "due": "2026-11-02",
@@ -1500,6 +1626,15 @@
    "weight": "25%",
    "overdue": false,
    "url": "https://app.notion.com/p/Sanchez-negotiation-package-journal-video-3c6063496baf811bbcddc7d7821f436f"
+  },
+  {
+   "title": "Group project written component",
+   "course": "Youth Justice",
+   "due": "2026-11-14",
+   "type": "graded",
+   "weight": "20 of 40 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Group-project-written-component-3c6063496baf8114892eecd00f185794"
   }
  ],
  "longHaul": [
@@ -1559,14 +1694,14 @@
   }
  ],
  "counts": {
-  "open": 22,
-  "overdue": 1,
-  "dueSoon": 8,
+  "open": 21,
+  "overdue": 0,
+  "dueSoon": 7,
   "graded": 13,
-  "unmerged": 35,
+  "unmerged": 17,
   "courses": 5,
-  "cases": 133,
-  "reserve": 63
+  "cases": 152,
+  "reserve": 68
  },
  "courses": [
   "Evidence",
