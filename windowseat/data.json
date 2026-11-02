@@ -1,51 +1,51 @@
 {
- "generated": "2026-11-02T01:38:13+00:00",
- "today": "2026-11-01",
+ "generated": "2026-11-02T08:17:02+00:00",
+ "today": "2026-11-02",
  "term": {
-  "week": 11,
+  "week": 12,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 31
+  "daysToFinals": 30
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-01",
-    "code": 61,
-    "high": 62.6,
-    "low": 47.8,
-    "rainMax": 51
-   },
-   {
     "date": "2026-11-02",
     "code": 3,
-    "high": 65.7,
-    "low": 47.9,
+    "high": 65.5,
+    "low": 48.1,
     "rainMax": 1
    },
    {
     "date": "2026-11-03",
-    "code": 51,
-    "high": 65.7,
-    "low": 50.2,
-    "rainMax": 69
+    "code": 53,
+    "high": 63.7,
+    "low": 51.0,
+    "rainMax": 71
    },
    {
     "date": "2026-11-04",
     "code": 3,
-    "high": 67.9,
-    "low": 48.6,
-    "rainMax": 6
+    "high": 67.4,
+    "low": 48.2,
+    "rainMax": 11
+   },
+   {
+    "date": "2026-11-05",
+    "code": 3,
+    "high": 72.6,
+    "low": 52.7,
+    "rainMax": 0
    }
   ],
   "code": 0,
-  "dayCode": 61,
-  "temp": 56.7,
-  "high": 62.6,
-  "low": 47.8,
-  "rainMax": 51,
-  "wetUntil": "2026-11-01T03:00"
+  "dayCode": 3,
+  "temp": 48.6,
+  "high": 65.5,
+  "low": 48.1,
+  "rainMax": 1,
+  "wetUntil": null
  },
  "player": {
   "level": 59,
@@ -301,9 +301,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-23-Rehabilitation-Prior-Consistent-Statements-3c6063496baf816b84fad8791247e574"
+  },
+  {
+   "title": "LRW 25 — Drafting class (LRW Lounge) — Closed-Universe Memo",
+   "course": "LRW",
+   "date": "2026-11-10",
+   "session": 25,
+   "reading": "Drafting class — work on Closed-Universe memo; bring laptop.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-25-Drafting-class-LRW-Lounge-Closed-Universe-Memo-3c6063496baf81c0aef2cc2f59bdd7b0"
+  },
+  {
+   "title": "Evidence 24 — Lay Opinions; Expert Testimony",
+   "course": "Evidence",
+   "date": "2026-11-10",
+   "session": 24,
+   "reading": "CB 518-539. Diaz v. U.S.; Smith v. Arizona. F.R.E. 701, 702, 703, 704. C.E.C. 800, 805. In limine arg 9.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-24-Lay-Opinions-Expert-Testimony-3c6063496baf816e9e96db1616c6cc57"
   }
  ],
- "aheadUntil": "2026-11-09",
+ "aheadUntil": "2026-11-10",
  "backlog": {
   "Property": 4,
   "Negotiations": 5,
@@ -1566,15 +1586,6 @@
    "url": "https://app.notion.com/p/Clean-Slate-motion-CORE-406063496baf8141b0c5ced692dd7821"
   },
   {
-   "title": "Fundamental Alteration Office Memo",
-   "course": "LRW",
-   "due": "2026-11-02",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Fundamental-Alteration-Office-Memo-3c6063496baf8112b580fed5c128e980"
-  },
-  {
    "title": "In limine argument — IL 8 (Evidence 21, Mon Nov 2)",
    "course": "Evidence",
    "due": "2026-11-02",
@@ -1645,18 +1656,18 @@
    "weight": "20 of 40 points",
    "overdue": false,
    "url": "https://app.notion.com/p/Group-project-written-component-3c6063496baf8114892eecd00f185794"
+  },
+  {
+   "title": "Negotiation feedback to counterpart — AI role-play (Neg 9)",
+   "course": "Negotiations",
+   "due": "2026-11-14",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-AI-role-play-Neg-9-3db063496baf81fcb253cec88f893cdf"
   }
  ],
  "longHaul": [
-  {
-   "title": "Fundamental Alteration Office Memo",
-   "course": "LRW",
-   "due": "2026-11-02",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Fundamental-Alteration-Office-Memo-3c6063496baf8112b580fed5c128e980"
-  },
   {
    "title": "In limine argument — IL 8 (Evidence 21, Mon Nov 2)",
    "course": "Evidence",
@@ -1701,13 +1712,22 @@
    "weight": "25%",
    "overdue": false,
    "url": "https://app.notion.com/p/Sanchez-negotiation-package-journal-video-3c6063496baf811bbcddc7d7821f436f"
+  },
+  {
+   "title": "Group project written component",
+   "course": "Youth Justice",
+   "due": "2026-11-14",
+   "type": "graded",
+   "weight": "20 of 40 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Group-project-written-component-3c6063496baf8114892eecd00f185794"
   }
  ],
  "counts": {
-  "open": 21,
+  "open": 20,
   "overdue": 0,
-  "dueSoon": 7,
-  "graded": 13,
+  "dueSoon": 6,
+  "graded": 12,
   "unmerged": 17,
   "courses": 5,
   "cases": 154,
