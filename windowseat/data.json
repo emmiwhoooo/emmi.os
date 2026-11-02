@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T22:24:34+00:00",
+ "generated": "2026-11-02T01:38:13+00:00",
  "today": "2026-11-01",
  "term": {
   "week": 11,
@@ -13,7 +13,7 @@
    {
     "date": "2026-11-01",
     "code": 61,
-    "high": 61.5,
+    "high": 62.6,
     "low": 47.8,
     "rainMax": 51
    },
@@ -21,28 +21,28 @@
     "date": "2026-11-02",
     "code": 3,
     "high": 65.7,
-    "low": 46.6,
+    "low": 47.9,
     "rainMax": 1
    },
    {
     "date": "2026-11-03",
     "code": 51,
-    "high": 65.5,
+    "high": 65.7,
     "low": 50.2,
     "rainMax": 69
    },
    {
     "date": "2026-11-04",
     "code": 3,
-    "high": 68.1,
-    "low": 49.3,
+    "high": 67.9,
+    "low": 48.6,
     "rainMax": 6
    }
   ],
   "code": 0,
   "dayCode": 61,
-  "temp": 61.4,
-  "high": 61.5,
+  "temp": 56.7,
+  "high": 62.6,
   "low": 47.8,
   "rainMax": 51,
   "wetUntil": "2026-11-01T03:00"
@@ -374,6 +374,16 @@
   }
  ],
  "shelf": [
+  {
+   "title": "Elitt v. U.S.A. Hockey",
+   "course": "LRW",
+   "url": "https://app.notion.com/p/Elitt-v-U-S-A-Hockey-40c063496baf81278cf9cc84a9901ac6"
+  },
+  {
+   "title": "Kuketz v. Petronelli",
+   "course": "LRW",
+   "url": "https://app.notion.com/p/Kuketz-v-Petronelli-40c063496baf8169b078e5042bcff4f8"
+  },
   {
    "title": "Luce v. United States",
    "course": "Evidence",
@@ -1700,7 +1710,7 @@
   "graded": 13,
   "unmerged": 17,
   "courses": 5,
-  "cases": 152,
+  "cases": 154,
   "reserve": 68
  },
  "courses": [
