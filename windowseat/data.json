@@ -1,50 +1,50 @@
 {
- "generated": "2026-11-03T07:55:44+00:00",
- "today": "2026-11-02",
+ "generated": "2026-11-03T15:38:12+00:00",
+ "today": "2026-11-03",
  "term": {
   "week": 12,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 30
+  "daysToFinals": 29
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-02",
-    "code": 3,
-    "high": 63.3,
-    "low": 46.7,
-    "rainMax": 2
-   },
-   {
     "date": "2026-11-03",
     "code": 51,
-    "high": 63.7,
-    "low": 50.1,
-    "rainMax": 60
+    "high": 64.3,
+    "low": 48.0,
+    "rainMax": 35
    },
    {
     "date": "2026-11-04",
-    "code": 3,
-    "high": 65.3,
-    "low": 49.8,
-    "rainMax": 2
+    "code": 63,
+    "high": 63.1,
+    "low": 51.7,
+    "rainMax": 3
    },
    {
     "date": "2026-11-05",
     "code": 3,
-    "high": 71.8,
-    "low": 52.6,
+    "high": 72.6,
+    "low": 50.8,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-11-06",
+    "code": 3,
+    "high": 76.2,
+    "low": 53.1,
     "rainMax": 0
    }
   ],
-  "code": 1,
-  "dayCode": 3,
-  "temp": 52.2,
-  "high": 63.3,
-  "low": 46.7,
-  "rainMax": 2,
+  "code": 3,
+  "dayCode": 51,
+  "temp": 52.1,
+  "high": 64.3,
+  "low": 48.0,
+  "rainMax": 35,
   "wetUntil": null
  },
  "player": {
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
-  "course": "Evidence",
-  "date": "2026-11-02",
-  "session": 21,
-  "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
-  "prepped": true,
+  "title": "LRW 23 — Citation Practice (Bluebook Blowout)",
+  "course": "LRW",
+  "date": "2026-11-03",
+  "session": 23,
+  "reading": "Bring Bluebook.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
+  "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
  },
  "upcoming": [
-  {
-   "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
-   "course": "Evidence",
-   "date": "2026-11-02",
-   "session": 21,
-   "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
-  },
   {
    "title": "LRW 23 — Citation Practice (Bluebook Blowout)",
    "course": "LRW",
@@ -199,19 +189,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-35-Zoning-authority-3c6063496baf81b0a302e221682625ce"
+  },
+  {
+   "title": "Negotiations 8 — Ethics Pt 2; BATNA/WATNA/Costing — SANCHEZ v. ACE AUTO (graded, videotaped)",
+   "course": "Negotiations",
+   "date": "2026-11-05",
+   "session": 8,
+   "reading": "Role-play: Sanchez v. Ace Auto (VIRTUAL/Zoom; videotaped GRADED final negotiation, 25% with journal; counterpart known in advance). Prep: BA Ch. 12 + Conclusion + App. B; DC Q2-4 + finish DC; submit Sanchez prep on bCourses (planning memo goes in with the journal, due 11/12); email feedback for Gossett (no later than week of 10/22). Moved from Oct 15 per the 8/28 revised syllabus.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
   }
  ],
  "ahead": [
-  {
-   "title": "Evidence 21 — Impeachment for Untruthfulness; Prior Convictions",
-   "course": "Evidence",
-   "date": "2026-11-02",
-   "session": 21,
-   "reading": "CB 413-429 (through Hernandez); 432-436. F.R.E. 607, 608, 610, 806. C.E.C. 780, 785, 786, 787, 789, 1202. ★ IN LIMINE — IN LIMINE 8, with Le, Mallela, Pokhomovsky. This is the one to protect time for.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-21-Impeachment-for-Untruthfulness-Prior-Convictions-3c6063496baf81bebd61cf07c157a9b9"
-  },
   {
    "title": "LRW 23 — Citation Practice (Bluebook Blowout)",
    "course": "LRW",
@@ -323,13 +313,13 @@
    "url": "https://app.notion.com/p/Evidence-24-Lay-Opinions-Expert-Testimony-3c6063496baf816e9e96db1616c6cc57"
   }
  ],
- "aheadUntil": "2026-11-10",
+ "aheadUntil": "2026-11-11",
  "backlog": {
   "Property": 4,
   "Negotiations": 5,
   "Youth Justice": 4,
   "LRW": 2,
-  "Evidence": 2
+  "Evidence": 3
  },
  "walkHome": [
   {
@@ -1582,7 +1572,7 @@
    "due": "2026-11-02",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Clean-Slate-motion-CORE-406063496baf8141b0c5ced692dd7821"
   },
   {
@@ -1591,7 +1581,7 @@
    "due": "2026-11-02",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
   },
   {
@@ -1674,7 +1664,7 @@
    "due": "2026-11-02",
    "type": "graded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
   },
   {
@@ -1725,10 +1715,10 @@
  ],
  "counts": {
   "open": 20,
-  "overdue": 0,
-  "dueSoon": 6,
+  "overdue": 2,
+  "dueSoon": 7,
   "graded": 12,
-  "unmerged": 17,
+  "unmerged": 18,
   "courses": 5,
   "cases": 154,
   "reserve": 68
