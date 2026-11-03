@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T15:38:12+00:00",
+ "generated": "2026-11-03T21:15:09+00:00",
  "today": "2026-11-03",
  "term": {
   "week": 12,
@@ -12,39 +12,39 @@
   "days": [
    {
     "date": "2026-11-03",
-    "code": 51,
-    "high": 64.3,
+    "code": 61,
+    "high": 63.3,
     "low": 48.0,
-    "rainMax": 35
+    "rainMax": 37
    },
    {
     "date": "2026-11-04",
-    "code": 63,
-    "high": 63.1,
-    "low": 51.7,
+    "code": 3,
+    "high": 64.7,
+    "low": 49.9,
     "rainMax": 3
    },
    {
     "date": "2026-11-05",
     "code": 3,
-    "high": 72.6,
-    "low": 50.8,
+    "high": 74.2,
+    "low": 47.0,
     "rainMax": 0
    },
    {
     "date": "2026-11-06",
     "code": 3,
-    "high": 76.2,
-    "low": 53.1,
+    "high": 76.9,
+    "low": 53.3,
     "rainMax": 0
    }
   ],
-  "code": 3,
-  "dayCode": 51,
-  "temp": 52.1,
-  "high": 64.3,
+  "code": 1,
+  "dayCode": 61,
+  "temp": 61.5,
+  "high": 63.3,
   "low": 48.0,
-  "rainMax": 35,
+  "rainMax": 37,
   "wetUntil": null
  },
  "player": {
