@@ -1,50 +1,50 @@
 {
- "generated": "2026-11-04T07:40:01+00:00",
- "today": "2026-11-03",
+ "generated": "2026-11-04T15:45:19+00:00",
+ "today": "2026-11-04",
  "term": {
   "week": 12,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 29
+  "daysToFinals": 28
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-03",
-    "code": 61,
-    "high": 63.0,
-    "low": 48.0,
-    "rainMax": 37
-   },
-   {
     "date": "2026-11-04",
     "code": 3,
-    "high": 64.8,
+    "high": 63.9,
     "low": 50.9,
     "rainMax": 2
    },
    {
     "date": "2026-11-05",
     "code": 3,
-    "high": 71.8,
-    "low": 47.1,
+    "high": 68.7,
+    "low": 47.2,
     "rainMax": 0
    },
    {
     "date": "2026-11-06",
     "code": 3,
-    "high": 75.6,
-    "low": 54.1,
+    "high": 75.8,
+    "low": 50.5,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-11-07",
+    "code": 0,
+    "high": 77.3,
+    "low": 54.3,
     "rainMax": 0
    }
   ],
-  "code": 3,
-  "dayCode": 61,
-  "temp": 55.4,
-  "high": 63.0,
-  "low": 48.0,
-  "rainMax": 37,
+  "code": 0,
+  "dayCode": 3,
+  "temp": 53.8,
+  "high": 63.9,
+  "low": 50.9,
+  "rainMax": 2,
   "wetUntil": null
  },
  "player": {
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 23 — Citation Practice (Bluebook Blowout)",
-  "course": "LRW",
-  "date": "2026-11-03",
-  "session": 23,
-  "reading": "Bring Bluebook.",
-  "prepped": true,
+  "title": "Property 34 — SKILLS WORKSHOP 4 (easements and covenants) — PRACTICE EXERCISE 4 DUE",
+  "course": "Property",
+  "date": "2026-11-04",
+  "session": 34,
+  "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
+  "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
  },
  "upcoming": [
-  {
-   "title": "LRW 23 — Citation Practice (Bluebook Blowout)",
-   "course": "LRW",
-   "date": "2026-11-03",
-   "session": 23,
-   "reading": "Bring Bluebook.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
-  },
-  {
-   "title": "Evidence 22 — Impeachment by Prior Inconsistent Statement; Bias",
-   "course": "Evidence",
-   "date": "2026-11-03",
-   "session": 22,
-   "reading": "CB 436-457 (skip Simmons). U.S. v. Abel. F.R.E. 613, 801(d)(1). C.E.C. 769, 770, 1235. No in limine argument.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-22-Impeachment-by-Prior-Inconsistent-Statement-Bias-3c6063496baf8117a11ef6811c2562d2"
-  },
   {
    "title": "Property 34 — SKILLS WORKSHOP 4 (easements and covenants) — PRACTICE EXERCISE 4 DUE",
    "course": "Property",
@@ -199,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
+  },
+  {
+   "title": "LRW 24 — Research Class 6: Email Memo",
+   "course": "LRW",
+   "date": "2026-11-06",
+   "session": 24,
+   "reading": "Read Sample UPL Email Analysis; Tribal Law intro; selected case (Section B. Breach). Note: Closed-Universe Office Memo materials released Sun Nov 8.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-24-Research-Class-6-Email-Memo-3c6063496baf8124abd1d84eb841118c"
+  },
+  {
+   "title": "Property 36 — Prior nonconforming uses; administrative relief; exclusionary zoning",
+   "course": "Property",
+   "date": "2026-11-06",
+   "session": 36,
+   "reading": "Read 462-67 (§§2-2.1); read 488-98 (§4.2); listen to The Racist History of Single-Family Home Zoning. Optional: Segregated By Design; Rothstein; Berkeley resolution; Stolz; Meyersohn. Town of Belleville v. Parillo's; Mount Laurel.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
   }
  ],
  "ahead": [
-  {
-   "title": "LRW 23 — Citation Practice (Bluebook Blowout)",
-   "course": "LRW",
-   "date": "2026-11-03",
-   "session": 23,
-   "reading": "Bring Bluebook.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
-  },
-  {
-   "title": "Evidence 22 — Impeachment by Prior Inconsistent Statement; Bias",
-   "course": "Evidence",
-   "date": "2026-11-03",
-   "session": 22,
-   "reading": "CB 436-457 (skip Simmons). U.S. v. Abel. F.R.E. 613, 801(d)(1). C.E.C. 769, 770, 1235. No in limine argument.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-22-Impeachment-by-Prior-Inconsistent-Statement-Bias-3c6063496baf8117a11ef6811c2562d2"
-  },
   {
    "title": "Property 34 — SKILLS WORKSHOP 4 (easements and covenants) — PRACTICE EXERCISE 4 DUE",
    "course": "Property",
@@ -311,15 +291,35 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-24-Lay-Opinions-Expert-Testimony-3c6063496baf816e9e96db1616c6cc57"
+  },
+  {
+   "title": "Property 37 — Eminent domain",
+   "course": "Property",
+   "date": "2026-11-12",
+   "session": 37,
+   "reading": "Read 1123-45 (skip Problems p.1145); NPR highways piece.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-37-Eminent-domain-3c6063496baf81ad9f1dd38b09132382"
+  },
+  {
+   "title": "Negotiations 9 — The Age of AI and Your Ethical Obligations — AI role-play vs. chatbot",
+   "course": "Negotiations",
+   "date": "2026-11-12",
+   "session": 9,
+   "reading": "Role-play: AI chatbot negotiation (iDecisionGames). Guest: Samantha Ade (Asst. GC, King & Spalding). Prep: 3 AI articles; sign up for iDecisionGames (instructions on bCourses); no planning memo. Email feedback for Sanchez; SUBMIT Sanchez negotiation journal + planning memo + video on bCourses (due today, 25% of grade).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
   }
  ],
- "aheadUntil": "2026-11-11",
+ "aheadUntil": "2026-11-12",
  "backlog": {
   "Property": 4,
   "Negotiations": 5,
   "Youth Justice": 4,
-  "LRW": 2,
-  "Evidence": 3
+  "LRW": 3,
+  "Evidence": 4
  },
  "walkHome": [
   {
@@ -1718,7 +1718,7 @@
   "overdue": 2,
   "dueSoon": 7,
   "graded": 12,
-  "unmerged": 18,
+  "unmerged": 20,
   "courses": 5,
   "cases": 154,
   "reserve": 68
