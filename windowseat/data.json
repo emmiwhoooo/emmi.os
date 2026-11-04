@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T21:15:09+00:00",
+ "generated": "2026-11-04T01:22:57+00:00",
  "today": "2026-11-03",
  "term": {
   "week": 12,
@@ -13,7 +13,7 @@
    {
     "date": "2026-11-03",
     "code": 61,
-    "high": 63.3,
+    "high": 63.0,
     "low": 48.0,
     "rainMax": 37
    },
@@ -21,8 +21,8 @@
     "date": "2026-11-04",
     "code": 3,
     "high": 64.7,
-    "low": 49.9,
-    "rainMax": 3
+    "low": 49.8,
+    "rainMax": 2
    },
    {
     "date": "2026-11-05",
@@ -34,15 +34,15 @@
    {
     "date": "2026-11-06",
     "code": 3,
-    "high": 76.9,
-    "low": 53.3,
+    "high": 75.8,
+    "low": 53.1,
     "rainMax": 0
    }
   ],
-  "code": 1,
+  "code": 3,
   "dayCode": 61,
-  "temp": 61.5,
-  "high": 63.3,
+  "temp": 59.5,
+  "high": 63.0,
   "low": 48.0,
   "rainMax": 37,
   "wetUntil": null
@@ -135,7 +135,7 @@
   "date": "2026-11-03",
   "session": 23,
   "reading": "Bring Bluebook.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
  },
@@ -146,7 +146,7 @@
    "date": "2026-11-03",
    "session": 23,
    "reading": "Bring Bluebook.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
   },
@@ -208,7 +208,7 @@
    "date": "2026-11-03",
    "session": 23,
    "reading": "Bring Bluebook.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
   },
