@@ -1,50 +1,50 @@
 {
- "generated": "2026-11-05T01:46:59+00:00",
- "today": "2026-11-04",
+ "generated": "2026-11-05T08:42:37+00:00",
+ "today": "2026-11-05",
  "term": {
   "week": 12,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 28
+  "daysToFinals": 27
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-04",
-    "code": 3,
-    "high": 66.0,
-    "low": 50.9,
-    "rainMax": 2
-   },
-   {
     "date": "2026-11-05",
     "code": 3,
-    "high": 67.4,
-    "low": 46.9,
+    "high": 69.0,
+    "low": 47.9,
     "rainMax": 0
    },
    {
     "date": "2026-11-06",
     "code": 3,
-    "high": 73.9,
-    "low": 47.8,
-    "rainMax": 0
+    "high": 70.2,
+    "low": 48.1,
+    "rainMax": 1
    },
    {
     "date": "2026-11-07",
     "code": 3,
-    "high": 73.5,
-    "low": 54.3,
+    "high": 74.7,
+    "low": 54.6,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-11-08",
+    "code": 3,
+    "high": 74.0,
+    "low": 54.5,
     "rainMax": 0
    }
   ],
   "code": 3,
   "dayCode": 3,
-  "temp": 58.9,
-  "high": 66.0,
-  "low": 50.9,
-  "rainMax": 2,
+  "temp": 52.4,
+  "high": 69.0,
+  "low": 47.9,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Property 34 — SKILLS WORKSHOP 4 (easements and covenants) — PRACTICE EXERCISE 4 DUE",
-  "course": "Property",
+  "title": "Youth Justice 12 — Closing Youth Prison (Part 2) — abolition framework, healing-based approach",
+  "course": "Youth Justice",
   "date": "2026-11-04",
-  "session": 34,
-  "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
+  "session": 12,
+  "reading": "CJCJ Beyond Repair pp.17-23, 28-30; LA Times (6/2/23); Bernstein, How Not to Close a Prison. Guest: Nell Bernstein (BDTH author). Optional resources on bCourses.",
   "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
+  "url": "https://app.notion.com/p/Youth-Justice-12-Closing-Youth-Prison-Part-2-abolition-framework-healing-based-approach-3c6063496baf810aa297daaff149ae66"
  },
  "upcoming": [
-  {
-   "title": "Property 34 — SKILLS WORKSHOP 4 (easements and covenants) — PRACTICE EXERCISE 4 DUE",
-   "course": "Property",
-   "date": "2026-11-04",
-   "session": 34,
-   "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
-  },
   {
    "title": "Youth Justice 12 — Closing Youth Prison (Part 2) — abolition framework, healing-based approach",
    "course": "Youth Justice",
@@ -199,19 +189,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
+  },
+  {
+   "title": "Evidence 23 — Rehabilitation; Prior Consistent Statements",
+   "course": "Evidence",
+   "date": "2026-11-09",
+   "session": 23,
+   "reading": "CB 457-473. Tome v. U.S. F.R.E. 608, 801, 801(d)(1). C.E.C. 790. No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-23-Rehabilitation-Prior-Consistent-Statements-3c6063496baf816b84fad8791247e574"
   }
  ],
  "ahead": [
-  {
-   "title": "Property 34 — SKILLS WORKSHOP 4 (easements and covenants) — PRACTICE EXERCISE 4 DUE",
-   "course": "Property",
-   "date": "2026-11-04",
-   "session": 34,
-   "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
-  },
   {
    "title": "Youth Justice 12 — Closing Youth Prison (Part 2) — abolition framework, healing-based approach",
    "course": "Youth Justice",
@@ -311,11 +301,41 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
+  },
+  {
+   "title": "LRW 26 — NO CLASS — work on Closed-Universe Memo",
+   "course": "LRW",
+   "date": "2026-11-13",
+   "session": 26,
+   "reading": "No class — work on Closed-Universe Office Memo (due Sun Nov 15 5pm).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-26-NO-CLASS-work-on-Closed-Universe-Memo-3c6063496baf81f2a8b3cf251bcbbcb7"
+  },
+  {
+   "title": "Property 38 — Regulatory takings",
+   "course": "Property",
+   "date": "2026-11-13",
+   "session": 38,
+   "reading": "Read 1158-76 (through note 3).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-38-Regulatory-takings-3c6063496baf8129aa90d124dff06275"
+  },
+  {
+   "title": "Youth Justice 13 — Student Group Presentations [FRIDAY — time TBD]",
+   "course": "Youth Justice",
+   "date": "2026-11-13",
+   "session": 13,
+   "reading": "Student Group Presentations (Friday makeup class, afternoon start time TBD; no class Veterans Day Nov 11). Group written component due Fri Nov 13, 5pm (confirmed in the 9/29 revised syllabus).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-13-Student-Group-Presentations-FRIDAY-time-TBD-3c6063496baf81ae8d00d09931c9ff3d"
   }
  ],
- "aheadUntil": "2026-11-12",
+ "aheadUntil": "2026-11-13",
  "backlog": {
-  "Property": 4,
+  "Property": 5,
   "Negotiations": 5,
   "Youth Justice": 4,
   "LRW": 3,
@@ -1157,6 +1177,24 @@
  ],
  "reserve": [
   {
+   "title": "handout · In Our Future We Are Free - Ch. 16 - Not for Distribution (1).pdf",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-In-Our-Future-We-Are-Free-Ch-16-Not-for-Distribution-1-pdf-40f063496baf81b5916dd46bd2a45a07"
+  },
+  {
+   "title": "handout · L.A. Times article - California is closing its last youth prisons (6-2-23).pdf",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-L-A-Times-article-California-is-closing-its-last-youth-prisons-6-2-23-pdf-40f063496baf81d6a803eec0877b9ff4"
+  },
+  {
+   "title": "handout · Beyond-Repair.pdf",
+   "course": "Youth Justice",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-Beyond-Repair-pdf-40f063496baf8121b1dae16edc897d9f"
+  },
+  {
    "title": "transcript · pasted transcript · 2026-10-31",
    "course": "Negotiations",
    "kind": "transcript",
@@ -1581,7 +1619,7 @@
    "due": "2026-11-04",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Websurf-makeup-Dana-the-Surfer-v-Websurf-CEO-3db063496baf81eab9f0f00b2e3dc32f"
   },
   {
@@ -1715,13 +1753,13 @@
  ],
  "counts": {
   "open": 18,
-  "overdue": 1,
-  "dueSoon": 5,
+  "overdue": 2,
+  "dueSoon": 6,
   "graded": 10,
-  "unmerged": 20,
+  "unmerged": 21,
   "courses": 5,
   "cases": 154,
-  "reserve": 68
+  "reserve": 71
  },
  "courses": [
   "Evidence",
