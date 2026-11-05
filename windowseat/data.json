@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:37:06+00:00",
+ "generated": "2026-11-05T01:46:59+00:00",
  "today": "2026-11-04",
  "term": {
   "week": 12,
@@ -13,7 +13,7 @@
    {
     "date": "2026-11-04",
     "code": 3,
-    "high": 64.6,
+    "high": 66.0,
     "low": 50.9,
     "rainMax": 2
    },
@@ -21,28 +21,28 @@
     "date": "2026-11-05",
     "code": 3,
     "high": 67.4,
-    "low": 47.0,
+    "low": 46.9,
     "rainMax": 0
    },
    {
     "date": "2026-11-06",
     "code": 3,
-    "high": 74.6,
+    "high": 73.9,
     "low": 47.8,
     "rainMax": 0
    },
    {
     "date": "2026-11-07",
     "code": 3,
-    "high": 75.4,
-    "low": 54.5,
+    "high": 73.5,
+    "low": 54.3,
     "rainMax": 0
    }
   ],
-  "code": 1,
+  "code": 3,
   "dayCode": 3,
-  "temp": 64.1,
-  "high": 64.6,
+  "temp": 58.9,
+  "high": 66.0,
   "low": 50.9,
   "rainMax": 2,
   "wetUntil": null
@@ -135,7 +135,7 @@
   "date": "2026-11-04",
   "session": 34,
   "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
  },
@@ -146,7 +146,7 @@
    "date": "2026-11-04",
    "session": 34,
    "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
   },
@@ -156,7 +156,7 @@
    "date": "2026-11-04",
    "session": 12,
    "reading": "CJCJ Beyond Repair pp.17-23, 28-30; LA Times (6/2/23); Bernstein, How Not to Close a Prison. Guest: Nell Bernstein (BDTH author). Optional resources on bCourses.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Youth-Justice-12-Closing-Youth-Prison-Part-2-abolition-framework-healing-based-approach-3c6063496baf810aa297daaff149ae66"
   },
@@ -208,7 +208,7 @@
    "date": "2026-11-04",
    "session": 34,
    "reading": "Skills Workshop 4 (easements and covenants). PRACTICE EXERCISE 4 DUE.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-34-SKILLS-WORKSHOP-4-easements-and-covenants-PRACTICE-EXERCISE-4-DUE-3c6063496baf8170970ddb1e1c33b1c1"
   },
@@ -218,7 +218,7 @@
    "date": "2026-11-04",
    "session": 12,
    "reading": "CJCJ Beyond Repair pp.17-23, 28-30; LA Times (6/2/23); Bernstein, How Not to Close a Prison. Guest: Nell Bernstein (BDTH author). Optional resources on bCourses.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Youth-Justice-12-Closing-Youth-Prison-Part-2-abolition-framework-healing-based-approach-3c6063496baf810aa297daaff149ae66"
   },
@@ -1576,24 +1576,6 @@
    "url": "https://app.notion.com/p/Clean-Slate-motion-CORE-406063496baf8141b0c5ced692dd7821"
   },
   {
-   "title": "In limine argument — IL 8 (Evidence 21, Mon Nov 2)",
-   "course": "Evidence",
-   "due": "2026-11-02",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
-  },
-  {
-   "title": "Practice Exercise 4",
-   "course": "Property",
-   "due": "2026-11-04",
-   "type": "graded",
-   "weight": "3 points (completion)",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
-  },
-  {
    "title": "Negotiation feedback to counterpart — Websurf makeup (Dana the Surfer v. Websurf CEO)",
    "course": "Negotiations",
    "due": "2026-11-04",
@@ -1655,27 +1637,27 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-AI-role-play-Neg-9-3db063496baf81fcb253cec88f893cdf"
+  },
+  {
+   "title": "Closed-Universe Office Memo",
+   "course": "LRW",
+   "due": "2026-11-16",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Closed-Universe-Office-Memo-3c6063496baf818a9547e24b5bfb8ee5"
+  },
+  {
+   "title": "Final Self-Reflection Journal + compiled peer feedback PDF",
+   "course": "Negotiations",
+   "due": "2026-11-20",
+   "type": "graded",
+   "weight": "15%",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Final-Self-Reflection-Journal-compiled-peer-feedback-PDF-3c6063496baf81b9b6d3db3994ec2868"
   }
  ],
  "longHaul": [
-  {
-   "title": "In limine argument — IL 8 (Evidence 21, Mon Nov 2)",
-   "course": "Evidence",
-   "due": "2026-11-02",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/In-limine-argument-IL-8-Evidence-21-Mon-Nov-2-3c6063496baf8188ab63f8241eb6d122"
-  },
-  {
-   "title": "Practice Exercise 4",
-   "course": "Property",
-   "due": "2026-11-04",
-   "type": "graded",
-   "weight": "3 points (completion)",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Practice-Exercise-4-3c6063496baf81bb83a7edd7d0f29f05"
-  },
   {
    "title": "Sanchez v. Ace Auto Planning Memo",
    "course": "Negotiations",
@@ -1711,13 +1693,31 @@
    "weight": "20 of 40 points",
    "overdue": false,
    "url": "https://app.notion.com/p/Group-project-written-component-3c6063496baf8114892eecd00f185794"
+  },
+  {
+   "title": "Closed-Universe Office Memo",
+   "course": "LRW",
+   "due": "2026-11-16",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Closed-Universe-Office-Memo-3c6063496baf818a9547e24b5bfb8ee5"
+  },
+  {
+   "title": "Final Self-Reflection Journal + compiled peer feedback PDF",
+   "course": "Negotiations",
+   "due": "2026-11-20",
+   "type": "graded",
+   "weight": "15%",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Final-Self-Reflection-Journal-compiled-peer-feedback-PDF-3c6063496baf81b9b6d3db3994ec2868"
   }
  ],
  "counts": {
-  "open": 20,
-  "overdue": 2,
-  "dueSoon": 7,
-  "graded": 12,
+  "open": 18,
+  "overdue": 1,
+  "dueSoon": 5,
+  "graded": 10,
   "unmerged": 20,
   "courses": 5,
   "cases": 154,
