@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T09:52:30+00:00",
+ "generated": "2026-11-06T17:00:20+00:00",
  "today": "2026-11-06",
  "term": {
   "week": 12,
@@ -12,39 +12,39 @@
   "days": [
    {
     "date": "2026-11-06",
-    "code": 3,
-    "high": 69.7,
-    "low": 48.5,
-    "rainMax": 1
+    "code": 45,
+    "high": 68.1,
+    "low": 47.3,
+    "rainMax": 0
    },
    {
     "date": "2026-11-07",
     "code": 3,
-    "high": 66.1,
-    "low": 50.5,
+    "high": 67.6,
+    "low": 49.3,
     "rainMax": 0
    },
    {
     "date": "2026-11-08",
-    "code": 3,
-    "high": 71.5,
-    "low": 54.8,
+    "code": 45,
+    "high": 72.1,
+    "low": 51.9,
     "rainMax": 0
    },
    {
     "date": "2026-11-09",
     "code": 3,
-    "high": 66.4,
-    "low": 53.2,
+    "high": 69.6,
+    "low": 53.0,
     "rainMax": 0
    }
   ],
-  "code": 0,
-  "dayCode": 3,
-  "temp": 49.9,
-  "high": 69.7,
-  "low": 48.5,
-  "rainMax": 1,
+  "code": 3,
+  "dayCode": 45,
+  "temp": 55.8,
+  "high": 68.1,
+  "low": 47.3,
+  "rainMax": 0,
   "wetUntil": null
  },
  "player": {
@@ -156,7 +156,7 @@
    "date": "2026-11-06",
    "session": 24,
    "reading": "Read Sample UPL Email Analysis; Tribal Law intro; selected case (Section B. Breach). Note: Closed-Universe Office Memo materials released Sun Nov 8.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-24-Research-Class-6-Email-Memo-3c6063496baf8124abd1d84eb841118c"
   },
@@ -218,7 +218,7 @@
    "date": "2026-11-06",
    "session": 24,
    "reading": "Read Sample UPL Email Analysis; Tribal Law intro; selected case (Section B. Breach). Note: Closed-Universe Office Memo materials released Sun Nov 8.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-24-Research-Class-6-Email-Memo-3c6063496baf8124abd1d84eb841118c"
   },
