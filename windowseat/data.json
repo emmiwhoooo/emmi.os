@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T17:00:20+00:00",
+ "generated": "2026-11-06T22:03:53+00:00",
  "today": "2026-11-06",
  "term": {
   "week": 12,
@@ -12,37 +12,37 @@
   "days": [
    {
     "date": "2026-11-06",
-    "code": 45,
-    "high": 68.1,
+    "code": 3,
+    "high": 67.7,
     "low": 47.3,
     "rainMax": 0
    },
    {
     "date": "2026-11-07",
     "code": 3,
-    "high": 67.6,
-    "low": 49.3,
+    "high": 67.9,
+    "low": 48.7,
     "rainMax": 0
    },
    {
     "date": "2026-11-08",
     "code": 45,
-    "high": 72.1,
-    "low": 51.9,
+    "high": 71.7,
+    "low": 51.8,
     "rainMax": 0
    },
    {
     "date": "2026-11-09",
     "code": 3,
-    "high": 69.6,
+    "high": 67.8,
     "low": 53.0,
     "rainMax": 0
    }
   ],
-  "code": 3,
-  "dayCode": 45,
-  "temp": 55.8,
-  "high": 68.1,
+  "code": 1,
+  "dayCode": 3,
+  "temp": 67.6,
+  "high": 67.7,
   "low": 47.3,
   "rainMax": 0,
   "wetUntil": null
@@ -166,7 +166,7 @@
    "date": "2026-11-06",
    "session": 36,
    "reading": "Read 462-67 (§§2-2.1); read 488-98 (§4.2); listen to The Racist History of Single-Family Home Zoning. Optional: Segregated By Design; Rothstein; Berkeley resolution; Stolz; Meyersohn. Town of Belleville v. Parillo's; Mount Laurel.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
   },
@@ -228,7 +228,7 @@
    "date": "2026-11-06",
    "session": 36,
    "reading": "Read 462-67 (§§2-2.1); read 488-98 (§4.2); listen to The Racist History of Single-Family Home Zoning. Optional: Segregated By Design; Rothstein; Berkeley resolution; Stolz; Meyersohn. Town of Belleville v. Parillo's; Mount Laurel.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
   },
@@ -384,6 +384,11 @@
   }
  ],
  "shelf": [
+  {
+   "title": "Village of Belle Terre v. Boraas",
+   "course": "Property",
+   "url": "https://app.notion.com/p/Village-of-Belle-Terre-v-Boraas-410063496baf81239ba4d8a58b756004"
+  },
   {
    "title": "Elitt v. U.S.A. Hockey",
    "course": "LRW",
@@ -900,9 +905,9 @@
    "url": "https://app.notion.com/p/Nectow-v-City-of-Cambridge-3c6063496baf81a9a5ecfbc573ddba70"
   },
   {
-   "title": "Town of Belleville v. Parillo's",
+   "title": "Town of Belleville v. Parrillo's, Inc.",
    "course": "Property",
-   "url": "https://app.notion.com/p/Town-of-Belleville-v-Parillo-s-3c6063496baf81ababd3c636b2b5b597"
+   "url": "https://app.notion.com/p/Town-of-Belleville-v-Parrillo-s-Inc-3c6063496baf81ababd3c636b2b5b597"
   },
   {
    "title": "Cox v. Glenbrook",
@@ -1156,6 +1161,60 @@
   }
  ],
  "reserve": [
+  {
+   "title": "slides · F26_Property_Class_35_Euclid_zoning",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-F26_Property_Class_35_Euclid_zoning-410063496baf81129ddad724739b36f8"
+  },
+  {
+   "title": "slides · F26_Property_Class_34_skills_workshop_4",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-F26_Property_Class_34_skills_workshop_4-410063496baf819b80c6dca3147cd613"
+  },
+  {
+   "title": "slides · F26_Property_Class_36_PNCU__Mt_Laurel",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-F26_Property_Class_36_PNCU__Mt_Laurel-410063496baf81a0a318c6a3aa842dc2"
+  },
+  {
+   "title": "highlights · pasted highlights · 2026-11-06",
+   "course": "Property",
+   "kind": "highlights",
+   "link": "https://app.notion.com/p/highlights-pasted-highlights-2026-11-06-410063496baf8177b85bebb3863325e8"
+  },
+  {
+   "title": "class brief · village-of-belle-terre-v-boraas.pdf",
+   "course": "Property",
+   "kind": "class brief",
+   "link": "https://app.notion.com/p/class-brief-village-of-belle-terre-v-boraas-pdf-410063496baf814a97bec3f5d3a02612"
+  },
+  {
+   "title": "class brief · southern-burlington-county-naacp-v-township-of-mount-laurel.pdf",
+   "course": "Property",
+   "kind": "class brief",
+   "link": "https://app.notion.com/p/class-brief-southern-burlington-county-naacp-v-township-of-mount-laurel-pdf-410063496baf81afba2be4559a648398"
+  },
+  {
+   "title": "handout · Segregated by Design",
+   "course": "Property",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-Segregated-by-Design-410063496baf81cfb917cea099e0700b"
+  },
+  {
+   "title": "handout · The invisible laws that led to America’s housing crisis",
+   "course": "Property",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-The-invisible-laws-that-led-to-America-s-housing-crisis-410063496baf81858d33dd5831d275f9"
+  },
+  {
+   "title": "handout · The Racist History of Single Family Home Zoning",
+   "course": "Property",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-The-Racist-History-of-Single-Family-Home-Zoning-410063496baf81a5bcebc64b497ee411"
+  },
   {
    "title": "handout · In Our Future We Are Free - Ch. 16 - Not for Distribution (1).pdf",
    "course": "Youth Justice",
@@ -1594,31 +1653,31 @@
    "url": "https://app.notion.com/p/Clean-Slate-motion-CORE-406063496baf8141b0c5ced692dd7821"
   },
   {
-   "title": "Negotiation feedback to counterpart — Websurf makeup (Dana the Surfer v. Websurf CEO)",
-   "course": "Negotiations",
-   "due": "2026-11-04",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Websurf-makeup-Dana-the-Surfer-v-Websurf-CEO-3db063496baf81eab9f0f00b2e3dc32f"
-  },
-  {
-   "title": "Sanchez v. Ace Auto Planning Memo",
-   "course": "Negotiations",
-   "due": "2026-11-05",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Sanchez-v-Ace-Auto-Planning-Memo-3fe063496baf81ba9828cfd11613275b"
-  },
-  {
    "title": "Negotiation feedback to counterpart — Sanchez v. Ace Auto (Neg 8, graded)",
    "course": "Negotiations",
-   "due": "2026-11-07",
+   "due": "2026-11-06",
    "type": "ungraded",
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Sanchez-v-Ace-Auto-Neg-8-graded-3db063496baf817ab705e07e9da821f6"
+  },
+  {
+   "title": "Negotiation feedback to counterpart — Websurf makeup (Dana the Surfer v. Websurf CEO)",
+   "course": "Negotiations",
+   "due": "2026-11-06",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Websurf-makeup-Dana-the-Surfer-v-Websurf-CEO-3db063496baf81eab9f0f00b2e3dc32f"
+  },
+  {
+   "title": "Finish Research Class 6 email memo",
+   "course": "LRW",
+   "due": "2026-11-06",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Finish-Research-Class-6-email-memo-410063496baf8186aa9fd9929663dcaf"
   },
   {
    "title": "Reflection 3 (Classes 9-12)",
@@ -1677,15 +1736,6 @@
  ],
  "longHaul": [
   {
-   "title": "Sanchez v. Ace Auto Planning Memo",
-   "course": "Negotiations",
-   "due": "2026-11-05",
-   "type": "graded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Sanchez-v-Ace-Auto-Planning-Memo-3fe063496baf81ba9828cfd11613275b"
-  },
-  {
    "title": "Reflection 3 (Classes 9-12)",
    "course": "Youth Justice",
    "due": "2026-11-10",
@@ -1729,17 +1779,26 @@
    "weight": "15%",
    "overdue": false,
    "url": "https://app.notion.com/p/Final-Self-Reflection-Journal-compiled-peer-feedback-PDF-3c6063496baf81b9b6d3db3994ec2868"
+  },
+  {
+   "title": "Practice Exercise 5",
+   "course": "Property",
+   "due": "2026-11-30",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-5-3c6063496baf81ad91e4d1b5c3253a70"
   }
  ],
  "counts": {
   "open": 18,
-  "overdue": 3,
+  "overdue": 1,
   "dueSoon": 6,
-  "graded": 10,
+  "graded": 9,
   "unmerged": 23,
   "courses": 5,
-  "cases": 154,
-  "reserve": 71
+  "cases": 155,
+  "reserve": 80
  },
  "courses": [
   "Evidence",
