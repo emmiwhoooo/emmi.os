@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T01:52:23+00:00",
+ "generated": "2026-11-07T07:58:31+00:00",
  "today": "2026-11-06",
  "term": {
   "week": 12,
@@ -20,28 +20,28 @@
    {
     "date": "2026-11-07",
     "code": 3,
-    "high": 67.9,
-    "low": 50.0,
+    "high": 68.4,
+    "low": 48.2,
     "rainMax": 0
    },
    {
     "date": "2026-11-08",
     "code": 45,
-    "high": 71.7,
-    "low": 51.8,
+    "high": 70.6,
+    "low": 50.7,
     "rainMax": 0
    },
    {
     "date": "2026-11-09",
     "code": 3,
-    "high": 67.1,
-    "low": 53.8,
+    "high": 70.0,
+    "low": 55.9,
     "rainMax": 0
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 60.2,
+  "temp": 52.0,
   "high": 69.3,
   "low": 47.3,
   "rainMax": 0,
@@ -1644,42 +1644,6 @@
  ],
  "weather": [
   {
-   "title": "Clean Slate motion (CORE)",
-   "course": "",
-   "due": "2026-11-02",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Clean-Slate-motion-CORE-406063496baf8141b0c5ced692dd7821"
-  },
-  {
-   "title": "Negotiation feedback to counterpart — Sanchez v. Ace Auto (Neg 8, graded)",
-   "course": "Negotiations",
-   "due": "2026-11-06",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Sanchez-v-Ace-Auto-Neg-8-graded-3db063496baf817ab705e07e9da821f6"
-  },
-  {
-   "title": "Negotiation feedback to counterpart — Websurf makeup (Dana the Surfer v. Websurf CEO)",
-   "course": "Negotiations",
-   "due": "2026-11-06",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Websurf-makeup-Dana-the-Surfer-v-Websurf-CEO-3db063496baf81eab9f0f00b2e3dc32f"
-  },
-  {
-   "title": "Finish Research Class 6 email memo",
-   "course": "LRW",
-   "due": "2026-11-06",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Finish-Research-Class-6-email-memo-410063496baf8186aa9fd9929663dcaf"
-  },
-  {
    "title": "Reflection 3 (Classes 9-12)",
    "course": "Youth Justice",
    "due": "2026-11-10",
@@ -1732,6 +1696,42 @@
    "weight": "15%",
    "overdue": false,
    "url": "https://app.notion.com/p/Final-Self-Reflection-Journal-compiled-peer-feedback-PDF-3c6063496baf81b9b6d3db3994ec2868"
+  },
+  {
+   "title": "Negotiation feedback to counterpart — Goliath Industries v. Union (Neg 10, last class)",
+   "course": "Negotiations",
+   "due": "2026-11-21",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Goliath-Industries-v-Union-Neg-10-last-class-3db063496baf81fda8c3cebd553eace9"
+  },
+  {
+   "title": "Practice Exercise 5",
+   "course": "Property",
+   "due": "2026-11-30",
+   "type": "graded",
+   "weight": "3 points (completion)",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Practice-Exercise-5-3c6063496baf81ad91e4d1b5c3253a70"
+  },
+  {
+   "title": "Group project individual reflection",
+   "course": "Youth Justice",
+   "due": "2026-12-01",
+   "type": "graded",
+   "weight": "10 of 40 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Group-project-individual-reflection-3c6063496baf810c8594f4d1672735fd"
+  },
+  {
+   "title": "Property final exam",
+   "course": "Property",
+   "due": "2026-12-05",
+   "type": "graded",
+   "weight": "85 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Property-final-exam-3c6063496baf81ff8540c0e6594cf80a"
   }
  ],
  "longHaul": [
@@ -1791,9 +1791,9 @@
   }
  ],
  "counts": {
-  "open": 18,
-  "overdue": 1,
-  "dueSoon": 6,
+  "open": 14,
+  "overdue": 0,
+  "dueSoon": 2,
   "graded": 9,
   "unmerged": 23,
   "courses": 5,
