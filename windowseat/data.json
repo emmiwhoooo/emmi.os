@@ -1,49 +1,49 @@
 {
- "generated": "2026-11-07T07:58:31+00:00",
- "today": "2026-11-06",
+ "generated": "2026-11-07T14:40:48+00:00",
+ "today": "2026-11-07",
  "term": {
   "week": 12,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 26
+  "daysToFinals": 25
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-06",
-    "code": 3,
-    "high": 69.3,
-    "low": 47.3,
-    "rainMax": 0
-   },
-   {
     "date": "2026-11-07",
     "code": 3,
-    "high": 68.4,
-    "low": 48.2,
+    "high": 67.1,
+    "low": 47.1,
     "rainMax": 0
    },
    {
     "date": "2026-11-08",
     "code": 45,
-    "high": 70.6,
-    "low": 50.7,
+    "high": 69.2,
+    "low": 51.5,
     "rainMax": 0
    },
    {
     "date": "2026-11-09",
     "code": 3,
-    "high": 70.0,
-    "low": 55.9,
+    "high": 70.6,
+    "low": 51.3,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-11-10",
+    "code": 0,
+    "high": 73.9,
+    "low": 55.2,
     "rainMax": 0
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 52.0,
-  "high": 69.3,
-  "low": 47.3,
+  "temp": 47.3,
+  "high": 67.1,
+  "low": 47.1,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,46 +130,16 @@
   ]
  },
  "next": {
-  "title": "Negotiations 8 — Ethics Pt 2; BATNA/WATNA/Costing — SANCHEZ v. ACE AUTO (graded, videotaped)",
-  "course": "Negotiations",
-  "date": "2026-11-05",
-  "session": 8,
-  "reading": "Role-play: Sanchez v. Ace Auto (VIRTUAL/Zoom; videotaped GRADED final negotiation, 25% with journal; counterpart known in advance). Prep: BA Ch. 12 + Conclusion + App. B; DC Q2-4 + finish DC; submit Sanchez prep on bCourses (planning memo goes in with the journal, due 11/12); email feedback for Gossett (no later than week of 10/22). Moved from Oct 15 per the 8/28 revised syllabus.",
+  "title": "Evidence 23 — Rehabilitation; Prior Consistent Statements",
+  "course": "Evidence",
+  "date": "2026-11-09",
+  "session": 23,
+  "reading": "CB 457-473. Tome v. U.S. F.R.E. 608, 801, 801(d)(1). C.E.C. 790. No in limine argument.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
+  "url": "https://app.notion.com/p/Evidence-23-Rehabilitation-Prior-Consistent-Statements-3c6063496baf816b84fad8791247e574"
  },
  "upcoming": [
-  {
-   "title": "Negotiations 8 — Ethics Pt 2; BATNA/WATNA/Costing — SANCHEZ v. ACE AUTO (graded, videotaped)",
-   "course": "Negotiations",
-   "date": "2026-11-05",
-   "session": 8,
-   "reading": "Role-play: Sanchez v. Ace Auto (VIRTUAL/Zoom; videotaped GRADED final negotiation, 25% with journal; counterpart known in advance). Prep: BA Ch. 12 + Conclusion + App. B; DC Q2-4 + finish DC; submit Sanchez prep on bCourses (planning memo goes in with the journal, due 11/12); email feedback for Gossett (no later than week of 10/22). Moved from Oct 15 per the 8/28 revised syllabus.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
-  },
-  {
-   "title": "LRW 24 — Research Class 6: Email Memo",
-   "course": "LRW",
-   "date": "2026-11-06",
-   "session": 24,
-   "reading": "Read Sample UPL Email Analysis; Tribal Law intro; selected case (Section B. Breach). Note: Closed-Universe Office Memo materials released Sun Nov 8.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-24-Research-Class-6-Email-Memo-3c6063496baf8124abd1d84eb841118c"
-  },
-  {
-   "title": "Property 36 — Prior nonconforming uses; administrative relief; exclusionary zoning",
-   "course": "Property",
-   "date": "2026-11-06",
-   "session": 36,
-   "reading": "Read 462-67 (§§2-2.1); read 488-98 (§4.2); listen to The Racist History of Single-Family Home Zoning. Optional: Segregated By Design; Rothstein; Berkeley resolution; Stolz; Meyersohn. Town of Belleville v. Parillo's; Mount Laurel.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
-  },
   {
    "title": "Evidence 23 — Rehabilitation; Prior Consistent Statements",
    "course": "Evidence",
@@ -199,39 +169,39 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-24-Lay-Opinions-Expert-Testimony-3c6063496baf816e9e96db1616c6cc57"
+  },
+  {
+   "title": "Property 37 — Eminent domain",
+   "course": "Property",
+   "date": "2026-11-12",
+   "session": 37,
+   "reading": "Read 1123-45 (skip Problems p.1145); NPR highways piece.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-37-Eminent-domain-3c6063496baf81ad9f1dd38b09132382"
+  },
+  {
+   "title": "Negotiations 9 — The Age of AI and Your Ethical Obligations — AI role-play vs. chatbot",
+   "course": "Negotiations",
+   "date": "2026-11-12",
+   "session": 9,
+   "reading": "Role-play: AI chatbot negotiation (iDecisionGames). Guest: Samantha Ade (Asst. GC, King & Spalding). Prep: 3 AI articles; sign up for iDecisionGames (instructions on bCourses); no planning memo. Email feedback for Sanchez; SUBMIT Sanchez negotiation journal + planning memo + video on bCourses (due today, 25% of grade).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
+  },
+  {
+   "title": "LRW 26 — NO CLASS — work on Closed-Universe Memo",
+   "course": "LRW",
+   "date": "2026-11-13",
+   "session": 26,
+   "reading": "No class — work on Closed-Universe Office Memo (due Sun Nov 15 5pm).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-26-NO-CLASS-work-on-Closed-Universe-Memo-3c6063496baf81f2a8b3cf251bcbbcb7"
   }
  ],
  "ahead": [
-  {
-   "title": "Negotiations 8 — Ethics Pt 2; BATNA/WATNA/Costing — SANCHEZ v. ACE AUTO (graded, videotaped)",
-   "course": "Negotiations",
-   "date": "2026-11-05",
-   "session": 8,
-   "reading": "Role-play: Sanchez v. Ace Auto (VIRTUAL/Zoom; videotaped GRADED final negotiation, 25% with journal; counterpart known in advance). Prep: BA Ch. 12 + Conclusion + App. B; DC Q2-4 + finish DC; submit Sanchez prep on bCourses (planning memo goes in with the journal, due 11/12); email feedback for Gossett (no later than week of 10/22). Moved from Oct 15 per the 8/28 revised syllabus.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-8-Ethics-Pt-2-BATNA-WATNA-Costing-SANCHEZ-v-ACE-AUTO-graded-videotaped-3c6063496baf81e2bb13e9c282248071"
-  },
-  {
-   "title": "LRW 24 — Research Class 6: Email Memo",
-   "course": "LRW",
-   "date": "2026-11-06",
-   "session": 24,
-   "reading": "Read Sample UPL Email Analysis; Tribal Law intro; selected case (Section B. Breach). Note: Closed-Universe Office Memo materials released Sun Nov 8.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-24-Research-Class-6-Email-Memo-3c6063496baf8124abd1d84eb841118c"
-  },
-  {
-   "title": "Property 36 — Prior nonconforming uses; administrative relief; exclusionary zoning",
-   "course": "Property",
-   "date": "2026-11-06",
-   "session": 36,
-   "reading": "Read 462-67 (§§2-2.1); read 488-98 (§4.2); listen to The Racist History of Single-Family Home Zoning. Optional: Segregated By Design; Rothstein; Berkeley resolution; Stolz; Meyersohn. Town of Belleville v. Parillo's; Mount Laurel.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-36-Prior-nonconforming-uses-administrative-relief-exclusionary-zoning-3c6063496baf81b7986fd612b6f956b8"
-  },
   {
    "title": "Evidence 23 — Rehabilitation; Prior Consistent Statements",
    "course": "Evidence",
@@ -313,12 +283,12 @@
    "url": "https://app.notion.com/p/Youth-Justice-13-Student-Group-Presentations-FRIDAY-time-TBD-3c6063496baf81ae8d00d09931c9ff3d"
   }
  ],
- "aheadUntil": "2026-11-14",
+ "aheadUntil": "2026-11-15",
  "backlog": {
-  "Property": 6,
-  "Negotiations": 5,
+  "Property": 7,
+  "Negotiations": 6,
   "Youth Justice": 5,
-  "LRW": 3,
+  "LRW": 4,
   "Evidence": 4
  },
  "walkHome": [
@@ -1793,9 +1763,9 @@
  "counts": {
   "open": 14,
   "overdue": 0,
-  "dueSoon": 2,
+  "dueSoon": 4,
   "graded": 9,
-  "unmerged": 23,
+  "unmerged": 26,
   "courses": 5,
   "cases": 155,
   "reserve": 80
