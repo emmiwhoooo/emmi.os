@@ -1,49 +1,49 @@
 {
- "generated": "2026-11-08T01:49:56+00:00",
- "today": "2026-11-07",
+ "generated": "2026-11-08T08:16:25+00:00",
+ "today": "2026-11-08",
  "term": {
   "week": 12,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 25
+  "daysToFinals": 24
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-07",
-    "code": 3,
-    "high": 69.6,
-    "low": 46.8,
-    "rainMax": 0
-   },
-   {
     "date": "2026-11-08",
-    "code": 45,
-    "high": 68.9,
-    "low": 53.0,
+    "code": 3,
+    "high": 69.5,
+    "low": 52.5,
     "rainMax": 0
    },
    {
     "date": "2026-11-09",
-    "code": 3,
-    "high": 71.1,
-    "low": 49.8,
+    "code": 45,
+    "high": 72.3,
+    "low": 49.2,
     "rainMax": 0
    },
    {
     "date": "2026-11-10",
     "code": 0,
-    "high": 74.4,
-    "low": 56.0,
+    "high": 75.3,
+    "low": 56.4,
     "rainMax": 0
+   },
+   {
+    "date": "2026-11-11",
+    "code": 3,
+    "high": 78.5,
+    "low": 55.7,
+    "rainMax": 1
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 59.5,
-  "high": 69.6,
-  "low": 46.8,
+  "temp": 52.5,
+  "high": 69.5,
+  "low": 52.5,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -281,9 +281,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Youth-Justice-13-Student-Group-Presentations-FRIDAY-time-TBD-3c6063496baf81ae8d00d09931c9ff3d"
+  },
+  {
+   "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
+   "course": "Evidence",
+   "date": "2026-11-16",
+   "session": 25,
+   "reading": "CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules. Daubert v. Merrell Dow; GE v. Joiner and Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703. No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-25-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81d99d4cc2fb276e82b5"
   }
  ],
- "aheadUntil": "2026-11-15",
+ "aheadUntil": "2026-11-16",
  "backlog": {
   "Property": 7,
   "Negotiations": 6,
