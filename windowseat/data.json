@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T21:03:08+00:00",
+ "generated": "2026-11-10T03:30:11+00:00",
  "today": "2026-11-09",
  "term": {
   "week": 13,
@@ -13,36 +13,36 @@
    {
     "date": "2026-11-09",
     "code": 45,
-    "high": 65.7,
+    "high": 67.9,
     "low": 51.3,
     "rainMax": 0
    },
    {
     "date": "2026-11-10",
     "code": 45,
-    "high": 69.0,
-    "low": 49.5,
+    "high": 68.8,
+    "low": 50.4,
     "rainMax": 0
    },
    {
     "date": "2026-11-11",
     "code": 45,
-    "high": 76.9,
-    "low": 51.8,
+    "high": 72.4,
+    "low": 51.4,
     "rainMax": 0
    },
    {
     "date": "2026-11-12",
     "code": 3,
-    "high": 76.6,
-    "low": 55.1,
-    "rainMax": 16
+    "high": 75.2,
+    "low": 56.9,
+    "rainMax": 12
    }
   ],
-  "code": 3,
+  "code": 0,
   "dayCode": 45,
-  "temp": 62.1,
-  "high": 65.7,
+  "temp": 59.7,
+  "high": 67.9,
   "low": 51.3,
   "rainMax": 0,
   "wetUntil": null
@@ -278,7 +278,7 @@
    "date": "2026-11-13",
    "session": 13,
    "reading": "Student Group Presentations (Friday makeup class, afternoon start time TBD; no class Veterans Day Nov 11). Group written component due Fri Nov 13, 5pm (confirmed in the 9/29 revised syllabus).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Youth-Justice-13-Student-Group-Presentations-FRIDAY-time-TBD-3c6063496baf81ae8d00d09931c9ff3d"
   },
@@ -317,7 +317,6 @@
  "backlog": {
   "Property": 7,
   "Negotiations": 6,
-  "Youth Justice": 5,
   "LRW": 4,
   "Evidence": 4
  },
@@ -353,24 +352,6 @@
    "url": "https://app.notion.com/p/Property-10-Future-interests-reversion-remainder-3c6063496baf81058451ffd234622aad"
   },
   {
-   "title": "Youth Justice 4 — Juvenile Court Jurisdiction — Minimum Age to Adult Transfer [PROJECT LIST]",
-   "course": "Youth Justice",
-   "date": "2026-09-09",
-   "url": "https://app.notion.com/p/Youth-Justice-4-Juvenile-Court-Jurisdiction-Minimum-Age-to-Adult-Transfer-PROJECT-LIST-3c6063496baf81debc63c715e3c32ddc"
-  },
-  {
-   "title": "Youth Justice 5 — The Role of Counsel in Delinquency Court",
-   "course": "Youth Justice",
-   "date": "2026-09-16",
-   "url": "https://app.notion.com/p/Youth-Justice-5-The-Role-of-Counsel-in-Delinquency-Court-3c6063496baf81f7a910c41d73a5d4bc"
-  },
-  {
-   "title": "Youth Justice 6 — Pre-Adjudication Detention",
-   "course": "Youth Justice",
-   "date": "2026-09-23",
-   "url": "https://app.notion.com/p/Youth-Justice-6-Pre-Adjudication-Detention-3c6063496baf81079d54f6e3b3cc2319"
-  },
-  {
    "title": "Negotiations 5 — Negotiation Styles & Approaches — Role-play: Widow Land Sale",
    "course": "Negotiations",
    "date": "2026-09-24",
@@ -381,9 +362,32 @@
    "course": "LRW",
    "date": "2026-09-29",
    "url": "https://app.notion.com/p/LRW-13-Research-Class-3-State-Annotated-Code-3c6063496baf811c9c82ec8f6d3c4585"
+  },
+  {
+   "title": "Evidence 15 — Public Records; Law Enforcement Records",
+   "course": "Evidence",
+   "date": "2026-10-06",
+   "url": "https://app.notion.com/p/Evidence-15-Public-Records-Law-Enforcement-Records-3c6063496baf8175a534c8df447c3e73"
+  },
+  {
+   "title": "LRW 16 — Research Class 5: Secondary Sources",
+   "course": "LRW",
+   "date": "2026-10-09",
+   "url": "https://app.notion.com/p/LRW-16-Research-Class-5-Secondary-Sources-3c6063496baf81ffa525d03316829a9b"
+  },
+  {
+   "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
+   "course": "Negotiations",
+   "date": "2026-10-15",
+   "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
   }
  ],
  "shelf": [
+  {
+   "title": "Kevin P. v. Superior Court",
+   "course": "Youth Justice",
+   "url": "https://app.notion.com/p/Kevin-P-v-Superior-Court-413063496baf81188423c28d46f8a1c3"
+  },
   {
    "title": "Village of Belle Terre v. Boraas",
    "course": "Property",
@@ -1644,15 +1648,6 @@
  ],
  "weather": [
   {
-   "title": "Reflection 3 (Classes 9-12)",
-   "course": "Youth Justice",
-   "due": "2026-11-10",
-   "type": "graded",
-   "weight": "10 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Reflection-3-Classes-9-12-3c6063496baf811ea013d6fde4bceb53"
-  },
-  {
    "title": "Sanchez negotiation package (journal + video)",
    "course": "Negotiations",
    "due": "2026-11-12",
@@ -1732,18 +1727,18 @@
    "weight": "85 points",
    "overdue": false,
    "url": "https://app.notion.com/p/Property-final-exam-3c6063496baf81ff8540c0e6594cf80a"
+  },
+  {
+   "title": "Evidence final exam",
+   "course": "Evidence",
+   "due": "2026-12-07",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Evidence-final-exam-3c6063496baf81aaad0bc2f8fd05da3a"
   }
  ],
  "longHaul": [
-  {
-   "title": "Reflection 3 (Classes 9-12)",
-   "course": "Youth Justice",
-   "due": "2026-11-10",
-   "type": "graded",
-   "weight": "10 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Reflection-3-Classes-9-12-3c6063496baf811ea013d6fde4bceb53"
-  },
   {
    "title": "Sanchez negotiation package (journal + video)",
    "course": "Negotiations",
@@ -1788,16 +1783,25 @@
    "weight": "3 points (completion)",
    "overdue": false,
    "url": "https://app.notion.com/p/Practice-Exercise-5-3c6063496baf81ad91e4d1b5c3253a70"
+  },
+  {
+   "title": "Group project individual reflection",
+   "course": "Youth Justice",
+   "due": "2026-12-01",
+   "type": "graded",
+   "weight": "10 of 40 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Group-project-individual-reflection-3c6063496baf810c8594f4d1672735fd"
   }
  ],
  "counts": {
-  "open": 14,
+  "open": 13,
   "overdue": 0,
-  "dueSoon": 5,
-  "graded": 9,
-  "unmerged": 26,
+  "dueSoon": 4,
+  "graded": 8,
+  "unmerged": 21,
   "courses": 5,
-  "cases": 155,
+  "cases": 156,
   "reserve": 80
  },
  "courses": [
