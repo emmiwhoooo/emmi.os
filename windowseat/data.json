@@ -1,49 +1,49 @@
 {
- "generated": "2026-11-10T03:30:11+00:00",
- "today": "2026-11-09",
+ "generated": "2026-11-10T11:35:22+00:00",
+ "today": "2026-11-10",
  "term": {
   "week": 13,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 23
+  "daysToFinals": 22
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-09",
-    "code": 45,
-    "high": 67.9,
-    "low": 51.3,
-    "rainMax": 0
-   },
-   {
     "date": "2026-11-10",
     "code": 45,
-    "high": 68.8,
-    "low": 50.4,
+    "high": 69.2,
+    "low": 48.5,
     "rainMax": 0
    },
    {
     "date": "2026-11-11",
     "code": 45,
-    "high": 72.4,
-    "low": 51.4,
+    "high": 69.5,
+    "low": 52.3,
     "rainMax": 0
    },
    {
     "date": "2026-11-12",
     "code": 3,
-    "high": 75.2,
-    "low": 56.9,
-    "rainMax": 12
+    "high": 69.5,
+    "low": 57.0,
+    "rainMax": 13
+   },
+   {
+    "date": "2026-11-13",
+    "code": 81,
+    "high": 62.1,
+    "low": 56.6,
+    "rainMax": 80
    }
   ],
   "code": 0,
   "dayCode": 45,
-  "temp": 59.7,
-  "high": 67.9,
-  "low": 51.3,
+  "temp": 50.8,
+  "high": 69.2,
+  "low": 48.5,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Evidence 23 — Rehabilitation; Prior Consistent Statements",
-  "course": "Evidence",
-  "date": "2026-11-09",
-  "session": 23,
-  "reading": "CB 457-473. Tome v. U.S. F.R.E. 608, 801, 801(d)(1). C.E.C. 790. No in limine argument.",
+  "title": "LRW 25 — Drafting class (LRW Lounge) — Closed-Universe Memo",
+  "course": "LRW",
+  "date": "2026-11-10",
+  "session": 25,
+  "reading": "Drafting class — work on Closed-Universe memo; bring laptop.",
   "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-23-Rehabilitation-Prior-Consistent-Statements-3c6063496baf816b84fad8791247e574"
+  "url": "https://app.notion.com/p/LRW-25-Drafting-class-LRW-Lounge-Closed-Universe-Memo-3c6063496baf81c0aef2cc2f59bdd7b0"
  },
  "upcoming": [
-  {
-   "title": "Evidence 23 — Rehabilitation; Prior Consistent Statements",
-   "course": "Evidence",
-   "date": "2026-11-09",
-   "session": 23,
-   "reading": "CB 457-473. Tome v. U.S. F.R.E. 608, 801, 801(d)(1). C.E.C. 790. No in limine argument.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-23-Rehabilitation-Prior-Consistent-Statements-3c6063496baf816b84fad8791247e574"
-  },
   {
    "title": "LRW 25 — Drafting class (LRW Lounge) — Closed-Universe Memo",
    "course": "LRW",
@@ -199,19 +189,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-26-NO-CLASS-work-on-Closed-Universe-Memo-3c6063496baf81f2a8b3cf251bcbbcb7"
+  },
+  {
+   "title": "Property 38 — Regulatory takings",
+   "course": "Property",
+   "date": "2026-11-13",
+   "session": 38,
+   "reading": "Read 1158-76 (through note 3).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-38-Regulatory-takings-3c6063496baf8129aa90d124dff06275"
   }
  ],
  "ahead": [
-  {
-   "title": "Evidence 23 — Rehabilitation; Prior Consistent Statements",
-   "course": "Evidence",
-   "date": "2026-11-09",
-   "session": 23,
-   "reading": "CB 457-473. Tome v. U.S. F.R.E. 608, 801, 801(d)(1). C.E.C. 790. No in limine argument.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-23-Rehabilitation-Prior-Consistent-Statements-3c6063496baf816b84fad8791247e574"
-  },
   {
    "title": "LRW 25 — Drafting class (LRW Lounge) — Closed-Universe Memo",
    "course": "LRW",
@@ -311,14 +301,34 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-26-Attorney-Client-Privilege-Waiver-3c6063496baf8118ae7af560daae6388"
+  },
+  {
+   "title": "Property 39 — Regulatory takings continued",
+   "course": "Property",
+   "date": "2026-11-18",
+   "session": 39,
+   "reading": "No new reading listed.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-39-Regulatory-takings-continued-3c6063496baf815aaebbe01285f04b1e"
+  },
+  {
+   "title": "Youth Justice 14 — Student Group Presentations (LAST CLASS)",
+   "course": "Youth Justice",
+   "date": "2026-11-18",
+   "session": 14,
+   "reading": "Student Group Presentations (last class).",
+   "prepped": true,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-14-Student-Group-Presentations-LAST-CLASS-3c6063496baf8154a397e70d286e190e"
   }
  ],
- "aheadUntil": "2026-11-17",
+ "aheadUntil": "2026-11-18",
  "backlog": {
   "Property": 7,
   "Negotiations": 6,
   "LRW": 4,
-  "Evidence": 4
+  "Evidence": 5
  },
  "walkHome": [
   {
@@ -1799,7 +1809,7 @@
   "overdue": 0,
   "dueSoon": 4,
   "graded": 8,
-  "unmerged": 21,
+  "unmerged": 22,
   "courses": 5,
   "cases": 156,
   "reserve": 80
