@@ -1,49 +1,49 @@
 {
- "generated": "2026-11-11T03:42:08+00:00",
- "today": "2026-11-10",
+ "generated": "2026-11-11T11:27:23+00:00",
+ "today": "2026-11-11",
  "term": {
   "week": 13,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 22
+  "daysToFinals": 21
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-10",
-    "code": 3,
-    "high": 71.6,
-    "low": 49.7,
-    "rainMax": 0
-   },
-   {
     "date": "2026-11-11",
     "code": 45,
-    "high": 69.3,
-    "low": 50.3,
+    "high": 70.8,
+    "low": 51.7,
     "rainMax": 0
    },
    {
     "date": "2026-11-12",
     "code": 3,
-    "high": 69.5,
-    "low": 55.6,
-    "rainMax": 16
+    "high": 67.8,
+    "low": 54.0,
+    "rainMax": 24
    },
    {
     "date": "2026-11-13",
-    "code": 82,
-    "high": 66.1,
-    "low": 55.6,
-    "rainMax": 97
+    "code": 81,
+    "high": 63.3,
+    "low": 55.4,
+    "rainMax": 96
+   },
+   {
+    "date": "2026-11-14",
+    "code": 53,
+    "high": 62.3,
+    "low": 53.4,
+    "rainMax": 66
    }
   ],
-  "code": 0,
-  "dayCode": 3,
-  "temp": 58.6,
-  "high": 71.6,
-  "low": 49.7,
+  "code": 45,
+  "dayCode": 45,
+  "temp": 52.4,
+  "high": 70.8,
+  "low": 51.7,
   "rainMax": 0,
   "wetUntil": null
  },
@@ -130,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 25 — Drafting class (LRW Lounge) — Closed-Universe Memo",
-  "course": "LRW",
-  "date": "2026-11-10",
-  "session": 25,
-  "reading": "Drafting class — work on Closed-Universe memo; bring laptop.",
-  "prepped": true,
+  "title": "Property 37 — Eminent domain",
+  "course": "Property",
+  "date": "2026-11-12",
+  "session": 37,
+  "reading": "Read 1123-45 (skip Problems p.1145); NPR highways piece.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-25-Drafting-class-LRW-Lounge-Closed-Universe-Memo-3c6063496baf81c0aef2cc2f59bdd7b0"
+  "url": "https://app.notion.com/p/Property-37-Eminent-domain-3c6063496baf81ad9f1dd38b09132382"
  },
  "upcoming": [
-  {
-   "title": "LRW 25 — Drafting class (LRW Lounge) — Closed-Universe Memo",
-   "course": "LRW",
-   "date": "2026-11-10",
-   "session": 25,
-   "reading": "Drafting class — work on Closed-Universe memo; bring laptop.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-25-Drafting-class-LRW-Lounge-Closed-Universe-Memo-3c6063496baf81c0aef2cc2f59bdd7b0"
-  },
-  {
-   "title": "Evidence 24 — Lay Opinions; Expert Testimony",
-   "course": "Evidence",
-   "date": "2026-11-10",
-   "session": 24,
-   "reading": "CB 518-539. Diaz v. U.S.; Smith v. Arizona. F.R.E. 701, 702, 703, 704. C.E.C. 800, 805. In limine arg 9.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-24-Lay-Opinions-Expert-Testimony-3c6063496baf816e9e96db1616c6cc57"
-  },
   {
    "title": "Property 37 — Eminent domain",
    "course": "Property",
@@ -199,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-38-Regulatory-takings-3c6063496baf8129aa90d124dff06275"
+  },
+  {
+   "title": "Youth Justice 13 — Student Group Presentations [FRIDAY — time TBD]",
+   "course": "Youth Justice",
+   "date": "2026-11-13",
+   "session": 13,
+   "reading": "Student Group Presentations (Friday makeup class, afternoon start time TBD; no class Veterans Day Nov 11). Group written component due Fri Nov 13, 5pm (confirmed in the 9/29 revised syllabus).",
+   "prepped": true,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-13-Student-Group-Presentations-FRIDAY-time-TBD-3c6063496baf81ae8d00d09931c9ff3d"
+  },
+  {
+   "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
+   "course": "Evidence",
+   "date": "2026-11-16",
+   "session": 25,
+   "reading": "CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules. Daubert v. Merrell Dow; GE v. Joiner and Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703. No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-25-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81d99d4cc2fb276e82b5"
   }
  ],
  "ahead": [
-  {
-   "title": "LRW 25 — Drafting class (LRW Lounge) — Closed-Universe Memo",
-   "course": "LRW",
-   "date": "2026-11-10",
-   "session": 25,
-   "reading": "Drafting class — work on Closed-Universe memo; bring laptop.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-25-Drafting-class-LRW-Lounge-Closed-Universe-Memo-3c6063496baf81c0aef2cc2f59bdd7b0"
-  },
-  {
-   "title": "Evidence 24 — Lay Opinions; Expert Testimony",
-   "course": "Evidence",
-   "date": "2026-11-10",
-   "session": 24,
-   "reading": "CB 518-539. Diaz v. U.S.; Smith v. Arizona. F.R.E. 701, 702, 703, 704. C.E.C. 800, 805. In limine arg 9.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-24-Lay-Opinions-Expert-Testimony-3c6063496baf816e9e96db1616c6cc57"
-  },
   {
    "title": "Property 37 — Eminent domain",
    "course": "Property",
@@ -321,14 +301,34 @@
    "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Youth-Justice-14-Student-Group-Presentations-LAST-CLASS-3c6063496baf8154a397e70d286e190e"
+  },
+  {
+   "title": "Property 40 — Just compensation; expropriation without 'taking'",
+   "course": "Property",
+   "date": "2026-11-19",
+   "session": 40,
+   "reading": "Read 1146-58 (skip note 5); Burch article (bCourses).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-40-Just-compensation-expropriation-without-taking-3c6063496baf8101ac03e16a8f54e3bc"
+  },
+  {
+   "title": "Negotiations 10 — Plurality; Workplace Privacy & AI — Role-play: Goliath Industries v. Union (LAST CLASS)",
+   "course": "Negotiations",
+   "date": "2026-11-19",
+   "session": 10,
+   "reading": "Role-play: Goliath Industries Mgmt v. Union. Guest: Marina Feehan (Senior Counsel, CPPA). Prep: BA Ch. 10-11; 3 readings (CCPA worker rights / biometric data FAQ / AI in the workplace); prep Goliath. FINAL SELF-REFLECTION JOURNAL + compiled peer feedback PDF due 8pm tonight. Final class (Thu Nov 19) per the 8/28 revised syllabus.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-10-Plurality-Workplace-Privacy-AI-Role-play-Goliath-Industries-v-Union-LAST-C-3c6063496baf81fb97e1eaf44e37a0d1"
   }
  ],
- "aheadUntil": "2026-11-18",
+ "aheadUntil": "2026-11-19",
  "backlog": {
   "Property": 7,
   "Negotiations": 6,
-  "LRW": 4,
-  "Evidence": 5
+  "LRW": 5,
+  "Evidence": 6
  },
  "walkHome": [
   {
@@ -1809,7 +1809,7 @@
   "overdue": 0,
   "dueSoon": 4,
   "graded": 8,
-  "unmerged": 22,
+  "unmerged": 24,
   "courses": 5,
   "cases": 156,
   "reserve": 80
