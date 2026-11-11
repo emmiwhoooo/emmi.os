@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T23:49:04+00:00",
+ "generated": "2026-11-11T03:42:08+00:00",
  "today": "2026-11-10",
  "term": {
   "week": 13,
@@ -12,7 +12,7 @@
   "days": [
    {
     "date": "2026-11-10",
-    "code": 45,
+    "code": 3,
     "high": 71.6,
     "low": 49.7,
     "rainMax": 0
@@ -20,28 +20,28 @@
    {
     "date": "2026-11-11",
     "code": 45,
-    "high": 66.0,
-    "low": 52.5,
+    "high": 69.3,
+    "low": 50.3,
     "rainMax": 0
    },
    {
     "date": "2026-11-12",
     "code": 3,
-    "high": 73.0,
-    "low": 54.1,
-    "rainMax": 20
+    "high": 69.5,
+    "low": 55.6,
+    "rainMax": 16
    },
    {
     "date": "2026-11-13",
     "code": 82,
     "high": 66.1,
     "low": 55.6,
-    "rainMax": 88
+    "rainMax": 97
    }
   ],
   "code": 0,
-  "dayCode": 45,
-  "temp": 69.8,
+  "dayCode": 3,
+  "temp": 58.6,
   "high": 71.6,
   "low": 49.7,
   "rainMax": 0,
@@ -135,7 +135,7 @@
   "date": "2026-11-10",
   "session": 25,
   "reading": "Drafting class — work on Closed-Universe memo; bring laptop.",
-  "prepped": false,
+  "prepped": true,
   "status": "not merged",
   "url": "https://app.notion.com/p/LRW-25-Drafting-class-LRW-Lounge-Closed-Universe-Memo-3c6063496baf81c0aef2cc2f59bdd7b0"
  },
@@ -146,7 +146,7 @@
    "date": "2026-11-10",
    "session": 25,
    "reading": "Drafting class — work on Closed-Universe memo; bring laptop.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-25-Drafting-class-LRW-Lounge-Closed-Universe-Memo-3c6063496baf81c0aef2cc2f59bdd7b0"
   },
@@ -208,7 +208,7 @@
    "date": "2026-11-10",
    "session": 25,
    "reading": "Drafting class — work on Closed-Universe memo; bring laptop.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-25-Drafting-class-LRW-Lounge-Closed-Universe-Memo-3c6063496baf81c0aef2cc2f59bdd7b0"
   },
