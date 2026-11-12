@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T18:49:06+00:00",
+ "generated": "2026-11-12T01:08:27+00:00",
  "today": "2026-11-11",
  "term": {
   "week": 13,
@@ -13,36 +13,36 @@
    {
     "date": "2026-11-11",
     "code": 45,
-    "high": 70.7,
+    "high": 70.9,
     "low": 51.7,
     "rainMax": 0
    },
    {
     "date": "2026-11-12",
     "code": 45,
-    "high": 68.3,
-    "low": 53.8,
-    "rainMax": 19
+    "high": 67.9,
+    "low": 54.3,
+    "rainMax": 3
    },
    {
     "date": "2026-11-13",
     "code": 81,
-    "high": 62.9,
-    "low": 53.6,
+    "high": 63.9,
+    "low": 52.9,
     "rainMax": 99
    },
    {
     "date": "2026-11-14",
     "code": 53,
-    "high": 63.7,
-    "low": 51.9,
-    "rainMax": 62
+    "high": 63.8,
+    "low": 51.2,
+    "rainMax": 57
    }
   ],
   "code": 0,
   "dayCode": 45,
-  "temp": 64.4,
-  "high": 70.7,
+  "temp": 63.0,
+  "high": 70.9,
   "low": 51.7,
   "rainMax": 0,
   "wetUntil": null
@@ -327,7 +327,7 @@
  "backlog": {
   "Property": 7,
   "Negotiations": 6,
-  "LRW": 5,
+  "LRW": 4,
   "Evidence": 6
  },
  "walkHome": [
@@ -1809,7 +1809,7 @@
   "overdue": 0,
   "dueSoon": 4,
   "graded": 8,
-  "unmerged": 24,
+  "unmerged": 23,
   "courses": 5,
   "cases": 156,
   "reserve": 80
