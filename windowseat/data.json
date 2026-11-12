@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T16:49:34+00:00",
+ "generated": "2026-11-12T22:29:27+00:00",
  "today": "2026-11-12",
  "term": {
   "week": 13,
@@ -13,36 +13,36 @@
    {
     "date": "2026-11-12",
     "code": 3,
-    "high": 68.0,
+    "high": 69.6,
     "low": 49.9,
     "rainMax": 4
    },
    {
     "date": "2026-11-13",
     "code": 63,
-    "high": 58.9,
-    "low": 50.7,
-    "rainMax": 94
+    "high": 59.6,
+    "low": 51.0,
+    "rainMax": 100
    },
    {
     "date": "2026-11-14",
     "code": 3,
-    "high": 63.2,
-    "low": 50.7,
-    "rainMax": 37
+    "high": 63.1,
+    "low": 51.0,
+    "rainMax": 49
    },
    {
     "date": "2026-11-15",
-    "code": 53,
-    "high": 66.0,
-    "low": 53.6,
-    "rainMax": 88
+    "code": 63,
+    "high": 65.0,
+    "low": 53.1,
+    "rainMax": 89
    }
   ],
-  "code": 0,
+  "code": 3,
   "dayCode": 3,
-  "temp": 57.4,
-  "high": 68.0,
+  "temp": 67.8,
+  "high": 69.6,
   "low": 49.9,
   "rainMax": 4,
   "wetUntil": null
@@ -346,7 +346,7 @@
  "aheadUntil": "2026-11-20",
  "backlog": {
   "Property": 7,
-  "Negotiations": 6,
+  "Negotiations": 3,
   "LRW": 4,
   "Evidence": 6
  },
@@ -382,12 +382,6 @@
    "url": "https://app.notion.com/p/Property-10-Future-interests-reversion-remainder-3c6063496baf81058451ffd234622aad"
   },
   {
-   "title": "Negotiations 5 — Negotiation Styles & Approaches — Role-play: Widow Land Sale",
-   "course": "Negotiations",
-   "date": "2026-09-24",
-   "url": "https://app.notion.com/p/Negotiations-5-Negotiation-Styles-Approaches-Role-play-Widow-Land-Sale-3c6063496baf81c98877ed35a903f0ab"
-  },
-  {
    "title": "LRW 13 — Research Class 3: State Annotated Code",
    "course": "LRW",
    "date": "2026-09-29",
@@ -406,10 +400,16 @@
    "url": "https://app.notion.com/p/LRW-16-Research-Class-5-Secondary-Sources-3c6063496baf81ffa525d03316829a9b"
   },
   {
-   "title": "Negotiations 7 — Gender & Culture; Lawyer-Client Relations; Ethics Pt 1 — Role-play: Gossett v. Bacchus",
-   "course": "Negotiations",
-   "date": "2026-10-15",
-   "url": "https://app.notion.com/p/Negotiations-7-Gender-Culture-Lawyer-Client-Relations-Ethics-Pt-1-Role-play-Gossett-v-Bacc-3c6063496baf819f9fb5c5373fbaeade"
+   "title": "Evidence 19 — Best Evidence Rule; Authentication",
+   "course": "Evidence",
+   "date": "2026-10-26",
+   "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
+  },
+  {
+   "title": "Property 32 — Constitutional and statutory limitations on covenants",
+   "course": "Property",
+   "date": "2026-10-29",
+   "url": "https://app.notion.com/p/Property-32-Constitutional-and-statutory-limitations-on-covenants-3c6063496baf817a8b1efae4a54d5b6e"
   }
  ],
  "shelf": [
@@ -1829,7 +1829,7 @@
   "overdue": 0,
   "dueSoon": 4,
   "graded": 8,
-  "unmerged": 23,
+  "unmerged": 20,
   "courses": 5,
   "cases": 156,
   "reserve": 80
