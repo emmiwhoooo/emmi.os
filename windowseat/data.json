@@ -1,50 +1,50 @@
 {
- "generated": "2026-11-12T01:08:27+00:00",
- "today": "2026-11-11",
+ "generated": "2026-11-12T08:14:59+00:00",
+ "today": "2026-11-12",
  "term": {
   "week": 13,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 21
+  "daysToFinals": 20
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-11",
-    "code": 45,
-    "high": 70.9,
-    "low": 51.7,
-    "rainMax": 0
-   },
-   {
     "date": "2026-11-12",
     "code": 45,
-    "high": 67.9,
-    "low": 54.3,
-    "rainMax": 3
+    "high": 67.2,
+    "low": 53.0,
+    "rainMax": 4
    },
    {
     "date": "2026-11-13",
-    "code": 81,
+    "code": 65,
     "high": 63.9,
-    "low": 52.9,
-    "rainMax": 99
+    "low": 53.6,
+    "rainMax": 100
    },
    {
     "date": "2026-11-14",
-    "code": 53,
-    "high": 63.8,
-    "low": 51.2,
-    "rainMax": 57
+    "code": 51,
+    "high": 64.2,
+    "low": 51.5,
+    "rainMax": 53
+   },
+   {
+    "date": "2026-11-15",
+    "code": 61,
+    "high": 66.3,
+    "low": 53.1,
+    "rainMax": 72
    }
   ],
   "code": 0,
   "dayCode": 45,
-  "temp": 63.0,
-  "high": 70.9,
-  "low": 51.7,
-  "rainMax": 0,
+  "temp": 54.1,
+  "high": 67.2,
+  "low": 53.0,
+  "rainMax": 4,
   "wetUntil": null
  },
  "player": {
@@ -321,9 +321,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-10-Plurality-Workplace-Privacy-AI-Role-play-Goliath-Industries-v-Union-LAST-C-3c6063496baf81fb97e1eaf44e37a0d1"
+  },
+  {
+   "title": "LRW 28 — Last class",
+   "course": "LRW",
+   "date": "2026-11-20",
+   "session": 28,
+   "reading": "",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-28-Last-class-3c6063496baf81a4a014f3d580f88e80"
+  },
+  {
+   "title": "Property 41 — TBD",
+   "course": "Property",
+   "date": "2026-11-20",
+   "session": 41,
+   "reading": "TBD per updated syllabus (Workshop 5 moved to Mon 11/30).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-41-TBD-3c6063496baf81658407d8371797c411"
   }
  ],
- "aheadUntil": "2026-11-19",
+ "aheadUntil": "2026-11-20",
  "backlog": {
   "Property": 7,
   "Negotiations": 6,
