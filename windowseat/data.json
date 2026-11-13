@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T10:18:11+00:00",
+ "generated": "2026-11-13T17:55:34+00:00",
  "today": "2026-11-13",
  "term": {
   "week": 13,
@@ -8,7 +8,45 @@
   "end": "2026-12-02",
   "daysToFinals": 19
  },
- "sky": null,
+ "sky": {
+  "days": [
+   {
+    "date": "2026-11-13",
+    "code": 65,
+    "high": 60.3,
+    "low": 50.9,
+    "rainMax": 100
+   },
+   {
+    "date": "2026-11-14",
+    "code": 51,
+    "high": 60.1,
+    "low": 49.0,
+    "rainMax": 25
+   },
+   {
+    "date": "2026-11-15",
+    "code": 63,
+    "high": 61.9,
+    "low": 50.7,
+    "rainMax": 93
+   },
+   {
+    "date": "2026-11-16",
+    "code": 51,
+    "high": 59.7,
+    "low": 51.1,
+    "rainMax": 52
+   }
+  ],
+  "code": 3,
+  "dayCode": 65,
+  "temp": 58.4,
+  "high": 60.3,
+  "low": 50.9,
+  "rainMax": 100,
+  "wetUntil": "2026-11-13T14:00"
+ },
  "player": {
   "level": 59,
   "xp": 0,
@@ -1792,7 +1830,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "weather: <urlopen error _ssl.c:994: The handshake operation timed out>"
- ]
+ "errors": []
 }
