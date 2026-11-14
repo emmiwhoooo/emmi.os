@@ -1,14 +1,52 @@
 {
- "generated": "2026-11-14T03:09:18+00:00",
- "today": "2026-11-13",
+ "generated": "2026-11-14T10:14:59+00:00",
+ "today": "2026-11-14",
  "term": {
   "week": 13,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 19
+  "daysToFinals": 18
  },
- "sky": null,
+ "sky": {
+  "days": [
+   {
+    "date": "2026-11-14",
+    "code": 51,
+    "high": 61.8,
+    "low": 51.9,
+    "rainMax": 12
+   },
+   {
+    "date": "2026-11-15",
+    "code": 80,
+    "high": 61.3,
+    "low": 52.5,
+    "rainMax": 93
+   },
+   {
+    "date": "2026-11-16",
+    "code": 53,
+    "high": 60.6,
+    "low": 50.5,
+    "rainMax": 68
+   },
+   {
+    "date": "2026-11-17",
+    "code": 3,
+    "high": 59.6,
+    "low": 46.2,
+    "rainMax": 58
+   }
+  ],
+  "code": 1,
+  "dayCode": 51,
+  "temp": 51.9,
+  "high": 61.8,
+  "low": 51.9,
+  "rainMax": 12,
+  "wetUntil": null
+ },
  "player": {
   "level": 59,
   "xp": 0,
@@ -92,118 +130,16 @@
   ]
  },
  "next": {
-  "title": "Negotiations 9 — The Age of AI and Your Ethical Obligations — AI role-play vs. chatbot",
-  "course": "Negotiations",
-  "date": "2026-11-12",
-  "session": 9,
-  "reading": "Role-play: AI chatbot negotiation (iDecisionGames). Guest: Samantha Ade (Asst. GC, King & Spalding). Prep: 3 AI articles; sign up for iDecisionGames (instructions on bCourses); no planning memo. Email feedback for Sanchez; SUBMIT Sanchez negotiation journal + planning memo + video on bCourses (due today, 25% of grade).",
+  "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
+  "course": "Evidence",
+  "date": "2026-11-16",
+  "session": 25,
+  "reading": "CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules. Daubert v. Merrell Dow; GE v. Joiner and Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703. No in limine argument.",
   "prepped": false,
-  "status": "in outline",
-  "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
+  "status": "not merged",
+  "url": "https://app.notion.com/p/Evidence-25-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81d99d4cc2fb276e82b5"
  },
  "upcoming": [
-  {
-   "title": "Negotiations 9 — The Age of AI and Your Ethical Obligations — AI role-play vs. chatbot",
-   "course": "Negotiations",
-   "date": "2026-11-12",
-   "session": 9,
-   "reading": "Role-play: AI chatbot negotiation (iDecisionGames). Guest: Samantha Ade (Asst. GC, King & Spalding). Prep: 3 AI articles; sign up for iDecisionGames (instructions on bCourses); no planning memo. Email feedback for Sanchez; SUBMIT Sanchez negotiation journal + planning memo + video on bCourses (due today, 25% of grade).",
-   "prepped": false,
-   "status": "in outline",
-   "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
-  },
-  {
-   "title": "LRW 26 — NO CLASS — work on Closed-Universe Memo",
-   "course": "LRW",
-   "date": "2026-11-13",
-   "session": 26,
-   "reading": "No class — work on Closed-Universe Office Memo (due Sun Nov 15 5pm).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-26-NO-CLASS-work-on-Closed-Universe-Memo-3c6063496baf81f2a8b3cf251bcbbcb7"
-  },
-  {
-   "title": "Property 38 — Regulatory takings",
-   "course": "Property",
-   "date": "2026-11-13",
-   "session": 38,
-   "reading": "Read 1158-76 (through note 3).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-38-Regulatory-takings-3c6063496baf8129aa90d124dff06275"
-  },
-  {
-   "title": "Youth Justice 13 — Student Group Presentations [FRIDAY — time TBD]",
-   "course": "Youth Justice",
-   "date": "2026-11-13",
-   "session": 13,
-   "reading": "Student Group Presentations (Friday makeup class, afternoon start time TBD; no class Veterans Day Nov 11). Group written component due Fri Nov 13, 5pm (confirmed in the 9/29 revised syllabus).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-13-Student-Group-Presentations-FRIDAY-time-TBD-3c6063496baf81ae8d00d09931c9ff3d"
-  },
-  {
-   "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
-   "course": "Evidence",
-   "date": "2026-11-16",
-   "session": 25,
-   "reading": "CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules. Daubert v. Merrell Dow; GE v. Joiner and Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703. No in limine argument.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-25-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81d99d4cc2fb276e82b5"
-  },
-  {
-   "title": "LRW 27 — Research Class 7: Research Roundup",
-   "course": "LRW",
-   "date": "2026-11-17",
-   "session": 27,
-   "reading": "",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
-  }
- ],
- "ahead": [
-  {
-   "title": "Negotiations 9 — The Age of AI and Your Ethical Obligations — AI role-play vs. chatbot",
-   "course": "Negotiations",
-   "date": "2026-11-12",
-   "session": 9,
-   "reading": "Role-play: AI chatbot negotiation (iDecisionGames). Guest: Samantha Ade (Asst. GC, King & Spalding). Prep: 3 AI articles; sign up for iDecisionGames (instructions on bCourses); no planning memo. Email feedback for Sanchez; SUBMIT Sanchez negotiation journal + planning memo + video on bCourses (due today, 25% of grade).",
-   "prepped": false,
-   "status": "in outline",
-   "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
-  },
-  {
-   "title": "LRW 26 — NO CLASS — work on Closed-Universe Memo",
-   "course": "LRW",
-   "date": "2026-11-13",
-   "session": 26,
-   "reading": "No class — work on Closed-Universe Office Memo (due Sun Nov 15 5pm).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-26-NO-CLASS-work-on-Closed-Universe-Memo-3c6063496baf81f2a8b3cf251bcbbcb7"
-  },
-  {
-   "title": "Property 38 — Regulatory takings",
-   "course": "Property",
-   "date": "2026-11-13",
-   "session": 38,
-   "reading": "Read 1158-76 (through note 3).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-38-Regulatory-takings-3c6063496baf8129aa90d124dff06275"
-  },
-  {
-   "title": "Youth Justice 13 — Student Group Presentations [FRIDAY — time TBD]",
-   "course": "Youth Justice",
-   "date": "2026-11-13",
-   "session": 13,
-   "reading": "Student Group Presentations (Friday makeup class, afternoon start time TBD; no class Veterans Day Nov 11). Group written component due Fri Nov 13, 5pm (confirmed in the 9/29 revised syllabus).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-13-Student-Group-Presentations-FRIDAY-time-TBD-3c6063496baf81ae8d00d09931c9ff3d"
-  },
   {
    "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
    "course": "Evidence",
@@ -240,7 +176,69 @@
    "date": "2026-11-18",
    "session": 39,
    "reading": "No new reading listed.",
+   "prepped": true,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-39-Regulatory-takings-continued-3c6063496baf815aaebbe01285f04b1e"
+  },
+  {
+   "title": "Youth Justice 14 — Student Group Presentations (LAST CLASS)",
+   "course": "Youth Justice",
+   "date": "2026-11-18",
+   "session": 14,
+   "reading": "Student Group Presentations (last class).",
+   "prepped": true,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Youth-Justice-14-Student-Group-Presentations-LAST-CLASS-3c6063496baf8154a397e70d286e190e"
+  },
+  {
+   "title": "Property 40 — Just compensation; expropriation without 'taking'",
+   "course": "Property",
+   "date": "2026-11-19",
+   "session": 40,
+   "reading": "Read 1146-58 (skip note 5); Burch article (bCourses).",
    "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-40-Just-compensation-expropriation-without-taking-3c6063496baf8101ac03e16a8f54e3bc"
+  }
+ ],
+ "ahead": [
+  {
+   "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
+   "course": "Evidence",
+   "date": "2026-11-16",
+   "session": 25,
+   "reading": "CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules. Daubert v. Merrell Dow; GE v. Joiner and Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703. No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-25-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81d99d4cc2fb276e82b5"
+  },
+  {
+   "title": "LRW 27 — Research Class 7: Research Roundup",
+   "course": "LRW",
+   "date": "2026-11-17",
+   "session": 27,
+   "reading": "",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
+  },
+  {
+   "title": "Evidence 26 — Attorney-Client Privilege; Waiver",
+   "course": "Evidence",
+   "date": "2026-11-17",
+   "session": 26,
+   "reading": "CB 657-707 (skip Benthem 665-666; Barton 667; Gann 670-671; Davis 688; Bernard 693-694). U.S. v. Jicarilla; Upjohn v. U.S.; U.S. v. Zolin. F.R.E. 502. C.E.C. 950-962. In limine arg 10.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-26-Attorney-Client-Privilege-Waiver-3c6063496baf8118ae7af560daae6388"
+  },
+  {
+   "title": "Property 39 — Regulatory takings continued",
+   "course": "Property",
+   "date": "2026-11-18",
+   "session": 39,
+   "reading": "No new reading listed.",
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-39-Regulatory-takings-continued-3c6063496baf815aaebbe01285f04b1e"
   },
@@ -295,9 +293,9 @@
    "url": "https://app.notion.com/p/Property-41-TBD-3c6063496baf81658407d8371797c411"
   }
  ],
- "aheadUntil": "2026-11-21",
+ "aheadUntil": "2026-11-22",
  "backlog": {
-  "Property": 8,
+  "Property": 7,
   "LRW": 4,
   "Evidence": 6
  },
@@ -1147,6 +1145,90 @@
  ],
  "reserve": [
   {
+   "title": "transcript · pasted transcript · 2026-11-13",
+   "course": "Property",
+   "kind": "transcript",
+   "link": "https://app.notion.com/p/transcript-pasted-transcript-2026-11-13-418063496baf819b9baedbbe4a5c3dc2"
+  },
+  {
+   "title": "slides · Prior Nonconforming Uses; Administrative Relief; Exclusionar - slides.pdf",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-Prior-Nonconforming-Uses-Administrative-Relief-Exclusionar-slides-pdf-418063496baf811aad04c6b700b4a88d"
+  },
+  {
+   "title": "notes · pasted notes · 2026-11-13",
+   "course": "Youth Justice",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-pasted-notes-2026-11-13-418063496baf817b81a8d1f16efdd3a1"
+  },
+  {
+   "title": "notes · YJP+P Group Project Working Doc.docx",
+   "course": "Youth Justice",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-YJP-P-Group-Project-Working-Doc-docx-418063496baf81ecb809d83987f0d468"
+  },
+  {
+   "title": "notes · White Paper - YJP+P Group Proj.pdf",
+   "course": "Youth Justice",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-White-Paper-YJP-P-Group-Proj-pdf-418063496baf8153ab96c6771f9a5bab"
+  },
+  {
+   "title": "notes · SB 672 Redlined BW.pdf",
+   "course": "Youth Justice",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-SB-672-Redlined-BW-pdf-418063496baf81958e75fa579578f1bc"
+  },
+  {
+   "title": "notes · SB 672 Front Pages.pdf",
+   "course": "Youth Justice",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-SB-672-Front-Pages-pdf-418063496baf81738b5bee0e490d3b71"
+  },
+  {
+   "title": "notes · SB 672 - REDLINED.docx",
+   "course": "Youth Justice",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-SB-672-REDLINED-docx-418063496baf8130b4fbee0e4614c954"
+  },
+  {
+   "title": "notes · [clean copy] YJP+P Group Project White Paper.docx",
+   "course": "Youth Justice",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-clean-copy-YJP-P-Group-Project-White-Paper-docx-418063496baf814fb535fdb779b70b8b"
+  },
+  {
+   "title": "notes · pasted notes · 2026-11-13",
+   "course": "LRW",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-pasted-notes-2026-11-13-418063496baf81c398cbdf25f4d2c38d"
+  },
+  {
+   "title": "notes · Closed_Universe_Office_Memo_WORKING.docx",
+   "course": "LRW",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-Closed_Universe_Office_Memo_WORKING-docx-418063496baf810f83bed1e44885afc0"
+  },
+  {
+   "title": "transcript · pasted transcript · 2026-11-13",
+   "course": "Property",
+   "kind": "transcript",
+   "link": "https://app.notion.com/p/transcript-pasted-transcript-2026-11-13-418063496baf81418881cb153b5f7335"
+  },
+  {
+   "title": "slides · Regulatory Takings - Property 38 - slides.pdf",
+   "course": "Property",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-Regulatory-Takings-Property-38-slides-pdf-418063496baf815da595d6e6a09b452b"
+  },
+  {
+   "title": "notes · pasted notes · 2026-11-13",
+   "course": "Property",
+   "kind": null,
+   "link": "https://app.notion.com/p/notes-pasted-notes-2026-11-13-418063496baf8142b6cff5593e5c5c17"
+  },
+  {
    "title": "slides · F26_Property_Class_35_Euclid_zoning",
    "course": "Property",
    "kind": "slides",
@@ -1638,15 +1720,6 @@
    "url": "https://app.notion.com/p/Closed-Universe-Office-Memo-3c6063496baf818a9547e24b5bfb8ee5"
   },
   {
-   "title": "Email Winters feedback on the AI bot (Neg 9)",
-   "course": "Negotiations",
-   "due": "2026-11-19",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Email-Winters-feedback-on-the-AI-bot-Neg-9-3db063496baf81fcb253cec88f893cdf"
-  },
-  {
    "title": "Negotiation feedback to counterpart — Goliath Industries v. Union (Neg 10, last class)",
    "course": "Negotiations",
    "due": "2026-11-21",
@@ -1717,6 +1790,15 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Sign-up-for-iDecisionGames-AI-simulation-10-3c6063496baf81a38afcdcf6598eaed1"
+  },
+  {
+   "title": "Final Self-Reflection Journal + compiled peer feedback PDF",
+   "course": "Negotiations",
+   "due": "",
+   "type": "graded",
+   "weight": "15%",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Final-Self-Reflection-Journal-compiled-peer-feedback-PDF-3c6063496baf81b9b6d3db3994ec2868"
   }
  ],
  "longHaul": [
@@ -1776,14 +1858,14 @@
   }
  ],
  "counts": {
-  "open": 11,
+  "open": 10,
   "overdue": 0,
   "dueSoon": 2,
   "graded": 6,
-  "unmerged": 18,
+  "unmerged": 17,
   "courses": 5,
   "cases": 156,
-  "reserve": 80
+  "reserve": 94
  },
  "courses": [
   "Evidence",
@@ -1792,7 +1874,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "weather: <urlopen error _ssl.c:994: The handshake operation timed out>"
- ]
+ "errors": []
 }
