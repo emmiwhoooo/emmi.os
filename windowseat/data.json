@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T23:01:36+00:00",
+ "generated": "2026-11-14T03:09:18+00:00",
  "today": "2026-11-13",
  "term": {
   "week": 13,
@@ -8,45 +8,7 @@
   "end": "2026-12-02",
   "daysToFinals": 19
  },
- "sky": {
-  "days": [
-   {
-    "date": "2026-11-13",
-    "code": 65,
-    "high": 60.8,
-    "low": 51.8,
-    "rainMax": 100
-   },
-   {
-    "date": "2026-11-14",
-    "code": 51,
-    "high": 60.9,
-    "low": 48.6,
-    "rainMax": 10
-   },
-   {
-    "date": "2026-11-15",
-    "code": 63,
-    "high": 61.9,
-    "low": 50.8,
-    "rainMax": 93
-   },
-   {
-    "date": "2026-11-16",
-    "code": 51,
-    "high": 59.7,
-    "low": 51.1,
-    "rainMax": 59
-   }
-  ],
-  "code": 51,
-  "dayCode": 65,
-  "temp": 55.9,
-  "high": 60.8,
-  "low": 51.8,
-  "rainMax": 100,
-  "wetUntil": "2026-11-13T14:00"
- },
+ "sky": null,
  "player": {
   "level": 59,
   "xp": 0,
@@ -136,7 +98,7 @@
   "session": 9,
   "reading": "Role-play: AI chatbot negotiation (iDecisionGames). Guest: Samantha Ade (Asst. GC, King & Spalding). Prep: 3 AI articles; sign up for iDecisionGames (instructions on bCourses); no planning memo. Email feedback for Sanchez; SUBMIT Sanchez negotiation journal + planning memo + video on bCourses (due today, 25% of grade).",
   "prepped": false,
-  "status": "not merged",
+  "status": "in outline",
   "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
  },
  "upcoming": [
@@ -147,7 +109,7 @@
    "session": 9,
    "reading": "Role-play: AI chatbot negotiation (iDecisionGames). Guest: Samantha Ade (Asst. GC, King & Spalding). Prep: 3 AI articles; sign up for iDecisionGames (instructions on bCourses); no planning memo. Email feedback for Sanchez; SUBMIT Sanchez negotiation journal + planning memo + video on bCourses (due today, 25% of grade).",
    "prepped": false,
-   "status": "not merged",
+   "status": "in outline",
    "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
   },
   {
@@ -156,7 +118,7 @@
    "date": "2026-11-13",
    "session": 26,
    "reading": "No class — work on Closed-Universe Office Memo (due Sun Nov 15 5pm).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-26-NO-CLASS-work-on-Closed-Universe-Memo-3c6063496baf81f2a8b3cf251bcbbcb7"
   },
@@ -166,7 +128,7 @@
    "date": "2026-11-13",
    "session": 38,
    "reading": "Read 1158-76 (through note 3).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-38-Regulatory-takings-3c6063496baf8129aa90d124dff06275"
   },
@@ -209,7 +171,7 @@
    "session": 9,
    "reading": "Role-play: AI chatbot negotiation (iDecisionGames). Guest: Samantha Ade (Asst. GC, King & Spalding). Prep: 3 AI articles; sign up for iDecisionGames (instructions on bCourses); no planning memo. Email feedback for Sanchez; SUBMIT Sanchez negotiation journal + planning memo + video on bCourses (due today, 25% of grade).",
    "prepped": false,
-   "status": "not merged",
+   "status": "in outline",
    "url": "https://app.notion.com/p/Negotiations-9-The-Age-of-AI-and-Your-Ethical-Obligations-AI-role-play-vs-chatbot-3c6063496baf81d693d9e9603bd6114f"
   },
   {
@@ -218,7 +180,7 @@
    "date": "2026-11-13",
    "session": 26,
    "reading": "No class — work on Closed-Universe Office Memo (due Sun Nov 15 5pm).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-26-NO-CLASS-work-on-Closed-Universe-Memo-3c6063496baf81f2a8b3cf251bcbbcb7"
   },
@@ -228,7 +190,7 @@
    "date": "2026-11-13",
    "session": 38,
    "reading": "Read 1158-76 (through note 3).",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-38-Regulatory-takings-3c6063496baf8129aa90d124dff06275"
   },
@@ -1667,33 +1629,6 @@
  ],
  "weather": [
   {
-   "title": "Sanchez negotiation package (journal + video)",
-   "course": "Negotiations",
-   "due": "2026-11-12",
-   "type": "graded",
-   "weight": "25%",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Sanchez-negotiation-package-journal-video-3c6063496baf811bbcddc7d7821f436f"
-  },
-  {
-   "title": "Group project written component",
-   "course": "Youth Justice",
-   "due": "2026-11-14",
-   "type": "graded",
-   "weight": "20 of 40 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Group-project-written-component-3c6063496baf8114892eecd00f185794"
-  },
-  {
-   "title": "Negotiation feedback to counterpart — AI role-play (Neg 9)",
-   "course": "Negotiations",
-   "due": "2026-11-14",
-   "type": "ungraded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-AI-role-play-Neg-9-3db063496baf81fcb253cec88f893cdf"
-  },
-  {
    "title": "Closed-Universe Office Memo",
    "course": "LRW",
    "due": "2026-11-16",
@@ -1703,13 +1638,13 @@
    "url": "https://app.notion.com/p/Closed-Universe-Office-Memo-3c6063496baf818a9547e24b5bfb8ee5"
   },
   {
-   "title": "Final Self-Reflection Journal + compiled peer feedback PDF",
+   "title": "Email Winters feedback on the AI bot (Neg 9)",
    "course": "Negotiations",
-   "due": "2026-11-20",
-   "type": "graded",
-   "weight": "15%",
+   "due": "2026-11-19",
+   "type": "ungraded",
+   "weight": "",
    "overdue": false,
-   "url": "https://app.notion.com/p/Final-Self-Reflection-Journal-compiled-peer-feedback-PDF-3c6063496baf81b9b6d3db3994ec2868"
+   "url": "https://app.notion.com/p/Email-Winters-feedback-on-the-AI-bot-Neg-9-3db063496baf81fcb253cec88f893cdf"
   },
   {
    "title": "Negotiation feedback to counterpart — Goliath Industries v. Union (Neg 10, last class)",
@@ -1755,27 +1690,36 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Evidence-final-exam-3c6063496baf81aaad0bc2f8fd05da3a"
+  },
+  {
+   "title": "Neg 7 makeup — waiting on Winters",
+   "course": "Negotiations",
+   "due": "",
+   "type": "admin",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Neg-7-makeup-waiting-on-Winters-3fd063496baf81bfb7bad6574ab75317"
+  },
+  {
+   "title": "Planning memos (before every class with a role-play)",
+   "course": "Negotiations",
+   "due": "",
+   "type": "ungraded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Planning-memos-before-every-class-with-a-role-play-3c6063496baf81998414faf13a0a1df4"
+  },
+  {
+   "title": "Sign up for iDecisionGames AI simulation ($10)",
+   "course": "Negotiations",
+   "due": "",
+   "type": "admin",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Sign-up-for-iDecisionGames-AI-simulation-10-3c6063496baf81a38afcdcf6598eaed1"
   }
  ],
  "longHaul": [
-  {
-   "title": "Sanchez negotiation package (journal + video)",
-   "course": "Negotiations",
-   "due": "2026-11-12",
-   "type": "graded",
-   "weight": "25%",
-   "overdue": true,
-   "url": "https://app.notion.com/p/Sanchez-negotiation-package-journal-video-3c6063496baf811bbcddc7d7821f436f"
-  },
-  {
-   "title": "Group project written component",
-   "course": "Youth Justice",
-   "due": "2026-11-14",
-   "type": "graded",
-   "weight": "20 of 40 points",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Group-project-written-component-3c6063496baf8114892eecd00f185794"
-  },
   {
    "title": "Closed-Universe Office Memo",
    "course": "LRW",
@@ -1784,15 +1728,6 @@
    "weight": "",
    "overdue": false,
    "url": "https://app.notion.com/p/Closed-Universe-Office-Memo-3c6063496baf818a9547e24b5bfb8ee5"
-  },
-  {
-   "title": "Final Self-Reflection Journal + compiled peer feedback PDF",
-   "course": "Negotiations",
-   "due": "2026-11-20",
-   "type": "graded",
-   "weight": "15%",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Final-Self-Reflection-Journal-compiled-peer-feedback-PDF-3c6063496baf81b9b6d3db3994ec2868"
   },
   {
    "title": "Practice Exercise 5",
@@ -1811,13 +1746,40 @@
    "weight": "10 of 40 points",
    "overdue": false,
    "url": "https://app.notion.com/p/Group-project-individual-reflection-3c6063496baf810c8594f4d1672735fd"
+  },
+  {
+   "title": "Property final exam",
+   "course": "Property",
+   "due": "2026-12-05",
+   "type": "graded",
+   "weight": "85 points",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Property-final-exam-3c6063496baf81ff8540c0e6594cf80a"
+  },
+  {
+   "title": "Evidence final exam",
+   "course": "Evidence",
+   "due": "2026-12-07",
+   "type": "graded",
+   "weight": "",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Evidence-final-exam-3c6063496baf81aaad0bc2f8fd05da3a"
+  },
+  {
+   "title": "Final Self-Reflection Journal + compiled peer feedback PDF",
+   "course": "Negotiations",
+   "due": "",
+   "type": "graded",
+   "weight": "15%",
+   "overdue": false,
+   "url": "https://app.notion.com/p/Final-Self-Reflection-Journal-compiled-peer-feedback-PDF-3c6063496baf81b9b6d3db3994ec2868"
   }
  ],
  "counts": {
-  "open": 13,
-  "overdue": 1,
-  "dueSoon": 5,
-  "graded": 8,
+  "open": 11,
+  "overdue": 0,
+  "dueSoon": 2,
+  "graded": 6,
   "unmerged": 18,
   "courses": 5,
   "cases": 156,
@@ -1830,5 +1792,7 @@
   "Property",
   "Youth Justice"
  ],
- "errors": []
+ "errors": [
+  "weather: <urlopen error _ssl.c:994: The handshake operation timed out>"
+ ]
 }
