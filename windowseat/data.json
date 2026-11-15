@@ -1,51 +1,51 @@
 {
- "generated": "2026-11-15T06:59:39+00:00",
- "today": "2026-11-14",
+ "generated": "2026-11-15T14:33:42+00:00",
+ "today": "2026-11-15",
  "term": {
   "week": 13,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 18
+  "daysToFinals": 17
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-14",
-    "code": 3,
-    "high": 63.2,
-    "low": 51.3,
-    "rainMax": 20
-   },
-   {
     "date": "2026-11-15",
     "code": 61,
-    "high": 60.5,
-    "low": 49.8,
-    "rainMax": 92
+    "high": 60.7,
+    "low": 51.5,
+    "rainMax": 70
    },
    {
     "date": "2026-11-16",
-    "code": 61,
-    "high": 57.7,
-    "low": 47.4,
-    "rainMax": 71
+    "code": 55,
+    "high": 55.6,
+    "low": 46.3,
+    "rainMax": 67
    },
    {
     "date": "2026-11-17",
-    "code": 51,
-    "high": 59.7,
-    "low": 46.0,
-    "rainMax": 77
+    "code": 3,
+    "high": 58.9,
+    "low": 45.7,
+    "rainMax": 83
+   },
+   {
+    "date": "2026-11-18",
+    "code": 82,
+    "high": 57.0,
+    "low": 50.2,
+    "rainMax": 100
    }
   ],
   "code": 3,
-  "dayCode": 3,
-  "temp": 52.8,
-  "high": 63.2,
-  "low": 51.3,
-  "rainMax": 20,
-  "wetUntil": null
+  "dayCode": 61,
+  "temp": 52.0,
+  "high": 60.7,
+  "low": 51.5,
+  "rainMax": 70,
+  "wetUntil": "2026-11-15T23:00"
  },
  "player": {
   "level": 59,
@@ -291,9 +291,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-41-TBD-3c6063496baf81658407d8371797c411"
+  },
+  {
+   "title": "Evidence 27 — Personal Privileges: Spousal; Psychotherapist; Parent-Child; Self-Incrimination",
+   "course": "Evidence",
+   "date": "2026-11-23",
+   "session": 27,
+   "reading": "CB 653-657; 707-719; 721-730. Trammel v. U.S.; Jaffee v. Redmond. bCourses: Schmerber. No in limine argument.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-27-Personal-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-3c6063496baf81f4bd81fa83c14a502e"
   }
  ],
- "aheadUntil": "2026-11-22",
+ "aheadUntil": "2026-11-23",
  "backlog": {
   "Property": 7,
   "LRW": 4,
