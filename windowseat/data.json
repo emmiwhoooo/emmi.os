@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T03:05:57+00:00",
- "today": "2026-11-15",
+ "generated": "2026-11-16T11:03:25+00:00",
+ "today": "2026-11-16",
  "term": {
-  "week": 13,
+  "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 17
+  "daysToFinals": 16
  },
  "sky": null,
  "player": {
@@ -263,9 +263,19 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-27-Personal-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-3c6063496baf81f4bd81fa83c14a502e"
+  },
+  {
+   "title": "Evidence 28 — Outside Privilege Protections: Clergy; Executive; State Secrets; Juror Competence",
+   "course": "Evidence",
+   "date": "2026-11-24",
+   "session": 28,
+   "reading": "CB 505-511; 719-721; 737-741. bCourses: Morales; U.S. v. Zubaydah + PHR amici brief.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-28-Outside-Privilege-Protections-Clergy-Executive-State-Secrets-Juror-Competence-3c6063496baf81588b9ac7d9163d25ee"
   }
  ],
- "aheadUntil": "2026-11-23",
+ "aheadUntil": "2026-11-24",
  "backlog": {
   "Property": 7,
   "LRW": 4,
