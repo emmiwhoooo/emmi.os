@@ -1,14 +1,52 @@
 {
- "generated": "2026-11-17T03:23:47+00:00",
- "today": "2026-11-16",
+ "generated": "2026-11-17T12:10:34+00:00",
+ "today": "2026-11-17",
  "term": {
   "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 16
+  "daysToFinals": 15
  },
- "sky": null,
+ "sky": {
+  "days": [
+   {
+    "date": "2026-11-17",
+    "code": 3,
+    "high": 56.1,
+    "low": 42.5,
+    "rainMax": 3
+   },
+   {
+    "date": "2026-11-18",
+    "code": 63,
+    "high": 54.5,
+    "low": 50.6,
+    "rainMax": 100
+   },
+   {
+    "date": "2026-11-19",
+    "code": 81,
+    "high": 58.7,
+    "low": 50.0,
+    "rainMax": 97
+   },
+   {
+    "date": "2026-11-20",
+    "code": 0,
+    "high": 57.5,
+    "low": 45.3,
+    "rainMax": 6
+   }
+  ],
+  "code": 0,
+  "dayCode": 3,
+  "temp": 43.6,
+  "high": 56.1,
+  "low": 42.5,
+  "rainMax": 3,
+  "wetUntil": null
+ },
  "player": {
   "level": 59,
   "xp": 0,
@@ -92,33 +130,23 @@
   ]
  },
  "next": {
-  "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
-  "course": "Evidence",
-  "date": "2026-11-16",
-  "session": 25,
-  "reading": "CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules. Daubert v. Merrell Dow; GE v. Joiner and Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703. No in limine argument.",
-  "prepped": false,
+  "title": "LRW 27 — Research Class 7: Research Roundup",
+  "course": "LRW",
+  "date": "2026-11-17",
+  "session": 27,
+  "reading": "",
+  "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-25-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81d99d4cc2fb276e82b5"
+  "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
  },
  "upcoming": [
-  {
-   "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
-   "course": "Evidence",
-   "date": "2026-11-16",
-   "session": 25,
-   "reading": "CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules. Daubert v. Merrell Dow; GE v. Joiner and Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703. No in limine argument.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-25-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81d99d4cc2fb276e82b5"
-  },
   {
    "title": "LRW 27 — Research Class 7: Research Roundup",
    "course": "LRW",
    "date": "2026-11-17",
    "session": 27,
    "reading": "",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
   },
@@ -161,26 +189,26 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-40-Just-compensation-expropriation-without-taking-3c6063496baf8101ac03e16a8f54e3bc"
+  },
+  {
+   "title": "Negotiations 10 — Plurality; Workplace Privacy & AI — Role-play: Goliath Industries v. Union (LAST CLASS)",
+   "course": "Negotiations",
+   "date": "2026-11-19",
+   "session": 10,
+   "reading": "Role-play: Goliath Industries Mgmt v. Union. Guest: Marina Feehan (Senior Counsel, CPPA). Prep: BA Ch. 10-11; 3 readings (CCPA worker rights / biometric data FAQ / AI in the workplace); prep Goliath. FINAL SELF-REFLECTION JOURNAL + compiled peer feedback PDF due 8pm tonight. Final class (Thu Nov 19) per the 8/28 revised syllabus.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Negotiations-10-Plurality-Workplace-Privacy-AI-Role-play-Goliath-Industries-v-Union-LAST-C-3c6063496baf81fb97e1eaf44e37a0d1"
   }
  ],
  "ahead": [
-  {
-   "title": "Evidence 25 — Gatekeeping and Requirements for Experts",
-   "course": "Evidence",
-   "date": "2026-11-16",
-   "session": 25,
-   "reading": "CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules. Daubert v. Merrell Dow; GE v. Joiner and Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703. No in limine argument.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-25-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81d99d4cc2fb276e82b5"
-  },
   {
    "title": "LRW 27 — Research Class 7: Research Roundup",
    "course": "LRW",
    "date": "2026-11-17",
    "session": 27,
    "reading": "",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
   },
@@ -275,11 +303,11 @@
    "url": "https://app.notion.com/p/Evidence-28-Outside-Privilege-Protections-Clergy-Executive-State-Secrets-Juror-Competence-3c6063496baf81588b9ac7d9163d25ee"
   }
  ],
- "aheadUntil": "2026-11-24",
+ "aheadUntil": "2026-11-25",
  "backlog": {
   "Property": 7,
   "LRW": 4,
-  "Evidence": 6
+  "Evidence": 7
  },
  "walkHome": [
   {
@@ -1693,15 +1721,6 @@
  ],
  "weather": [
   {
-   "title": "Closed-Universe Office Memo",
-   "course": "LRW",
-   "due": "2026-11-16",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Closed-Universe-Office-Memo-3c6063496baf818a9547e24b5bfb8ee5"
-  },
-  {
    "title": "Negotiation feedback to counterpart — Goliath Industries v. Union (Neg 10, last class)",
    "course": "Negotiations",
    "due": "2026-11-21",
@@ -1785,15 +1804,6 @@
  ],
  "longHaul": [
   {
-   "title": "Closed-Universe Office Memo",
-   "course": "LRW",
-   "due": "2026-11-16",
-   "type": "graded",
-   "weight": "",
-   "overdue": false,
-   "url": "https://app.notion.com/p/Closed-Universe-Office-Memo-3c6063496baf818a9547e24b5bfb8ee5"
-  },
-  {
    "title": "Practice Exercise 5",
    "course": "Property",
    "due": "2026-11-30",
@@ -1840,11 +1850,11 @@
   }
  ],
  "counts": {
-  "open": 10,
+  "open": 9,
   "overdue": 0,
-  "dueSoon": 2,
-  "graded": 6,
-  "unmerged": 17,
+  "dueSoon": 1,
+  "graded": 5,
+  "unmerged": 18,
   "courses": 5,
   "cases": 156,
   "reserve": 94
@@ -1856,7 +1866,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "weather: <urlopen error _ssl.c:994: The handshake operation timed out>"
- ]
+ "errors": []
 }
