@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T20:50:10+00:00",
+ "generated": "2026-11-18T02:39:39+00:00",
  "today": "2026-11-17",
  "term": {
   "week": 14,
@@ -113,14 +113,14 @@
    "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
   },
   {
-   "title": "Evidence 26 — Attorney-Client Privilege; Waiver",
+   "title": "Evidence 26 — Completion of In Limine 10; Jicarilla; Abel & Tome; Judicial Notice",
    "course": "Evidence",
    "date": "2026-11-17",
    "session": 26,
-   "reading": "CB 657-707 (skip Benthem 665-666; Barton 667; Gann 670-671; Davis 688; Bernard 693-694). U.S. v. Jicarilla; Upjohn v. U.S.; U.S. v. Zolin. F.R.E. 502. C.E.C. 950-962. In limine arg 10.",
-   "prepped": false,
+   "reading": "CB 657-707 (skip Benthem 665-666; Barton 667; Gann 670-671; Davis 688; Bernard 693-694); CB 826-839 (judicial notice, moved from Class 19). U.S. v. Jicarilla; Upjohn v. U.S.; U.S. v. Zolin. F.R.E. 201, 501, 502. C.E.C. 950-962. Completion of In Limine 10; continuation of Abel and Tome.",
+   "prepped": true,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-26-Attorney-Client-Privilege-Waiver-3c6063496baf8118ae7af560daae6388"
+   "url": "https://app.notion.com/p/Evidence-26-Completion-of-In-Limine-10-Jicarilla-Abel-Tome-Judicial-Notice-3c6063496baf8118ae7af560daae6388"
   },
   {
    "title": "Property 39 — Regulatory takings continued",
@@ -175,14 +175,14 @@
    "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
   },
   {
-   "title": "Evidence 26 — Attorney-Client Privilege; Waiver",
+   "title": "Evidence 26 — Completion of In Limine 10; Jicarilla; Abel & Tome; Judicial Notice",
    "course": "Evidence",
    "date": "2026-11-17",
    "session": 26,
-   "reading": "CB 657-707 (skip Benthem 665-666; Barton 667; Gann 670-671; Davis 688; Bernard 693-694). U.S. v. Jicarilla; Upjohn v. U.S.; U.S. v. Zolin. F.R.E. 502. C.E.C. 950-962. In limine arg 10.",
-   "prepped": false,
+   "reading": "CB 657-707 (skip Benthem 665-666; Barton 667; Gann 670-671; Davis 688; Bernard 693-694); CB 826-839 (judicial notice, moved from Class 19). U.S. v. Jicarilla; Upjohn v. U.S.; U.S. v. Zolin. F.R.E. 201, 501, 502. C.E.C. 950-962. Completion of In Limine 10; continuation of Abel and Tome.",
+   "prepped": true,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-26-Attorney-Client-Privilege-Waiver-3c6063496baf8118ae7af560daae6388"
+   "url": "https://app.notion.com/p/Evidence-26-Completion-of-In-Limine-10-Jicarilla-Abel-Tome-Judicial-Notice-3c6063496baf8118ae7af560daae6388"
   },
   {
    "title": "Property 39 — Regulatory takings continued",
@@ -245,24 +245,24 @@
    "url": "https://app.notion.com/p/Property-41-TBD-3c6063496baf81658407d8371797c411"
   },
   {
-   "title": "Evidence 27 — Personal Privileges: Spousal; Psychotherapist; Parent-Child; Self-Incrimination",
+   "title": "Evidence 27 — Privileges: Spousal; Psychotherapist; Parent-Child; Self-Incrimination; Clergy",
    "course": "Evidence",
-   "date": "2026-11-23",
+   "date": "2026-11-20",
    "session": 27,
-   "reading": "CB 653-657; 707-719; 721-730. Trammel v. U.S.; Jaffee v. Redmond. bCourses: Schmerber. No in limine argument.",
+   "reading": "FRI Nov 20, CLASS BEGINS 2:30 (Labor Day makeup). CB 653-657; 707-737. Trammel v. U.S. (spousal); Jaffee v. Redmond (psychotherapist-patient); bCourses: Schmerber (self-incrimination). OPTIONAL if time (executive, state secrets, juror competence): bCourses: U.S. v. Zubaydah + PHR amici brief; Trump v. U.S.; CB 737-740; Pena-Rodriguez v. Colorado; CB 505-511; bCourses: Morales. On call: those originally on call for Nov 23 and Nov 24. No in limine argument.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-27-Personal-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-3c6063496baf81f4bd81fa83c14a502e"
+   "url": "https://app.notion.com/p/Evidence-27-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-Clergy-3c6063496baf81f4bd81fa83c14a502e"
   },
   {
-   "title": "Evidence 28 — Outside Privilege Protections: Clergy; Executive; State Secrets; Juror Competence",
+   "title": "Evidence 28 — Experts: Completion of In Limine 9; Gatekeeping and Requirements for Experts",
    "course": "Evidence",
-   "date": "2026-11-24",
+   "date": "2026-11-23",
    "session": 28,
-   "reading": "CB 505-511; 719-721; 737-741. bCourses: Morales; U.S. v. Zubaydah + PHR amici brief.",
+   "reading": "MON Nov 23 (Indigenous People's Day makeup); whole day is experts. Completion of In Limine 9. CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules; bCourses: Brown v. Crown. Daubert v. Merrell Dow Pharmaceuticals; GE v. Joiner (in class only); Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703, 705. On call: those originally on call for expert witnesses.",
    "prepped": false,
    "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-28-Outside-Privilege-Protections-Clergy-Executive-State-Secrets-Juror-Competence-3c6063496baf81588b9ac7d9163d25ee"
+   "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
   }
  ],
  "aheadUntil": "2026-11-25",
@@ -303,12 +303,6 @@
    "url": "https://app.notion.com/p/LRW-16-Research-Class-5-Secondary-Sources-3c6063496baf81ffa525d03316829a9b"
   },
   {
-   "title": "Evidence 19 — Best Evidence Rule; Authentication",
-   "course": "Evidence",
-   "date": "2026-10-26",
-   "url": "https://app.notion.com/p/Evidence-19-Best-Evidence-Rule-Authentication-3c6063496baf815c9d19e3a32368c1c1"
-  },
-  {
    "title": "Property 32 — Constitutional and statutory limitations on covenants",
    "course": "Property",
    "date": "2026-10-29",
@@ -331,9 +325,135 @@
    "course": "LRW",
    "date": "2026-11-03",
    "url": "https://app.notion.com/p/LRW-23-Citation-Practice-Bluebook-Blowout-3c6063496baf81dd9da7c310fed8d918"
+  },
+  {
+   "title": "Evidence 22 — Impeachment by Prior Inconsistent Statement; Bias",
+   "course": "Evidence",
+   "date": "2026-11-03",
+   "url": "https://app.notion.com/p/Evidence-22-Impeachment-by-Prior-Inconsistent-Statement-Bias-3c6063496baf8117a11ef6811c2562d2"
   }
  ],
  "shelf": [
+  {
+   "title": "United States v. Love",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Love-41b063496baf81279587f8e2353e7b81"
+  },
+  {
+   "title": "United States v. Bello",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Bello-41b063496baf81349476e283b37e126c"
+  },
+  {
+   "title": "Carley v. Wheeled Coach",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Carley-v-Wheeled-Coach-41b063496baf8193b4f8f66268f76447"
+  },
+  {
+   "title": "United States v. Lewis",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Lewis-41b063496baf8195b873d2a351074290"
+  },
+  {
+   "title": "Reed v. State",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Reed-v-State-41b063496baf81c9a87beb6a43506b50"
+  },
+  {
+   "title": "In re von Bulow",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/In-re-von-Bulow-41b063496baf811aa2d3e981f03bc1e4"
+  },
+  {
+   "title": "Hollins v. Powell",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Hollins-v-Powell-41b063496baf812691c7c795e007c374"
+  },
+  {
+   "title": "Tasby v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Tasby-v-United-States-41b063496baf814b87d2d533b9d3887f"
+  },
+  {
+   "title": "Upjohn Co. v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Upjohn-Co-v-United-States-41b063496baf814f86cae9bd30c8945a"
+  },
+  {
+   "title": "United States v. Ruehle",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Ruehle-41b063496baf814f903ff21633982ad8"
+  },
+  {
+   "title": "United States v. Zolin",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Zolin-41b063496baf8178a067e8b26f11c4ad"
+  },
+  {
+   "title": "Luv N' Care, Ltd. v. Williams Intellectual Property",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Luv-N-Care-Ltd-v-Williams-Intellectual-Property-41b063496baf819d82efee70a2d78cb3"
+  },
+  {
+   "title": "Wartell v. Purdue University",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Wartell-v-Purdue-University-41b063496baf819d884ff6de9d929935"
+  },
+  {
+   "title": "Hughes v. Meade",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Hughes-v-Meade-41b063496baf81aabacec4eb21947909"
+  },
+  {
+   "title": "Carmody v. Board of Trustees of the University of Illinois",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Carmody-v-Board-of-Trustees-of-the-University-of-Illinois-41b063496baf81fca2f2eb48a3cf2899"
+  },
+  {
+   "title": "United States v. Evans",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Evans-41b063496baf81529be5d9c6ae017dc2"
+  },
+  {
+   "title": "Smithkline Beecham Corp. v. Apotex Corp.",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Smithkline-Beecham-Corp-v-Apotex-Corp-41b063496baf8172866fd045e10d27d6"
+  },
+  {
+   "title": "Pasteris v. Robillard",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Pasteris-v-Robillard-41b063496baf817d96ecd2b399c453ba"
+  },
+  {
+   "title": "United States v. Lawless",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Lawless-41b063496baf8198b9b0d00cf234e0e5"
+  },
+  {
+   "title": "Swidler & Berlin v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Swidler-Berlin-v-United-States-41b063496baf819c894cf520d8f88f26"
+  },
+  {
+   "title": "United States v. Kovel",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Kovel-41b063496baf81a4a832edeb8aaee6e8"
+  },
+  {
+   "title": "United States v. McPartlin",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-McPartlin-41b063496baf81b5b984f9d3a7a7c430"
+  },
+  {
+   "title": "United States v. Kendrick",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/United-States-v-Kendrick-41b063496baf81c39f91d3e9d6cb8db7"
+  },
+  {
+   "title": "Tornay v. United States",
+   "course": "Evidence",
+   "url": "https://app.notion.com/p/Tornay-v-United-States-41b063496baf81dbb93cc77598d45dcb"
+  },
   {
    "title": "Kevin P. v. Superior Court",
    "course": "Youth Justice",
@@ -1117,6 +1237,30 @@
  ],
  "reserve": [
   {
+   "title": "handout · CLASS 26 IN LIMINE 10 HYPOTHETICAL FOR CLASS.pdf",
+   "course": "Evidence",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-CLASS-26-IN-LIMINE-10-HYPOTHETICAL-FOR-CLASS-pdf-41b063496baf8117bbf2d40ce6ce9194"
+  },
+  {
+   "title": "slides · CLASS 26 -- IN LIMINE 10 -- ATTORNEY CLIENT PRIVILEGE REVIEW RULES.pptx",
+   "course": "Evidence",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-CLASS-26-IN-LIMINE-10-ATTORNEY-CLIENT-PRIVILEGE-REVIEW-RULES-pptx-41b063496baf81dca225d3eb28a9e7b4"
+  },
+  {
+   "title": "highlights · evidence reading chp 12 c.pdf",
+   "course": "Evidence",
+   "kind": "highlights",
+   "link": "https://app.notion.com/p/highlights-evidence-reading-chp-12-c-pdf-41b063496baf81c7ad8cf511e95695d8"
+  },
+  {
+   "title": "highlights · evidence reading chp 10.pdf",
+   "course": "Evidence",
+   "kind": "highlights",
+   "link": "https://app.notion.com/p/highlights-evidence-reading-chp-10-pdf-41b063496baf818a84fbcb209b50eb6b"
+  },
+  {
    "title": "transcript · pasted transcript · 2026-11-13",
    "course": "Property",
    "kind": "transcript",
@@ -1692,6 +1836,15 @@
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Goliath-Industries-v-Union-Neg-10-last-class-3db063496baf81fda8c3cebd553eace9"
   },
   {
+   "title": "PCU RJA · expert transcript review",
+   "course": "CORE",
+   "due": "2026-11-22",
+   "type": "graded",
+   "weight": "pro bono hours",
+   "overdue": false,
+   "url": "https://app.notion.com/p/PCU-RJA-expert-transcript-review-41b063496baf810188c4e8cc9a11de31"
+  },
+  {
    "title": "Practice Exercise 5",
    "course": "Property",
    "due": "2026-11-30",
@@ -1766,6 +1919,15 @@
  ],
  "longHaul": [
   {
+   "title": "PCU RJA · expert transcript review",
+   "course": "CORE",
+   "due": "2026-11-22",
+   "type": "graded",
+   "weight": "pro bono hours",
+   "overdue": false,
+   "url": "https://app.notion.com/p/PCU-RJA-expert-transcript-review-41b063496baf810188c4e8cc9a11de31"
+  },
+  {
    "title": "Practice Exercise 5",
    "course": "Property",
    "due": "2026-11-30",
@@ -1812,16 +1974,17 @@
   }
  ],
  "counts": {
-  "open": 9,
+  "open": 10,
   "overdue": 0,
-  "dueSoon": 1,
-  "graded": 5,
+  "dueSoon": 2,
+  "graded": 6,
   "unmerged": 18,
-  "courses": 5,
-  "cases": 156,
-  "reserve": 94
+  "courses": 6,
+  "cases": 180,
+  "reserve": 98
  },
  "courses": [
+  "CORE",
   "Evidence",
   "LRW",
   "Negotiations",
