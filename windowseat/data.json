@@ -1,14 +1,52 @@
 {
- "generated": "2026-11-18T02:39:39+00:00",
- "today": "2026-11-17",
+ "generated": "2026-11-18T10:42:49+00:00",
+ "today": "2026-11-18",
  "term": {
   "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 15
+  "daysToFinals": 14
  },
- "sky": null,
+ "sky": {
+  "days": [
+   {
+    "date": "2026-11-18",
+    "code": 65,
+    "high": 55.5,
+    "low": 48.7,
+    "rainMax": 100
+   },
+   {
+    "date": "2026-11-19",
+    "code": 63,
+    "high": 55.6,
+    "low": 48.9,
+    "rainMax": 94
+   },
+   {
+    "date": "2026-11-20",
+    "code": 51,
+    "high": 57.7,
+    "low": 45.3,
+    "rainMax": 8
+   },
+   {
+    "date": "2026-11-21",
+    "code": 61,
+    "high": 57.3,
+    "low": 42.7,
+    "rainMax": 63
+   }
+  ],
+  "code": 3,
+  "dayCode": 65,
+  "temp": 50.8,
+  "high": 55.5,
+  "low": 48.7,
+  "rainMax": 100,
+  "wetUntil": "2026-11-18T23:00"
+ },
  "player": {
   "level": 59,
   "xp": 0,
@@ -92,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "LRW 27 — Research Class 7: Research Roundup",
-  "course": "LRW",
-  "date": "2026-11-17",
-  "session": 27,
-  "reading": "",
+  "title": "Property 39 — Regulatory takings continued",
+  "course": "Property",
+  "date": "2026-11-18",
+  "session": 39,
+  "reading": "No new reading listed.",
   "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
+  "url": "https://app.notion.com/p/Property-39-Regulatory-takings-continued-3c6063496baf815aaebbe01285f04b1e"
  },
  "upcoming": [
-  {
-   "title": "LRW 27 — Research Class 7: Research Roundup",
-   "course": "LRW",
-   "date": "2026-11-17",
-   "session": 27,
-   "reading": "",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
-  },
-  {
-   "title": "Evidence 26 — Completion of In Limine 10; Jicarilla; Abel & Tome; Judicial Notice",
-   "course": "Evidence",
-   "date": "2026-11-17",
-   "session": 26,
-   "reading": "CB 657-707 (skip Benthem 665-666; Barton 667; Gann 670-671; Davis 688; Bernard 693-694); CB 826-839 (judicial notice, moved from Class 19). U.S. v. Jicarilla; Upjohn v. U.S.; U.S. v. Zolin. F.R.E. 201, 501, 502. C.E.C. 950-962. Completion of In Limine 10; continuation of Abel and Tome.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-26-Completion-of-In-Limine-10-Jicarilla-Abel-Tome-Judicial-Notice-3c6063496baf8118ae7af560daae6388"
-  },
   {
    "title": "Property 39 — Regulatory takings continued",
    "course": "Property",
@@ -161,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Negotiations-10-Plurality-Workplace-Privacy-AI-Role-play-Goliath-Industries-v-Union-LAST-C-3c6063496baf81fb97e1eaf44e37a0d1"
+  },
+  {
+   "title": "LRW 28 — Last class",
+   "course": "LRW",
+   "date": "2026-11-20",
+   "session": 28,
+   "reading": "",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/LRW-28-Last-class-3c6063496baf81a4a014f3d580f88e80"
+  },
+  {
+   "title": "Property 41 — TBD",
+   "course": "Property",
+   "date": "2026-11-20",
+   "session": 41,
+   "reading": "TBD per updated syllabus (Workshop 5 moved to Mon 11/30).",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-41-TBD-3c6063496baf81658407d8371797c411"
   }
  ],
  "ahead": [
-  {
-   "title": "LRW 27 — Research Class 7: Research Roundup",
-   "course": "LRW",
-   "date": "2026-11-17",
-   "session": 27,
-   "reading": "",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/LRW-27-Research-Class-7-Research-Roundup-3c6063496baf81e19f7cdbed253a128c"
-  },
-  {
-   "title": "Evidence 26 — Completion of In Limine 10; Jicarilla; Abel & Tome; Judicial Notice",
-   "course": "Evidence",
-   "date": "2026-11-17",
-   "session": 26,
-   "reading": "CB 657-707 (skip Benthem 665-666; Barton 667; Gann 670-671; Davis 688; Bernard 693-694); CB 826-839 (judicial notice, moved from Class 19). U.S. v. Jicarilla; Upjohn v. U.S.; U.S. v. Zolin. F.R.E. 201, 501, 502. C.E.C. 950-962. Completion of In Limine 10; continuation of Abel and Tome.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-26-Completion-of-In-Limine-10-Jicarilla-Abel-Tome-Judicial-Notice-3c6063496baf8118ae7af560daae6388"
-  },
   {
    "title": "Property 39 — Regulatory takings continued",
    "course": "Property",
@@ -265,11 +283,11 @@
    "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
   }
  ],
- "aheadUntil": "2026-11-25",
+ "aheadUntil": "2026-11-26",
  "backlog": {
   "Property": 7,
-  "LRW": 4,
-  "Evidence": 7
+  "LRW": 5,
+  "Evidence": 8
  },
  "walkHome": [
   {
@@ -1978,7 +1996,7 @@
   "overdue": 0,
   "dueSoon": 2,
   "graded": 6,
-  "unmerged": 18,
+  "unmerged": 20,
   "courses": 6,
   "cases": 180,
   "reserve": 98
@@ -1991,7 +2009,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "weather: <urlopen error _ssl.c:994: The handshake operation timed out>"
- ]
+ "errors": []
 }
