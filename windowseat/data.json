@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T13:42:35+00:00",
+ "generated": "2026-11-20T21:31:59+00:00",
  "today": "2026-11-20",
  "term": {
   "week": 14,
@@ -12,40 +12,40 @@
   "days": [
    {
     "date": "2026-11-20",
-    "code": 71,
-    "high": 55.5,
-    "low": 43.2,
-    "rainMax": 51
+    "code": 61,
+    "high": 56.0,
+    "low": 42.7,
+    "rainMax": 53
    },
    {
     "date": "2026-11-21",
-    "code": 65,
-    "high": 56.6,
-    "low": 40.7,
-    "rainMax": 78
+    "code": 61,
+    "high": 56.4,
+    "low": 40.4,
+    "rainMax": 46
    },
    {
     "date": "2026-11-22",
     "code": 51,
     "high": 55.4,
-    "low": 48.4,
-    "rainMax": 44
+    "low": 45.4,
+    "rainMax": 50
    },
    {
     "date": "2026-11-23",
     "code": 3,
-    "high": 59.6,
-    "low": 45.0,
-    "rainMax": 8
+    "high": 60.0,
+    "low": 46.3,
+    "rainMax": 5
    }
   ],
-  "code": 51,
-  "dayCode": 71,
-  "temp": 47.7,
-  "high": 55.5,
-  "low": 43.2,
-  "rainMax": 51,
-  "wetUntil": "2026-11-20T08:00"
+  "code": 1,
+  "dayCode": 61,
+  "temp": 54.7,
+  "high": 56.0,
+  "low": 42.7,
+  "rainMax": 53,
+  "wetUntil": "2026-11-20T09:00"
  },
  "player": {
   "level": 59,
@@ -156,8 +156,8 @@
    "date": "2026-11-20",
    "session": 28,
    "reading": "",
-   "prepped": false,
-   "status": "not merged",
+   "prepped": true,
+   "status": "notes clean",
    "url": "https://app.notion.com/p/LRW-28-Last-class-3c6063496baf81a4a014f3d580f88e80"
   },
   {
@@ -176,7 +176,7 @@
    "date": "2026-11-20",
    "session": 27,
    "reading": "FRI Nov 20, CLASS BEGINS 2:30 (Labor Day makeup). CB 653-657; 707-737. Trammel v. U.S. (spousal); Jaffee v. Redmond (psychotherapist-patient); bCourses: Schmerber (self-incrimination). OPTIONAL if time (executive, state secrets, juror competence): bCourses: U.S. v. Zubaydah + PHR amici brief; Trump v. U.S.; CB 737-740; Pena-Rodriguez v. Colorado; CB 505-511; bCourses: Morales. On call: those originally on call for Nov 23 and Nov 24. No in limine argument.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-27-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-Clergy-3c6063496baf81f4bd81fa83c14a502e"
   },
@@ -218,8 +218,8 @@
    "date": "2026-11-20",
    "session": 28,
    "reading": "",
-   "prepped": false,
-   "status": "not merged",
+   "prepped": true,
+   "status": "notes clean",
    "url": "https://app.notion.com/p/LRW-28-Last-class-3c6063496baf81a4a014f3d580f88e80"
   },
   {
@@ -238,7 +238,7 @@
    "date": "2026-11-20",
    "session": 27,
    "reading": "FRI Nov 20, CLASS BEGINS 2:30 (Labor Day makeup). CB 653-657; 707-737. Trammel v. U.S. (spousal); Jaffee v. Redmond (psychotherapist-patient); bCourses: Schmerber (self-incrimination). OPTIONAL if time (executive, state secrets, juror competence): bCourses: U.S. v. Zubaydah + PHR amici brief; Trump v. U.S.; CB 737-740; Pena-Rodriguez v. Colorado; CB 505-511; bCourses: Morales. On call: those originally on call for Nov 23 and Nov 24. No in limine argument.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-27-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-Clergy-3c6063496baf81f4bd81fa83c14a502e"
   },
@@ -1226,6 +1226,48 @@
  ],
  "reserve": [
   {
+   "title": "highlights · chapter 10 evidence.pdf",
+   "course": "Evidence",
+   "kind": "highlights",
+   "link": "https://app.notion.com/p/highlights-chapter-10-evidence-pdf-41e063496baf8152a5cef9302bc64ad1"
+  },
+  {
+   "title": "handout · Schmerber v.pdf",
+   "course": "Evidence",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-Schmerber-v-pdf-41e063496baf8126bd41ebcb3b1ddba8"
+  },
+  {
+   "title": "handout · US v Abu Zabaydah PHR Amicus Brief 8.20.21-1.pdf",
+   "course": "Evidence",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-US-v-Abu-Zabaydah-PHR-Amicus-Brief-8-20-21-1-pdf-41e063496baf817ea07ac5f30ce23fa7"
+  },
+  {
+   "title": "handout · Zubaydah.docx",
+   "course": "Evidence",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-Zubaydah-docx-41e063496baf817494dcc1e135e3c5a4"
+  },
+  {
+   "title": "handout · Morales.docx",
+   "course": "Evidence",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-Morales-docx-41e063496baf810b89c8e96686c0a5f4"
+  },
+  {
+   "title": "transcript · pasted transcript · 2026-11-20",
+   "course": "LRW",
+   "kind": "transcript",
+   "link": "https://app.notion.com/p/transcript-pasted-transcript-2026-11-20-41e063496baf811683d7d8217a6a5502"
+  },
+  {
+   "title": "slides · LAST CLASS - LRW - slides.pdf",
+   "course": "LRW",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-LAST-CLASS-LRW-slides-pdf-41e063496baf8106b283dabca0eda035"
+  },
+  {
    "title": "handout · CLASS 26 IN LIMINE 10 HYPOTHETICAL FOR CLASS.pdf",
    "course": "Evidence",
    "kind": "handout",
@@ -1970,7 +2012,7 @@
   "unmerged": 23,
   "courses": 6,
   "cases": 180,
-  "reserve": 98
+  "reserve": 105
  },
  "courses": [
   "CORE",
