@@ -1,14 +1,52 @@
 {
- "generated": "2026-11-19T23:47:55+00:00",
- "today": "2026-11-19",
+ "generated": "2026-11-20T13:42:35+00:00",
+ "today": "2026-11-20",
  "term": {
   "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 13
+  "daysToFinals": 12
  },
- "sky": null,
+ "sky": {
+  "days": [
+   {
+    "date": "2026-11-20",
+    "code": 71,
+    "high": 55.5,
+    "low": 43.2,
+    "rainMax": 51
+   },
+   {
+    "date": "2026-11-21",
+    "code": 65,
+    "high": 56.6,
+    "low": 40.7,
+    "rainMax": 78
+   },
+   {
+    "date": "2026-11-22",
+    "code": 51,
+    "high": 55.4,
+    "low": 48.4,
+    "rainMax": 44
+   },
+   {
+    "date": "2026-11-23",
+    "code": 3,
+    "high": 59.6,
+    "low": 45.0,
+    "rainMax": 8
+   }
+  ],
+  "code": 51,
+  "dayCode": 71,
+  "temp": 47.7,
+  "high": 55.5,
+  "low": 43.2,
+  "rainMax": 51,
+  "wetUntil": "2026-11-20T08:00"
+ },
  "player": {
   "level": 59,
   "xp": 0,
@@ -92,36 +130,16 @@
   ]
  },
  "next": {
-  "title": "Youth Justice 14 — Student Group Presentations (LAST CLASS)",
-  "course": "Youth Justice",
-  "date": "2026-11-18",
-  "session": 14,
-  "reading": "Student Group Presentations (last class).",
-  "prepped": true,
+  "title": "Negotiations 10 — Plurality; Workplace Privacy & AI — Role-play: Goliath Industries v. Union (LAST CLASS)",
+  "course": "Negotiations",
+  "date": "2026-11-19",
+  "session": 10,
+  "reading": "Role-play: Goliath Industries Mgmt v. Union. Guest: Marina Feehan (Senior Counsel, CPPA). Prep: BA Ch. 10-11; 3 readings (CCPA worker rights / biometric data FAQ / AI in the workplace); prep Goliath. FINAL SELF-REFLECTION JOURNAL + compiled peer feedback PDF due 8pm tonight. Final class (Thu Nov 19) per the 8/28 revised syllabus.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Youth-Justice-14-Student-Group-Presentations-LAST-CLASS-3c6063496baf8154a397e70d286e190e"
+  "url": "https://app.notion.com/p/Negotiations-10-Plurality-Workplace-Privacy-AI-Role-play-Goliath-Industries-v-Union-LAST-C-3c6063496baf81fb97e1eaf44e37a0d1"
  },
  "upcoming": [
-  {
-   "title": "Youth Justice 14 — Student Group Presentations (LAST CLASS)",
-   "course": "Youth Justice",
-   "date": "2026-11-18",
-   "session": 14,
-   "reading": "Student Group Presentations (last class).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-14-Student-Group-Presentations-LAST-CLASS-3c6063496baf8154a397e70d286e190e"
-  },
-  {
-   "title": "Property 40 — Just compensation; expropriation without 'taking'",
-   "course": "Property",
-   "date": "2026-11-19",
-   "session": 40,
-   "reading": "Read 1146-58 (skip note 5); Burch article (bCourses).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-40-Just-compensation-expropriation-without-taking-3c6063496baf8101ac03e16a8f54e3bc"
-  },
   {
    "title": "Negotiations 10 — Plurality; Workplace Privacy & AI — Role-play: Goliath Industries v. Union (LAST CLASS)",
    "course": "Negotiations",
@@ -161,29 +179,29 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-27-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-Clergy-3c6063496baf81f4bd81fa83c14a502e"
+  },
+  {
+   "title": "Evidence 28 — Experts: Completion of In Limine 9; Gatekeeping and Requirements for Experts",
+   "course": "Evidence",
+   "date": "2026-11-23",
+   "session": 28,
+   "reading": "MON Nov 23 (Indigenous People's Day makeup); whole day is experts. Completion of In Limine 9. CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules; bCourses: Brown v. Crown. Daubert v. Merrell Dow Pharmaceuticals; GE v. Joiner (in class only); Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703, 705. On call: those originally on call for expert witnesses.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
+  },
+  {
+   "title": "Property 42 — SKILLS WORKSHOP 5 (zoning and takings) + review — PRACTICE EXERCISE 5 DUE (MAKEUP — Monday)",
+   "course": "Property",
+   "date": "2026-11-30",
+   "session": 42,
+   "reading": "Skills Workshop 5 (zoning and takings) + review. PRACTICE EXERCISE 5 DUE. Make-up class for Nov 11, Mon 11/30 11:20-12:30, Room 170.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-42-SKILLS-WORKSHOP-5-zoning-and-takings-review-PRACTICE-EXERCISE-5-DUE-MAKEUP-Mo-3c6063496baf8105837dc9c9a49733f7"
   }
  ],
  "ahead": [
-  {
-   "title": "Youth Justice 14 — Student Group Presentations (LAST CLASS)",
-   "course": "Youth Justice",
-   "date": "2026-11-18",
-   "session": 14,
-   "reading": "Student Group Presentations (last class).",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Youth-Justice-14-Student-Group-Presentations-LAST-CLASS-3c6063496baf8154a397e70d286e190e"
-  },
-  {
-   "title": "Property 40 — Just compensation; expropriation without 'taking'",
-   "course": "Property",
-   "date": "2026-11-19",
-   "session": 40,
-   "reading": "Read 1146-58 (skip note 5); Burch article (bCourses).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-40-Just-compensation-expropriation-without-taking-3c6063496baf8101ac03e16a8f54e3bc"
-  },
   {
    "title": "Negotiations 10 — Plurality; Workplace Privacy & AI — Role-play: Goliath Industries v. Union (LAST CLASS)",
    "course": "Negotiations",
@@ -235,11 +253,12 @@
    "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
   }
  ],
- "aheadUntil": "2026-11-27",
+ "aheadUntil": "2026-11-28",
  "backlog": {
-  "Property": 8,
+  "Property": 9,
   "LRW": 5,
-  "Evidence": 8
+  "Evidence": 8,
+  "Youth Justice": 1
  },
  "walkHome": [
   {
@@ -1948,7 +1967,7 @@
   "overdue": 0,
   "dueSoon": 2,
   "graded": 6,
-  "unmerged": 21,
+  "unmerged": 23,
   "courses": 6,
   "cases": 180,
   "reserve": 98
@@ -1961,7 +1980,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "weather: <urlopen error _ssl.c:994: The handshake operation timed out>"
- ]
+ "errors": []
 }
