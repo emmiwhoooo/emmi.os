@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T02:48:53+00:00",
- "today": "2026-11-20",
+ "generated": "2026-11-21T10:25:57+00:00",
+ "today": "2026-11-21",
  "term": {
   "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 12
+  "daysToFinals": 11
  },
  "sky": null,
  "player": {
@@ -92,63 +92,23 @@
   ]
  },
  "next": {
-  "title": "Negotiations 10 — Plurality; Workplace Privacy & AI — Role-play: Goliath Industries v. Union (LAST CLASS)",
-  "course": "Negotiations",
-  "date": "2026-11-19",
-  "session": 10,
-  "reading": "Role-play: Goliath Industries Mgmt v. Union. Guest: Marina Feehan (Senior Counsel, CPPA). Prep: BA Ch. 10-11; 3 readings (CCPA worker rights / biometric data FAQ / AI in the workplace); prep Goliath. FINAL SELF-REFLECTION JOURNAL + compiled peer feedback PDF due 8pm tonight. Final class (Thu Nov 19) per the 8/28 revised syllabus.",
-  "prepped": false,
+  "title": "Evidence 28 — Experts: Completion of In Limine 9; Gatekeeping and Requirements for Experts",
+  "course": "Evidence",
+  "date": "2026-11-23",
+  "session": 28,
+  "reading": "MON Nov 23 (Indigenous People's Day makeup); whole day is experts. Completion of In Limine 9. CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules; bCourses: Brown v. Crown. Daubert v. Merrell Dow Pharmaceuticals; GE v. Joiner (in class only); Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703, 705. On call: those originally on call for expert witnesses.",
+  "prepped": true,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Negotiations-10-Plurality-Workplace-Privacy-AI-Role-play-Goliath-Industries-v-Union-LAST-C-3c6063496baf81fb97e1eaf44e37a0d1"
+  "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
  },
  "upcoming": [
-  {
-   "title": "Negotiations 10 — Plurality; Workplace Privacy & AI — Role-play: Goliath Industries v. Union (LAST CLASS)",
-   "course": "Negotiations",
-   "date": "2026-11-19",
-   "session": 10,
-   "reading": "Role-play: Goliath Industries Mgmt v. Union. Guest: Marina Feehan (Senior Counsel, CPPA). Prep: BA Ch. 10-11; 3 readings (CCPA worker rights / biometric data FAQ / AI in the workplace); prep Goliath. FINAL SELF-REFLECTION JOURNAL + compiled peer feedback PDF due 8pm tonight. Final class (Thu Nov 19) per the 8/28 revised syllabus.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-10-Plurality-Workplace-Privacy-AI-Role-play-Goliath-Industries-v-Union-LAST-C-3c6063496baf81fb97e1eaf44e37a0d1"
-  },
-  {
-   "title": "LRW 28 — Last class",
-   "course": "LRW",
-   "date": "2026-11-20",
-   "session": 28,
-   "reading": "",
-   "prepped": true,
-   "status": "notes clean",
-   "url": "https://app.notion.com/p/LRW-28-Last-class-3c6063496baf81a4a014f3d580f88e80"
-  },
-  {
-   "title": "Property 41 — TBD",
-   "course": "Property",
-   "date": "2026-11-20",
-   "session": 41,
-   "reading": "TBD per updated syllabus (Workshop 5 moved to Mon 11/30).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-41-TBD-3c6063496baf81658407d8371797c411"
-  },
-  {
-   "title": "Evidence 27 — Privileges: Spousal; Psychotherapist; Parent-Child; Self-Incrimination; Clergy",
-   "course": "Evidence",
-   "date": "2026-11-20",
-   "session": 27,
-   "reading": "FRI Nov 20, CLASS BEGINS 2:30 (Labor Day makeup). CB 653-657; 707-737. Trammel v. U.S. (spousal); Jaffee v. Redmond (psychotherapist-patient); bCourses: Schmerber (self-incrimination). OPTIONAL if time (executive, state secrets, juror competence): bCourses: U.S. v. Zubaydah + PHR amici brief; Trump v. U.S.; CB 737-740; Pena-Rodriguez v. Colorado; CB 505-511; bCourses: Morales. On call: those originally on call for Nov 23 and Nov 24. No in limine argument.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-27-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-Clergy-3c6063496baf81f4bd81fa83c14a502e"
-  },
   {
    "title": "Evidence 28 — Experts: Completion of In Limine 9; Gatekeeping and Requirements for Experts",
    "course": "Evidence",
    "date": "2026-11-23",
    "session": 28,
    "reading": "MON Nov 23 (Indigenous People's Day makeup); whole day is experts. Completion of In Limine 9. CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules; bCourses: Brown v. Crown. Daubert v. Merrell Dow Pharmaceuticals; GE v. Joiner (in class only); Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703, 705. On call: those originally on call for expert witnesses.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
   },
@@ -161,66 +121,37 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-42-SKILLS-WORKSHOP-5-zoning-and-takings-review-PRACTICE-EXERCISE-5-DUE-MAKEUP-Mo-3c6063496baf8105837dc9c9a49733f7"
+  },
+  {
+   "title": "Property 43 — REVIEW SESSION",
+   "course": "Property",
+   "date": "2026-12-02",
+   "session": 43,
+   "reading": "Review session (Wed Dec 2, 11:20). Final exam Sat Dec 5, 8:30am — 4 hrs, in-class, closed book, 85 pts.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-43-REVIEW-SESSION-3c6063496baf811e9c6cd78d676dfb6a"
   }
  ],
  "ahead": [
-  {
-   "title": "Negotiations 10 — Plurality; Workplace Privacy & AI — Role-play: Goliath Industries v. Union (LAST CLASS)",
-   "course": "Negotiations",
-   "date": "2026-11-19",
-   "session": 10,
-   "reading": "Role-play: Goliath Industries Mgmt v. Union. Guest: Marina Feehan (Senior Counsel, CPPA). Prep: BA Ch. 10-11; 3 readings (CCPA worker rights / biometric data FAQ / AI in the workplace); prep Goliath. FINAL SELF-REFLECTION JOURNAL + compiled peer feedback PDF due 8pm tonight. Final class (Thu Nov 19) per the 8/28 revised syllabus.",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Negotiations-10-Plurality-Workplace-Privacy-AI-Role-play-Goliath-Industries-v-Union-LAST-C-3c6063496baf81fb97e1eaf44e37a0d1"
-  },
-  {
-   "title": "LRW 28 — Last class",
-   "course": "LRW",
-   "date": "2026-11-20",
-   "session": 28,
-   "reading": "",
-   "prepped": true,
-   "status": "notes clean",
-   "url": "https://app.notion.com/p/LRW-28-Last-class-3c6063496baf81a4a014f3d580f88e80"
-  },
-  {
-   "title": "Property 41 — TBD",
-   "course": "Property",
-   "date": "2026-11-20",
-   "session": 41,
-   "reading": "TBD per updated syllabus (Workshop 5 moved to Mon 11/30).",
-   "prepped": false,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Property-41-TBD-3c6063496baf81658407d8371797c411"
-  },
-  {
-   "title": "Evidence 27 — Privileges: Spousal; Psychotherapist; Parent-Child; Self-Incrimination; Clergy",
-   "course": "Evidence",
-   "date": "2026-11-20",
-   "session": 27,
-   "reading": "FRI Nov 20, CLASS BEGINS 2:30 (Labor Day makeup). CB 653-657; 707-737. Trammel v. U.S. (spousal); Jaffee v. Redmond (psychotherapist-patient); bCourses: Schmerber (self-incrimination). OPTIONAL if time (executive, state secrets, juror competence): bCourses: U.S. v. Zubaydah + PHR amici brief; Trump v. U.S.; CB 737-740; Pena-Rodriguez v. Colorado; CB 505-511; bCourses: Morales. On call: those originally on call for Nov 23 and Nov 24. No in limine argument.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-27-Privileges-Spousal-Psychotherapist-Parent-Child-Self-Incrimination-Clergy-3c6063496baf81f4bd81fa83c14a502e"
-  },
   {
    "title": "Evidence 28 — Experts: Completion of In Limine 9; Gatekeeping and Requirements for Experts",
    "course": "Evidence",
    "date": "2026-11-23",
    "session": 28,
    "reading": "MON Nov 23 (Indigenous People's Day makeup); whole day is experts. Completion of In Limine 9. CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules; bCourses: Brown v. Crown. Daubert v. Merrell Dow Pharmaceuticals; GE v. Joiner (in class only); Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703, 705. On call: those originally on call for expert witnesses.",
-   "prepped": false,
+   "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
   }
  ],
- "aheadUntil": "2026-11-28",
+ "aheadUntil": "2026-11-29",
  "backlog": {
-  "Property": 9,
+  "Property": 10,
   "LRW": 5,
-  "Evidence": 8,
-  "Youth Justice": 1
+  "Evidence": 9,
+  "Youth Justice": 1,
+  "Negotiations": 1
  },
  "walkHome": [
   {
@@ -1188,6 +1119,12 @@
  ],
  "reserve": [
   {
+   "title": "review sheet · zoning + takings · workshop 5",
+   "course": "Property",
+   "kind": "prep sheet",
+   "link": "https://app.notion.com/p/review-sheet-zoning-takings-workshop-5-41f063496baf81f5963af981e7f161e0"
+  },
+  {
    "title": "highlights · chapter 10 evidence.pdf",
    "course": "Evidence",
    "kind": "highlights",
@@ -1971,10 +1908,10 @@
   "overdue": 0,
   "dueSoon": 2,
   "graded": 6,
-  "unmerged": 23,
+  "unmerged": 26,
   "courses": 6,
   "cases": 180,
-  "reserve": 105
+  "reserve": 106
  },
  "courses": [
   "CORE",
