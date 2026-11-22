@@ -32,8 +32,9 @@
 </head>
 <body>
   <div class="bar">
-    <img src="icon.png" alt=""><b>Pelican Town</b><span class="sp"></span>
+    <img src="icon.png" alt=""><b>Pelican Town</b><small id="ver" style="opacity:.7;font-size:10px"></small><span class="sp"></span>
     <button class="t on" id="tog" title="show or hide Claude's own page around the tracker (Ctrl+Shift+C)">just the farm</button>
+    <button id="dg" title="copy a description of the page for Claude to debug with">?</button>
     <button id="rel" title="reload (Ctrl+R)">↻</button>
     <button id="min" title="minimize">–</button>
     <button id="max" title="maximize">▢</button>
@@ -75,6 +76,13 @@
   wv.addEventListener("did-fail-load", function (e) { if (e.isMainFrame && e.errorCode !== -3) { msg.textContent = "can't reach Claude · check your internet, then ↻"; veil.classList.remove("off"); } });
   function toggle() { hide = !hide; lift(); tog.classList.toggle("on", hide); tog.textContent = hide ? "just the farm" : "showing Claude"; push(); }
   tog.onclick = toggle;
+  document.getElementById("ver").textContent = "v" + cfg.version;
+  document.getElementById("dg").onclick = function () {
+    wv.executeJavaScript("window.__pelicanDiag ? window.__pelicanDiag() : 'no-diag'", false).then(function (t) {
+      var text = "PELICAN-DIAG v" + cfg.version + " " + wv.getURL().split("#")[0] + "\n" + t;
+      window.pelican.copy(text); say("copied · paste it into your chat with Claude (it has page layout only, none of your data)");
+    }, function (e) { window.pelican.copy("PELICAN-DIAG failed: " + e); say("couldn't read the page · copied the error instead"); });
+  };
   document.getElementById("rel").onclick = function () { found = false; wv.loadURL(cfg.url); };
   document.getElementById("min").onclick = function () { window.pelican.win("min"); };
   document.getElementById("max").onclick = function () { window.pelican.win("max"); };

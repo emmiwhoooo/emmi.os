@@ -1,7 +1,7 @@
 {
   "name": "pelican-town",
   "productName": "Pelican Town",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "valley.log in its own window",
   "main": "main.js",
   "author": "emmi",

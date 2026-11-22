@@ -2,7 +2,7 @@
 // A frameless window draws our own wooden title bar (shell.html); the tracker
 // itself is the claude.ai artifact, loaded in a <webview> that keeps its own
 // signed-in session. hide.js runs inside that page and lets only the tracker show.
-const { app, BrowserWindow, ipcMain, shell, session } = require("electron");
+const { app, BrowserWindow, ipcMain, shell, session, clipboard } = require("electron");
 const path = require("path");
 const fs = require("fs");
 
@@ -40,7 +40,8 @@ app.on("web-contents-created", (_e, wc) => {
   });
 });
 
-ipcMain.handle("cfg", () => ({ url: TRACKER, hide: fs.readFileSync(path.join(__dirname, "hide.js"), "utf8") }));
+ipcMain.on("copy", (_e, text) => clipboard.writeText(String(text).slice(0, 200000)));
+ipcMain.handle("cfg", () => ({ url: TRACKER, version: app.getVersion(), hide: fs.readFileSync(path.join(__dirname, "hide.js"), "utf8") }));
 ipcMain.on("win", (_e, what) => {
   if (!win) return;
   if (what === "min") win.minimize();
