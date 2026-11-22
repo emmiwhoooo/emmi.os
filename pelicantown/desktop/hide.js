@@ -5,17 +5,33 @@
 (function () {
   if (window.__pelican) { window.__pelican(window.__pelicanWant !== false); return; }
   var STYLE_ID = "pelican-hide", on = true, timer = null;
+  // Sign-in widgets and bot checks also live in frames; never mistake one for the tracker.
+  var NOT_IT = /google\.|gstatic|recaptcha|hcaptcha|cloudflare|turnstile|arkose|funcaptcha|stripe|appleid|intercom|sentry/i;
+  function signedOut() {
+    if (document.querySelector('input[type="email"],input[type="password"],input[autocomplete="one-time-code"],input[name="code"]')) return true;
+    var b = document.querySelectorAll("button,a"), n = 0;
+    for (var i = 0; i < b.length && i < 400; i++) { var t = (b[i].textContent || "").trim().toLowerCase();
+      if (/^(continue with (google|email|apple|sso)|log in|sign in|sign up)$/.test(t)) n++; }
+    return n > 0;
+  }
   function frame() {
-    var best = null, area = 0;
+    if (signedOut()) return null;
+    var pinned = document.querySelector("iframe[data-pelican]"); if (pinned) return pinned;
+    var best = null, area = 0, vw = window.innerWidth, vh = window.innerHeight;
     document.querySelectorAll("iframe").forEach(function (f) {
+      if (NOT_IT.test(f.src || "") || NOT_IT.test(f.title || "")) return;
       var r = f.getBoundingClientRect(), a = r.width * r.height;
-      if (f.dataset.pelican || a > area) { if (f.dataset.pelican) { best = f; area = Infinity; } else if (area !== Infinity) { best = f; area = a; } }
+      // the tracker's frame is the big one: most of the window, not a small widget
+      if (r.width < vw * 0.5 || r.height < vh * 0.4) return;
+      if (a > area) { best = f; area = a; }
     });
-    return area >= 200 * 200 || area === Infinity ? best : null;
+    return best;
   }
   function apply() {
     var f = frame(), st = document.getElementById(STYLE_ID);
-    if (!on || !f) { if (st) st.remove(); document.documentElement.removeAttribute("data-pelican"); return !!f; }
+    if (!on || !f) { if (st) st.remove(); document.documentElement.removeAttribute("data-pelican");
+      if (!f) document.querySelectorAll("iframe[data-pelican]").forEach(function (x) { delete x.dataset.pelican; });
+      return !!f; }
     f.dataset.pelican = "1";
     if (!st) {
       st = document.createElement("style"); st.id = STYLE_ID;

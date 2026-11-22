@@ -60,18 +60,22 @@
       var onArtifact = /\/artifact\//.test(wv.getURL());
       if (!onArtifact) { veil.classList.add("off"); say("sign in to Claude here once · then the farm opens by itself"); return; }
       if (ok) { found = true; veil.classList.add("off"); say(""); return; }
-      if (++tries < 20) setTimeout(settle, 500);
-      else { veil.classList.add("off"); say("couldn't find the tracker on this page · it's showing Claude's page as it is"); }
+      // never keep the cover up for long: a sign-in page has to be reachable
+      if (tries >= 4) { veil.classList.add("off"); say("if you see a sign-in page, sign in here once · the farm takes over by itself afterwards"); }
+      if (++tries < 2400) setTimeout(settle, tries < 20 ? 500 : 1500);
     });
   }
-  wv.addEventListener("did-start-loading", function () { if (!found) veil.classList.remove("off"); });
-  wv.addEventListener("dom-ready", function () { tries = 0; settle(); });
+  // the cover is for the very first moments only: it lifts after the first page arrives,
+  // or after 6 seconds no matter what, and never comes back on its own
+  function lift() { veil.classList.add("off"); }
+  setTimeout(lift, 6000);
+  wv.addEventListener("dom-ready", function () { tries = 0; setTimeout(lift, 1200); settle(); });
   wv.addEventListener("did-navigate", function (e) { found = false; if (!/\/artifact\//.test(e.url) && /claude\.ai\/(new|chat|recents|$)/.test(e.url)) wv.loadURL(cfg.url); });
   wv.addEventListener("did-navigate-in-page", function () { tries = 0; settle(); });
   wv.addEventListener("did-fail-load", function (e) { if (e.isMainFrame && e.errorCode !== -3) { msg.textContent = "can't reach Claude · check your internet, then ↻"; veil.classList.remove("off"); } });
-  function toggle() { hide = !hide; tog.classList.toggle("on", hide); tog.textContent = hide ? "just the farm" : "showing Claude"; push(); }
+  function toggle() { hide = !hide; lift(); tog.classList.toggle("on", hide); tog.textContent = hide ? "just the farm" : "showing Claude"; push(); }
   tog.onclick = toggle;
-  document.getElementById("rel").onclick = function () { found = false; msg.textContent = "opening the farm…"; wv.loadURL(cfg.url); };
+  document.getElementById("rel").onclick = function () { found = false; wv.loadURL(cfg.url); };
   document.getElementById("min").onclick = function () { window.pelican.win("min"); };
   document.getElementById("max").onclick = function () { window.pelican.win("max"); };
   document.getElementById("cls").onclick = function () { window.pelican.win("close"); };
