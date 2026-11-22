@@ -1,0 +1,59 @@
+name: build Pelican Town desktop
+
+# Builds the desktop window for valley.log (pelicantown/desktop) on GitHub's
+# Windows and Mac machines and attaches the programs to one release, so there
+# is always a single place to download the newest build.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'pelicantown/desktop/**'
+      - '.github/workflows/pelicantown-desktop.yml'
+
+permissions:
+  contents: write             # only what attaching files to the release needs
+
+concurrency:
+  group: pelicantown-desktop
+  cancel-in-progress: true
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: pelicantown/desktop
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-audit --no-fund
+      - run: npx electron-builder --publish never
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pelican-town-${{ matrix.os }}
+          path: |
+            pelicantown/desktop/dist/Pelican-Town.exe
+            pelicantown/desktop/dist/Pelican-Town-mac.zip
+          if-no-files-found: error
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: pelican-town-desktop
+          name: Pelican Town desktop
+          prerelease: true
+          target_commitish: ${{ github.sha }}
+          body: |
+            valley.log in its own window.
+            Windows: download Pelican-Town.exe and double-click it (no install).
+            Mac: download Pelican-Town-mac.zip, unzip, right-click the app and choose Open the first time.
+          files: |
+            pelicantown/desktop/dist/Pelican-Town.exe
+            pelicantown/desktop/dist/Pelican-Town-mac.zip

@@ -1,0 +1,26 @@
+{
+  "name": "pelican-town",
+  "productName": "Pelican Town",
+  "version": "1.0.0",
+  "description": "valley.log in its own window",
+  "main": "main.js",
+  "author": "emmi",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --publish never"
+  },
+  "devDependencies": {
+    "electron": "33.2.0",
+    "electron-builder": "25.1.8"
+  },
+  "build": {
+    "appId": "os.emmi.pelicantown",
+    "productName": "Pelican Town",
+    "files": ["main.js", "preload.js", "shell.html", "hide.js", "icon.png"],
+    "win": { "target": ["portable"], "icon": "build/icon.png" },
+    "portable": { "artifactName": "Pelican-Town.exe" },
+    "mac": { "target": ["zip"], "icon": "build/icon.png", "artifactName": "Pelican-Town-mac.zip", "identity": null }
+  }
+}

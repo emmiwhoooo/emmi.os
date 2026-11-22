@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; img-src 'self' data:">
+<title>Pelican Town</title>
+<style>
+  :root { --wood:#8a4f27; --wood-hi:#b87440; --wood-lo:#4a2814; --paper:#f6dea6; --leaf:#54803e; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: var(--wood-lo); color: var(--paper); font: 13px/1.3 ui-rounded, "Segoe UI", system-ui, sans-serif; }
+  body { display: flex; flex-direction: column; border: 3px solid var(--wood-lo); }
+  .bar { flex: none; height: 38px; display: flex; align-items: center; gap: 8px; padding: 0 6px 0 10px; -webkit-app-region: drag; user-select: none;
+    background: var(--wood) repeating-linear-gradient(to bottom, transparent 0 16px, #6e3c1e 16px 18px); border-bottom: 3px solid var(--wood-lo); box-shadow: inset 0 2px 0 var(--wood-hi); }
+  .bar img { width: 22px; height: 22px; image-rendering: pixelated; border: 2px solid var(--wood-lo); }
+  .bar b { letter-spacing: .16em; text-transform: uppercase; font-size: 12px; text-shadow: 0 2px 0 var(--wood-lo); }
+  .sp { flex: 1; }
+  .bar button { -webkit-app-region: no-drag; font: inherit; color: var(--paper); background: var(--wood-lo); border: 2px solid #2e180b; box-shadow: inset 1px 1px 0 var(--wood-hi); min-width: 30px; height: 24px; padding: 0 7px; cursor: pointer; }
+  .bar button:hover { background: #6e3c1e; }
+  .bar button.close:hover { background: #a8403a; }
+  .bar button.t { font-size: 11px; letter-spacing: .04em; }
+  .bar button.on { background: var(--leaf); }
+  .stage { flex: 1; position: relative; background: #2b3440; }
+  webview { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .veil { position: absolute; inset: 0; display: grid; place-items: center; background: var(--wood) repeating-linear-gradient(to bottom, transparent 0 46px, #6e3c1e 46px 50px); transition: opacity .25s; }
+  .veil.off { opacity: 0; pointer-events: none; }
+  .card { background: var(--paper); color: var(--wood-lo); border: 4px solid var(--wood-lo); box-shadow: inset 0 0 0 4px var(--wood-hi), 0 6px 0 rgba(0,0,0,.25); padding: 22px 26px; text-align: center; max-width: 300px; }
+  .card img { width: 72px; height: 72px; image-rendering: pixelated; border: 3px solid var(--wood-lo); }
+  .card p { margin: 10px 0 0; }
+  .hint { flex: none; padding: 5px 10px; background: var(--paper); color: var(--wood-lo); border-top: 3px solid var(--wood-lo); font-size: 12px; }
+  .hint[hidden] { display: none; }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <img src="icon.png" alt=""><b>Pelican Town</b><span class="sp"></span>
+    <button class="t on" id="tog" title="show or hide Claude's own page around the tracker (Ctrl+Shift+C)">just the farm</button>
+    <button id="rel" title="reload (Ctrl+R)">↻</button>
+    <button id="min" title="minimize">–</button>
+    <button id="max" title="maximize">▢</button>
+    <button id="cls" class="close" title="close">✕</button>
+  </div>
+  <div class="stage">
+    <webview id="wv" partition="persist:pelican" allowpopups></webview>
+    <div class="veil" id="veil"><div class="card"><img src="icon.png" alt=""><p id="msg">opening the farm…</p></div></div>
+  </div>
+  <div class="hint" id="hint" hidden></div>
+<script>
+(async function () {
+  var cfg = await window.pelican.cfg(), wv = document.getElementById("wv"), veil = document.getElementById("veil"),
+      tog = document.getElementById("tog"), hint = document.getElementById("hint"), msg = document.getElementById("msg");
+  var hide = true, found = false, tries = 0;
+  function say(t) { hint.textContent = t || ""; hint.hidden = !t; }
+  function push() {
+    // sign-in and other non-artifact pages are always shown as they are
+    var onArtifact = /\/artifact\//.test(wv.getURL());
+    return wv.executeJavaScript("window.__pelicanWant=" + (hide && onArtifact) + ";" + cfg.hide + ";window.__pelican(" + (hide && onArtifact) + ")", false).catch(function () { return false; });
+  }
+  function settle() {
+    push().then(function (ok) {
+      var onArtifact = /\/artifact\//.test(wv.getURL());
+      if (!onArtifact) { veil.classList.add("off"); say("sign in to Claude here once · then the farm opens by itself"); return; }
+      if (ok) { found = true; veil.classList.add("off"); say(""); return; }
+      if (++tries < 20) setTimeout(settle, 500);
+      else { veil.classList.add("off"); say("couldn't find the tracker on this page · it's showing Claude's page as it is"); }
+    });
+  }
+  wv.addEventListener("did-start-loading", function () { if (!found) veil.classList.remove("off"); });
+  wv.addEventListener("dom-ready", function () { tries = 0; settle(); });
+  wv.addEventListener("did-navigate", function (e) { found = false; if (!/\/artifact\//.test(e.url) && /claude\.ai\/(new|chat|recents|$)/.test(e.url)) wv.loadURL(cfg.url); });
+  wv.addEventListener("did-navigate-in-page", function () { tries = 0; settle(); });
+  wv.addEventListener("did-fail-load", function (e) { if (e.isMainFrame && e.errorCode !== -3) { msg.textContent = "can't reach Claude · check your internet, then ↻"; veil.classList.remove("off"); } });
+  function toggle() { hide = !hide; tog.classList.toggle("on", hide); tog.textContent = hide ? "just the farm" : "showing Claude"; push(); }
+  tog.onclick = toggle;
+  document.getElementById("rel").onclick = function () { found = false; msg.textContent = "opening the farm…"; wv.loadURL(cfg.url); };
+  document.getElementById("min").onclick = function () { window.pelican.win("min"); };
+  document.getElementById("max").onclick = function () { window.pelican.win("max"); };
+  document.getElementById("cls").onclick = function () { window.pelican.win("close"); };
+  window.addEventListener("keydown", function (e) { if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "c") toggle(); if (e.ctrlKey && e.key.toLowerCase() === "r") document.getElementById("rel").click(); });
+  wv.src = cfg.url;
+})();
+</script>
+</body>
+</html>
