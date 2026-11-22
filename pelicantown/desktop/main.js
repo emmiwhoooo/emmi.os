@@ -41,7 +41,7 @@ app.on("web-contents-created", (_e, wc) => {
 });
 
 ipcMain.on("copy", (_e, text) => clipboard.writeText(String(text).slice(0, 200000)));
-ipcMain.handle("cfg", () => ({ url: TRACKER, version: app.getVersion(), hide: fs.readFileSync(path.join(__dirname, "hide.js"), "utf8") }));
+ipcMain.handle("cfg", () => ({ url: TRACKER, version: app.getVersion(), css: fs.readFileSync(path.join(__dirname, "hide.css"), "utf8"), hide: fs.readFileSync(path.join(__dirname, "hide.js"), "utf8") }));
 ipcMain.on("win", (_e, what) => {
   if (!win) return;
   if (what === "min") win.minimize();

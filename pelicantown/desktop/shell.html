@@ -12,7 +12,10 @@
   .bar { flex: none; height: 38px; display: flex; align-items: center; gap: 8px; padding: 0 6px 0 10px; -webkit-app-region: drag; user-select: none;
     background: var(--wood) repeating-linear-gradient(to bottom, transparent 0 16px, #6e3c1e 16px 18px); border-bottom: 3px solid var(--wood-lo); box-shadow: inset 0 2px 0 var(--wood-hi); }
   .bar img { width: 22px; height: 22px; image-rendering: pixelated; border: 2px solid var(--wood-lo); }
-  .bar b { letter-spacing: .16em; text-transform: uppercase; font-size: 12px; text-shadow: 0 2px 0 var(--wood-lo); }
+  .bar b { letter-spacing: .12em; text-transform: uppercase; font-size: 12px; text-shadow: 0 2px 0 var(--wood-lo); white-space: nowrap; }
+  .bar button { white-space: nowrap; flex: none; }
+  #ver { white-space: nowrap; }
+  @media (max-width: 440px) { #ver { display: none; } }
   .sp { flex: 1; }
   .bar button { -webkit-app-region: no-drag; font: inherit; color: var(--paper); background: var(--wood-lo); border: 2px solid #2e180b; box-shadow: inset 1px 1px 0 var(--wood-hi); min-width: 30px; height: 24px; padding: 0 7px; cursor: pointer; }
   .bar button:hover { background: #6e3c1e; }
@@ -33,7 +36,7 @@
 <body>
   <div class="bar">
     <img src="icon.png" alt=""><b>Pelican Town</b><small id="ver" style="opacity:.7;font-size:10px"></small><span class="sp"></span>
-    <button class="t on" id="tog" title="show or hide Claude's own page around the tracker (Ctrl+Shift+C)">just the farm</button>
+    <button class="t on" id="tog" title="show or hide Claude's own page around the tracker (Ctrl+Shift+C)">farm only</button>
     <button id="dg" title="copy a description of the page for Claude to debug with">?</button>
     <button id="rel" title="reload (Ctrl+R)">↻</button>
     <button id="min" title="minimize">–</button>
@@ -70,11 +73,11 @@
   // or after 6 seconds no matter what, and never comes back on its own
   function lift() { veil.classList.add("off"); }
   setTimeout(lift, 6000);
-  wv.addEventListener("dom-ready", function () { tries = 0; setTimeout(lift, 1200); settle(); });
+  wv.addEventListener("dom-ready", function () { wv.insertCSS(cfg.css).catch(function () {}); tries = 0; setTimeout(lift, 1200); settle(); });
   wv.addEventListener("did-navigate", function (e) { found = false; if (!/\/artifact\//.test(e.url) && /claude\.ai\/(new|chat|recents|$)/.test(e.url)) wv.loadURL(cfg.url); });
   wv.addEventListener("did-navigate-in-page", function () { tries = 0; settle(); });
   wv.addEventListener("did-fail-load", function (e) { if (e.isMainFrame && e.errorCode !== -3) { msg.textContent = "can't reach Claude · check your internet, then ↻"; veil.classList.remove("off"); } });
-  function toggle() { hide = !hide; lift(); tog.classList.toggle("on", hide); tog.textContent = hide ? "just the farm" : "showing Claude"; push(); }
+  function toggle() { hide = !hide; lift(); tog.classList.toggle("on", hide); tog.textContent = hide ? "farm only" : "show Claude"; push(); }
   tog.onclick = toggle;
   document.getElementById("ver").textContent = "v" + cfg.version;
   document.getElementById("dg").onclick = function () {
