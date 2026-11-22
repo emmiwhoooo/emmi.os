@@ -1,51 +1,51 @@
 {
- "generated": "2026-11-22T02:25:10+00:00",
- "today": "2026-11-21",
+ "generated": "2026-11-22T09:58:46+00:00",
+ "today": "2026-11-22",
  "term": {
   "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 11
+  "daysToFinals": 10
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-21",
-    "code": 61,
-    "high": 54.8,
-    "low": 39.6,
-    "rainMax": 51
-   },
-   {
     "date": "2026-11-22",
-    "code": 51,
-    "high": 54.3,
-    "low": 42.6,
-    "rainMax": 8
+    "code": 3,
+    "high": 54.8,
+    "low": 42.8,
+    "rainMax": 5
    },
    {
     "date": "2026-11-23",
     "code": 3,
-    "high": 58.5,
-    "low": 41.3,
+    "high": 56.4,
+    "low": 41.0,
     "rainMax": 1
    },
    {
     "date": "2026-11-24",
-    "code": 51,
-    "high": 59.6,
-    "low": 46.4,
-    "rainMax": 83
+    "code": 55,
+    "high": 59.3,
+    "low": 47.1,
+    "rainMax": 91
+   },
+   {
+    "date": "2026-11-25",
+    "code": 53,
+    "high": 64.7,
+    "low": 50.3,
+    "rainMax": 91
    }
   ],
-  "code": 3,
-  "dayCode": 61,
-  "temp": 51.6,
+  "code": 2,
+  "dayCode": 3,
+  "temp": 48.9,
   "high": 54.8,
-  "low": 39.6,
-  "rainMax": 51,
-  "wetUntil": "2026-11-21T21:00"
+  "low": 42.8,
+  "rainMax": 5,
+  "wetUntil": null
  },
  "player": {
   "level": 59,
@@ -181,9 +181,19 @@
    "prepped": true,
    "status": "not merged",
    "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
+  },
+  {
+   "title": "Property 42 — SKILLS WORKSHOP 5 (zoning and takings) + review — PRACTICE EXERCISE 5 DUE (MAKEUP — Monday)",
+   "course": "Property",
+   "date": "2026-11-30",
+   "session": 42,
+   "reading": "Skills Workshop 5 (zoning and takings) + review. PRACTICE EXERCISE 5 DUE. Make-up class for Nov 11, Mon 11/30 11:20-12:30, Room 170.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-42-SKILLS-WORKSHOP-5-zoning-and-takings-review-PRACTICE-EXERCISE-5-DUE-MAKEUP-Mo-3c6063496baf8105837dc9c9a49733f7"
   }
  ],
- "aheadUntil": "2026-11-29",
+ "aheadUntil": "2026-11-30",
  "backlog": {
   "Property": 10,
   "LRW": 5,
@@ -1800,7 +1810,7 @@
    "due": "2026-11-21",
    "type": "ungraded",
    "weight": "",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/Negotiation-feedback-to-counterpart-Goliath-Industries-v-Union-Neg-10-last-class-3db063496baf81fda8c3cebd553eace9"
   },
   {
@@ -1943,7 +1953,7 @@
  ],
  "counts": {
   "open": 10,
-  "overdue": 0,
+  "overdue": 1,
   "dueSoon": 2,
   "graded": 6,
   "unmerged": 26,
