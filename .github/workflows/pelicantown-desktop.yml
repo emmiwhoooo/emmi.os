@@ -41,7 +41,7 @@ jobs:
         with:
           name: pelican-town-${{ matrix.os }}
           path: |
-            pelicantown/desktop/dist/Pelican-Town.exe
+            pelicantown/desktop/dist/Pelican-Town-Setup.exe
             pelicantown/desktop/dist/Pelican-Town-mac.zip
           if-no-files-found: error
       - uses: softprops/action-gh-release@v2
@@ -52,8 +52,8 @@ jobs:
           target_commitish: ${{ github.sha }}
           body: |
             valley.log in its own window.
-            Windows: download Pelican-Town.exe and double-click it (no install).
+            Windows: download Pelican-Town-Setup.exe and double-click it. It installs in a few seconds and puts a Pelican Town icon on the desktop and in the Start menu.
             Mac: download Pelican-Town-mac.zip, unzip, right-click the app and choose Open the first time.
           files: |
-            pelicantown/desktop/dist/Pelican-Town.exe
+            pelicantown/desktop/dist/Pelican-Town-Setup.exe
             pelicantown/desktop/dist/Pelican-Town-mac.zip

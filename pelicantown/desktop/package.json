@@ -1,7 +1,7 @@
 {
   "name": "pelican-town",
   "productName": "Pelican Town",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "valley.log in its own window",
   "main": "main.js",
   "author": "emmi",
@@ -18,9 +18,35 @@
   "build": {
     "appId": "os.emmi.pelicantown",
     "productName": "Pelican Town",
-    "files": ["main.js", "preload.js", "shell.html", "hide.js", "icon.png"],
-    "win": { "target": ["portable"], "icon": "build/icon.png" },
-    "portable": { "artifactName": "Pelican-Town.exe" },
-    "mac": { "target": ["zip"], "icon": "build/icon.png", "artifactName": "Pelican-Town-mac.zip", "identity": null }
+    "files": [
+      "main.js",
+      "preload.js",
+      "shell.html",
+      "hide.js",
+      "icon.png"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "build/icon.png"
+    },
+    "mac": {
+      "target": [
+        "zip"
+      ],
+      "icon": "build/icon.png",
+      "artifactName": "Pelican-Town-mac.zip",
+      "identity": null
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "Pelican Town",
+      "artifactName": "Pelican-Town-Setup.exe",
+      "runAfterFinish": true
+    }
   }
 }
