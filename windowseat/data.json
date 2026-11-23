@@ -1,50 +1,50 @@
 {
- "generated": "2026-11-23T03:21:26+00:00",
- "today": "2026-11-22",
+ "generated": "2026-11-23T13:21:29+00:00",
+ "today": "2026-11-23",
  "term": {
   "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 10
+  "daysToFinals": 9
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-22",
-    "code": 3,
-    "high": 54.4,
-    "low": 44.4,
-    "rainMax": 4
-   },
-   {
     "date": "2026-11-23",
     "code": 3,
-    "high": 56.4,
-    "low": 40.6,
-    "rainMax": 2
+    "high": 56.1,
+    "low": 40.1,
+    "rainMax": 1
    },
    {
     "date": "2026-11-24",
-    "code": 63,
-    "high": 59.4,
-    "low": 44.0,
-    "rainMax": 91
+    "code": 61,
+    "high": 59.5,
+    "low": 43.7,
+    "rainMax": 84
    },
    {
     "date": "2026-11-25",
-    "code": 61,
-    "high": 61.9,
-    "low": 50.9,
-    "rainMax": 91
+    "code": 51,
+    "high": 64.1,
+    "low": 51.4,
+    "rainMax": 80
+   },
+   {
+    "date": "2026-11-26",
+    "code": 3,
+    "high": 64.8,
+    "low": 50.2,
+    "rainMax": 1
    }
   ],
   "code": 0,
   "dayCode": 3,
-  "temp": 47.8,
-  "high": 54.4,
-  "low": 44.4,
-  "rainMax": 4,
+  "temp": 40.5,
+  "high": 56.1,
+  "low": 40.1,
+  "rainMax": 1,
   "wetUntil": null
  },
  "player": {
@@ -193,7 +193,7 @@
    "url": "https://app.notion.com/p/Property-42-SKILLS-WORKSHOP-5-zoning-and-takings-review-PRACTICE-EXERCISE-5-DUE-MAKEUP-Mo-3c6063496baf8105837dc9c9a49733f7"
   }
  ],
- "aheadUntil": "2026-11-30",
+ "aheadUntil": "2026-12-01",
  "backlog": {
   "Property": 10,
   "LRW": 5,
@@ -1810,7 +1810,7 @@
    "due": "2026-11-22",
    "type": "graded",
    "weight": "pro bono hours",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/PCU-RJA-expert-transcript-review-41b063496baf810188c4e8cc9a11de31"
   },
   {
@@ -1893,7 +1893,7 @@
    "due": "2026-11-22",
    "type": "graded",
    "weight": "pro bono hours",
-   "overdue": false,
+   "overdue": true,
    "url": "https://app.notion.com/p/PCU-RJA-expert-transcript-review-41b063496baf810188c4e8cc9a11de31"
   },
   {
@@ -1944,8 +1944,8 @@
  ],
  "counts": {
   "open": 9,
-  "overdue": 0,
-  "dueSoon": 1,
+  "overdue": 1,
+  "dueSoon": 3,
   "graded": 6,
   "unmerged": 26,
   "courses": 6,
