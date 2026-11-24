@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T13:21:29+00:00",
+ "generated": "2026-11-24T01:03:40+00:00",
  "today": "2026-11-23",
  "term": {
   "week": 14,
@@ -8,45 +8,7 @@
   "end": "2026-12-02",
   "daysToFinals": 9
  },
- "sky": {
-  "days": [
-   {
-    "date": "2026-11-23",
-    "code": 3,
-    "high": 56.1,
-    "low": 40.1,
-    "rainMax": 1
-   },
-   {
-    "date": "2026-11-24",
-    "code": 61,
-    "high": 59.5,
-    "low": 43.7,
-    "rainMax": 84
-   },
-   {
-    "date": "2026-11-25",
-    "code": 51,
-    "high": 64.1,
-    "low": 51.4,
-    "rainMax": 80
-   },
-   {
-    "date": "2026-11-26",
-    "code": 3,
-    "high": 64.8,
-    "low": 50.2,
-    "rainMax": 1
-   }
-  ],
-  "code": 0,
-  "dayCode": 3,
-  "temp": 40.5,
-  "high": 56.1,
-  "low": 40.1,
-  "rainMax": 1,
-  "wetUntil": null
- },
+ "sky": null,
  "player": {
   "level": 59,
   "xp": 0,
@@ -1167,6 +1129,54 @@
  ],
  "reserve": [
   {
+   "title": "handout · BROWN v CROWN.docx",
+   "course": "Evidence",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-BROWN-v-CROWN-docx-421063496baf81c5b3ede5816dbb448f"
+  },
+  {
+   "title": "slides · Class 24 - IN LIMIINE 9 -- Lay Opinions and Expert Testimony Rules.pptx",
+   "course": "Evidence",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-Class-24-IN-LIMIINE-9-Lay-Opinions-and-Expert-Testimony-Rules-pptx-421063496baf81a88f44c7be87a27090"
+  },
+  {
+   "title": "slides · PROBLEMS FOR CLASS 24 Lay Opinion  and Expert Testimony.pdf",
+   "course": "Evidence",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-PROBLEMS-FOR-CLASS-24-Lay-Opinion-and-Expert-Testimony-pdf-421063496baf8116a6c7cb1b9de3bedf"
+  },
+  {
+   "title": "class brief · kumho-tire-co-v-carmichael.pdf",
+   "course": "Evidence",
+   "kind": "class brief",
+   "link": "https://app.notion.com/p/class-brief-kumho-tire-co-v-carmichael-pdf-421063496baf81538a59daede46912e8"
+  },
+  {
+   "title": "class brief · general-electric-co-v-joiner.pdf",
+   "course": "Evidence",
+   "kind": "class brief",
+   "link": "https://app.notion.com/p/class-brief-general-electric-co-v-joiner-pdf-421063496baf816692c1fdc0ccfbe6c3"
+  },
+  {
+   "title": "handout · USC-RULES-EV-2021-0005-0532_attachment_1-3.pdf",
+   "course": "Evidence",
+   "kind": "handout",
+   "link": "https://app.notion.com/p/handout-USC-RULES-EV-2021-0005-0532_attachment_1-3-pdf-421063496baf81b8a4aaeebee203920f"
+  },
+  {
+   "title": "slides · Class 24 - IN LIMIINE 9 -- Lay Opinions and Expert Testimony FOR CLASS.pptx",
+   "course": "Evidence",
+   "kind": "slides",
+   "link": "https://app.notion.com/p/slides-Class-24-IN-LIMIINE-9-Lay-Opinions-and-Expert-Testimony-FOR-CLASS-pptx-421063496baf8171b0fafad1392680de"
+  },
+  {
+   "title": "class brief · daubert-v-merrell-dow-pharmaceuticals-inc.pdf",
+   "course": "Evidence",
+   "kind": "class brief",
+   "link": "https://app.notion.com/p/class-brief-daubert-v-merrell-dow-pharmaceuticals-inc-pdf-421063496baf81dfab35c9050b7f8d8b"
+  },
+  {
    "title": "review sheet · zoning + takings · workshop 5",
    "course": "Property",
    "kind": "prep sheet",
@@ -1805,15 +1815,6 @@
  ],
  "weather": [
   {
-   "title": "PCU RJA · expert transcript review",
-   "course": "CORE",
-   "due": "2026-11-22",
-   "type": "graded",
-   "weight": "pro bono hours",
-   "overdue": true,
-   "url": "https://app.notion.com/p/PCU-RJA-expert-transcript-review-41b063496baf810188c4e8cc9a11de31"
-  },
-  {
    "title": "Practice Exercise 5",
    "course": "Property",
    "due": "2026-11-30",
@@ -1888,15 +1889,6 @@
  ],
  "longHaul": [
   {
-   "title": "PCU RJA · expert transcript review",
-   "course": "CORE",
-   "due": "2026-11-22",
-   "type": "graded",
-   "weight": "pro bono hours",
-   "overdue": true,
-   "url": "https://app.notion.com/p/PCU-RJA-expert-transcript-review-41b063496baf810188c4e8cc9a11de31"
-  },
-  {
    "title": "Practice Exercise 5",
    "course": "Property",
    "due": "2026-11-30",
@@ -1943,14 +1935,14 @@
   }
  ],
  "counts": {
-  "open": 9,
-  "overdue": 1,
-  "dueSoon": 3,
-  "graded": 6,
+  "open": 8,
+  "overdue": 0,
+  "dueSoon": 2,
+  "graded": 5,
   "unmerged": 26,
   "courses": 6,
   "cases": 180,
-  "reserve": 106
+  "reserve": 114
  },
  "courses": [
   "CORE",
@@ -1960,5 +1952,7 @@
   "Property",
   "Youth Justice"
  ],
- "errors": []
+ "errors": [
+  "weather: <urlopen error _ssl.c:994: The handshake operation timed out>"
+ ]
 }
