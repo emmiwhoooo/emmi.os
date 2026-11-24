@@ -1,14 +1,52 @@
 {
- "generated": "2026-11-24T01:03:40+00:00",
- "today": "2026-11-23",
+ "generated": "2026-11-24T10:52:47+00:00",
+ "today": "2026-11-24",
  "term": {
   "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 9
+  "daysToFinals": 8
  },
- "sky": null,
+ "sky": {
+  "days": [
+   {
+    "date": "2026-11-24",
+    "code": 3,
+    "high": 60.1,
+    "low": 42.7,
+    "rainMax": 62
+   },
+   {
+    "date": "2026-11-25",
+    "code": 63,
+    "high": 63.0,
+    "low": 52.1,
+    "rainMax": 79
+   },
+   {
+    "date": "2026-11-26",
+    "code": 3,
+    "high": 64.4,
+    "low": 50.9,
+    "rainMax": 0
+   },
+   {
+    "date": "2026-11-27",
+    "code": 3,
+    "high": 67.6,
+    "low": 50.8,
+    "rainMax": 3
+   }
+  ],
+  "code": 3,
+  "dayCode": 3,
+  "temp": 43.9,
+  "high": 60.1,
+  "low": 42.7,
+  "rainMax": 62,
+  "wetUntil": "2026-11-24T23:00"
+ },
  "player": {
   "level": 59,
   "xp": 0,
@@ -92,26 +130,16 @@
   ]
  },
  "next": {
-  "title": "Evidence 28 — Experts: Completion of In Limine 9; Gatekeeping and Requirements for Experts",
-  "course": "Evidence",
-  "date": "2026-11-23",
-  "session": 28,
-  "reading": "MON Nov 23 (Indigenous People's Day makeup); whole day is experts. Completion of In Limine 9. CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules; bCourses: Brown v. Crown. Daubert v. Merrell Dow Pharmaceuticals; GE v. Joiner (in class only); Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703, 705. On call: those originally on call for expert witnesses.",
-  "prepped": true,
+  "title": "Property 42 — SKILLS WORKSHOP 5 (zoning and takings) + review — PRACTICE EXERCISE 5 DUE (MAKEUP — Monday)",
+  "course": "Property",
+  "date": "2026-11-30",
+  "session": 42,
+  "reading": "Skills Workshop 5 (zoning and takings) + review. PRACTICE EXERCISE 5 DUE. Make-up class for Nov 11, Mon 11/30 11:20-12:30, Room 170.",
+  "prepped": false,
   "status": "not merged",
-  "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
+  "url": "https://app.notion.com/p/Property-42-SKILLS-WORKSHOP-5-zoning-and-takings-review-PRACTICE-EXERCISE-5-DUE-MAKEUP-Mo-3c6063496baf8105837dc9c9a49733f7"
  },
  "upcoming": [
-  {
-   "title": "Evidence 28 — Experts: Completion of In Limine 9; Gatekeeping and Requirements for Experts",
-   "course": "Evidence",
-   "date": "2026-11-23",
-   "session": 28,
-   "reading": "MON Nov 23 (Indigenous People's Day makeup); whole day is experts. Completion of In Limine 9. CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules; bCourses: Brown v. Crown. Daubert v. Merrell Dow Pharmaceuticals; GE v. Joiner (in class only); Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703, 705. On call: those originally on call for expert witnesses.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
-  },
   {
    "title": "Property 42 — SKILLS WORKSHOP 5 (zoning and takings) + review — PRACTICE EXERCISE 5 DUE (MAKEUP — Monday)",
    "course": "Property",
@@ -135,16 +163,6 @@
  ],
  "ahead": [
   {
-   "title": "Evidence 28 — Experts: Completion of In Limine 9; Gatekeeping and Requirements for Experts",
-   "course": "Evidence",
-   "date": "2026-11-23",
-   "session": 28,
-   "reading": "MON Nov 23 (Indigenous People's Day makeup); whole day is experts. Completion of In Limine 9. CB 541-548; 557-558; 560-562. bCourses: Public Justice submission to the Advisory Committee on Evidence Rules; bCourses: Brown v. Crown. Daubert v. Merrell Dow Pharmaceuticals; GE v. Joiner (in class only); Kumho Tire v. Carmichael (in class only). F.R.E. 702, 703, 705. On call: those originally on call for expert witnesses.",
-   "prepped": true,
-   "status": "not merged",
-   "url": "https://app.notion.com/p/Evidence-28-Experts-Completion-of-In-Limine-9-Gatekeeping-and-Requirements-for-Experts-3c6063496baf81588b9ac7d9163d25ee"
-  },
-  {
    "title": "Property 42 — SKILLS WORKSHOP 5 (zoning and takings) + review — PRACTICE EXERCISE 5 DUE (MAKEUP — Monday)",
    "course": "Property",
    "date": "2026-11-30",
@@ -153,13 +171,23 @@
    "prepped": false,
    "status": "not merged",
    "url": "https://app.notion.com/p/Property-42-SKILLS-WORKSHOP-5-zoning-and-takings-review-PRACTICE-EXERCISE-5-DUE-MAKEUP-Mo-3c6063496baf8105837dc9c9a49733f7"
+  },
+  {
+   "title": "Property 43 — REVIEW SESSION",
+   "course": "Property",
+   "date": "2026-12-02",
+   "session": 43,
+   "reading": "Review session (Wed Dec 2, 11:20). Final exam Sat Dec 5, 8:30am — 4 hrs, in-class, closed book, 85 pts.",
+   "prepped": false,
+   "status": "not merged",
+   "url": "https://app.notion.com/p/Property-43-REVIEW-SESSION-3c6063496baf811e9c6cd78d676dfb6a"
   }
  ],
- "aheadUntil": "2026-12-01",
+ "aheadUntil": "2026-12-02",
  "backlog": {
   "Property": 10,
   "LRW": 5,
-  "Evidence": 9,
+  "Evidence": 10,
   "Youth Justice": 1,
   "Negotiations": 1
  },
@@ -1937,9 +1965,9 @@
  "counts": {
   "open": 8,
   "overdue": 0,
-  "dueSoon": 2,
+  "dueSoon": 3,
   "graded": 5,
-  "unmerged": 26,
+  "unmerged": 27,
   "courses": 6,
   "cases": 180,
   "reserve": 114
@@ -1952,7 +1980,5 @@
   "Property",
   "Youth Justice"
  ],
- "errors": [
-  "weather: <urlopen error _ssl.c:994: The handshake operation timed out>"
- ]
+ "errors": []
 }
