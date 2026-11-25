@@ -1,51 +1,51 @@
 {
- "generated": "2026-11-25T03:52:53+00:00",
- "today": "2026-11-24",
+ "generated": "2026-11-25T13:42:59+00:00",
+ "today": "2026-11-25",
  "term": {
   "week": 14,
   "of": 14,
   "start": "2026-08-17",
   "end": "2026-12-02",
-  "daysToFinals": 8
+  "daysToFinals": 7
  },
  "sky": {
   "days": [
    {
-    "date": "2026-11-24",
-    "code": 63,
-    "high": 60.4,
-    "low": 43.2,
-    "rainMax": 41
-   },
-   {
     "date": "2026-11-25",
     "code": 63,
-    "high": 61.5,
-    "low": 50.4,
-    "rainMax": 65
+    "high": 61.8,
+    "low": 50.6,
+    "rainMax": 55
    },
    {
     "date": "2026-11-26",
-    "code": 3,
-    "high": 62.5,
-    "low": 48.1,
+    "code": 45,
+    "high": 60.7,
+    "low": 47.5,
     "rainMax": 1
    },
    {
     "date": "2026-11-27",
     "code": 3,
-    "high": 68.8,
-    "low": 52.2,
+    "high": 70.0,
+    "low": 52.4,
     "rainMax": 1
+   },
+   {
+    "date": "2026-11-28",
+    "code": 3,
+    "high": 72.7,
+    "low": 57.3,
+    "rainMax": 15
    }
   ],
-  "code": 63,
+  "code": 1,
   "dayCode": 63,
-  "temp": 55.1,
-  "high": 60.4,
-  "low": 43.2,
-  "rainMax": 41,
-  "wetUntil": "2026-11-24T22:00"
+  "temp": 53.3,
+  "high": 61.8,
+  "low": 50.6,
+  "rainMax": 55,
+  "wetUntil": "2026-11-25T03:00"
  },
  "player": {
   "level": 59,
@@ -183,7 +183,7 @@
    "url": "https://app.notion.com/p/Property-43-REVIEW-SESSION-3c6063496baf811e9c6cd78d676dfb6a"
   }
  ],
- "aheadUntil": "2026-12-02",
+ "aheadUntil": "2026-12-03",
  "backlog": {
   "Property": 10,
   "LRW": 5,
